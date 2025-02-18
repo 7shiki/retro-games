@@ -28,7 +28,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="px-3 py-2 rounded-r-lg hover:bg-purple-500/10 transition-colors"
+      className="px-3 py-2 rounded-r-lg hover:bg-purple-500/10 transition-colors text-gray-800 dark:text-gray-200"
     >
       {theme === 'dark' ? (
         <SunIcon className="w-5 h-5 text-yellow-400" />

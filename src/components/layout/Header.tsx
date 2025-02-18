@@ -108,9 +108,12 @@ export default function Header() {
           </nav>
 
           {/* Language and Theme Controls */}
-          <div className="flex items-center">
-            <LanguageToggle />
-            <ThemeToggle />
+          <div className="relative flex items-center">
+            <div className="flex items-center bg-nav rounded-lg">
+              <LanguageToggle />
+              <div className="h-full border-r border-purple-500/10" />
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       </div>

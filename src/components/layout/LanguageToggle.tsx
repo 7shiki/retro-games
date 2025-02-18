@@ -53,10 +53,10 @@ export default function LanguageToggle() {
     }
 
     return (
-        <div className="relative inline-block" ref={dropdownRef}>
+        <div className="relative" ref={dropdownRef}>
             <button
                 type="button"
-                className="flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-l-lg hover:bg-purple-500/10 transition-colors border-r border-purple-500/10 text-gray-800 dark:text-gray-200"
+                className="flex items-center gap-2 px-3 py-2 rounded-l-lg hover:bg-purple-500/10 transition-colors border-r border-purple-500/10 text-gray-800 dark:text-gray-200"
                 onClick={() => setIsOpen(!isOpen)}
             >
                 <span>{currentLanguage.label}</span>
@@ -66,7 +66,7 @@ export default function LanguageToggle() {
 
             {isOpen && (
                 <div 
-                    className="absolute top-full right-0 mt-1 py-2 w-40 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-purple-500/10 z-50"
+                    className="absolute top-full right-0 mt-1 py-2 w-40 bg-nav rounded-lg shadow-xl border border-purple-500/10 z-[110]"
                 >
                     {languages.map((lang) => (
                         <button
