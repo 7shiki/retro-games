@@ -48,105 +48,105 @@ const newGames: Game[] = [
     href: '/arcade-games/pac-man'
   },
   {
-    id: 1,
+    id: 6,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/snes-games/mega-man-x'
   },
   {
-    id: 2,
+    id: 7,
     title: 'Castlevania',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/nes-games/castlevania'
   },
   {
-    id: 3,
+    id: 8,
     title: 'Metal Slug',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/arcade-games/metal-slug'
   },
   {
-    id: 4,
+    id: 9,
     title: 'Dragon Quest',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/nes-games/dragon-quest'
   },
   {
-    id: 5,
+    id: 10,
     title: 'Pac-Man',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/arcade-games/pac-man'
   },
   {
-    id: 1,
+    id: 11,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/snes-games/mega-man-x'
   },
   {
-    id: 2,
+    id: 12,
     title: 'Castlevania',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/nes-games/castlevania'
   },
   {
-    id: 3,
+    id: 13,
     title: 'Metal Slug',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/arcade-games/metal-slug'
   },
   {
-    id: 4,
+    id: 14,
     title: 'Dragon Quest',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/nes-games/dragon-quest'
   },
   {
-    id: 5,
+    id: 15,
     title: 'Pac-Man',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/arcade-games/pac-man'
   },
   {
-    id: 1,
+    id: 16,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/snes-games/mega-man-x'
   },
   {
-    id: 2,
+    id: 17,
     title: 'Castlevania',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/nes-games/castlevania'
   },
   {
-    id: 3,
+    id: 18,
     title: 'Metal Slug',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/arcade-games/metal-slug'
   },
   {
-    id: 4,
+    id: 19,
     title: 'Dragon Quest',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/nes-games/dragon-quest'
   },
   {
-    id: 5,
+    id: 20,
     title: 'Pac-Man',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',

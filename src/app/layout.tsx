@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layout/Header";
 import { ThemeScript } from "@/components/layout/ThemeToggle";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,11 +20,8 @@ export default function RootLayout({
       <head>
         <ThemeScript />
       </head>
-      <body className={`${inter.className} min-h-screen bg-gray-950`}>
-        <Header />
-        <div className="max-w-7xl mx-auto px-4">
-          {children}
-        </div>
+      <body className={`${inter.className} bg-white dark:bg-gray-900`}>
+        {children}
       </body>
     </html>
   );

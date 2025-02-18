@@ -47,138 +47,138 @@ const popularGames: Game[] = [
     imageUrl: '/images/games/Tekken 3.png',
     href: '/snes-games/mega-man-x'
   }, {
-    id: 1,
+    id: 6,
     title: 'Super Mario Bros',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/nes-games/super-mario-bros'
   },
   {
-    id: 2,
+    id: 7,
     title: 'Sonic the Hedgehog',
     platform: 'Genesis',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/genesis-games/sonic-the-hedgehog'
   },
   {
-    id: 3,
+    id: 8,
     title: 'Street Fighter II',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/arcade-games/street-fighter-2'
   },
   {
-    id: 4,
+    id: 9,
     title: 'Final Fantasy VII',
     platform: 'PlayStation',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/playstation-games/final-fantasy-7'
   },
   {
-    id: 5,
+    id: 10,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/snes-games/mega-man-x'
   },
   {
-    id: 1,
+    id: 11,
     title: 'Super Mario Bros',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/nes-games/super-mario-bros'
   },
   {
-    id: 2,
+    id: 12,
     title: 'Sonic the Hedgehog',
     platform: 'Genesis',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/genesis-games/sonic-the-hedgehog'
   },
   {
-    id: 3,
+    id: 13,
     title: 'Street Fighter II',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/arcade-games/street-fighter-2'
   },
   {
-    id: 4,
+    id: 14,
     title: 'Final Fantasy VII',
     platform: 'PlayStation',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/playstation-games/final-fantasy-7'
   },
   {
-    id: 5,
-    title: 'Mega Man X',
-    platform: 'SNES',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/snes-games/mega-man-x'
-  }, {
-    id: 1,
-    title: 'Super Mario Bros',
-    platform: 'NES',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/super-mario-bros'
-  },
-  {
-    id: 2,
-    title: 'Sonic the Hedgehog',
-    platform: 'Genesis',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/genesis-games/sonic-the-hedgehog'
-  },
-  {
-    id: 3,
-    title: 'Street Fighter II',
-    platform: 'Arcade',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/street-fighter-2'
-  },
-  {
-    id: 4,
-    title: 'Final Fantasy VII',
-    platform: 'PlayStation',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/playstation-games/final-fantasy-7'
-  },
-  {
-    id: 5,
+    id: 15,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/snes-games/mega-man-x'
   }, {
-    id: 1,
+    id: 16,
     title: 'Super Mario Bros',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/nes-games/super-mario-bros'
   },
   {
-    id: 2,
+    id: 17,
     title: 'Sonic the Hedgehog',
     platform: 'Genesis',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/genesis-games/sonic-the-hedgehog'
   },
   {
-    id: 3,
+    id: 18,
     title: 'Street Fighter II',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/arcade-games/street-fighter-2'
   },
   {
-    id: 4,
+    id: 19,
     title: 'Final Fantasy VII',
     platform: 'PlayStation',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/playstation-games/final-fantasy-7'
   },
   {
-    id: 5,
+    id: 20,
+    title: 'Mega Man X',
+    platform: 'SNES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/snes-games/mega-man-x'
+  }, {
+    id: 21,
+    title: 'Super Mario Bros',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/super-mario-bros'
+  },
+  {
+    id: 22,
+    title: 'Sonic the Hedgehog',
+    platform: 'Genesis',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/genesis-games/sonic-the-hedgehog'
+  },
+  {
+    id: 23,
+    title: 'Street Fighter II',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/street-fighter-2'
+  },
+  {
+    id: 24,
+    title: 'Final Fantasy VII',
+    platform: 'PlayStation',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/playstation-games/final-fantasy-7'
+  },
+  {
+    id: 25,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
