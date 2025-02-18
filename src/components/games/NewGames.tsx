@@ -170,17 +170,17 @@ export default function NewGames() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
         {newGames.map((game) => (
           <div key={game.id} className="game-card group">
             <Link href={game.href} className="block">
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <div className="relative aspect-[3/2] overflow-hidden">
                 <Image
                   src={game.imageUrl}
                   alt={game.title}
                   fill
                   className="object-cover transition-transform group-hover:scale-110"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <button className="retro-button">
@@ -189,10 +189,10 @@ export default function NewGames() {
                 </div>
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">
+                <h3 className="text-base font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">
                   {game.title}
                 </h3>
-                <span className="text-sm text-gray-400">
+                <span className="text-xs text-gray-400">
                   {game.platform}
                 </span>
               </div>
