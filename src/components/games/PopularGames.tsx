@@ -149,40 +149,6 @@ const popularGames: Game[] = [
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/snes-games/mega-man-x'
-  }, {
-    id: 21,
-    title: 'Super Mario Bros',
-    platform: 'NES',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/super-mario-bros'
-  },
-  {
-    id: 22,
-    title: 'Sonic the Hedgehog',
-    platform: 'Genesis',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/genesis-games/sonic-the-hedgehog'
-  },
-  {
-    id: 23,
-    title: 'Street Fighter II',
-    platform: 'Arcade',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/street-fighter-2'
-  },
-  {
-    id: 24,
-    title: 'Final Fantasy VII',
-    platform: 'PlayStation',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/playstation-games/final-fantasy-7'
-  },
-  {
-    id: 25,
-    title: 'Mega Man X',
-    platform: 'SNES',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/snes-games/mega-man-x'
   }
 ]
 
