@@ -3,19 +3,129 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 20, 20, 20;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  min-height: 100vh;
+}
+
+/* 基础样式 */
+@layer base {
+  h1 {
+    @apply text-4xl font-bold mb-4;
+  }
+  h2 {
+    @apply text-3xl font-bold mb-3;
+  }
+  a {
+    @apply text-purple-400 hover:text-purple-300 transition-colors;
+  }
+}
+
+/* 组件样式 */
+@layer components {
+  .game-card {
+    @apply bg-gray-800/50 rounded-lg overflow-hidden 
+           transition-all duration-300 hover:scale-105;
+  }
+
+  .retro-button {
+    @apply px-4 py-2 bg-purple-600 text-white rounded-lg 
+           hover:bg-purple-700 transition-colors duration-200
+           border border-purple-400;
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.5),
+                inset 0 0 15px rgba(168, 85, 247, 0.3);
+  }
+
+  .search-input {
+    @apply w-full px-4 py-2 bg-gray-800/50 
+           border border-purple-500/30 rounded-lg
+           focus:outline-none focus:border-purple-500
+           text-white placeholder-gray-400;
+  }
+}
+
+/* 特效样式 */
+@layer utilities {
+  .retro-text {
+    @apply font-bold;
+    text-shadow: 2px 2px 0 #2563eb,
+                 4px 4px 0 #1d4ed8,
+                 0 0 10px rgba(168, 85, 247, 0.5),
+                 0 0 20px rgba(168, 85, 247, 0.3);
+  }
+
+  .retro-gradient {
+    @apply bg-gradient-to-r from-purple-400 via-pink-500 to-purple-400
+           bg-clip-text text-transparent animate-gradient;
+    background-size: 200% auto;
+  }
+
+  .scanlines {
+    background: linear-gradient(
+      to bottom,
+      transparent 50%,
+      rgba(0, 0, 0, 0.1) 50%
+    );
+    background-size: 100% 4px;
+  }
+
+  .glow-effect {
+    filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.5));
+  }
+}
+
+/* 动画 */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+.animate-spin-slow {
+  animation: spin 8s linear infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+.animate-gradient {
+  background-size: 200% auto;
+  animation: gradient 8s linear infinite;
+}
+
+/* 像素艺术元素 */
+.pixel-art-controller {
+  width: 24px;
+  height: 24px;
+  background-image: url('/images/icons/controller-icon.png');
+  background-size: contain;
+  image-rendering: pixelated;
+}
+
+.pixel-art-star {
+  width: 24px;
+  height: 24px;
+  background-image: url('/images/icons/star-icon.png');
+  background-size: contain;
+  image-rendering: pixelated;
 }

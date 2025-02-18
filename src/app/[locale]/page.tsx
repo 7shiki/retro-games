@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import PopularGames from '@/components/games/PopularGames'
 import NewGames from '@/components/games/NewGames'
 import SearchBar from '@/components/layout/SearchBar'
-import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Retro Games - Play Classic Games Online',
@@ -12,43 +11,71 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800">
+    <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="px-4 py-16 text-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10"></div>
-        <div className="relative z-10 max-w-6xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 retro-text-shadow">
-            Play Classic Games
-          </h1>
-          <p className="text-gray-300 text-xl mb-8 retro-glow">
-            Rediscover the golden age of gaming
-          </p>
+      <section className="py-8">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-500 to-purple-400 text-transparent bg-clip-text">
+          Play Classic Games
+        </h1>
+        <p className="text-gray-300 text-xl mb-8">
+          Rediscover the golden age of gaming with our collection of Nintendo, Sega, PlayStation, and Arcade classics
+        </p>
+        <div className="max-w-xl">
           <SearchBar />
         </div>
       </section>
 
+      {/* Categories */}
+      <section className="py-8">
+        <nav>
+          <ul className="flex flex-wrap gap-4">
+            {['Nintendo', 'Sega', 'NEC', 'PlayStation', 'Arcade', 'Other'].map((category) => (
+              <li key={category}>
+                <a 
+                  href={`/${category.toLowerCase()}-games`}
+                  className="text-purple-400 hover:text-purple-300 transition-colors"
+                >
+                  {category}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </section>
+
       {/* Popular Games Section */}
-      <section className="px-4 py-12 bg-gray-900/50 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-purple-400 retro-text">
-            Most Popular Games
-          </h2>
-          <PopularGames />
-          <div className="text-center mt-8">
-            <Link href="/all-games" className="inline-block px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg text-white font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-300 retro-button">
-              View All Games
-            </Link>
-          </div>
-        </div>
+      <section className="py-8">
+        <PopularGames />
       </section>
 
       {/* New Games Section */}
-      <section className="px-4 py-12">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-purple-400 retro-text">
-            New Games
-          </h2>
+      <section className="px-4 py-16 relative bg-gray-900/30">
+        <div className="relative max-w-7xl mx-auto">
           <NewGames />
+        </div>
+      </section>
+
+      {/* Newsletter Section */}
+      <section className="px-4 py-16 relative">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="relative z-10 bg-gray-800/50 p-8 rounded-2xl border border-purple-500/20">
+            <h3 className="text-2xl font-bold text-purple-400 mb-4 retro-text">
+              Stay Updated
+            </h3>
+            <p className="text-gray-300 mb-6">
+              Get notified when we add new classic games to our collection
+            </p>
+            <div className="flex max-w-md mx-auto">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="flex-1 px-4 py-2 bg-gray-900/50 border border-purple-500/30 rounded-l-lg focus:outline-none focus:border-purple-500"
+              />
+              <button className="px-6 py-2 bg-purple-500 text-white rounded-r-lg hover:bg-purple-600 transition-colors">
+                Subscribe
+              </button>
+            </div>
+          </div>
         </div>
       </section>
     </main>

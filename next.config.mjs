@@ -1,6 +1,22 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 这里放置您原来在 .ts 文件中的配置
+  images: {
+    unoptimized: true,
+  },
+  async redirects() {
+    return [
+      {
+        source: '/en',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/en/:path*',
+        destination: '/:path*',
+        permanent: true,
+      }
+    ]
+  }
 }
 
-export default nextConfig 
+export default nextConfig; 

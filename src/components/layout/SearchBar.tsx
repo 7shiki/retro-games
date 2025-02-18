@@ -1,16 +1,14 @@
 export default function SearchBar() {
   return (
-    <div className="max-w-2xl mx-auto">
-      <div className="relative">
-        <input
-          type="text"
-          placeholder="Search games..."
-          className="w-full px-6 py-4 bg-gray-800/50 border border-purple-500/30 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent backdrop-blur-sm"
-        />
-        <button className="absolute right-2 top-1/2 -translate-y-1/2 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-md text-white hover:from-purple-600 hover:to-pink-600 transition-all duration-300">
-          Search
-        </button>
-      </div>
+    <div className="flex w-full max-w-xl mx-auto">
+      <input
+        type="text"
+        placeholder="Search games..."
+        className="flex-1 px-4 py-3 bg-gray-900/50 border border-purple-500/30 rounded-l-lg focus:outline-none focus:border-purple-500 text-white"
+      />
+      <button className="px-6 py-3 bg-purple-500 text-white rounded-r-lg hover:bg-purple-600 transition-colors">
+        Search
+      </button>
     </div>
   )
 }
