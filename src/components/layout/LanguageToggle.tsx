@@ -61,7 +61,7 @@ export default function LanguageToggle() {
             >
                 <span>{currentLanguage.label}</span>
                 <span>{currentLanguage.name}</span>
-                <ChevronDownIcon className="w-4 h-4" />
+                <ChevronDownIcon className="w-4 h-4 dark:invert" />
             </button>
 
             {isOpen && (
