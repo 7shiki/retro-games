@@ -2,20 +2,167 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 20, 20, 20;
+/* 暗色主题变量 - 更深邃的游戏风格 */
+:root[data-theme="dark"] {
+  --foreground: 255, 255, 255;
+  --background-start: 17, 24, 39;   /* 更深的蓝黑色背景 */
+  --background-end: 30, 41, 59;
+  --primary: 139, 92, 246;         /* 更柔和的紫色 */
+  --primary-light: 167, 139, 250;
+  --secondary: 236, 72, 153;
+  --section-bg: 17, 24, 39;        /* 深色主题的区域背景 */
+  --card-bg: 30, 41, 59;
+  --card-hover: 44, 55, 75;
+  --nav-bg: 17, 24, 39;
+  --nav-hover: 30, 41, 59;
+  --text-secondary: 156, 163, 175;  /* 次要文字颜色 */
+  --card-border: 55, 65, 81;
+  --heading-color: 139, 92, 246;    /* 标题颜色 */
+}
+
+/* 亮色主题变量 - 大幅提高对比度 */
+:root[data-theme="light"] {
+  --foreground: 0, 0, 0;           /* 纯黑色文字 */
+  --background-start: 255, 255, 255;
+  --background-end: 248, 250, 252;
+  --primary: 88, 28, 135;          /* 深紫色 */
+  --primary-light: 107, 33, 168;
+  --secondary: 157, 23, 77;        /* 深粉色 */
+  --section-bg: 255, 255, 255;
+  --card-bg: 255, 255, 255;
+  --card-hover: 248, 250, 252;
+  --text-secondary: 31, 41, 55;    /* 深灰色文字 */
+  --heading-color: 109, 40, 217;   /* 标题颜色 */
+  --card-border: 226, 232, 240;
+  --description-text: 31, 41, 55;    /* 深灰色 */
+  --nav-bg: 255, 255, 255;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--foreground));
   background: linear-gradient(
     to bottom,
-    rgb(var(--background-start-rgb)),
-    rgb(var(--background-end-rgb))
+    rgb(var(--background-start)),
+    rgb(var(--background-end))
   );
   min-height: 100vh;
+}
+
+/* 背景网格 */
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(var(--primary), 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(var(--primary), 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* 复古文字效果 */
+.retro-text {
+  color: rgb(88, 28, 135);        /* 深紫色 */
+  font-weight: 800;
+  text-shadow: 
+    2px 2px 0 rgba(88, 28, 135, 0.3),
+    4px 4px 0 rgba(88, 28, 135, 0.2);
+}
+
+/* 渐变文字 */
+.retro-gradient {
+  background: linear-gradient(
+    to right,
+    rgb(157, 23, 77),    /* 深粉色 */
+    rgb(88, 28, 135)     /* 深紫色 */
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+}
+
+/* 按钮样式 */
+.retro-button {
+  @apply px-6 py-3 text-white rounded-lg 
+         transition-all duration-200
+         font-medium;
+  background: rgba(var(--primary), 0.9);
+  border: 1px solid rgba(var(--primary-light), 0.3);
+  box-shadow: 
+    0 0 10px rgba(var(--primary), 0.2),
+    inset 0 0 15px rgba(var(--primary-light), 0.1);
+}
+
+.retro-button:hover {
+  background: rgba(var(--primary-light), 0.9);
+  transform: translateY(-1px);
+}
+
+/* 游戏卡片 */
+.game-card {
+  @apply rounded-lg overflow-hidden 
+         transition-all duration-300 hover:scale-105;
+  background: rgb(var(--card-bg));
+  border: 1px solid rgba(var(--primary), 0.1);
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.05),
+    0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.game-card:hover {
+  background: rgb(var(--card-hover));
+  border-color: rgba(var(--primary), 0.2);
+  box-shadow: 
+    0 10px 15px -3px rgba(var(--primary), 0.1),
+    0 4px 6px -2px rgba(var(--primary), 0.05);
+}
+
+/* 游戏卡片文字样式 */
+.game-card h3 {
+  color: rgb(var(--foreground));
+  font-weight: 600;
+}
+
+.game-card span {
+  color: rgb(var(--text-secondary));
+}
+
+/* 搜索输入框 */
+.search-input {
+  @apply w-full px-4 py-2 rounded-lg
+         focus:outline-none;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(88, 28, 135, 0.3);
+  color: rgb(0, 0, 0);
+}
+
+.search-input:focus {
+  border-color: rgba(var(--primary), 0.5);
+  box-shadow: 0 0 0 2px rgba(var(--primary), 0.1);
+}
+
+.search-input::placeholder {
+  color: rgba(31, 41, 55, 0.6);
+}
+
+/* 动画效果保持不变 */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out 2s infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+.animate-gradient {
+  animation: gradient 8s linear infinite;
 }
 
 /* 基础样式 */
@@ -33,19 +180,6 @@ body {
 
 /* 组件样式 */
 @layer components {
-  .game-card {
-    @apply bg-gray-800/50 rounded-lg overflow-hidden 
-           transition-all duration-300 hover:scale-105;
-  }
-
-  .retro-button {
-    @apply px-4 py-2 bg-purple-600 text-white rounded-lg 
-           hover:bg-purple-700 transition-colors duration-200
-           border border-purple-400;
-    box-shadow: 0 0 10px rgba(168, 85, 247, 0.5),
-                inset 0 0 15px rgba(168, 85, 247, 0.3);
-  }
-
   .search-input {
     @apply w-full px-4 py-2 bg-gray-800/50 
            border border-purple-500/30 rounded-lg
@@ -56,61 +190,9 @@ body {
 
 /* 特效样式 */
 @layer utilities {
-  .retro-text {
-    @apply font-bold;
-    text-shadow: 2px 2px 0 #2563eb,
-                 4px 4px 0 #1d4ed8,
-                 0 0 10px rgba(168, 85, 247, 0.5),
-                 0 0 20px rgba(168, 85, 247, 0.3);
-  }
-
-  .retro-gradient {
-    @apply bg-gradient-to-r from-purple-400 via-pink-500 to-purple-400
-           bg-clip-text text-transparent animate-gradient;
-    background-size: 200% auto;
-  }
-
-  .scanlines {
-    background: linear-gradient(
-      to bottom,
-      transparent 50%,
-      rgba(0, 0, 0, 0.1) 50%
-    );
-    background-size: 100% 4px;
-  }
-
   .glow-effect {
     filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.5));
   }
-}
-
-/* 动画 */
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
-}
-
-.animate-float {
-  animation: float 6s ease-in-out infinite;
-}
-
-.animate-float-delayed {
-  animation: float 6s ease-in-out infinite;
-  animation-delay: 2s;
-}
-
-.animate-spin-slow {
-  animation: spin 8s linear infinite;
-}
-
-@keyframes gradient {
-  0% { background-position: 0% center; }
-  100% { background-position: 200% center; }
-}
-
-.animate-gradient {
-  background-size: 200% auto;
-  animation: gradient 8s linear infinite;
 }
 
 /* 像素艺术元素 */
@@ -128,4 +210,182 @@ body {
   background-image: url('/images/icons/star-icon.png');
   background-size: contain;
   image-rendering: pixelated;
+}
+
+/* 导航按钮基础样式 */
+.nav-button {
+  @apply px-6 py-2 rounded-lg transition-all duration-200;
+  font-weight: 600;
+}
+
+/* 暗色主题导航按钮 */
+:root[data-theme="dark"] .nav-button {
+  background: rgba(139, 92, 246, 0.2);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+}
+
+:root[data-theme="dark"] .nav-button:hover {
+  background: rgba(139, 92, 246, 0.3);
+  border-color: rgba(139, 92, 246, 0.5);
+}
+
+/* 亮色主题导航按钮 */
+:root[data-theme="light"] .nav-button {
+  background: rgba(88, 28, 135, 0.15);    /* 深紫色背景 */
+  color: rgb(88, 28, 135);                /* 深紫色文字 */
+  border: 1px solid rgba(88, 28, 135, 0.3);
+  font-weight: 700;                       /* 加粗 */
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+:root[data-theme="light"] .nav-button:hover {
+  background: rgba(88, 28, 135, 0.2);
+  border-color: rgba(88, 28, 135, 0.4);
+  transform: translateY(-1px);
+}
+
+/* 平台导航按钮特别样式 */
+.platform-nav {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.platform-nav .nav-button {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  min-width: 100px;
+  text-align: center;
+}
+
+/* 亮色主题下的平台导航按钮 */
+:root[data-theme="light"] .platform-nav .nav-button {
+  background: rgba(88, 28, 135, 0.2);     /* 更深的背景色 */
+  color: rgb(88, 28, 135);                /* 深紫色文字 */
+  border: 1px solid rgba(88, 28, 135, 0.4);
+  font-weight: 700;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+:root[data-theme="light"] .platform-nav .nav-button:hover {
+  background: rgba(88, 28, 135, 0.25);
+  border-color: rgba(88, 28, 135, 0.5);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(88, 28, 135, 0.1);
+}
+
+/* 区域背景 */
+.bg-section {
+  background-color: rgba(var(--section-bg), 0.97);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(var(--primary), 0.1);
+}
+
+/* 描述文字样式 */
+.description-text {
+  color: rgb(31, 41, 55);         /* 深灰色 */
+  font-weight: 500;
+}
+
+/* View All Games 链接 */
+.view-all-link {
+  color: rgb(88, 28, 135);
+  font-weight: 600;
+}
+
+.view-all-link:hover {
+  opacity: 0.9;
+}
+
+/* Hero 区域描述文字样式 */
+.hero-description {
+  color: rgb(var(--foreground));
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+/* 亮色主题特别处理 */
+:root[data-theme="light"] .hero-description {
+  color: rgb(var(--description-text));
+  font-weight: 600;  /* 加粗 */
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);  /* 添加微妙的文字阴影 */
+}
+
+/* 搜索框样式优化 */
+:root[data-theme="light"] .search-input {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(88, 28, 135, 0.4);
+  color: rgb(31, 41, 55);  /* 深灰色文字 */
+  font-weight: 500;
+}
+
+:root[data-theme="light"] .search-input::placeholder {
+  color: rgba(31, 41, 55, 0.7);  /* 更深的占位符颜色 */
+}
+
+/* 导航栏样式 */
+.bg-nav {
+  background-color: rgba(var(--nav-bg), 0.95);
+  border-bottom: 1px solid rgba(var(--primary), 0.1);
+}
+
+/* 导航链接样式 */
+.nav-link {
+  @apply px-4 py-2 rounded-lg transition-all duration-200;
+  color: rgb(var(--foreground));
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  background: rgba(var(--primary), 0.1);
+}
+
+.nav-link-active {
+  color: rgb(var(--primary));
+  background: rgba(var(--primary), 0.1);
+  opacity: 1;
+}
+
+/* 亮色主题导航栏 */
+:root[data-theme="light"] {
+  --nav-bg: 255, 255, 255;
+}
+
+:root[data-theme="dark"] {
+  --nav-bg: 17, 24, 39;
+}
+
+/* 移动端导航样式 */
+@media (max-width: 768px) {
+  .nav-link {
+    @apply px-3 py-2 text-sm;
+  }
+}
+
+/* 添加自定义字体 */
+@font-face {
+  font-family: 'RetroFont';
+  src: url('/fonts/0f692b9bf1004d85.p.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Logo 样式 */
+.retro-logo {
+  font-family: 'RetroFont', sans-serif;
+  font-size: 1.5rem;
+  background: linear-gradient(
+    to right,
+    rgb(var(--primary)) 0%,
+    rgb(var(--secondary)) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 0.05em;
 }

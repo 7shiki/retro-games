@@ -46,6 +46,111 @@ const newGames: Game[] = [
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/arcade-games/pac-man'
+  },
+  {
+    id: 1,
+    title: 'Mega Man X',
+    platform: 'SNES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/snes-games/mega-man-x'
+  },
+  {
+    id: 2,
+    title: 'Castlevania',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/castlevania'
+  },
+  {
+    id: 3,
+    title: 'Metal Slug',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/metal-slug'
+  },
+  {
+    id: 4,
+    title: 'Dragon Quest',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/dragon-quest'
+  },
+  {
+    id: 5,
+    title: 'Pac-Man',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/pac-man'
+  },
+  {
+    id: 1,
+    title: 'Mega Man X',
+    platform: 'SNES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/snes-games/mega-man-x'
+  },
+  {
+    id: 2,
+    title: 'Castlevania',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/castlevania'
+  },
+  {
+    id: 3,
+    title: 'Metal Slug',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/metal-slug'
+  },
+  {
+    id: 4,
+    title: 'Dragon Quest',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/dragon-quest'
+  },
+  {
+    id: 5,
+    title: 'Pac-Man',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/pac-man'
+  },
+  {
+    id: 1,
+    title: 'Mega Man X',
+    platform: 'SNES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/snes-games/mega-man-x'
+  },
+  {
+    id: 2,
+    title: 'Castlevania',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/castlevania'
+  },
+  {
+    id: 3,
+    title: 'Metal Slug',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/metal-slug'
+  },
+  {
+    id: 4,
+    title: 'Dragon Quest',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/dragon-quest'
+  },
+  {
+    id: 5,
+    title: 'Pac-Man',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/pac-man'
   }
 ]
 
@@ -64,7 +169,7 @@ export default function NewGames() {
           <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
         </div>
       </div>
-      
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
         {newGames.map((game) => (
           <div key={game.id} className="game-card group">

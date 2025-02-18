@@ -46,6 +46,143 @@ const popularGames: Game[] = [
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
     href: '/snes-games/mega-man-x'
+  }, {
+    id: 1,
+    title: 'Super Mario Bros',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/super-mario-bros'
+  },
+  {
+    id: 2,
+    title: 'Sonic the Hedgehog',
+    platform: 'Genesis',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/genesis-games/sonic-the-hedgehog'
+  },
+  {
+    id: 3,
+    title: 'Street Fighter II',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/street-fighter-2'
+  },
+  {
+    id: 4,
+    title: 'Final Fantasy VII',
+    platform: 'PlayStation',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/playstation-games/final-fantasy-7'
+  },
+  {
+    id: 5,
+    title: 'Mega Man X',
+    platform: 'SNES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/snes-games/mega-man-x'
+  },
+  {
+    id: 1,
+    title: 'Super Mario Bros',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/super-mario-bros'
+  },
+  {
+    id: 2,
+    title: 'Sonic the Hedgehog',
+    platform: 'Genesis',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/genesis-games/sonic-the-hedgehog'
+  },
+  {
+    id: 3,
+    title: 'Street Fighter II',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/street-fighter-2'
+  },
+  {
+    id: 4,
+    title: 'Final Fantasy VII',
+    platform: 'PlayStation',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/playstation-games/final-fantasy-7'
+  },
+  {
+    id: 5,
+    title: 'Mega Man X',
+    platform: 'SNES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/snes-games/mega-man-x'
+  }, {
+    id: 1,
+    title: 'Super Mario Bros',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/super-mario-bros'
+  },
+  {
+    id: 2,
+    title: 'Sonic the Hedgehog',
+    platform: 'Genesis',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/genesis-games/sonic-the-hedgehog'
+  },
+  {
+    id: 3,
+    title: 'Street Fighter II',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/street-fighter-2'
+  },
+  {
+    id: 4,
+    title: 'Final Fantasy VII',
+    platform: 'PlayStation',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/playstation-games/final-fantasy-7'
+  },
+  {
+    id: 5,
+    title: 'Mega Man X',
+    platform: 'SNES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/snes-games/mega-man-x'
+  }, {
+    id: 1,
+    title: 'Super Mario Bros',
+    platform: 'NES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/nes-games/super-mario-bros'
+  },
+  {
+    id: 2,
+    title: 'Sonic the Hedgehog',
+    platform: 'Genesis',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/genesis-games/sonic-the-hedgehog'
+  },
+  {
+    id: 3,
+    title: 'Street Fighter II',
+    platform: 'Arcade',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/arcade-games/street-fighter-2'
+  },
+  {
+    id: 4,
+    title: 'Final Fantasy VII',
+    platform: 'PlayStation',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/playstation-games/final-fantasy-7'
+  },
+  {
+    id: 5,
+    title: 'Mega Man X',
+    platform: 'SNES',
+    imageUrl: '/images/games/Tekken 3.png',
+    href: '/snes-games/mega-man-x'
   }
 ]
 
@@ -56,14 +193,14 @@ export default function PopularGames() {
         <h2 className="text-3xl font-bold text-purple-400 retro-text">
           Most Popular Games
         </h2>
-        <Link 
+        <Link
           href="/all-games"
           className="text-purple-400 hover:text-purple-300 transition-colors"
         >
           View All Games
         </Link>
       </div>
-      
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
         {popularGames.map((game) => (
           <div key={game.id} className="game-card group">
