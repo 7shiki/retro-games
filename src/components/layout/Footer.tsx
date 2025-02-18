@@ -53,7 +53,16 @@ export default function Footer() {
         {/* 版权信息 */}
         <div className="mt-8 pt-8 border-t border-purple-500/10 text-center">
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} RetroGames. All rights reserved.
+            © {new Date().getFullYear()}{' '}
+            <a 
+              href="https://retro-games.org/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:text-purple-400 transition-colors"
+            >
+              RetroGames
+            </a>
+            . All rights reserved.
           </p>
         </div>
       </div>
