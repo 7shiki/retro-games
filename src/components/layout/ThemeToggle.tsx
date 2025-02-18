@@ -28,16 +28,12 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="fixed top-4 right-4 p-2 rounded-full transition-all duration-200 hover:scale-110"
-      style={{
-        background: `rgba(var(--primary), 0.1)`,
-        border: `1px solid rgba(var(--primary), 0.2)`,
-      }}
+      className="px-3 py-2 rounded-r-lg hover:bg-purple-500/10 transition-colors"
     >
       {theme === 'dark' ? (
-        <SunIcon className="w-6 h-6 text-yellow-400" />
+        <SunIcon className="w-5 h-5 text-yellow-400" />
       ) : (
-        <MoonIcon className="w-6 h-6 text-purple-600" />
+        <MoonIcon className="w-5 h-5 text-purple-600" />
       )}
     </button>
   )

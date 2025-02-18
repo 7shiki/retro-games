@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import { ChevronDownIcon } from '@heroicons/react/24/outline'
 
@@ -25,20 +25,38 @@ export default function LanguageToggle() {
     const [isOpen, setIsOpen] = useState(false)
     const router = useRouter()
     const pathname = usePathname()
+    const dropdownRef = useRef<HTMLDivElement>(null)
 
     const currentLang = pathname.split('/')[1] || 'en'
     const currentLanguage = languages.find(lang => lang.code === currentLang) || languages[0]
 
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+                setIsOpen(false)
+            }
+        }
+
+        document.addEventListener('mousedown', handleClickOutside)
+        return () => document.removeEventListener('mousedown', handleClickOutside)
+    }, [])
+
     const handleLanguageChange = (langCode: string) => {
-        const newPath = pathname.replace(`/${currentLang}`, `/${langCode}`)
-        router.push(newPath)
+        const pathWithoutLang = pathname.split('/').slice(2).join('/')
+        const newPath = langCode === 'en' 
+            ? `/${pathWithoutLang}`
+            : `/${langCode}/${pathWithoutLang}`
+        const cleanPath = newPath.replace(/\/+/g, '/').replace(/\/$/, '') || '/'
+        
+        router.push(cleanPath)
         setIsOpen(false)
     }
 
     return (
-        <div className="relative">
+        <div className="relative inline-block" ref={dropdownRef}>
             <button
-                className="flex items-center gap-2 px-3 py-2 rounded-l-lg hover:bg-purple-500/10 transition-colors"
+                type="button"
+                className="flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-l-lg hover:bg-purple-500/10 transition-colors border-r border-purple-500/10 text-gray-800 dark:text-gray-200"
                 onClick={() => setIsOpen(!isOpen)}
             >
                 <span>{currentLanguage.label}</span>
@@ -47,12 +65,15 @@ export default function LanguageToggle() {
             </button>
 
             {isOpen && (
-                <div className="absolute top-full right-0 mt-1 py-2 w-40 bg-nav rounded-lg shadow-xl border border-purple-500/10">
+                <div 
+                    className="absolute top-full right-0 mt-1 py-2 w-40 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-purple-500/10 z-50"
+                >
                     {languages.map((lang) => (
                         <button
                             key={lang.code}
+                            type="button"
                             onClick={() => handleLanguageChange(lang.code)}
-                            className="w-full text-left px-4 py-2 hover:bg-purple-500/10 transition-colors flex items-center gap-2"
+                            className="w-full text-left px-4 py-2 hover:bg-purple-500/10 transition-colors flex items-center gap-2 text-gray-800 dark:text-gray-200"
                         >
                             <span className="w-8">{lang.label}</span>
                             <span>{lang.name}</span>

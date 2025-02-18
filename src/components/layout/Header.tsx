@@ -107,16 +107,10 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Language and Theme Controls - 合并在一起 */}
+          {/* Language and Theme Controls */}
           <div className="flex items-center">
-            <div className="flex items-center bg-gray-100 dark:bg-gray-800 rounded-lg">
-              <div className="flex-shrink-0">
-                <LanguageToggle />
-              </div>
-              <div className="flex-shrink-0">
-                <ThemeToggle />
-              </div>
-            </div>
+            <LanguageToggle />
+            <ThemeToggle />
           </div>
         </div>
       </div>
