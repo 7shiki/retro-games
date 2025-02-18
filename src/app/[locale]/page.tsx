@@ -44,31 +44,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section className="py-20 px-4 relative overflow-hidden bg-section">
-        <div className="absolute inset-0 bg-purple-500/5 scanlines"></div>
-        <div className="max-w-4xl mx-auto relative">
-          <div className="bg-gray-800/40 backdrop-blur-sm p-12 rounded-2xl border border-purple-500/20 shadow-xl">
-            <h3 className="text-3xl font-bold text-purple-400 mb-6 retro-text text-center">
-              Stay Updated
-            </h3>
-            <p className="text-gray-300 text-lg mb-8 text-center">
-              Get notified when we add new classic games to our collection
-            </p>
-            <div className="flex max-w-md mx-auto gap-2">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-6 py-3 bg-gray-900/50 border border-purple-500/30 rounded-lg 
-                         focus:outline-none focus:border-purple-500 text-white placeholder-gray-400"
-              />
-              <button className="retro-button whitespace-nowrap">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
   )
 }
