@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import PopularGames from '@/components/games/PopularGames'
 import NewGames from '@/components/games/NewGames'
 import SearchBar from '@/components/layout/SearchBar'
-import ThemeToggle from '@/components/layout/ThemeToggle'
 
 export const metadata: Metadata = {
   title: 'Retro Games - Play Retro Games Online',
@@ -13,7 +12,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="min-h-screen relative">
-      <ThemeToggle />
       {/* 背景网格 */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       

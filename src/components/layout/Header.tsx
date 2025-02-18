@@ -59,11 +59,11 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <span className="retro-logo">Retro Games</span>
+          <Link href="/" className="flex items-center">
+            <span className="retro-logo text-xl md:text-2xl">RetroGames</span>
           </Link>
 
-          {/* Navigation Links */}
+          {/* Navigation Links - 只在桌面端显示 */}
           <nav className="hidden md:flex items-center space-x-4">
             {Object.entries(categories).map(([category, items]) => (
               <div
@@ -107,10 +107,16 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Right Side Controls */}
-          <div className="flex items-center space-x-2">
-            <LanguageToggle />
-            <ThemeToggle />
+          {/* Language and Theme Controls - 合并在一起 */}
+          <div className="flex items-center">
+            <div className="flex items-center bg-gray-100 dark:bg-gray-800 rounded-lg">
+              <div className="flex-shrink-0">
+                <LanguageToggle />
+              </div>
+              <div className="flex-shrink-0">
+                <ThemeToggle />
+              </div>
+            </div>
           </div>
         </div>
       </div>
