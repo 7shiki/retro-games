@@ -19,12 +19,11 @@ export default function Home() {
       <section className="relative py-16 px-4 overflow-hidden bg-section">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-float">
-            <span className="retro-gradient">Play Retro</span>
-            <br />
-            <span className="retro-text">Games</span>
+            <span className="retro-logo text-5xl md:text-7xl block mb-2">Play</span>
+            <span className="retro-logo text-5xl md:text-7xl">Retro Games</span>
           </h1>
           <p className="hero-description text-xl md:text-2xl mb-8 max-w-2xl">
-            Rediscover the golden age of gaming with our collection of Nintendo, Sega, PlayStation, and Arcade classics
+          Relive your childhood joy and nostalgia with our collection of Retro Games, featuring timeless classics from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade.
           </p>
           <SearchBar />
         </div>
