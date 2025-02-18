@@ -6,7 +6,7 @@ import SearchBar from '@/components/layout/SearchBar'
 export const metadata: Metadata = {
   title: 'Retro Games - Play Retro Games Online',
   description: 'Play your favorite retro games online. Features Nintendo, Sega, NEC, Atari, PlayStation, and Arcade classics.',
-  keywords: 'retro games, classic games, online games, nintendo, sega, playstation, arcade'
+  keywords: ''
 }
 
 export default function Home() {

@@ -72,11 +72,15 @@ export default function LanguageToggle() {
                         <button
                             key={lang.code}
                             type="button"
-                            onClick={() => handleLanguageChange(lang.code)}
-                            className="w-full text-left px-4 py-2 hover:bg-purple-500/10 transition-colors flex items-center gap-2 text-gray-800 dark:text-gray-200"
+                            onClick={(e) => {
+                                e.preventDefault()
+                                e.stopPropagation()
+                                handleLanguageChange(lang.code)
+                            }}
+                            className="w-full text-left px-4 py-2 hover:bg-purple-500/10 transition-colors flex items-center gap-2 text-gray-800 dark:text-white"
                         >
                             <span className="w-8">{lang.label}</span>
-                            <span>{lang.name}</span>
+                            <span className="text-gray-800 dark:text-white">{lang.name}</span>
                         </button>
                     ))}
                 </div>
