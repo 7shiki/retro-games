@@ -149,7 +149,7 @@ export default function Header() {
         </div>
       </header>
 
-      {/* Mobile Navigation Drawer - 移到 header 外部 */}
+      {/* Mobile Navigation Drawer */}
       <div
         className={`fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity md:hidden z-[9999] ${
           isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
@@ -201,17 +201,24 @@ export default function Header() {
                       </div>
                     </>
                   ) : (
-                    <Link
-                      href={items.href}
-                      className={`block py-2 text-base hover:bg-purple-500/10 rounded-lg px-3 transition-colors ${
-                        pathname === items.href
-                          ? 'text-primary bg-purple-500/10'
-                          : 'text-gray-600 dark:text-gray-300'
-                      }`}
-                      onClick={() => setIsMobileMenuOpen(false)}
-                    >
-                      {items.name}
-                    </Link>
+                    <>
+                      <div className="font-medium text-lg text-gray-800 dark:text-white">
+                        {category}
+                      </div>
+                      <div className="space-y-1">
+                        <Link
+                          href={items.href}
+                          className={`block py-2 text-base hover:bg-purple-500/10 rounded-lg px-3 transition-colors ${
+                            pathname === items.href
+                              ? 'text-primary bg-purple-500/10'
+                              : 'text-gray-600 dark:text-gray-300'
+                          }`}
+                          onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                          {items.name}
+                        </Link>
+                      </div>
+                    </>
                   )}
                 </div>
               ))}
