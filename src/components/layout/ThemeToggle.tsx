@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react'
 import { SunIcon, MoonIcon } from '@heroicons/react/24/outline'
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<string>('')
+  const [theme, setTheme] = useState<string>('dark')
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     // 检查系统偏好
@@ -13,6 +14,7 @@ export default function ThemeToggle() {
     const savedTheme = localStorage.getItem('theme') || (prefersDark ? 'dark' : 'light')
     setTheme(savedTheme)
     document.documentElement.setAttribute('data-theme', savedTheme)
+    setMounted(true)
   }, [])
 
   const toggleTheme = () => {
@@ -22,8 +24,14 @@ export default function ThemeToggle() {
     document.documentElement.setAttribute('data-theme', newTheme)
   }
 
-  // 在主题未加载前不渲染按钮
-  if (!theme) return null
+  // 在组件挂载前显示一个占位图标
+  if (!mounted) {
+    return (
+      <button className="px-3 py-2 rounded-r-lg hover:bg-purple-500/10 transition-colors text-gray-800 dark:text-gray-200">
+        <div className="w-5 h-5" />
+      </button>
+    )
+  }
 
   return (
     <button
