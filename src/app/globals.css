@@ -366,13 +366,13 @@ body {
   }
 }
 
-/* 添加自定义字体 */
+/* 修改字体加载方式 */
 @font-face {
   font-family: 'RetroFont';
   src: url('/fonts/0f692b9bf1004d85.p.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 /* Logo 样式 */
@@ -388,4 +388,19 @@ body {
   background-clip: text;
   color: transparent;
   letter-spacing: 0.05em;
+  opacity: 1;
+  will-change: transform;
+}
+
+/* 添加预加载字体的样式 */
+.font-loading {
+  font-family: sans-serif;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+/* 字体加载完成后的样式 */
+.font-loaded .retro-logo {
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }

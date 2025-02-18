@@ -17,7 +17,7 @@ export default function Footer() {
 
           {/* 中间 - 链接 */}
           <div>
-            <h3 className="text-lg font-semibold text-purple-400 mb-4">Legal</h3>
+            <h3 className="text-lg font-semibold text-purple-400 mb-4">Others</h3>
             <ul className="space-y-2">
               <li>
                 <Link 
