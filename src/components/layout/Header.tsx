@@ -82,13 +82,13 @@ export default function Header() {
               {/* Mobile menu button */}
               <button
                 type="button"
-                className="md:hidden p-2 rounded-lg bg-nav hover:bg-purple-500/10 text-gray-800 dark:text-white"
+                className="md:hidden p-2 rounded-lg hover:bg-purple-500/10"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
                 {isMobileMenuOpen ? (
-                  <XMarkIcon className="h-6 w-6" />
+                  <XMarkIcon className="h-6 w-6 dark:invert" />
                 ) : (
-                  <Bars3Icon className="h-6 w-6" />
+                  <Bars3Icon className="h-6 w-6 dark:invert" />
                 )}
               </button>
             </div>
@@ -157,13 +157,13 @@ export default function Header() {
         onClick={() => setIsMobileMenuOpen(false)}
       >
         <div
-          className={`fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-900 transform transition-transform duration-300 ease-in-out shadow-xl z-[10000] ${
+          className={`fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-950 transform transition-transform duration-300 ease-in-out shadow-xl z-[10000] ${
             isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
           onClick={(e) => e.stopPropagation()}
         >
           <div className="h-full overflow-y-auto">
-            <div className="sticky top-0 p-4 bg-white dark:bg-gray-900 border-b border-purple-500/10">
+            <div className="sticky top-0 p-4 bg-white dark:bg-gray-950 border-b border-purple-500/10">
               <div className="flex items-center justify-end">
                 <button
                   type="button"
@@ -191,7 +191,7 @@ export default function Header() {
                             className={`block py-2 text-base hover:bg-purple-500/10 rounded-lg px-3 transition-colors ${
                               pathname === item.href
                                 ? 'text-primary bg-purple-500/10'
-                                : 'text-gray-600 dark:text-gray-300'
+                                : 'text-gray-700 dark:text-gray-200'
                             }`}
                             onClick={() => setIsMobileMenuOpen(false)}
                           >
@@ -211,7 +211,7 @@ export default function Header() {
                           className={`block py-2 text-base hover:bg-purple-500/10 rounded-lg px-3 transition-colors ${
                             pathname === items.href
                               ? 'text-primary bg-purple-500/10'
-                              : 'text-gray-600 dark:text-gray-300'
+                              : 'text-gray-700 dark:text-gray-200'
                           }`}
                           onClick={() => setIsMobileMenuOpen(false)}
                         >
