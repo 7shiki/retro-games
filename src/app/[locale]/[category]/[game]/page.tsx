@@ -212,6 +212,18 @@ export default function GamePage({ params }: Props) {
                   <h2 className="text-2xl font-bold mb-6">
                     About {game.title}
                   </h2>
+                  
+                  {/* 添加游戏图片 - 使用 max-w-2xl 限制最大宽度 */}
+                  <div className="relative aspect-video mb-8 rounded-lg overflow-hidden max-w-2xl">
+                    <Image
+                      src={game.imageUrl}
+                      alt={game.title}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 60vw"
+                    />
+                  </div>
+
                   <div className="space-y-8">
                     <div>
                       <h3 className="text-xl font-semibold mb-3">
