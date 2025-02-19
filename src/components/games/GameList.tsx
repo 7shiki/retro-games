@@ -176,7 +176,7 @@ export const allGames: Game[] = [
     },
     {
         id: 19,
-        title: 'Final Fantasy VII',
+        title: 'Final Fantasy VII2',
         platform: 'PlayStation',
         imageUrl: '/images/games/Tekken 3.png',
         href: '/playstation-games/final-fantasy-7',
@@ -198,6 +198,15 @@ export const allGames: Game[] = [
         platform: 'SNES',
         imageUrl: '/images/games/Tekken 3.png',
         href: '/snes-games/mega-man-x',
+        description: '',
+        embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
+    },
+    {
+        id: 22,
+        title: 'Final Fantasy VII3',
+        platform: 'PlayStation',
+        imageUrl: '/images/games/Tekken 3.png',
+        href: '/playstation-games/final-fantasy-7',
         description: '',
         embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
     }
