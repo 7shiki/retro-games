@@ -51,7 +51,7 @@ export default function CategoryPage({ params }: Props) {
   const hasMore = filteredGames.length > visibleGames
 
   return (
-    <main className="min-h-screen relative">
+    <main className="min-h-screen relative flex flex-col bg-section">
       {/* 背景网格 */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
 
@@ -71,7 +71,7 @@ export default function CategoryPage({ params }: Props) {
       </section>
 
       {/* Games Grid Section */}
-      <section className="py-16 px-4">
+      <section className="flex-1 py-16 px-4 bg-section">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-purple-400 retro-text mb-8">
             All {info.platform} Games
@@ -79,21 +79,21 @@ export default function CategoryPage({ params }: Props) {
 
           {/* Results Count */}
           <div className="mb-6 text-gray-400">
-          Found {filteredGames.length} {info.platform} games
+            Found {filteredGames.length} {info.platform} games
           </div>
 
           {/* No Results Message */}
           {filteredGames.length === 0 && (
             <div className="text-center py-12">
               <div className="max-w-[300px] mx-auto mb-6">
-                                <Image
-                                    src="/images/search/Can't find the game you're looking for.png"
-                                    alt="No games found"
-                                    width={300}
-                                    height={300}
-                                    className="w-full h-auto"
-                                />
-                            </div>
+                <Image
+                  src="/images/search/Can't find the game you're looking for.png"
+                  alt="No games found"
+                  width={300}
+                  height={300}
+                  className="w-full h-auto"
+                />
+              </div>
               <p className="text-lg text-gray-400">
                 No games found matching your criteria.
                 {searchQuery && (

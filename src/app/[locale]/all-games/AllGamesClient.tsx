@@ -59,7 +59,10 @@ export default function AllGamesPage() {
     const hasMore = filteredGames.length > visibleGames
 
     return (
-        <main className="min-h-screen">
+        <main className="min-h-screen relative flex flex-col bg-section">
+            {/* 背景网格 */}
+            <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+
             {/* Hero Section */}
             <section className="relative py-16 px-4 overflow-hidden bg-section">
                 <div className="max-w-7xl mx-auto">
@@ -74,7 +77,7 @@ export default function AllGamesPage() {
             </section>
 
             {/* Games Grid Section */}
-            <section className="py-16 px-4">
+            <section className="flex-1 py-16 px-4 bg-section">
                 <div className="max-w-7xl mx-auto">
                     <h2 className="text-3xl font-bold text-purple-400 retro-text mb-8">
                         Browse Games
@@ -86,7 +89,7 @@ export default function AllGamesPage() {
                             className={`px-4 py-2 rounded-full transition-colors ${selectedPlatform === null
                                 ? 'bg-purple-500 text-white'
                                 : 'bg-purple-500/10 hover:bg-purple-500/20'
-                                }`}
+                            }`}
                             onClick={() => setSelectedPlatform(null)}
                         >
                             All
