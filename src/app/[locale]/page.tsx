@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import PopularGames from '@/components/games/PopularGames'
 import NewGames from '@/components/games/NewGames'
-import SearchBar from '@/components/layout/SearchBar'
+import HomeSearch from '@/components/layout/HomeSearch'
 
 export const metadata: Metadata = {
   title: 'Retro Games - Play Retro Games Online',
@@ -23,9 +23,9 @@ export default function Home() {
             <span className="retro-logo text-5xl md:text-7xl">Retro Games</span>
           </h1>
           <p className="hero-description text-xl md:text-2xl mb-8 max-w-2xl">
-          Relive your childhood joy and nostalgia with our collection of Retro Games, featuring timeless classics from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade.
+            Relive your childhood joy and nostalgia with our collection of Retro Games, featuring timeless classics from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade.
           </p>
-          <SearchBar />
+          <HomeSearch />
         </div>
       </section>
 
@@ -42,7 +42,6 @@ export default function Home() {
           <NewGames />
         </div>
       </section>
-
     </main>
   )
 }
