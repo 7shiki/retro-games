@@ -6,12 +6,15 @@ import SearchBar from '@/components/layout/SearchBar'
 import { categories } from '@/config/categories'
 import GameList, { allGames } from '@/components/games/GameList'
 
+const GAMES_PER_PAGE = 20 // 每页显示的游戏数量
+
 export default function AllGamesPage() {
   const searchParams = useSearchParams()
   const initialSearch = searchParams.get('search') || ''
   
   const [selectedPlatform, setSelectedPlatform] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useState(initialSearch)
+  const [visibleGames, setVisibleGames] = useState(GAMES_PER_PAGE)
 
   // 当 URL 参数变化时更新搜索词
   useEffect(() => {
@@ -20,14 +23,12 @@ export default function AllGamesPage() {
 
   // 根据平台和搜索词筛选游戏
   const filteredGames = allGames.filter(game => {
-    // 平台筛选
     const matchesPlatform = selectedPlatform
       ? categories[selectedPlatform as keyof typeof categories].some(
           item => item.name === game.platform
         )
       : true
 
-    // 搜索词筛选（不区分大小写）
     const matchesSearch = searchQuery
       ? game.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         game.platform.toLowerCase().includes(searchQuery.toLowerCase())
@@ -39,7 +40,22 @@ export default function AllGamesPage() {
   // 处理搜索
   const handleSearch = (query: string) => {
     setSearchQuery(query)
+    setVisibleGames(GAMES_PER_PAGE) // 重置显示数量
   }
+
+  // 处理加载更多
+  const handleLoadMore = () => {
+    setVisibleGames(prev => prev + GAMES_PER_PAGE)
+  }
+
+  // 当筛选条件改变时重置显示数量
+  useEffect(() => {
+    setVisibleGames(GAMES_PER_PAGE)
+  }, [selectedPlatform])
+
+  // 获取当前可见的游戏
+  const currentGames = filteredGames.slice(0, visibleGames)
+  const hasMore = filteredGames.length > visibleGames
 
   return (
     <main className="min-h-screen">
@@ -47,7 +63,7 @@ export default function AllGamesPage() {
       <section className="relative py-16 px-4 overflow-hidden bg-section">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          <span className="retro-logo text-4xl md:text-5xl">All Retro Games</span>
+            <span className="retro-logo text-4xl md:text-5xl">All Retro Games</span>
           </h1>
           <p className="text-lg md:text-xl mb-8 max-w-3xl opacity-90">
             Browse our complete collection of classic retro games available to play online.
@@ -88,7 +104,7 @@ export default function AllGamesPage() {
 
           {/* Results Count */}
           <div className="mb-6 text-gray-400">
-            Showing {filteredGames.length} games
+            Showing {currentGames.length} of {filteredGames.length} games
             {selectedPlatform && ` in ${selectedPlatform}`}
             {searchQuery && ` matching "${searchQuery}"`}
           </div>
@@ -112,8 +128,9 @@ export default function AllGamesPage() {
 
           {/* Games Grid */}
           <GameList 
-            games={filteredGames}
-            showLoadMore={filteredGames.length >= 20} 
+            games={currentGames}
+            showLoadMore={hasMore}
+            onLoadMore={handleLoadMore}
           />
         </div>
       </section>

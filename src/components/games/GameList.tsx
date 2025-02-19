@@ -149,15 +149,27 @@ export const allGames: Game[] = [
         platform: 'SNES',
         imageUrl: '/images/games/Tekken 3.png',
         href: '/snes-games/mega-man-x'
+    },
+    {
+        id: 21,
+        title: 'Mega Man X',
+        platform: 'SNES',
+        imageUrl: '/images/games/Tekken 3.png',
+        href: '/snes-games/mega-man-x'
     }
 ]
 
 interface GameListProps {
     games?: Game[]
     showLoadMore?: boolean
+    onLoadMore?: () => void
 }
 
-export default function GameList({ games = allGames, showLoadMore = true }: GameListProps) {
+export default function GameList({ 
+    games = allGames, 
+    showLoadMore = true,
+    onLoadMore
+}: GameListProps) {
     return (
         <>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -193,7 +205,10 @@ export default function GameList({ games = allGames, showLoadMore = true }: Game
 
             {showLoadMore && (
                 <div className="mt-12 text-center">
-                    <button className="px-8 py-3 rounded-lg bg-purple-500/10 hover:bg-purple-500/20 transition-colors">
+                    <button 
+                        onClick={onLoadMore}
+                        className="px-8 py-3 rounded-lg bg-purple-500/10 hover:bg-purple-500/20 transition-colors"
+                    >
                         Load More Games
                     </button>
                 </div>
