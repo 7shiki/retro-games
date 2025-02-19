@@ -14,12 +14,12 @@ export function generateMetadata({ params }: { params: { category: string } }): 
     }
   }
 
-  const title = `${info.company !== 'Other' ? `${info.company} ` : ''}${info.title} - RetroGames`
+  const title = `Play ${info.company !== 'Other' ? `${info.company} ` : ''}${info.title} Online - Retro Games`
   
   return {
     title,
-    description: info.description,
-    keywords: `${info.platform} games, retro games, classic games, ${info.company.toLowerCase()} games, online games`
+    description: `Play ${info.platform} games online for free in your browser. No download required. Enjoy classic ${info.platform} games instantly.`,
+    keywords: ``
   }
 }
 

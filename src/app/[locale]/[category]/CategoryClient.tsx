@@ -71,7 +71,7 @@ export default function CategoryPage({ params }: Props) {
               {info.company !== 'Other' ? `${info.company} ` : ''}{info.title}
             </span>
           </h1>
-          <p className="text-lg md:text-xl mb-8 max-w-3xl opacity-90">
+          <p className="text-base mb-8 max-w-3xl opacity-90">
             {info.description}
           </p>
           <SearchBar onSearch={handleSearch} defaultValue={searchQuery} />
