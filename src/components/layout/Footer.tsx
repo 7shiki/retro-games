@@ -40,15 +40,20 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* 右侧 - 联系方式 */}
+                    {/* 右侧 - Contact Us */}
                     <div>
                         <span className="text-lg font-semibold text-purple-400 mb-4 block">Contact Us</span>
-                        <a
-                            href="mailto:support@retro-games.org"
-                            className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
-                        >
-                            support@retro-games.org
-                        </a>
+                        <div className="flex flex-col gap-4">
+                            <a
+                                href="mailto:support@retro-games.org"
+                                className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
+                            >
+                                support@retro-games.org
+                            </a>
+                            <p className="text-sm text-gray-400">
+                                Disclaimer: All games on this site are hosted by third parties. We do not host or upload any games. We are not responsible for any content hosted on third party websites. RetroGames is an independent website and is not affiliated with any organizations.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
