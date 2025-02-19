@@ -94,6 +94,9 @@ export default function GamePage({ params }: Props) {
                 className="w-full h-full"
                 allowFullScreen
                 frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                loading="lazy"
               />
             </div>
 
