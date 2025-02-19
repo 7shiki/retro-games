@@ -29,11 +29,19 @@ export default function CategoryPage({ params }: Props) {
     notFound()
   }
 
-  // 根据当前分类筛选游戏
-  const filteredGames = allGames.filter(game => 
-    // 直接比较游戏平台和当前分类平台（不区分大小写）
-    game.platform.toLowerCase() === info.platform.toLowerCase()
-  )
+  // 根据当前分类和搜索词筛选游戏
+  const filteredGames = allGames.filter(game => {
+    // 首先匹配平台
+    const matchesPlatform = game.platform.toLowerCase() === info.platform.toLowerCase()
+    
+    // 然后匹配搜索词（如果有）
+    const matchesSearch = searchQuery
+      ? game.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        game.platform.toLowerCase().includes(searchQuery.toLowerCase())
+      : true
+
+    return matchesPlatform && matchesSearch
+  })
 
   // 处理搜索
   const handleSearch = (query: string) => {
@@ -66,7 +74,7 @@ export default function CategoryPage({ params }: Props) {
           <p className="text-lg md:text-xl mb-8 max-w-3xl opacity-90">
             {info.description}
           </p>
-          <SearchBar onSearch={handleSearch} />
+          <SearchBar onSearch={handleSearch} defaultValue={searchQuery} />
         </div>
       </section>
 
@@ -75,13 +83,14 @@ export default function CategoryPage({ params }: Props) {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-purple-400 retro-text mb-8">
             <span className="retro-logo text-4xl md:text-5xl">
-            All {info.platform} Games
+              All {info.platform} Games
             </span>
           </h2>
 
           {/* Results Count */}
           <div className="mb-6 text-gray-400">
             Found {filteredGames.length} {info.platform} games
+            {searchQuery && ` matching "${searchQuery}"`}
           </div>
 
           {/* No Results Message */}
@@ -101,7 +110,10 @@ export default function CategoryPage({ params }: Props) {
                 {searchQuery && (
                   <button
                     className="text-purple-400 hover:text-purple-300 ml-2"
-                    onClick={() => setSearchQuery('')}
+                    onClick={() => {
+                      setSearchQuery('')
+                      handleSearch('')
+                    }}
                   >
                     Clear search
                   </button>
