@@ -4,8 +4,8 @@ import NewGames from '@/components/games/NewGames'
 import HomeSearch from '@/components/layout/HomeSearch'
 
 export const metadata: Metadata = {
-  title: 'Retro Games - Play Retro Games Online',
-  description: 'Play your favorite retro games online. Features Nintendo, Sega, NEC, Atari, PlayStation, and Arcade classics.',
+  title: 'Retro Games - Play Retro Games Online. No Download Required.',
+  description: 'Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis,PSX,PS1 and Classic Arcade Games in your browser.Free and no download required.',
   keywords: ''
 }
 
@@ -14,7 +14,7 @@ export default function Home() {
     <main className="min-h-screen relative">
       {/* 背景网格 */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-      
+
       {/* Hero Section */}
       <section className="relative py-16 px-4 overflow-hidden bg-section">
         <div className="max-w-7xl mx-auto">
