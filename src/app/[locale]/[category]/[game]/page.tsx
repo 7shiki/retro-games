@@ -18,7 +18,7 @@ export function generateMetadata({ params }: Props): Metadata {
   // 从 URL 构建完整路径来匹配游戏
   const fullPath = `/${params.category}/${params.game}`
   const game = allGames.find(g => g.href === fullPath)
-  
+
   if (!game) {
     return {
       title: 'Game Not Found - RetroGames',
@@ -36,7 +36,7 @@ export function generateMetadata({ params }: Props): Metadata {
 export default function GamePage({ params }: Props) {
   const fullPath = `/${params.category}/${params.game}`
   const game = allGames.find(g => g.href === fullPath)
-  
+
   if (!game) {
     notFound()
   }
@@ -54,7 +54,7 @@ export default function GamePage({ params }: Props) {
   // 构建分享 URL 和文本
   const shareUrl = `https://retro-games.org${fullPath}` // 替换为你的实际域名
   const shareText = `Play ${game.title} online for free in your browser! No download required.`
-  
+
   // 社交分享链接
   const shareLinks = {
     twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}`,
@@ -80,14 +80,14 @@ export default function GamePage({ params }: Props) {
           {/* 面包屑导航 */}
           <div className="mb-6 text-sm breadcrumbs opacity-80">
             <Link href="/" className="hover:text-purple-400 transition-colors">
-                Home
+              Home
             </Link>
             <span className="mx-2">›</span>
-            <Link 
-                href={`/${params.category}`} 
-                className="hover:text-purple-400 transition-colors"
+            <Link
+              href={`/${params.category}`}
+              className="hover:text-purple-400 transition-colors"
             >
-                {category.platform}
+              {category.platform}
             </Link>
             <span className="mx-2">›</span>
             <span>{game.title}</span>
@@ -100,7 +100,7 @@ export default function GamePage({ params }: Props) {
           <p className="text-lg mb-8 text-gray-400">
             {game.description || `Play ${game.title} online in your browser. No download required.`}
           </p>
-          
+
           {/* 游戏模拟器 */}
           <div className="max-w-5xl mx-auto">
             <div className="aspect-video bg-gray-800 rounded-lg overflow-hidden">
@@ -115,9 +115,23 @@ export default function GamePage({ params }: Props) {
               />
             </div>
 
-            {/* 社交分享按钮 */}
             <div className="mt-6 flex items-center justify-center gap-4">
-              <span className="text-gray-400">Share:</span>
+              <div className="flex items-center gap-1">
+                <svg
+                  className="w-5 h-5 text-gray-400"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
+                  />
+                </svg>
+                <span className="text-gray-400">:</span>
+              </div>
               <a
                 href={shareLinks.twitter}
                 target="_blank"
@@ -131,7 +145,7 @@ export default function GamePage({ params }: Props) {
               </a>
               <a
                 href={shareLinks.facebook}
-                target="_blank"
+                target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#1877F2] transition-colors"
                 title="Share on Facebook"
