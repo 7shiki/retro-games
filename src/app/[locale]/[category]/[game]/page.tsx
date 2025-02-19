@@ -79,9 +79,16 @@ export default function GamePage({ params }: Props) {
         <div className="max-w-7xl mx-auto px-4 py-8 w-full">
           {/* 面包屑导航 */}
           <div className="mb-6 text-sm breadcrumbs opacity-80">
-            <span>{category.company}</span>
+            <Link href="/" className="hover:text-purple-400 transition-colors">
+                Home
+            </Link>
             <span className="mx-2">›</span>
-            <span>{category.platform}</span>
+            <Link 
+                href={`/${params.category}`} 
+                className="hover:text-purple-400 transition-colors"
+            >
+                {category.platform}
+            </Link>
             <span className="mx-2">›</span>
             <span>{game.title}</span>
           </div>
@@ -185,18 +192,18 @@ export default function GamePage({ params }: Props) {
 
             {/* 游戏详细描述 - SEO 部分 */}
             <div className="mt-16 max-w-4xl mx-auto">
-              <div className="space-y-16">
+              <div className="space-y-16 text-gray-900 dark:text-white">
                 {/* 游戏概述部分 */}
                 <section>
-                  <h2 className="text-2xl font-bold mb-6 dark:text-white">
+                  <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
                     About {game.title}
                   </h2>
                   <div className="space-y-8">
                     <div>
-                      <h3 className="text-xl font-semibold mb-3 dark:text-white">
+                      <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                         What's {game.title}?
                       </h3>
-                      <div className="space-y-4 dark:text-white">
+                      <div className="space-y-4">
                         {game.seoDescription.overview.map((paragraph, index) => (
                           <p key={index} className="leading-relaxed">
                             {paragraph}
@@ -205,10 +212,10 @@ export default function GamePage({ params }: Props) {
                       </div>
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold mb-3 dark:text-white">
+                      <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                         {game.title} Game History
                       </h3>
-                      <div className="space-y-4 dark:text-white">
+                      <div className="space-y-4">
                         {game.seoDescription.history.map((paragraph, index) => (
                           <p key={index} className="leading-relaxed">
                             {paragraph}
@@ -221,12 +228,12 @@ export default function GamePage({ params }: Props) {
 
                 {/* 游戏特点和玩法部分 */}
                 <section>
-                  <h2 className="text-2xl font-bold mb-6 dark:text-white">
+                  <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
                     {game.title} Gameplay and Features
                   </h2>
                   <div className="space-y-8">
                     <div>
-                      <h3 className="text-xl font-semibold mb-3 dark:text-white">
+                      <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                         Key Features
                       </h3>
                       <ul className="list-disc list-inside space-y-2">
@@ -236,7 +243,7 @@ export default function GamePage({ params }: Props) {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold mb-3 dark:text-white">
+                      <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                         How to Play
                       </h3>
                       <p className="leading-relaxed">
