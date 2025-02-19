@@ -47,7 +47,7 @@ export default function AllGamesPage() {
       <section className="relative py-16 px-4 overflow-hidden bg-section">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            All Games
+          <span className="retro-logo text-4xl md:text-5xl">All Retro Games</span>
           </h1>
           <p className="text-lg md:text-xl mb-8 max-w-3xl opacity-90">
             Browse our complete collection of classic retro games available to play online.
