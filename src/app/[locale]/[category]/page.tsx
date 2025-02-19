@@ -30,22 +30,10 @@ export default function CategoryPage({ params }: Props) {
   }
 
   // 根据当前分类筛选游戏
-  const filteredGames = allGames.filter(game => {
-    // 获取当前分类下的所有平台
-    const platformGames = categories[info.platform as keyof typeof categories]
-    if (!platformGames) {
-      return false // 如果找不到对应的平台分类，则不显示游戏
-    }
-    // 检查游戏的平台是否在当前分类中
-    const matchesPlatform = platformGames.some(item => item.name === game.platform)
-    // 搜索词筛选
-    const matchesSearch = searchQuery
-      ? game.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        game.platform.toLowerCase().includes(searchQuery.toLowerCase())
-      : true
-
-    return matchesPlatform && matchesSearch
-  })
+  const filteredGames = allGames.filter(game => 
+    // 直接比较游戏平台和当前分类平台（不区分大小写）
+    game.platform.toLowerCase() === info.platform.toLowerCase()
+  )
 
   // 处理搜索
   const handleSearch = (query: string) => {
@@ -71,7 +59,9 @@ export default function CategoryPage({ params }: Props) {
       <section className="relative py-16 px-4 overflow-hidden bg-section">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="retro-logo text-4xl md:text-5xl">{info.title}</span>
+            <span className="retro-logo text-4xl md:text-5xl">
+              {info.company !== 'Other' ? `${info.company} ` : ''}{info.title}
+            </span>
           </h1>
           <p className="text-lg md:text-xl mb-8 max-w-3xl opacity-90">
             {info.description}
@@ -84,7 +74,7 @@ export default function CategoryPage({ params }: Props) {
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-purple-400 retro-text mb-8">
-            {info.platform} Games
+            All {info.platform} Games
           </h2>
 
           {/* Results Count */}
