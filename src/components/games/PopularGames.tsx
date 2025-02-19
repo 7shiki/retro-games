@@ -8,147 +8,189 @@ interface Game {
   platform: string
   imageUrl: string
   href: string
+  description: string
+  embedUrl: string
 }
 
 // 示例游戏数据
 const popularGames: Game[] = [
   {
     id: 1,
-    title: 'Super Mario Bros',
-    platform: 'NES',
+    title: 'Tekken 3',
+    platform: 'PlayStation',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/super-mario-bros'
+    href: '/playstation-games/tekken-3',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 2,
     title: 'Sonic the Hedgehog',
     platform: 'Genesis',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/genesis-games/sonic-the-hedgehog'
+    href: '/genesis-games/sonic-the-hedgehog',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 3,
     title: 'Street Fighter II',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/street-fighter-2'
+    href: '/arcade-games/street-fighter-2',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 4,
     title: 'Final Fantasy VII',
     platform: 'PlayStation',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/playstation-games/final-fantasy-7'
+    href: '/playstation-games/final-fantasy-7',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 5,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/snes-games/mega-man-x'
+    href: '/snes-games/mega-man-x',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   }, {
     id: 6,
     title: 'Super Mario Bros',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/super-mario-bros'
+    href: '/nes-games/super-mario-bros',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 7,
     title: 'Sonic the Hedgehog',
     platform: 'Genesis',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/genesis-games/sonic-the-hedgehog'
+    href: '/genesis-games/sonic-the-hedgehog',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 8,
     title: 'Street Fighter II',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/street-fighter-2'
+    href: '/arcade-games/street-fighter-2',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 9,
     title: 'Final Fantasy VII',
     platform: 'PlayStation',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/playstation-games/final-fantasy-7'
+    href: '/playstation-games/final-fantasy-7',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 10,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/snes-games/mega-man-x'
+    href: '/snes-games/mega-man-x',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 11,
     title: 'Super Mario Bros',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/super-mario-bros'
+    href: '/nes-games/super-mario-bros',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 12,
     title: 'Sonic the Hedgehog',
     platform: 'Genesis',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/genesis-games/sonic-the-hedgehog'
+    href: '/genesis-games/sonic-the-hedgehog',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 13,
     title: 'Street Fighter II',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/street-fighter-2'
+    href: '/arcade-games/street-fighter-2',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 14,
     title: 'Final Fantasy VII',
     platform: 'PlayStation',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/playstation-games/final-fantasy-7'
+    href: '/playstation-games/final-fantasy-7',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 15,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/snes-games/mega-man-x'
+    href: '/snes-games/mega-man-x',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   }, {
     id: 16,
     title: 'Super Mario Bros',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/super-mario-bros'
+    href: '/nes-games/super-mario-bros',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 17,
     title: 'Sonic the Hedgehog',
     platform: 'Genesis',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/genesis-games/sonic-the-hedgehog'
+    href: '/genesis-games/sonic-the-hedgehog',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 18,
     title: 'Street Fighter II',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/street-fighter-2'
+    href: '/arcade-games/street-fighter-2',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 19,
     title: 'Final Fantasy VII',
     platform: 'PlayStation',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/playstation-games/final-fantasy-7'
+    href: '/playstation-games/final-fantasy-7',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 20,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/snes-games/mega-man-x'
+    href: '/snes-games/mega-man-x',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   }
 ]
 

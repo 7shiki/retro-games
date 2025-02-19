@@ -8,6 +8,8 @@ interface Game {
   platform: string
   imageUrl: string
   href: string
+  description: string
+  embedUrl: string
 }
 
 // 示例数据
@@ -17,70 +19,90 @@ const newGames: Game[] = [
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/snes-games/mega-man-x'
+    href: '/snes-games/mega-man-x',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 2,
     title: 'Castlevania',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/castlevania'
+    href: '/nes-games/castlevania',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 3,
     title: 'Metal Slug',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/metal-slug'
+    href: '/arcade-games/metal-slug',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 4,
     title: 'Dragon Quest',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/dragon-quest'
+    href: '/nes-games/dragon-quest',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 5,
     title: 'Pac-Man',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/pac-man'
+    href: '/arcade-games/pac-man',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 6,
     title: 'Mega Man X',
     platform: 'SNES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/snes-games/mega-man-x'
+    href: '/snes-games/mega-man-x',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 7,
     title: 'Castlevania',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/castlevania'
+    href: '/nes-games/castlevania',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 8,
     title: 'Metal Slug',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/metal-slug'
+    href: '/arcade-games/metal-slug',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 9,
     title: 'Dragon Quest',
     platform: 'NES',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/dragon-quest'
+    href: '/nes-games/dragon-quest',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   },
   {
     id: 10,
     title: 'Pac-Man',
     platform: 'Arcade',
     imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/pac-man'
+    href: '/arcade-games/pac-man',
+    description: '',
+    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
   }
 ]
 
