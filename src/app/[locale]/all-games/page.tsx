@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation'
 import SearchBar from '@/components/layout/SearchBar'
 import { categories } from '@/config/categories'
 import GameList, { allGames } from '@/components/games/GameList'
+import Image from 'next/image'
 
 const GAMES_PER_PAGE = 20 // 每页显示的游戏数量
 
@@ -83,8 +84,8 @@ export default function AllGamesPage() {
                     <div className="mb-8 flex flex-wrap gap-4">
                         <button
                             className={`px-4 py-2 rounded-full transition-colors ${selectedPlatform === null
-                                    ? 'bg-purple-500 text-white'
-                                    : 'bg-purple-500/10 hover:bg-purple-500/20'
+                                ? 'bg-purple-500 text-white'
+                                : 'bg-purple-500/10 hover:bg-purple-500/20'
                                 }`}
                             onClick={() => setSelectedPlatform(null)}
                         >
@@ -94,8 +95,8 @@ export default function AllGamesPage() {
                             <button
                                 key={platform}
                                 className={`px-4 py-2 rounded-full transition-colors ${selectedPlatform === platform
-                                        ? 'bg-purple-500 text-white'
-                                        : 'bg-purple-500/10 hover:bg-purple-500/20'
+                                    ? 'bg-purple-500 text-white'
+                                    : 'bg-purple-500/10 hover:bg-purple-500/20'
                                     }`}
                                 onClick={() => setSelectedPlatform(platform)}
                             >
@@ -106,14 +107,23 @@ export default function AllGamesPage() {
 
                     {/* Results Count */}
                     <div className="mb-6 text-gray-400">
-                        Showing {currentGames.length} of {filteredGames.length} games
-                        {selectedPlatform && ` in ${selectedPlatform}`}
-                        {searchQuery && ` matching "${searchQuery}"`}
+                        Found {filteredGames.length} games matching
+                        {selectedPlatform && ` ${selectedPlatform}`}
+                        {searchQuery && ` "${searchQuery}"`}
+                        {' '}criteria
                     </div>
 
-                    {/* No Results Message */}
                     {filteredGames.length === 0 && (
                         <div className="text-center py-12">
+                            <div className="max-w-[300px] mx-auto mb-6">
+                                <Image
+                                    src="/images/search/Can't find the game you're looking for.png"
+                                    alt="No games found"
+                                    width={300}
+                                    height={300}
+                                    className="w-full h-auto"
+                                />
+                            </div>
                             <p className="text-lg text-gray-400">
                                 No games found matching your criteria.
                                 {searchQuery && (

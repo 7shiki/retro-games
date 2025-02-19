@@ -1,8 +1,10 @@
-import { Metadata } from 'next'
+'use client'
+
 import { notFound } from 'next/navigation'
 import SearchBar from '@/components/layout/SearchBar'
-import { categoryMap } from '@/config/categories'
-import Link from 'next/link'
+import { categoryMap, categories } from '@/config/categories'
+import GameList, { allGames } from '@/components/games/GameList'
+import { useState } from 'react'
 import Image from 'next/image'
 
 type Props = {
@@ -12,32 +14,10 @@ type Props = {
   }
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  if (!params?.category) {
-    return {
-      title: 'Category Not Found',
-      description: 'The requested game category could not be found.'
-    }
-  }
-
-  const categorySlug = params.category.replace('-games', '')
-  const info = categoryMap[categorySlug]
-
-  if (!info) {
-    return {
-      title: 'Category Not Found',
-      description: 'The requested game category could not be found.'
-    }
-  }
-
-  return {
-    title: `${info.title} - Play Online | RetroGames`,
-    description: info.description,
-    keywords: `${info.platform}, ${info.company}, retro games, classic games, online games`
-  }
-}
-
 export default function CategoryPage({ params }: Props) {
+  const [searchQuery, setSearchQuery] = useState('')
+  const [visibleGames, setVisibleGames] = useState(20)
+
   if (!params?.category) {
     notFound()
   }
@@ -49,31 +29,38 @@ export default function CategoryPage({ params }: Props) {
     notFound()
   }
 
-  // 模拟游戏数据（与 PopularGames 格式一致）
-  const games = [
-    { 
-      id: 1,
-      title: 'Super Mario Bros',
-      platform: 'NES',
-      imageUrl: '/images/games/Tekken 3.png',
-      href: '/nes-games/super-mario-bros'
-    },
-    { 
-      id: 2,
-      title: 'The Legend of Zelda',
-      platform: 'NES',
-      imageUrl: '/images/games/Tekken 3.png',
-      href: '/nes-games/zelda'
-    },
-    { 
-      id: 3,
-      title: 'Metroid',
-      platform: 'NES',
-      imageUrl: '/images/games/Tekken 3.png',
-      href: '/nes-games/metroid'
+  // 根据当前分类筛选游戏
+  const filteredGames = allGames.filter(game => {
+    // 获取当前分类下的所有平台
+    const platformGames = categories[info.platform as keyof typeof categories]
+    if (!platformGames) {
+      return false // 如果找不到对应的平台分类，则不显示游戏
     }
-    // ... 更多游戏
-  ]
+    // 检查游戏的平台是否在当前分类中
+    const matchesPlatform = platformGames.some(item => item.name === game.platform)
+    // 搜索词筛选
+    const matchesSearch = searchQuery
+      ? game.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        game.platform.toLowerCase().includes(searchQuery.toLowerCase())
+      : true
+
+    return matchesPlatform && matchesSearch
+  })
+
+  // 处理搜索
+  const handleSearch = (query: string) => {
+    setSearchQuery(query)
+    setVisibleGames(20) // 重置显示数量
+  }
+
+  // 处理加载更多
+  const handleLoadMore = () => {
+    setVisibleGames(prev => prev + 20)
+  }
+
+  // 获取当前可见的游戏
+  const currentGames = filteredGames.slice(0, visibleGames)
+  const hasMore = filteredGames.length > visibleGames
 
   return (
     <main className="min-h-screen relative">
@@ -84,48 +71,59 @@ export default function CategoryPage({ params }: Props) {
       <section className="relative py-16 px-4 overflow-hidden bg-section">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            {info.title}
+            <span className="retro-logo text-4xl md:text-5xl">{info.title}</span>
           </h1>
           <p className="text-lg md:text-xl mb-8 max-w-3xl opacity-90">
             {info.description}
           </p>
-          <SearchBar />
+          <SearchBar onSearch={handleSearch} />
         </div>
       </section>
 
       {/* Games Grid Section */}
-      <section className="py-16 px-4 bg-section">
+      <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {games.map((game) => (
-              <div key={game.id} className="game-card group">
-                <Link href={game.href} className="block">
-                  <div className="relative aspect-[3/2] overflow-hidden">
-                    <Image
-                      src={game.imageUrl}
-                      alt={game.title}
-                      fill
-                      className="object-cover transition-transform group-hover:scale-110"
-                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
-                    />
-                    <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                      <button className="retro-button">
-                        Play Game
-                      </button>
-                    </div>
-                  </div>
-                  <div className="p-4">
-                    <h3 className="text-base font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">
-                      {game.title}
-                    </h3>
-                    <span className="text-xs text-gray-400">
-                      {game.platform}
-                    </span>
-                  </div>
-                </Link>
-              </div>
-            ))}
+          <h2 className="text-3xl font-bold text-purple-400 retro-text mb-8">
+            {info.platform} Games
+          </h2>
+
+          {/* Results Count */}
+          <div className="mb-6 text-gray-400">
+          Found {filteredGames.length} {info.platform} games
           </div>
+
+          {/* No Results Message */}
+          {filteredGames.length === 0 && (
+            <div className="text-center py-12">
+              <div className="max-w-[300px] mx-auto mb-6">
+                                <Image
+                                    src="/images/search/Can't find the game you're looking for.png"
+                                    alt="No games found"
+                                    width={300}
+                                    height={300}
+                                    className="w-full h-auto"
+                                />
+                            </div>
+              <p className="text-lg text-gray-400">
+                No games found matching your criteria.
+                {searchQuery && (
+                  <button
+                    className="text-purple-400 hover:text-purple-300 ml-2"
+                    onClick={() => setSearchQuery('')}
+                  >
+                    Clear search
+                  </button>
+                )}
+              </p>
+            </div>
+          )}
+
+          {/* Games Grid */}
+          <GameList
+            games={currentGames}
+            showLoadMore={hasMore}
+            onLoadMore={handleLoadMore}
+          />
         </div>
       </section>
     </main>
