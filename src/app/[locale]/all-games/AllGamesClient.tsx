@@ -80,7 +80,9 @@ export default function AllGamesPage() {
             <section className="flex-1 py-16 px-4 bg-section">
                 <div className="max-w-7xl mx-auto">
                     <h2 className="text-3xl font-bold text-purple-400 retro-text mb-8">
-                        Browse Games
+                        <span className="retro-logo text-4xl md:text-5xl">
+                            Browse Games
+                        </span>
                     </h2>
 
                     {/* Filters */}
@@ -89,7 +91,7 @@ export default function AllGamesPage() {
                             className={`px-4 py-2 rounded-full transition-colors ${selectedPlatform === null
                                 ? 'bg-purple-500 text-white'
                                 : 'bg-purple-500/10 hover:bg-purple-500/20'
-                            }`}
+                                }`}
                             onClick={() => setSelectedPlatform(null)}
                         >
                             All

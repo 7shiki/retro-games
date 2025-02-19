@@ -209,7 +209,9 @@ export default function GameList({
                         onClick={onLoadMore}
                         className="px-8 py-3 rounded-lg bg-purple-500/10 hover:bg-purple-500/20 transition-colors"
                     >
-                        Load More Games
+                        <span className="retro-logo text-4xl md:text-5xl">
+                            Load More Games
+                        </span>
                     </button>
                 </div>
             )}

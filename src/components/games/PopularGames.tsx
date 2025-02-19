@@ -157,7 +157,9 @@ export default function PopularGames() {
     <div>
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-3xl font-bold text-purple-400 retro-text">
-          Most Popular Retro Games
+          <span className="retro-logo text-4xl md:text-5xl">
+            Most Popular Retro Games
+          </span>
         </h2>
         <Link
           href="/all-games"

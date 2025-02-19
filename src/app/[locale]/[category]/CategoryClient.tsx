@@ -74,7 +74,9 @@ export default function CategoryPage({ params }: Props) {
       <section className="flex-1 py-16 px-4 bg-section">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-purple-400 retro-text mb-8">
+            <span className="retro-logo text-4xl md:text-5xl">
             All {info.platform} Games
+            </span>
           </h2>
 
           {/* Results Count */}

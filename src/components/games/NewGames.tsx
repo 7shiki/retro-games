@@ -90,7 +90,9 @@ export default function NewGames() {
       <div className="flex justify-between items-center mb-6">
         <div className="flex items-center">
           <h2 className="text-3xl font-bold text-purple-400 retro-text glow-effect">
-            New Retro Games
+            <span className="retro-logo text-4xl md:text-5xl">
+              New Retro Games
+            </span>
           </h2>
           <div className="ml-4 pixel-art-star animate-spin-slow"></div>
         </div>
