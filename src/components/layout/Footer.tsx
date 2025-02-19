@@ -11,7 +11,7 @@ export default function Footer() {
                     <div>
                         <h3 className="text-lg font-semibold text-purple-400 mb-4">About Us</h3>
                         <p className="text-sm text-gray-400">
-                            Experience the nostalgia of Retro Games on our website, where you can relive childhood memories with classic titles from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade—all playable online!
+                            Experience the nostalgia of Retro Games on our website, where you can relive childhood memories with classic titles from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade—all playable online! No download required.
                         </p>
                     </div>
 

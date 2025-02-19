@@ -23,7 +23,7 @@ export default function Home() {
             <span className="retro-logo text-5xl md:text-7xl">Retro Games</span>
           </h1>
           <p className="hero-description text-xl md:text-2xl mb-8 max-w-2xl">
-            Relive your childhood joy and nostalgia with our collection of Retro Games, featuring timeless classics from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade.
+            Relive your childhood joy and nostalgia with our collection of Retro Games, featuring timeless classics from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade.No download required.
           </p>
           <HomeSearch />
         </div>
