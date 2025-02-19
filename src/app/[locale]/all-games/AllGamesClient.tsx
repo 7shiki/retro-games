@@ -69,9 +69,14 @@ export default function AllGamesPage() {
                     <h1 className="text-4xl md:text-5xl font-bold mb-4">
                         <span className="retro-logo text-4xl md:text-5xl">All Retro Games</span>
                     </h1>
-                    <p className="text-lg md:text-xl mb-8 max-w-3xl opacity-90">
-                        Browse our complete collection of classic retro games available to play online.
-                    </p>
+                    <div>
+                        <p className="text-lg md:text-xl mb-4 max-w-3xl opacity-90">
+                            Browse our complete collection of classic retro games available to play online.
+                        </p>
+                        <p className="text-base mb-8 max-w-3xl opacity-90">
+                            Rediscover your childhood memories and relive those magical gaming moments.
+                        </p>
+                    </div>
                     <SearchBar onSearch={handleSearch} defaultValue={searchQuery} />
                 </div>
             </section>

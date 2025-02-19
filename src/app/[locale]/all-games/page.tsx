@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import AllGamesClient from './AllGamesClient'
 
 export const metadata: Metadata = {
-    title: 'All Retro Games - Retro-Games.org',
+    title: 'Play All Retro Games - Retro-Games.org',
     description: 'Browse our complete collection of classic retro games from Nintendo, Sega, PlayStation, and more. Play your favorite retro games online.',
     keywords: ''
   } 
