@@ -148,9 +148,9 @@ export default function GamePage({ params }: Props) {
 
             {/* 相关游戏 */}
             <div className="mt-16">
-              <h2 className="text-2xl font-bold mb-8">
+              <span className="text-2xl font-bold mb-8">
                 <span className="retro-logo">Related Games</span>
-              </h2>
+              </span>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {relatedGames.map((relatedGame) => (
                   <div key={relatedGame.id} className="game-card group">
@@ -169,10 +169,10 @@ export default function GamePage({ params }: Props) {
                           </button>
                         </div>
                       </div>
-                      <div className="p-4">
-                        <h3 className="text-base font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">
+                      <div className="p-4 flex flex-col gap-1">
+                        <span className="text-base font-semibold text-white group-hover:text-purple-400 transition-colors">
                           {relatedGame.title}
-                        </h3>
+                        </span>
                         <span className="text-xs text-gray-400">
                           {relatedGame.platform}
                         </span>
@@ -180,6 +180,64 @@ export default function GamePage({ params }: Props) {
                     </Link>
                   </div>
                 ))}
+              </div>
+            </div>
+
+            {/* 游戏详细描述 - SEO 部分 */}
+            <div className="mt-16 max-w-4xl mx-auto">
+              
+              <div className="space-y-16 text-gray-300">
+                {/* 游戏概述部分 */}
+                <section>
+                  <h2 className="text-2xl font-bold mb-6">
+                    About {game.title}
+                  </h2>
+                  <div className="space-y-8">
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">What's {game.title}?</h3>
+                      <div className="space-y-4">
+                        {game.seoDescription.overview.map((paragraph, index) => (
+                          <p key={index} className="leading-relaxed">
+                            {paragraph}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">{game.title} Game History</h3>
+                      <div className="space-y-4">
+                        {game.seoDescription.history.map((paragraph, index) => (
+                          <p key={index} className="leading-relaxed">
+                            {paragraph}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                {/* 游戏特点和玩法部分 */}
+                <section>
+                  <h2 className="text-2xl font-bold mb-6">
+                    {game.title} Gameplay and Features
+                  </h2>
+                  <div className="space-y-8">
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">Key Features</h3>
+                      <ul className="list-disc list-inside space-y-2">
+                        {game.seoDescription.features.map((feature, index) => (
+                          <li key={index}>{feature}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">How to Play</h3>
+                      <p className="leading-relaxed">
+                        {game.seoDescription.gameplay}
+                      </p>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
           </div>

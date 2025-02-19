@@ -10,7 +10,7 @@ export default function Footer() {
                     {/* 左侧 - RetroGames */}
                     <div>
                         <Link href="/" className="block">
-                            <h3 className="retro-logo text-lg font-semibold text-purple-400 mb-4">RetroGames</h3>
+                            <span className="retro-logo text-lg font-semibold text-purple-400 mb-4 block">RetroGames</span>
                         </Link>
                         <p className="text-sm text-gray-400">
                             Experience the nostalgia of <Link href="/" className="text-purple-400 hover:text-purple-300 transition-colors">Retro Games</Link> on our website, where you can relive childhood memories with classic titles from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade—all playable online! No download required.
@@ -19,7 +19,7 @@ export default function Footer() {
 
                     {/* 中间 - 链接 */}
                     <div>
-                        <h3 className="text-lg font-semibold text-purple-400 mb-4">Others</h3>
+                        <span className="text-lg font-semibold text-purple-400 mb-4 block">Others</span>
                         <ul className="space-y-2">
                             <li>
                                 <Link
@@ -42,7 +42,7 @@ export default function Footer() {
 
                     {/* 右侧 - 联系方式 */}
                     <div>
-                        <h3 className="text-lg font-semibold text-purple-400 mb-4">Contact Us</h3>
+                        <span className="text-lg font-semibold text-purple-400 mb-4 block">Contact Us</span>
                         <a
                             href="mailto:support@retro-games.org"
                             className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
