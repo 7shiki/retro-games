@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { categoryMap } from '@/config/categories'
 import CategoryClient from './CategoryClient'
+import { getGameData, getTranslations } from '@/utils/i18n'
 
 // 生成 Schema 标签
 export function generateJsonLd({ params }: { params: { category: string } }) {
@@ -56,28 +57,31 @@ export function generateJsonLd({ params }: { params: { category: string } }) {
   }
 }
 
-// 生成动态 metadata
-export function generateMetadata({ params }: { params: { category: string } }): Metadata {
+export async function generateMetadata({ params }: { params: { category: string, locale: string } }): Promise<Metadata> {
   const categorySlug = params.category.replace('-games', '')
   const info = categoryMap[categorySlug]
+  const messages = await getTranslations(params.locale)
 
   if (!info) {
     return {
-      title: 'Category Not Found - RetroGames',
-      description: 'The requested game category could not be found.'
+      title: messages.category.notFound.title,
+      description: messages.category.notFound.description
     }
   }
 
-  const title = `Play ${info.company !== 'Other' ? `${info.company} ` : ''}${info.title} Online - Retro Games`
-  
   return {
-    title,
-    description: `Play ${info.platform} games online for free in your browser. No download required. Enjoy classic ${info.platform} games instantly.`,
-    keywords: ``
+    title: messages.category.metadata.title
+      .replace('{company}', info.company !== 'Other' ? `${info.company} ` : '')
+      .replace('{platform}', info.title),
+    description: messages.category.metadata.description
+      .replaceAll('{platform}', info.platform),
+    keywords: messages.category.metadata.keywords
   }
 }
 
-export default function CategoryPage({ params }: { params: { locale: string; category: string } }) {
+export default async function CategoryPage({ params }: { params: { locale: string; category: string } }) {
+  const { gameList } = await getGameData(params.locale)
+  const messages = await getTranslations(params.locale)
   const jsonLd = generateJsonLd({ params })
 
   return (
@@ -88,7 +92,12 @@ export default function CategoryPage({ params }: { params: { locale: string; cat
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       )}
-      <CategoryClient params={params} />
+      <CategoryClient 
+        category={params.category.replace('-games', '')}
+        locale={params.locale}
+        initialMessages={messages}
+        initialGames={gameList}
+      />
     </>
   )
 }

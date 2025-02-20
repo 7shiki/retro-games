@@ -1,43 +1,41 @@
 'use client'
 
-import { notFound } from 'next/navigation'
-import SearchBar from '@/components/layout/SearchBar'
-import { categoryMap, categories } from '@/config/categories'
-import GameList, { allGames } from '@/components/games/GameList'
 import { useState } from 'react'
 import Image from 'next/image'
+import SearchBar from '@/components/layout/SearchBar'
+import { categoryMap, categories } from '@/config/categories'
+import GameList from '@/components/games/GameList'
+import { Game } from '@/utils/i18n'
 
-type Props = {
-  params: {
-    locale: string
-    category: string
-  }
+const GAMES_PER_PAGE = 20 // 每页显示的游戏数量
+
+interface CategoryClientProps {
+  category: string
+  locale: string
+  initialMessages: any
+  initialGames: Game[]
 }
 
-export default function CategoryPage({ params }: Props) {
+export default function CategoryClient({ 
+  category, 
+  locale,
+  initialMessages: messages,
+  initialGames
+}: CategoryClientProps) {
   const [searchQuery, setSearchQuery] = useState('')
-  const [visibleGames, setVisibleGames] = useState(20)
+  const [visibleGames, setVisibleGames] = useState(GAMES_PER_PAGE)
 
-  if (!params?.category) {
-    notFound()
-  }
-
-  const categorySlug = params.category.replace('-games', '')
-  const info = categoryMap[categorySlug]
-
-  if (!info) {
-    notFound()
-  }
+  // 获取当前分类信息
+  const info = categoryMap[category]
 
   // 根据当前分类和搜索词筛选游戏
-  const filteredGames = allGames.filter(game => {
+  const filteredGames = initialGames.filter(game => {
     // 首先匹配平台
     const matchesPlatform = game.platform.toLowerCase() === info.platform.toLowerCase()
-    
-    // 然后匹配搜索词（如果有）
+
+    // 然后匹配搜索词
     const matchesSearch = searchQuery
-      ? game.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        game.platform.toLowerCase().includes(searchQuery.toLowerCase())
+      ? game.title.toLowerCase().includes(searchQuery.toLowerCase())
       : true
 
     return matchesPlatform && matchesSearch
@@ -46,12 +44,12 @@ export default function CategoryPage({ params }: Props) {
   // 处理搜索
   const handleSearch = (query: string) => {
     setSearchQuery(query)
-    setVisibleGames(20) // 重置显示数量
+    setVisibleGames(GAMES_PER_PAGE) // 重置显示数量
   }
 
   // 处理加载更多
   const handleLoadMore = () => {
-    setVisibleGames(prev => prev + 20)
+    setVisibleGames(prev => prev + GAMES_PER_PAGE)
   }
 
   // 获取当前可见的游戏
@@ -68,12 +66,14 @@ export default function CategoryPage({ params }: Props) {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="retro-logo text-4xl md:text-5xl">
-              {info.company !== 'Other' ? `${info.company} ` : ''}{info.title}
+              {info.title}
             </span>
           </h1>
-          <p className="text-base mb-8 max-w-3xl opacity-90">
-            {info.description}
-          </p>
+          <div>
+            <p className="text-base md:text-sm mb-10 max-w-3xl opacity-90">
+              {info.description}
+            </p>
+          </div>
           <SearchBar onSearch={handleSearch} defaultValue={searchQuery} />
         </div>
       </section>
@@ -81,41 +81,33 @@ export default function CategoryPage({ params }: Props) {
       {/* Games Grid Section */}
       <section className="flex-1 py-16 px-4 bg-section">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-purple-400 retro-text mb-8">
-            <span className="retro-logo text-4xl md:text-5xl">
-              All {info.platform} Games
-            </span>
-          </h2>
-
           {/* Results Count */}
           <div className="mb-6 text-gray-400">
-            Found {filteredGames.length} {info.platform} games
-            {searchQuery && ` matching "${searchQuery}"`}
+            {messages.allGames.foundGames
+              .replace('{count}', filteredGames.length.toString())
+              .replace('{platform}', ` ${info.title}`)
+              .replace('{query}', searchQuery ? ` "${searchQuery}"` : '')}
           </div>
 
-          {/* No Results Message */}
           {filteredGames.length === 0 && (
             <div className="text-center py-12">
               <div className="max-w-[300px] mx-auto mb-6">
                 <Image
                   src="/images/search/Can't find the game you're looking for.png"
-                  alt="No games found"
+                  alt={messages.allGames.noGamesFound}
                   width={300}
                   height={300}
                   className="w-full h-auto"
                 />
               </div>
               <p className="text-lg text-gray-400">
-                No games found matching your criteria.
+                {messages.allGames.noGamesFound}
                 {searchQuery && (
                   <button
                     className="text-purple-400 hover:text-purple-300 ml-2"
-                    onClick={() => {
-                      setSearchQuery('')
-                      handleSearch('')
-                    }}
+                    onClick={() => setSearchQuery('')}
                   >
-                    Clear search
+                    {messages.allGames.clearSearch}
                   </button>
                 )}
               </p>
@@ -127,6 +119,10 @@ export default function CategoryPage({ params }: Props) {
             games={currentGames}
             showLoadMore={hasMore}
             onLoadMore={handleLoadMore}
+            messages={{
+              playGame: messages.games.playGame,
+              loadMore: messages.games.loadMore
+            }}
           />
         </div>
       </section>

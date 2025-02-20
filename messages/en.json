@@ -3,7 +3,7 @@
     "metadata": {
       "title": "Retro Games - Play Retro Games Online. No Download Required.",
       "description": "Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.",
-      "keywords": "retro games, classic games, online games, NES games, SNES games, Game Boy games, SEGA games, PlayStation games, arcade games",
+      "keywords": "",
       "og": {
         "title": "Retro Games - Play Classic Games Online",
         "description": "Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.",
@@ -30,7 +30,7 @@
     "metadata": {
       "title": "Retro-Games.org - All Retro Games. Play Classic Games Online",
       "description": "Browse our complete collection of classic retro games from Nintendo, Sega, PlayStation, and more. Play your favorite retro games online.",
-      "keywords": "retro games, classic games, online games"
+      "keywords": ""
     },
     "title": "All Retro Games",
     "description": "Browse our complete collection of classic retro games available to play online.",
@@ -40,5 +40,16 @@
     "foundGames": "Found {count} games matching{platform}{query} criteria",
     "noGamesFound": "No games found matching your criteria.",
     "clearSearch": "Clear search"
+  },
+  "category": {
+    "metadata": {
+      "title": "Play {company}{platform} Online - Retro Games",
+      "description": "Play {platform} games online for free in your browser. No download required. Enjoy classic {platform} games instantly.",
+      "keywords": ""
+    },
+    "notFound": {
+      "title": "Category Not Found - RetroGames",
+      "description": "The requested game category could not be found."
+    }
   }
 } 
