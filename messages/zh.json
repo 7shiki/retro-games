@@ -1,0 +1,29 @@
+{
+  "home": {
+    "metadata": {
+      "title": "复古游戏 - 在线玩复古游戏，无需下载",
+      "description": "在浏览器中在线玩 NES、SNES、GB、GBC、GBA、世嘉、PS1 和经典街机游戏。免费且无需下载。",
+      "keywords": "复古游戏,经典游戏,在线游戏,NES游戏,SNES游戏,Game Boy游戏,世嘉游戏,PlayStation游戏,街机游戏",
+      "og": {
+        "title": "复古游戏 - 在线玩经典游戏",
+        "description": "在浏览器中在线玩 NES、SNES、GB、GBC、GBA、世嘉、PS1 和经典街机游戏。免费且无需下载。",
+        "imageAlt": "复古游戏 - 经典游戏合集"
+      }
+    },
+    "hero": {
+      "title": {
+        "play": "开始玩",
+        "retroGames": "复古游戏"
+      },
+      "description": "重温您童年的欢乐和怀旧，我们的复古游戏收藏包括来自任天堂、世嘉、NEC、雅达利、PlayStation 和街机的经典游戏。无需下载。"
+    }
+  },
+  "games": {
+    "popularGames": "最受欢迎的复古游戏",
+    "newGames": "最新复古游戏",
+    "viewAll": "查看全部游戏",
+    "playGame": "开始游戏",
+    "loadMore": "加载更多游戏",
+    "updatedDaily": "每日更新"
+  }
+} 

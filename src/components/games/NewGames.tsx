@@ -1,131 +1,36 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { Game, getGameData, getTranslations } from '../../utils/i18n'
 
-// 游戏数据类型定义
-interface Game {
-  id: number
-  title: string
-  platform: string
-  imageUrl: string
-  href: string
-  description: string
-  embedUrl: string
+
+
+interface NewGamesProps {
+  locale: string
 }
 
-// 示例数据
-const newGames: Game[] = [
-  {
-    id: 1,
-    title: 'Mega Man X',
-    platform: 'SNES',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/snes-games/mega-man-x',
-    description: '',
-    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
-  },
-  {
-    id: 2,
-    title: 'Castlevania',
-    platform: 'NES',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/castlevania',
-    description: '',
-    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
-  },
-  {
-    id: 3,
-    title: 'Metal Slug',
-    platform: 'Arcade',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/metal-slug',
-    description: '',
-    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
-  },
-  {
-    id: 4,
-    title: 'Dragon Quest',
-    platform: 'NES',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/dragon-quest',
-    description: '',
-    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
-  },
-  {
-    id: 5,
-    title: 'Pac-Man',
-    platform: 'Arcade',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/pac-man',
-    description: '',
-    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
-  },
-  {
-    id: 6,
-    title: 'Mega Man X',
-    platform: 'SNES',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/snes-games/mega-man-x',
-    description: '',
-    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
-  },
-  {
-    id: 7,
-    title: 'Castlevania',
-    platform: 'NES',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/castlevania',
-    description: '',
-    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
-  },
-  {
-    id: 8,
-    title: 'Metal Slug',
-    platform: 'Arcade',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/metal-slug',
-    description: '',
-    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
-  },
-  {
-    id: 9,
-    title: 'Dragon Quest',
-    platform: 'NES',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/nes-games/dragon-quest',
-    description: '',
-    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
-  },
-  {
-    id: 10,
-    title: 'Pac-Man',
-    platform: 'Arcade',
-    imageUrl: '/images/games/Tekken 3.png',
-    href: '/arcade-games/pac-man',
-    description: '',
-    embedUrl: '<iframe src="https://www.retrogames.cc/embed/40238-tekken-3.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'
-  }
-]
+export default async function NewGames({ locale }: NewGamesProps) {
+  const { newGames } = await getGameData(locale)
+  const messages = await getTranslations(locale)
 
-export default function NewGames() {
   return (
     <div>
       <div className="flex justify-between items-center mb-6">
         <div className="flex items-center">
           <h2 className="text-3xl font-bold text-purple-400 retro-text glow-effect">
             <span className="retro-logo text-4xl md:text-5xl">
-              New Retro Games
+              {messages.games.newGames}
             </span>
           </h2>
           <div className="ml-4 pixel-art-star animate-spin-slow"></div>
         </div>
         <div className="flex items-center space-x-2">
-          <span className="text-gray-400 text-sm">Updated daily</span>
+          <span className="text-gray-400 text-sm">{messages.games.updatedDaily}</span>
           <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
         </div>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-        {newGames.map((game) => (
+        {newGames.map((game: Game) => (
           <div key={game.id} className="game-card group">
             <Link href={game.href} className="block">
               <div className="relative aspect-[3/2] overflow-hidden">
@@ -138,7 +43,7 @@ export default function NewGames() {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <button className="retro-button">
-                    Play Game
+                    {messages.games.playGame}
                   </button>
                 </div>
               </div>
