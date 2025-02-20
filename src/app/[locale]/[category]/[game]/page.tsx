@@ -56,7 +56,7 @@ export function generateJsonLd({ params }: Props) {
         },
         'primaryImageOfPage': {
           '@type': 'ImageObject',
-          'url': 'https://retro-games.org/' + game.imageUrl,
+          'url': 'https://retro-games.org' + game.imageUrl,
           'width': 320,
           'height': 200
         }
@@ -69,7 +69,7 @@ export function generateJsonLd({ params }: Props) {
         'gamePlatform': game.platform,
         'genre': ['Retro Games', 'Classic Games'],
         'publisher': category.company !== 'Other' ? category.company : undefined,
-        'image': 'https://retro-games.org/' + game.imageUrl,
+        'image': 'https://retro-games.org' + game.imageUrl,
         'url': `https://retro-games.org${fullPath}`,
         'offers': {
           '@type': 'Offer',
