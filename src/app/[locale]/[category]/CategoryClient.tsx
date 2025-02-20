@@ -71,7 +71,7 @@ export default function CategoryClient({
           </h1>
           <div>
             <p className="text-base md:text-sm mb-10 max-w-3xl opacity-90">
-              {info.description}
+              {messages.platforms[info.key].description}
             </p>
           </div>
           <SearchBar onSearch={handleSearch} defaultValue={searchQuery} />

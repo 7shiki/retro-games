@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import ThemeToggle from './ThemeToggle'
 import LanguageToggle from './LanguageToggle'
-import { categories } from '@/config/categories'
+import { categories, type CategoryItem } from '@/config/categories'
 
 export default function Header() {
     const pathname = usePathname()
@@ -64,7 +64,7 @@ export default function Header() {
                                     </button>
                                     {openMenu === category && (
                                         <div className="absolute top-full left-0 mt-1 py-2 w-48 bg-nav rounded-lg shadow-xl border border-purple-500/10">
-                                            {items.map((item) => (
+                                            {items.map((item: CategoryItem) => (
                                                 <Link
                                                     key={item.name}
                                                     href={item.href}
@@ -125,7 +125,7 @@ export default function Header() {
                                         {category}
                                     </div>
                                     <div className="space-y-1">
-                                        {items.map((item) => (
+                                        {items.map((item: CategoryItem) => (
                                             <Link
                                                 key={item.name}
                                                 href={item.href}

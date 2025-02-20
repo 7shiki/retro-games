@@ -25,7 +25,7 @@ export function generateJsonLd({ params }: { params: { category: string } }) {
         '@type': 'VideoGameSeries',
         '@id': `https://retro-games.org/${params.category}#gameseries`,
         'name': `${info.platform} Games Collection`,
-        'description': info.description,
+        'description': `Play ${info.platform} games online for free in your browser. No download required. Enjoy classic ${info.platform} games instantly.`,
         'gamePlatform': info.platform,
         'genre': ['Retro Games', 'Classic Games'],
         'publisher': info.company !== 'Other' ? info.company : undefined
