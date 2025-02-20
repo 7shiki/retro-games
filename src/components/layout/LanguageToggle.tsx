@@ -21,6 +21,9 @@ const languages = [
     { code: 'vi', name: 'Tiếng Việt', label: '🇻🇳' }
 ]
 
+// 支持的语言代码列表
+const SUPPORTED_LOCALES = languages.map(lang => lang.code)
+
 export default function LanguageToggle() {
     const [isOpen, setIsOpen] = useState(false)
     const router = useRouter()
@@ -42,13 +45,25 @@ export default function LanguageToggle() {
     }, [])
 
     const handleLanguageChange = (langCode: string) => {
-        const pathWithoutLang = pathname.split('/').slice(2).join('/')
-        const newPath = langCode === 'en' 
-            ? `/${pathWithoutLang}`
-            : `/${langCode}/${pathWithoutLang}`
-        const cleanPath = newPath.replace(/\/+/g, '/').replace(/\/$/, '') || '/'
+        const segments = pathname.split('/')
         
-        router.push(cleanPath)
+        const hasLangPrefix = SUPPORTED_LOCALES.includes(segments[1])
+        
+        let newPath
+        if (hasLangPrefix) {
+            segments[1] = langCode === 'en' ? '' : langCode
+            newPath = segments.filter(Boolean).join('/')
+        } else {
+            newPath = langCode === 'en' 
+                ? pathname.substring(1)
+                : `${langCode}${pathname}`
+        }
+
+        newPath = '/' + newPath.replace(/^\/+/, '').replace(/\/+$/, '')
+        
+        if (!newPath) newPath = '/'
+        
+        router.push(newPath)
         setIsOpen(false)
     }
 
@@ -60,7 +75,7 @@ export default function LanguageToggle() {
                 onClick={() => setIsOpen(!isOpen)}
             >
                 <span>{currentLanguage.label}</span>
-                <span>{currentLanguage.name}</span>
+                <span className="text-gray-800 dark:text-white">{currentLanguage.name}</span>
                 <ChevronDownIcon className="w-4 h-4 dark:invert" />
             </button>
 
