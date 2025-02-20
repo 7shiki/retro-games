@@ -57,8 +57,8 @@ export function generateJsonLd({ params }: Props) {
         'primaryImageOfPage': {
           '@type': 'ImageObject',
           'url': 'https://retro-games.org/' + game.imageUrl,
-          'width': 1200,
-          'height': 630
+          'width': 320,
+          'height': 200
         }
       },
       {
