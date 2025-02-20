@@ -25,5 +25,20 @@
     "playGame": "开始游戏",
     "loadMore": "加载更多游戏",
     "updatedDaily": "每日更新"
+  },
+  "allGames": {
+    "metadata": {
+      "title": "所有复古游戏 - 在线玩经典游戏",
+      "description": "浏览并游玩我们完整的复古游戏收藏",
+      "keywords": "复古游戏,经典游戏,在线游戏"
+    },
+    "title": "所有复古游戏",
+    "description": "浏览我们完整的在线复古游戏收藏。",
+    "subDescription": "重温您的童年记忆，重现那些神奇的游戏时刻。",
+    "browseGames": "浏览游戏",
+    "allPlatforms": "所有平台",
+    "foundGames": "找到 {count} 个游戏{platform}{query}",
+    "noGamesFound": "没有找到符合条件的游戏。",
+    "clearSearch": "清除搜索"
   }
 } 

@@ -25,5 +25,20 @@
     "playGame": "Play Game",
     "loadMore": "Load More Games",
     "updatedDaily": "Updated daily"
+  },
+  "allGames": {
+    "metadata": {
+      "title": "Retro-Games.org - All Retro Games. Play Classic Games Online",
+      "description": "Browse our complete collection of classic retro games from Nintendo, Sega, PlayStation, and more. Play your favorite retro games online.",
+      "keywords": "retro games, classic games, online games"
+    },
+    "title": "All Retro Games",
+    "description": "Browse our complete collection of classic retro games available to play online.",
+    "subDescription": "Rediscover your childhood memories and relive those magical gaming moments.",
+    "browseGames": "Browse Games",
+    "allPlatforms": "All Platforms",
+    "foundGames": "Found {count} games matching{platform}{query} criteria",
+    "noGamesFound": "No games found matching your criteria.",
+    "clearSearch": "Clear search"
   }
 } 
