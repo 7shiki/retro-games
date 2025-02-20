@@ -14,7 +14,7 @@ export function generateMetadata({ params }: { params: { category: string } }): 
     }
   }
 
-  const title = `Retro Games - Play ${info.company !== 'Other' ? `${info.company} ` : ''}${info.title} Online`
+  const title = `Play ${info.company !== 'Other' ? `${info.company} ` : ''}${info.title} Online - Retro Games`
   
   return {
     title,
