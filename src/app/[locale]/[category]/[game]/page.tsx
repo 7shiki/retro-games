@@ -15,7 +15,6 @@ type Props = {
 }
 
 export function generateMetadata({ params }: Props): Metadata {
-  // 从 URL 构建完整路径来匹配游戏
   const fullPath = `/${params.category}/${params.game}`
   const game = allGames.find(g => g.href === fullPath)
 
@@ -26,10 +25,36 @@ export function generateMetadata({ params }: Props): Metadata {
     }
   }
 
+  const title = `Play ${game.title} Online. No download required - Retro Games`
+  const description = `Play ${game.title} (${game.platform}) online for free in your browser. No download required.`
+  const url = `https://retro-games.org${fullPath}`
+
   return {
-    title: `Play ${game.title} Online. No download required - Retro Games`,
-    description: `Play ${game.title} (${game.platform}) online for free in your browser. No download required.`,
-    keywords: ``
+    title,
+    description,
+    keywords: ``,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'RetroGames',
+      type: 'website',
+      images: [
+        {
+          url: `https://retro-games.org${game.imageUrl}`,
+          width: 320,
+          height: 200,
+          alt: `${game.title} - Classic ${game.platform} Game`
+        }
+      ],
+      locale: 'en_US',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`https://retro-games.org${game.imageUrl}`]
+    }
   }
 }
 
