@@ -5,8 +5,30 @@ import HomeSearch from '@/components/layout/HomeSearch'
 
 export const metadata: Metadata = {
   title: 'Retro Games - Play Retro Games Online. No Download Required.',
-  description: 'Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis,PSX,PS1 and Classic Arcade Games in your browser.Free and no download required.',
-  keywords: ''
+  description: 'Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.',
+  keywords: '',
+  openGraph: {
+    title: 'Retro Games - Play Classic Games Online',
+    description: 'Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.',
+    url: 'https://retro-games.org',
+    siteName: 'RetroGames',
+    type: 'website',
+    images: [
+      {
+        url: 'https://retro-games.org/images/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'RetroGames - Classic Gaming Collection'
+      }
+    ],
+    locale: 'en_US'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Retro Games - Play Classic Games Online',
+    description: 'Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser.',
+    images: ['https://retro-games.org/images/og-image.jpg']
+  }
 }
 
 export const jsonLd = {
