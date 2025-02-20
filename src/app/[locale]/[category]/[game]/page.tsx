@@ -27,7 +27,7 @@ export function generateMetadata({ params }: Props): Metadata {
   }
 
   return {
-    title: `Retro Games - Play ${game.title} Online. No download required`,
+    title: `Play ${game.title} Online. No download required - Retro Games`,
     description: `Play ${game.title} (${game.platform}) online for free in your browser. No download required.`,
     keywords: ``
   }
