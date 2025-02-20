@@ -19,7 +19,7 @@ export default async function PopularGames({ locale }: PopularGamesProps) {
           </span>
         </h2>
         <Link
-          href="/all-games"
+          href={`/${locale === 'en' ? '' : locale + '/'}all-games`}
           className="text-purple-400 hover:text-purple-300 transition-colors"
         >
           {messages.games.viewAll}
