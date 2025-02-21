@@ -197,5 +197,10 @@
       "disclaimer": "Disclaimer: All games on this site are hosted by third parties. We do not host or upload any games. We are not responsible for any content hosted on third party websites. RetroGames is an independent website and is not affiliated with any organizations.",
       "rights": "All rights reserved."
     }
+  },
+  "search": {
+    "placeholder": "Search games...",
+    "clearSearch": "Clear search",
+    "search": "Search"
   }
 } 

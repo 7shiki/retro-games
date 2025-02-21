@@ -88,7 +88,13 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
               {messages.allGames.subDescription}
             </p>
           </div>
-          <SearchBar onSearch={handleSearch} defaultValue={searchQuery} />
+          <div className="mb-8">
+            <SearchBar 
+              onSearch={handleSearch} 
+              defaultValue={searchQuery} 
+              initialMessages={initialMessages}
+            />
+          </div>
         </div>
       </section>
 

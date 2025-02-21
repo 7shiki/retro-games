@@ -5,10 +5,12 @@ import { useState, useEffect } from 'react'
 interface SearchBarProps {
   onSearch?: (query: string) => void
   defaultValue?: string
+  initialMessages: any
 }
 
-export default function SearchBar({ onSearch, defaultValue = '' }: SearchBarProps) {
+export default function SearchBar({ onSearch, defaultValue = '', initialMessages }: SearchBarProps) {
   const [query, setQuery] = useState(defaultValue)
+  const messages = initialMessages.search
 
   // 当 defaultValue 改变时更新输入框的值
   useEffect(() => {
@@ -20,20 +22,37 @@ export default function SearchBar({ onSearch, defaultValue = '' }: SearchBarProp
     onSearch?.(query)
   }
 
+  const handleClear = () => {
+    setQuery('')
+    onSearch?.('')
+  }
+
   return (
     <form onSubmit={handleSubmit} className="flex w-full max-w-xl mx-auto">
-      <input
-        type="text"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search games..."
-        className="flex-1 px-4 py-3 bg-gray-900/50 border border-purple-500/30 rounded-l-lg focus:outline-none focus:border-purple-500 text-white"
-      />
+      <div className="flex-1 relative">
+        <input
+          type="text"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={messages.placeholder}
+          className="w-full px-4 py-3 bg-gray-900/50 border border-purple-500/30 rounded-l-lg focus:outline-none focus:border-purple-500 text-white pr-10"
+        />
+        {query && (
+          <button
+            type="button"
+            onClick={handleClear}
+            className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white p-1"
+            title={messages.clearSearch}
+          >
+            ×
+          </button>
+        )}
+      </div>
       <button 
         type="submit"
         className="px-6 py-3 bg-purple-500 text-white rounded-r-lg hover:bg-purple-600 transition-colors"
       >
-        Search
+        {messages.search}
       </button>
     </form>
   )

@@ -106,7 +106,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
             <p className="hero-description text-xl md:text-2xl mb-8 max-w-2xl">
               {messages.home.hero.description}
             </p>
-            <HomeSearch />
+            <HomeSearch initialMessages={messages} />
           </div>
         </section>
 

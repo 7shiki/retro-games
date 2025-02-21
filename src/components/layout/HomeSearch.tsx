@@ -3,7 +3,11 @@
 import { useRouter, useParams } from 'next/navigation'
 import SearchBar from './SearchBar'
 
-export default function HomeSearch() {
+interface HomeSearchProps {
+  initialMessages: any
+}
+
+export default function HomeSearch({ initialMessages }: HomeSearchProps) {
   const router = useRouter()
   const params = useParams()
   const locale = params.locale as string || 'en'
@@ -17,5 +21,5 @@ export default function HomeSearch() {
     router.push(path)
   }
 
-  return <SearchBar onSearch={handleSearch} />
+  return <SearchBar onSearch={handleSearch} initialMessages={initialMessages} />
 } 

@@ -74,7 +74,11 @@ export default function CategoryClient({
               {messages.platforms[info.key].description}
             </p>
           </div>
-          <SearchBar onSearch={handleSearch} defaultValue={searchQuery} />
+          <SearchBar 
+            onSearch={handleSearch} 
+            defaultValue={searchQuery} 
+            initialMessages={messages} 
+          />
         </div>
       </section>
 
