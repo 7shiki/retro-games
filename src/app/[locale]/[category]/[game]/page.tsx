@@ -5,6 +5,7 @@ import { categoryMap } from '@/config/categories'
 import Script from 'next/script'
 import Link from 'next/link'
 import Image from 'next/image'
+import FullscreenButton from '@/components/games/FullscreenButton'
 
 interface Props {
   params: {
@@ -269,6 +270,8 @@ export default async function GamePage({ params }: Props) {
                   loading="lazy"
                 />
               </div>
+              
+              <FullscreenButton />
 
               <div className="mt-6 flex items-center justify-center gap-4">
                 <div className="flex items-center gap-1">
