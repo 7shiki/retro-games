@@ -1,325 +1,325 @@
 {
   "home": {
     "metadata": {
-      "title": "Retro Games - Play Retro Games Online. No Download Required.",
-      "description": "Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.",
+      "title": "레트로 게임 - 온라인으로 레트로 게임을 플레이하세요. 다운로드 불필요.",
+      "description": "NES, 슈퍼패미컴, 게임보이, 게임보이 컬러, 게임보이 어드밴스, 세가 메가드라이브, 플레이스테이션, PS1 및 클래식 아케이드 게임을 브라우저에서 플레이하세요. 무료이며 다운로드가 필요 없습니다.",
       "keywords": "",
       "og": {
-        "title": "Retro Games - Play Classic Games Online",
-        "description": "Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.",
-        "imageAlt": "Retro Games - Classic Gaming Collection"
+        "title": "레트로 게임 - 클래식 게임을 온라인으로 플레이",
+        "description": "NES, 슈퍼패미컴, 게임보이, 게임보이 컬러, 게임보이 어드밴스, 세가 메가드라이브, 플레이스테이션, PS1 및 클래식 아케이드 게임을 브라우저에서 플레이하세요. 무료이며 다운로드가 필요 없습니다.",
+        "imageAlt": "레트로 게임 - 클래식 게임 컬렉션"
       }
     },
     "hero": {
       "title": {
-        "play": "Play",
-        "retroGames": "Retro Games"
+        "play": "플레이",
+        "retroGames": "레트로 게임"
       },
-      "description": "Relive your childhood joy and nostalgia with our collection of Retro Games, featuring timeless classics from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade. No download required."
+      "description": "닌텐도, 세가, NEC, 아타리, 플레이스테이션, 아케이드의 시대를 초월한 명작을 모은 레트로 게임 컬렉션으로 어린 시절의 즐거운 추억과 향수를 다시 느껴보세요. 다운로드가 필요 없습니다."
     }
   },
   "games": {
-    "popularGames": "Most Popular Retro Games",
-    "newGames": "New Retro Games",
-    "viewAll": "View All Retro Games",
-    "playGame": "Play Game",
-    "loadMore": "Load More Games",
-    "updatedDaily": "Updated daily"
+    "popularGames": "인기 레트로 게임",
+    "newGames": "신규 레트로 게임",
+    "viewAll": "모든 레트로 게임 보기",
+    "playGame": "게임 플레이",
+    "loadMore": "더 많은 게임 불러오기",
+    "updatedDaily": "매일 업데이트"
   },
   "allGames": {
     "metadata": {
-      "title": "Retro-Games.org - All Retro Games. Play Classic Games Online",
-      "description": "Browse our complete collection of classic retro games from Nintendo, Sega, PlayStation, and more. Play your favorite retro games online.",
+      "title": "Retro-Games.org - 모든 레트로 게임. 클래식 게임을 온라인으로 플레이",
+      "description": "닌텐도, 세가, 플레이스테이션 등의 클래식 레트로 게임 전체 컬렉션을 둘러보세요. 좋아하는 레트로 게임을 온라인으로 플레이하세요.",
       "keywords": ""
     },
-    "title": "All Retro Games",
-    "description": "Browse our complete collection of classic retro games available to play online.",
-    "subDescription": "Rediscover your childhood memories and relive those magical gaming moments.",
-    "browseGames": "Browse Games",
-    "allPlatforms": "All Platforms",
-    "foundGames": "Found {count} games matching{platform}{query} criteria",
-    "noGamesFound": "No games found matching your criteria.",
-    "clearSearch": "Clear search"
+    "title": "모든 레트로 게임",
+    "description": "온라인으로 플레이 가능한 클래식 레트로 게임의 전체 컬렉션을 둘러보세요.",
+    "subDescription": "어린 시절의 추억을 재발견하고 마법 같은 게임의 순간을 다시 경험하세요.",
+    "browseGames": "게임 둘러보기",
+    "allPlatforms": "모든 플랫폼",
+    "foundGames": "{platform}{query} 조건에 맞는 게임 {count}개를 찾았습니다",
+    "noGamesFound": "조건에 맞는 게임을 찾을 수 없습니다.",
+    "clearSearch": "검색 지우기"
   },
   "category": {
     "metadata": {
-      "title": "Play {company}{platform} Online - Retro Games",
-      "description": "Play {platform} games online for free in your browser. No download required. Enjoy classic {platform} games instantly.",
+      "title": "{company}{platform} 온라인으로 플레이 - 레트로 게임",
+      "description": "브라우저에서 {platform} 게임을 무료로 플레이하세요. 다운로드가 필요 없습니다. 클래식 {platform} 게임을 즉시 즐기세요.",
       "keywords": ""
     },
     "notFound": {
-      "title": "Category Not Found - RetroGames",
-      "description": "The requested game category could not be found."
+      "title": "카테고리를 찾을 수 없음 - 레트로게임",
+      "description": "요청하신 게임 카테고리를 찾을 수 없습니다."
     }
   },
   "platforms": {
     "nes": {
-      "alt": "Nintendo Entertainment System Games Online",
-      "description": "The Nintendo Entertainment System is an 8-bit home video game console that was developed and manufactured by Nintendo. It was initially released in Japan as the Family Computer on July 15, 1983, and was later released in North America during 1985, in Europe during 1986, and Australia in 1987. In South Korea, it was known as the Hyundai Comboy and was distributed by SK Hynix which then was known as Hyundai Electronics. It was succeeded by the Super Nintendo Entertainment System."
+      "alt": "패미컴 게임 온라인으로 플레이",
+      "description": "패미컴(해외명: Nintendo Entertainment System)은 닌텐도가 개발 및 제조한 8비트 가정용 게임기입니다. 1983년 7월 15일 일본에서 패밀리 컴퓨터로 출시되었으며, 이후 1985년 북미, 1986년 유럽, 1987년 호주에서 출시되었습니다. 한국에서는 현대컴보이로 알려졌으며, 당시 현대전자로 알려진 SK하이닉스에 의해 유통되었습니다. 후속기는 슈퍼패미컴입니다."
     },
     "fds": {
-      "alt": "Famicom Disk System Games Online",
-      "description": "The Famicom Disk System (FDS) is a Japan-exclusive add-on for the Family Computer (Famicom), released by Nintendo in 1986. It introduced rewritable floppy disk storage, allowing for expanded game sizes and save functionality, but was eventually discontinued due to the rise of cartridge-based games."
+      "alt": "패미컴 디스크 시스템 게임 온라인으로 플레이",
+      "description": "패미컴 디스크 시스템(FDS)은 1986년 닌텐도가 출시한 패밀리 컴퓨터(패미컴) 전용 일본 한정 주변기기입니다. 재기록 가능한 플로피 디스크 저장소를 도입하여 더 큰 게임 용량과 저장 기능을 가능하게 했지만, 카트리지 기반 게임의 부상으로 결국 단종되었습니다."
     },
     "snes": {
-      "alt": "Super Nintendo Entertainment System Games Online",
-      "description": "The Super Nintendo Entertainment System is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia, and 1993 in South America. In Japan, the system is called the Super Famicom, or SFC for short. In South Korea, it is known as the Super Comboy and was distributed by Hyundai Electronics. Although each version is essentially the same, several forms of regional lockout prevent the different versions from being compatible with one another. It was released in Brazil on September 2, 1992, by Playtronic."
+      "alt": "슈퍼패미컴 게임 온라인으로 플레이",
+      "description": "슈퍼패미컴(해외명: Super Nintendo Entertainment System)은 닌텐도가 개발한 16비트 가정용 게임기로, 1990년 일본과 한국, 1991년 북미, 1992년 유럽과 오세아니아, 1993년 남미에서 출시되었습니다. 일본에서는 슈퍼패미컴(약칭: SFC)으로 불립니다."
     },
     "gameboy": {
-      "alt": "Nintendo Game Boy Games Online",
-      "description": "The Game Boy is an 8-bit handheld video game device with interchangeable cartridges developed and manufactured by Nintendo, which was first released in Japan on April 21, 1989, in North America on July 31, 1989 and in Europe on September 28, 1990. It is the first handheld console in the Game Boy line and was created by Gunpei Yokoi and Nintendo Research & Development 1. This is the same staff credited with designing the Game & Watch series as well as several popular games for the Nintendo Entertainment System. Redesigned versions were released in 1996 and 1998 in the form of Game Boy Pocket and Game Boy Light, respectively."
+      "alt": "게임보이 게임 온라인으로 플레이",
+      "description": "게임보이는 닌텐도가 개발 및 제조한 교체 가능한 카트리지를 사용하는 8비트 휴대용 게임기로, 1989년 4월 21일 일본에서, 1989년 7월 31일 북미에서, 1990년 9월 28일 유럽에서 출시되었습니다."
     },
     "gameboycolor": {
-      "alt": "Nintendo Game Boy Color Games Online",
-      "description": "The Game Boy Color, referred to as GBC, is a handheld game console manufactured by Nintendo, which was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy."
+      "alt": "게임보이 컬러 게임 온라인으로 플레이",
+      "description": "게임보이 컬러(약칭: GBC)는 닌텐도가 제조한 휴대용 게임기로, 1998년 10월 21일 일본에서, 같은 해 11월에 국제 시장에서 출시되었습니다. 게임보이의 후속기입니다."
     },
     "gameboyadvance": {
-      "alt": "Nintendo Game Boy Advance Games Online",
-      "description": "The Game Boy Advance (abbreviated as GBA) is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color. It was released in Japan on March 21, 2001, in North America on June 11, 2001, in Australia and Europe on June 22, 2001, and in the People's Republic of China on June 8, 2004 (excluding Hong Kong). Nintendo's competitors in the handheld market at the time were the Neo Geo Pocket Color, WonderSwan, GP32, Tapwave Zodiac, and the N-Gage. Despite the competitors' best efforts, Nintendo maintained a majority market share with the Game Boy Advance."
+      "alt": "게임보이 어드밴스 게임 온라인으로 플레이",
+      "description": "게임보이 어드밴스(약칭: GBA)는 닌텐도가 게임보이 컬러의 후속기로 개발, 제조, 판매한 32비트 휴대용 게임기입니다. 2001년 3월 21일 일본에서, 2001년 6월 11일 북미에서, 2001년 6월 22일 호주와 유럽에서, 2004년 6월 8일 중화인민공화국에서 출시되었습니다."
     },
     "n64": {
-      "alt": "Nintendo 64 Games Online",
-      "description": "The Nintendo 64 (N64) is a fifth-generation home video game console developed by Nintendo and released in 1996 in Japan and North America, and 1997 in Europe and Australia. It was the first Nintendo console to feature 3D graphics and used cartridges instead of CDs, competing with the PlayStation and Sega Saturn."
+      "alt": "닌텐도 64 게임 온라인으로 플레이",
+      "description": "닌텐도 64(약칭: N64)는 닌텐도가 개발한 5세대 가정용 게임기로, 1996년 일본과 북미에서, 1997년 유럽과 호주에서 출시되었습니다. 닌텐도 최초의 3D 그래픽 지원 콘솔이며, CD 대신 카트리지를 사용했고, 플레이스테이션과 세가 새턴과 경쟁했습니다."
     },
     "nds": {
-      "alt": "Nintendo DS Games Online",
-      "description": "The Nintendo DS (NDS) is a dual-screen handheld gaming console released by Nintendo in 2004. Featuring a touchscreen, wireless connectivity, and backward compatibility with Game Boy Advance games, it became one of the best-selling gaming systems of all time."
+      "alt": "닌텐도 DS 게임 온라인으로 플레이",
+      "description": "닌텐도 DS(약칭: NDS)는 2004년 닌텐도가 출시한 듀얼 스크린 휴대용 게임기입니다. 터치스크린, 무선 연결 기능, 게임보이 어드밴스 게임과의 하위 호환성을 특징으로 하며, 역대 최고 판매량을 기록한 게임기 중 하나가 되었습니다."
     },
     "master-system": {
-      "alt": "Sega Master System Games Online",
-      "description": "The Sega Master System is an 8-bit home video game console developed by Sega, first released in 1985 in Japan as the Sega Mark III, and later rebranded as the Master System for its international release. It was a competitor to the Nintendo Entertainment System but achieved greater success in Europe and Brazil."
+      "alt": "세가 마스터 시스템 게임 온라인으로 플레이",
+      "description": "세가 마스터 시스템은 세가가 개발한 8비트 가정용 게임기로, 1985년 일본에서 세가 마크 III로 처음 출시되었으며, 이후 국제 출시를 위해 마스터 시스템으로 리브랜딩되었습니다. 닌텐도 엔터테인먼트 시스템의 경쟁자였지만 유럽과 브라질에서 더 큰 성공을 거두었습니다."
     },
     "game-gear": {
-      "alt": "Sega Game Gear Games Online",
-      "description": "The Game Gear is an 8-bit handheld game console released by Sega on October 6, 1990 in Japan, 1991 in North America and Europe, and Australia in 1992. The Game Gear primarily competed with Nintendo's Game Boy, the Atari Lynx and NEC's TurboExpress. The handheld shares much of its hardware with the Master System and is able to play its own titles as well as those of the Master System, the latter being made possible by the use of an adapter. Containing a full-color backlit screen with a landscape format, Sega positioned the Game Gear as a technologically superior handheld to the Game Boy."
+      "alt": "세가 게임기어 게임 온라인으로 플레이",
+      "description": "게임기어는 세가가 1990년 10월 6일 일본에서, 1991년 북미와 유럽에서, 1992년 호주에서 출시한 8비트 휴대용 게임기입니다. 주로 닌텐도의 게임보이, 아타리의 링스, NEC의 터보익스프레스와 경쟁했습니다."
     },
     "genesis": {
-      "alt": "Sega Genesis/Mega Drive Games Online",
-      "description": "The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega's third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989. In 1990, the console was distributed as the Mega Drive by Virgin Mastertronic in Europe, by Ozisoft in Australasia, and by Tec Toy in Brazil. In South Korea, the systems were distributed by Samsung and were known as the Super Gam*Boy, and later the Super Aladdin Boy."
+      "alt": "세가 메가드라이브 게임 온라인으로 플레이",
+      "description": "세가 메가드라이브(북미명: Sega Genesis)는 세가 엔터프라이즈가 개발하고 판매한 16비트 가정용 게임기입니다. 세가의 세 번째 콘솔이며 마스터 시스템의 후속기였습니다."
     },
     "sega32x": {
-      "alt": "Sega 32X Games Online",
-      "description": "The Sega 32X is an add-on for the Sega Genesis/Mega Drive released in 1994. It was designed to enhance the console's graphics and processing power, but it had a short lifespan due to the arrival of the Sega Saturn."
+      "alt": "세가 32X 게임 온라인으로 플레이",
+      "description": "세가 32X는 1994년에 출시된 세가 메가드라이브용 확장 기기입니다. 콘솔의 그래픽과 처리 능력을 향상시키기 위해 설계되었지만, 세가 새턴의 등장으로 짧은 수명을 가졌습니다."
     },
     "sega-cd": {
-      "alt": "Sega CD/Mega CD Games Online",
-      "description": "The Sega CD (Mega-CD outside North America) was a CD-ROM expansion for the Sega Genesis, released in 1991 in Japan and 1992 in North America. It introduced full-motion video and CD-quality audio but struggled due to high costs and limited game library."
+      "alt": "세가 CD/메가 CD 게임 온라인으로 플레이",
+      "description": "세가 CD(북미 외 지역명: 메가 CD)는 세가 메가드라이브용 CD-ROM 확장기기로, 1991년 일본에서, 1992년 북미에서 출시되었습니다. 풀모션 비디오와 CD 품질의 오디오를 도입했지만 높은 가격과 제한된 게임 라이브러리로 인해 어려움을 겪었습니다."
     },
     "turbografx-16": {
-      "alt": "NEC TurboGrafx-16 Games Online",
-      "description": "The TurboGrafx-16 Entertainment SuperSystem, known in Japan and France as the PC Engine (PCエンジン Pī Shī Enjin), is a home video game console jointly developed by Hudson Soft and NEC Home Electronics, released in Japan on October 30, 1987 and in the United States on August 29, 1989. It also had a limited release in the United Kingdom and Spain in 1990, known as simply TurboGrafx and based on the American model, whilst the Japanese model was imported and distributed in France in 1989. It was the first console released in the 16-bit era, albeit still utilizing an 8-bit CPU. Originally intended to compete with the Nintendo Entertainment System (NES), it ended up competing with the Sega Genesis, and later on the Super Nintendo Entertainment System (SNES)."
+      "alt": "NEC PC엔진/터보그래프엑스-16 게임 온라인으로 플레이",
+      "description": "PC엔진(해외명: TurboGrafx-16)은 허드슨 소프트와 NEC 홈 일렉트로닉스가 공동 개발한 가정용 게임기로, 1987년 10월 30일 일본에서, 1989년 8월 29일 미국에서 출시되었습니다."
     },
     "turbografx-cd": {
-      "alt": "NEC TurboGrafx-CD Games Online",
-      "description": "The TurboGrafx-CD is an add-on for the TurboGrafx-16/PC Engine, released in 1988 in Japan and later in North America. It introduced CD-based gaming to NEC's platform, allowing for higher quality audio and expanded game storage."
+      "alt": "NEC PC엔진 CD 게임 온라인으로 플레이",
+      "description": "PC엔진 CD는 PC엔진용 확장기기로, 1988년 일본에서, 이후 북미에서 출시되었습니다. NEC의 플랫폼에 CD 기반 게임을 도입하여 더 높은 품질의 오디오와 확장된 게임 저장 공간을 제공했습니다."
     },
     "pc-engine-cd": {
-      "alt": "NEC PC Engine CD-ROM² Games Online",
-      "description": "The PC Engine CD-ROM² was the first CD-based console add-on, released in 1988 in Japan. It expanded the capabilities of the PC Engine, allowing for larger games with improved audio and animation, influencing future CD-based gaming systems."
+      "alt": "NEC PC엔진 CD-ROM² 게임 온라인으로 플레이",
+      "description": "PC엔진 CD-ROM²는 1988년 일본에서 출시된 최초의 CD 기반 콘솔 확장기기입니다. PC엔진의 성능을 확장하여 더 큰 게임과 향상된 오디오 및 애니메이션을 가능하게 했으며, 이후 CD 기반 게임 시스템에 영향을 미쳤습니다."
     },
     "atari-7800": {
-      "alt": "Atari 7800 ProSystem Games Online",
-      "description": "The Atari 7800 ProSystem is a home video game console released by Atari Corporation in 1986. It was designed to be backward compatible with Atari 2600 games while offering improved graphics and performance. Despite its capabilities, it struggled to compete against the Nintendo Entertainment System and the Sega Master System during its lifespan."
+      "alt": "아타리 7800 게임 온라인으로 플레이",
+      "description": "아타리 7800 ProSystem은 1986년 아타리가 출시한 가정용 게임기입니다. 아타리 2600 게임과의 하위 호환성을 유지하면서 향상된 그래픽과 성능을 제공하도록 설계되었습니다. 그러나 그 성능에도 불구하고, 닌텐도 엔터테인먼트 시스템과 세가 마스터 시스템과의 경쟁에서 어려움을 겪었습니다."
     },
     "atari-lynx": {
-      "alt": "Atari Lynx Handheld Games Online",
-      "description": "The Atari Lynx is a handheld game console released by Atari in 1989. It was the first handheld console with a color LCD screen and had advanced hardware for its time, including sprite scaling and multiplayer support. However, it faced stiff competition from the Nintendo Game Boy and Sega Game Gear, limiting its market success."
+      "alt": "아타리 링스 게임 온라인으로 플레이",
+      "description": "아타리 링스는 1989년 아타리가 출시한 휴대용 게임기입니다. 컬러 LCD 화면을 탑재한 최초의 휴대용 게임기였으며, 스프라이트 스케일링과 멀티플레이어 지원 등 당시로서는 진보된 하드웨어를 갖추고 있었습니다. 하지만 닌텐도 게임보이와 세가 게임기어의 강력한 경쟁으로 인해 시장에서의 성공이 제한적이었습니다."
     },
     "atari-jaguar": {
-      "alt": "Atari Jaguar Games Online",
-      "description": "The Atari Jaguar is a home video game console released in 1993 by Atari Corporation. Marketed as the first 64-bit gaming system, it boasted superior processing power compared to its 16-bit competitors. However, the Jaguar struggled due to a lack of developer support and strong competition from the Sony PlayStation and Sega Saturn, ultimately leading to Atari's exit from the console market."
+      "alt": "아타리 재규어 게임 온라인으로 플레이",
+      "description": "아타리 재규어는 1993년 아타리가 출시한 가정용 게임기입니다. 최초의 64비트 게임 시스템으로 마케팅되었으며, 16비트 경쟁자들에 비해 우수한 처리 능력을 자랑했습니다. 하지만 개발자 지원 부족과 소니 플레이스테이션, 세가 새턴의 강력한 경쟁으로 인해 어려움을 겪었고, 결국 아타리의 콘솔 시장 철수로 이어졌습니다."
     },
     "playstation": {
-      "alt": "Sony PlayStation Games Online",
-      "description": "The PlayStation (PS1) is a 32-bit home video game console released by Sony in 1994 in Japan and 1995 worldwide. It was the first console to sell over 100 million units and introduced CD-based gaming, 3D graphics, and a vast library of iconic games."
+      "alt": "소니 플레이스테이션 게임 온라인으로 플레이",
+      "description": "플레이스테이션(PS1)은 소니가 1994년 일본에서, 1995년 전 세계에서 출시한 32비트 가정용 게임기입니다. 1억 대 이상 판매된 최초의 콘솔이며, CD 기반 게임, 3D 그래픽, 방대한 명작 게임 라이브러리를 도입했습니다."
     },
     "arcade": {
-      "alt": "Classic Arcade Games Online",
-      "description": "Arcade games are coin-operated video games found in public places such as malls and arcades. Popular during the late 20th century, they include classics like Pac-Man, Street Fighter, and Metal Slug, many of which have been adapted for home consoles."
+      "alt": "클래식 아케이드 게임 온라인으로 플레이",
+      "description": "아케이드 게임은 쇼핑몰이나 오락실과 같은 공공장소에서 볼 수 있는 동전 투입식 비디오 게임입니다. 20세기 후반에 인기를 끌었으며, 팩맨, 스트리트 파이터, 메탈 슬러그와 같은 클래식 게임들을 포함하고 있으며, 이 중 많은 게임들이 가정용 콘솔로 이식되었습니다."
     },
     "wonderswan": {
-      "alt": "Bandai WonderSwan Games Online",
-      "description": "The WonderSwan is a handheld game console released in 1999 by Bandai exclusively in Japan. Designed as a competitor to the Game Boy Color, it featured a unique vertical and horizontal screen orientation. An improved version, the WonderSwan Color, was released in 2000, offering a color display and better hardware capabilities. Despite its innovative design, it struggled to compete with Nintendo's dominance in the handheld market."
+      "alt": "반다이 원더스완 게임 온라인으로 플레이",
+      "description": "원더스완은 1999년 반다이가 일본에서만 출시한 휴대용 게임기입니다. 게임보이 컬러의 경쟁자로 설계되었으며, 독특한 세로 및 가로 화면 방향을 특징으로 했습니다. 개선된 버전인 원더스완 컬러가 2000년에 출시되어 컬러 디스플레이와 향상된 하드웨어 성능을 제공했습니다. 혁신적인 디자인에도 불구하고, 닌텐도의 휴대용 시장 지배력에 맞서 경쟁하는 데 어려움을 겪었습니다."
     },
     "neo-geo-pocket": {
-      "alt": "SNK Neo Geo Pocket Games Online",
-      "description": "The Neo Geo Pocket is a handheld game console released by SNK in 1998. It was later succeeded by the Neo Geo Pocket Color in 1999, which introduced a color screen and improved software support. The system featured high-quality arcade-style games, particularly from SNK's franchises like King of Fighters and Samurai Shodown, but it struggled against Nintendo's Game Boy lineup."
+      "alt": "SNK 네오지오 포켓 게임 온라인으로 플레이",
+      "description": "네오지오 포켓은 1998년 SNK가 출시한 휴대용 게임기입니다. 1999년에 컬러 화면과 향상된 소프트웨어 지원을 특징으로 하는 네오지오 포켓 컬러로 대체되었습니다. 킹 오브 파이터즈와 사무라이 스피리츠와 같은 SNK의 프랜차이즈를 중심으로 고품질 아케이드 스타일 게임을 제공했지만, 닌텐도의 게임보이 라인업에 맞서 어려움을 겪었습니다."
     },
     "msx": {
-      "alt": "MSX Games Online",
-      "description": "The MSX is a home computer platform introduced in 1983 by Microsoft and ASCII Corporation to establish a standardized computing environment. It was particularly popular in Japan, Europe, and South America, serving as a platform for many early Konami and Hudson Soft games. The system played a significant role in the early development of franchises such as Metal Gear and Bomberman."
+      "alt": "MSX 게임 온라인으로 플레이",
+      "description": "MSX는 1983년 마이크로소프트와 ASCII 코퍼레이션이 표준화된 컴퓨팅 환경을 구축하기 위해 도입한 가정용 컴퓨터 플랫폼입니다. 특히 일본, 유럽, 남미에서 인기를 끌었으며, 초기 코나미와 허드슨 소프트 게임의 플랫폼 역할을 했습니다. 메탈 기어와 봄버맨과 같은 프랜차이즈의 초기 개발에 중요한 역할을 했습니다."
     },
     "msx-2": {
-      "alt": "MSX 2 Games Online",
-      "description": "The MSX2 is an upgraded version of the original MSX computer standard, released in 1985. It featured improved graphics capabilities, including support for higher resolutions and a larger color palette, making it a more powerful gaming and computing system. Many classic games, such as Metal Gear 2: Solid Snake, were developed for the MSX2, showcasing its advanced hardware for the time."
+      "alt": "MSX 2 게임 온라인으로 플레이",
+      "description": "MSX2는 1985년에 출시된 원래 MSX 컴퓨터 표준의 업그레이드 버전입니다. 더 높은 해상도와 더 큰 색상 팔레트를 지원하는 등 향상된 그래픽 기능을 갖추어 더 강력한 게임 및 컴퓨팅 시스템이 되었습니다. 메탈 기어 2: 솔리드 스네이크와 같은 많은 클래식 게임들이 MSX2용으로 개발되어 당시의 진보된 하드웨어를 보여주었습니다."
     }
   },
   "game": {
     "metadata": {
-      "title": "Play {title} Online. No download required - Retro Games",
-      "description": "Play {title} ({platform}) online for free in your browser. No download required.",
+      "title": "{title} 온라인으로 플레이. 다운로드 불필요 - 레트로 게임",
+      "description": "{title}({platform})을 브라우저에서 무료로 플레이하세요. 다운로드가 필요 없습니다.",
       "keywords": ""
     },
     "notFound": {
-      "title": "Game Not Found - RetroGames",
-      "description": "The requested game could not be found."
+      "title": "게임을 찾을 수 없음 - 레트로게임",
+      "description": "요청하신 게임을 찾을 수 없습니다."
     },
     "relatedGames": {
-      "title": "You may be interested in",
-      "heading": "Related Games"
+      "title": "이런 게임은 어떠세요",
+      "heading": "관련 게임"
     },
     "page": {
-      "description": "Play {title} online in your browser. No download required.",
-      "shareText": "Play {title} online for free in your browser! No download required.",
+      "description": "{title} 을 브라우저에서 온라인으로 플레이하세요. 다운로드가 필요 없습니다.",
+      "shareText": "{title} 을 브라우저에서 무료로 플레이하세요! 다운로드가 필요 없습니다.",
       "share": {
-        "label": "Share",
-        "twitter": "Share on Twitter",
-        "facebook": "Share on Facebook",
-        "reddit": "Share on Reddit",
-        "linkedin": "Share on LinkedIn"
+        "label": "공유",
+        "twitter": "트위터에 공유",
+        "facebook": "페이스북에 공유",
+        "reddit": "레딧에 공유",
+        "linkedin": "링크드인에 공유"
       },
-      "playButton": "Play Game",
-      "about": "About {title} :",
+      "playButton": "게임 플레이",
+      "about": "{title} 소개 :",
       "breadcrumb": {
-        "home": "Home"
+        "home": "홈"
       }
     }
   },
   "footer": {
-    "description": "Experience the nostalgia of Retro Games on our website, where you can relive childhood memories with classic titles from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade—all playable online! No download required.",
+    "description": "우리 웹사이트에서 레트로 게임의 향수를 경험하세요. 닌텐도, 세가, NEC, 아타리, 플레이스테이션, 아케이드의 클래식 타이틀로 어린 시절의 추억을 다시 느껴보세요—모두 온라인으로 플레이 가능합니다! 다운로드가 필요 없습니다.",
     "others": {
-      "title": "Others",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "title": "기타",
+      "privacy": "개인정보 처리방침",
+      "terms": "이용약관"
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Please read these Terms of Service carefully before using RetroGames.",
-      "lastUpdated": "Last Updated: February 20, 2025",
+      "title": "이용약관",
+      "description": "RetroGames를 이용하기 전에 이 이용약관을 주의 깊게 읽어주시기 바랍니다.",
+      "lastUpdated": "최종 업데이트: 2025년 2월 20일",
       "intro": {
-        "text1": "Welcome to ",
-        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
+        "text1": "환영합니다",
+        "text2": ". 이 웹사이트에 접속하고 이용함으로써, 귀하는 본 계약의 조건과 규정에 구속되는 것에 동의하게 됩니다."
       },
       "service": {
-        "title": "Service Description",
-        "text1": " provides a platform for users to play retro games through their web browsers. Our service includes:",
+        "title": "서비스 설명",
+        "text1": "은 사용자가 웹 브라우저를 통해 레트로 게임을 플레이할 수 있는 플랫폼을 제공합니다. 우리의 서비스는 다음을 포함합니다:",
         "items": [
-          "Browser-based retro game emulation",
-          "Game information and descriptions",
-          "Related gaming content"
+          "브라우저 기반 레트로 게임 에뮬레이션",
+          "게임 정보와 설명",
+          "관련 게임 콘텐츠"
         ]
       },
       "content": {
-        "title": "Content and Copyright",
-        "text1": "All games and related content available through our service are:",
+        "title": "콘텐츠 및 저작권",
+        "text1": "우리 서비스를 통해 이용 가능한 모든 게임과 관련 콘텐츠는:",
         "items": [
-          "Sourced from and hosted by third-party services",
-          "Subject to their respective owners' copyrights and intellectual property rights",
-          "Not owned or controlled by RetroGames"
+          "제3자 서비스에서 제공 및 호스팅됩니다",
+          "각 소유자의 저작권 및 지적재산권의 대상입니다",
+          "RetroGames가 소유하거나 통제하지 않습니다"
         ],
-        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
+        "text2": "당사는 서비스를 통해 제공되는 게임, ROM 또는 관련 콘텐츠의 소유권을 주장하지 않습니다. 모든 상표, 서비스 마크 및 상호는 각 소유자의 재산입니다."
       },
       "disclaimer": {
-        "title": "Disclaimer",
-        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. RetroGames does not warrant that:",
+        "title": "면책 조항",
+        "text1": "당사의 서비스는 명시적이든 묵시적이든 어떠한 보증도 없이 \"있는 그대로\" 제공됩니다. RetroGames는 다음을 보증하지 않습니다:",
         "items": [
-          "The service will be uninterrupted or error-free",
-          "Games or content will always be available",
-          "Any errors or defects will be corrected"
+          "서비스가 중단되지 않거나 오류가 없을 것",
+          "게임이나 콘텐츠가 항상 이용 가능할 것",
+          "오류나 결함이 수정될 것"
         ],
-        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
+        "text2": "당사는 제3자가 제공한 콘텐츠나 콘텐츠의 오류 또는 누락에 대해 책임지지 않습니다."
       },
       "conduct": {
-        "title": "User Conduct",
-        "text1": "By using our service, you agree not to:",
+        "title": "사용자 행동 규범",
+        "text1": "우리 서비스를 이용함으로써, 귀하는 다음을 하지 않을 것에 동의합니다:",
         "items": [
-          "Use the service for any unlawful purpose",
-          "Attempt to gain unauthorized access to any part of the service",
-          "Interfere with or disrupt the service or servers",
-          "Circumvent, disable, or otherwise interfere with security features"
+          "서비스를 불법적인 목적으로 사용",
+          "서비스의 어떤 부분에도 무단 접근을 시도",
+          "서비스나 서버를 방해하거나 중단",
+          "보안 기능을 우회, 비활성화 또는 방해"
         ]
       },
       "modifications": {
-        "title": "Modifications to Service",
-        "text1": "We reserve the right to:",
+        "title": "서비스 수정",
+        "text1": "당사는 다음의 권리를 보유합니다:",
         "items": [
-          "Modify or discontinue any part of our service without notice",
-          "Update these terms of service at any time",
-          "Change the games and content available through our service"
+          "통지 없이 서비스의 일부를 수정하거나 중단",
+          "언제든지 이 서비스 약관을 업데이트",
+          "서비스를 통해 이용 가능한 게임과 콘텐츠를 변경"
         ],
-        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
+        "text2": "변경 후에도 서비스를 계속 이용하는 것은 해당 변경 사항에 동의하는 것으로 간주됩니다."
       },
       "governing": {
-        "title": "Governing Law",
-        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
+        "title": "준거법",
+        "text1": "이 약관은 법률 충돌의 원칙에 관계없이 관련 법률에 따라 규율되고 해석됩니다."
       },
       "contact": {
-        "title": "Contact",
-        "text1": "For any questions regarding these terms, please contact us at:"
+        "title": "문의하기",
+        "text1": "이 약관에 대해 궁금한 점이 있으시면 다음 연락처로 문의해 주세요:"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit RetroGames.",
-      "lastUpdated": "Last Updated: February 20, 2025",
+      "title": "개인정보 처리방침",
+      "description": "이 개인정보 처리방침은 RetroGames 방문 시 귀하의 개인정보가 어떻게 수집, 사용, 공유되는지 설명합니다.",
+      "lastUpdated": "최종 업데이트: 2025년 2월 20일",
       "intro": {
-        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
-        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
-        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
-        "text4": " (hereinafter, \"us\", \"we\", or \"RetroGames\")."
+        "text1": "당사는 웹사이트 운영 중 수집할 수 있는 모든 정보와 관련하여 귀하의 프라이버시를 존중하는 것을 원칙으로 합니다.",
+        "text2": "은 귀하의 프라이버시를 존중하며 이 웹사이트를 통해 귀하가 제공할 수 있는 모든 정보를 보호하기 위해 최선을 다합니다.",
+        "text3": "이 개인정보 처리방침은 당사가 어떤 정보를 수집하고, 어떻게 사용하며, 어떤 상황에서 제3자에게 공개할 수 있는지 설명합니다. 이 개인정보 처리방침은",
+        "text4": "(이하 \"당사\", \"우리\", 또는 \"RetroGames\")에 적용됩니다."
       },
       "collection": {
-        "title": "Information Collection",
-        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
+        "title": "정보 수집",
+        "description": "당사 웹사이트는 사용자 등록이나 로그인이 필요하지 않습니다. 사용자의 개인 식별 정보는 일체 수집하지 않습니다. 수집하는 데이터는 다음과 같습니다:",
         "items": [
-          "Browser cookies essential for website functionality",
-          "Anonymous usage statistics to improve our service"
+          "웹사이트 기능에 필수적인 브라우저 쿠키",
+          "서비스 개선을 위한 익명 사용 통계"
         ]
       },
       "thirdParty": {
-        "title": "Third-Party Content",
-        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
+        "title": "제3자 콘텐츠",
+        "description": "당사 웹사이트에서 이용 가능한 게임과 관련 콘텐츠는 제3자 플랫폼에서 제공됩니다. 당사는 이 콘텐츠의 소유권을 주장하지 않으며:",
         "items": [
-          "All games are hosted on and streamed from third-party services",
-          "Game information, images, and descriptions are provided by third-party sources",
-          "We make no warranties regarding the accuracy or availability of this content"
+          "모든 게임은 제3자 서비스에서 호스팅 및 스트리밍됩니다",
+          "게임 정보, 이미지, 설명은 제3자 소스에서 제공됩니다",
+          "이 콘텐츠의 정확성이나 가용성에 대해 보증하지 않습니다"
         ]
       },
       "cookies": {
-        "title": "Use of Cookies",
-        "description": "We use cookies to enhance your browsing experience. These cookies are:",
+        "title": "쿠키 사용",
+        "description": "당사는 브라우징 경험을 향상시키기 위해 쿠키를 사용합니다. 이러한 쿠키는:",
         "items": [
-          "Essential for basic website functionality",
-          "Used to remember your display preferences",
-          "Not used for tracking or advertising purposes"
+          "기본적인 웹사이트 기능에 필수적입니다",
+          "표시 설정을 기억하는 데 사용됩니다",
+          "추적이나 광고 목적으로 사용되지 않습니다"
         ],
-        "control": "You can control cookie settings through your browser preferences."
+        "control": "브라우저 설정을 통해 쿠키 설정을 제어할 수 있습니다."
       },
       "links": {
-        "title": "External Links",
-        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
-        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
+        "title": "외부 링크",
+        "description": "당사 웹사이트에는 당사가 운영하지 않는 외부 사이트로의 링크가 포함되어 있습니다. 제3자 링크를 클릭하면 해당 제3자의 사이트로 이동합니다. 방문하는 모든 사이트의 개인정보 처리방침과 이용약관을 검토하실 것을 강력히 권장합니다.",
+        "disclaimer": "당사는 제3자 사이트, 제품 또는 서비스의 콘텐츠, 개인정보 처리방침 또는 관행에 대해 통제권이 없으며 책임을 지지 않습니다."
       },
       "updates": {
-        "title": "Policy Updates",
-        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
-        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+        "title": "정책 업데이트",
+        "description": "당사는 이 개인정보 처리방침을 수시로 업데이트할 수 있습니다. 변경사항이 있을 경우 이 페이지에 새로운 개인정보 처리방침을 게시하여 알려드립니다. 변경사항을 확인하기 위해 이 개인정보 처리방침을 정기적으로 검토하시기 바랍니다.",
+        "consent": "개인정보 처리방침이 수정된 후에도 당사 웹사이트를 계속 사용하는 것은 수정사항을 인정하고 수정된 개인정보 처리방침을 준수하고 이에 구속되는 것에 동의하는 것으로 간주됩니다."
       },
       "contact": {
-        "title": "Contact Us",
-        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "title": "문의하기",
+        "description": "이 개인정보 처리방침에 대해 궁금한 점이 있으시면 당사 웹사이트를 통해 문의해 주시기 바랍니다.",
         "email": "support@retro-games.org"
       }
     },
     "contact": {
-      "title": "Contact Us",
-      "disclaimer": "Disclaimer: All games on this site are hosted by third parties. We do not host or upload any games. We are not responsible for any content hosted on third party websites. RetroGames is an independent website and is not affiliated with any organizations.",
-      "rights": "All rights reserved."
+      "title": "문의하기",
+      "disclaimer": "면책 조항: 이 사이트의 모든 게임은 제3자가 호스팅합니다. 당사는 게임을 호스팅하거나 업로드하지 않습니다. 제3자 웹사이트에서 호스팅되는 콘텐츠에 대해 당사는 책임을 지지 않습니다. RetroGames는 독립적인 웹사이트이며 어떤 조직과도 제휴 관계가 없습니다.",
+      "rights": "모든 권리 보유."
     }
   },
   "search": {
-    "placeholder": "Search Retro Games ...",
-    "clearSearch": "Clear search",
-    "search": "Search"
+    "placeholder": "레트로 게임 검색...",
+    "clearSearch": "검색 지우기",
+    "search": "검색"
   }
 }
