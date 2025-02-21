@@ -11,7 +11,7 @@ interface GameCardProps {
 }
 
 export default function GameCard({ game, locale, messages }: GameCardProps) {
-  const localizedHref = `/${locale}${game.href}`
+  const localizedHref = locale === 'en' ? game.href : `/${locale}${game.href}`
 
   return (
     <div className="game-card group">
