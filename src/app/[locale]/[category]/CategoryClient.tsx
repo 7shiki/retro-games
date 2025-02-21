@@ -117,6 +117,7 @@ export default function CategoryClient({
           {/* Games Grid */}
           <GameList
             games={currentGames}
+            locale={locale}
             showLoadMore={hasMore}
             onLoadMore={handleLoadMore}
             messages={{

@@ -1,38 +1,44 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from 'next/image'
+import { Game } from '@/utils/i18n'
 
 interface GameCardProps {
-  title: string
-  platform: string
-  imageUrl: string
-  href: string
+  game: Game
+  locale: string
+  messages: {
+    playGame: string
+  }
 }
 
-export default function GameCard({ title, platform, imageUrl, href }: GameCardProps) {
+export default function GameCard({ game, locale, messages }: GameCardProps) {
+  const localizedHref = `/${locale}${game.href}`
+
   return (
-    <div className="w-full">
-      <div className="group relative overflow-hidden rounded-lg bg-gray-800/50 transition-transform hover:scale-105">
-        <a href={href} className="block">
-          <div className="aspect-[4/3] relative">
-            <img
-              src={imageUrl}
-              alt={title}
-              className="object-cover w-full h-full"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-              <button className="absolute bottom-4 left-1/2 -translate-x-1/2 px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 transition-colors">
-                Play Now
-              </button>
-            </div>
+    <div className="game-card group">
+      <Link href={localizedHref} className="block">
+        <div className="relative aspect-[3/2] overflow-hidden">
+          <Image
+            src={game.imageUrl}
+            alt={game.title}
+            fill
+            className="object-cover transition-transform group-hover:scale-110"
+            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <button className="retro-button">
+              {messages.playGame}
+            </button>
           </div>
-          <div className="p-4">
-            <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">
-              {title}
-            </h3>
-            <span className="text-sm text-gray-400">{platform}</span>
-          </div>
-        </a>
-      </div>
+        </div>
+        <div className="p-4">
+          <h3 className="text-base font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">
+            {game.title}
+          </h3>
+          <span className="text-xs text-gray-400">
+            {game.platform}
+          </span>
+        </div>
+      </Link>
     </div>
   )
 }
