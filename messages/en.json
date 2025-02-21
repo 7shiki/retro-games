@@ -192,6 +192,59 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Service"
     },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit RetroGames.",
+      "lastUpdated": "Last Updated: February 20, 2025",
+      "intro": {
+        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
+        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
+        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
+        "text4": " (hereinafter, \"us\", \"we\", or \"RetroGames\")."
+      },
+      "collection": {
+        "title": "Information Collection",
+        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
+        "items": [
+          "Browser cookies essential for website functionality",
+          "Anonymous usage statistics to improve our service"
+        ]
+      },
+      "thirdParty": {
+        "title": "Third-Party Content",
+        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
+        "items": [
+          "All games are hosted on and streamed from third-party services",
+          "Game information, images, and descriptions are provided by third-party sources",
+          "We make no warranties regarding the accuracy or availability of this content"
+        ]
+      },
+      "cookies": {
+        "title": "Use of Cookies",
+        "description": "We use cookies to enhance your browsing experience. These cookies are:",
+        "items": [
+          "Essential for basic website functionality",
+          "Used to remember your display preferences",
+          "Not used for tracking or advertising purposes"
+        ],
+        "control": "You can control cookie settings through your browser preferences."
+      },
+      "links": {
+        "title": "External Links",
+        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
+        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
+      },
+      "updates": {
+        "title": "Policy Updates",
+        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
+        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "email": "support@retro-games.org"
+      }
+    },
     "contact": {
       "title": "Contact Us",
       "disclaimer": "Disclaimer: All games on this site are hosted by third parties. We do not host or upload any games. We are not responsible for any content hosted on third party websites. RetroGames is an independent website and is not affiliated with any organizations.",
