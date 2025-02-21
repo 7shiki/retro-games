@@ -43,283 +43,283 @@
   },
   "category": {
     "metadata": {
-      "title": "Play {company}{platform} Online - Retro Games",
-      "description": "Play {platform} games online for free in your browser. No download required. Enjoy classic {platform} games instantly.",
+      "title": "Chơi {company}{platform} Trực tuyến - Game Cổ điển",
+      "description": "Chơi game {platform} trực tuyến miễn phí trên trình duyệt của bạn. Không cần tải xuống. Thưởng thức ngay các game {platform} cổ điển.",
       "keywords": ""
     },
     "notFound": {
-      "title": "Category Not Found - RetroGames",
-      "description": "The requested game category could not be found."
+      "title": "Không Tìm Thấy Danh Mục - RetroGames",
+      "description": "Không thể tìm thấy danh mục game được yêu cầu."
     }
   },
   "platforms": {
     "nes": {
-      "alt": "Nintendo Entertainment System Games Online",
-      "description": "The Nintendo Entertainment System is an 8-bit home video game console that was developed and manufactured by Nintendo. It was initially released in Japan as the Family Computer on July 15, 1983, and was later released in North America during 1985, in Europe during 1986, and Australia in 1987. In South Korea, it was known as the Hyundai Comboy and was distributed by SK Hynix which then was known as Hyundai Electronics. It was succeeded by the Super Nintendo Entertainment System."
+      "alt": "Game Nintendo Entertainment System Trực Tuyến",
+      "description": "Nintendo Entertainment System là một máy chơi game điện tử 8-bit được phát triển và sản xuất bởi Nintendo. Ban đầu được phát hành tại Nhật Bản với tên Family Computer vào ngày 15 tháng 7 năm 1983, và sau đó được phát hành tại Bắc Mỹ trong năm 1985, tại Châu Âu trong năm 1986, và Úc vào năm 1987."
     },
     "fds": {
-      "alt": "Famicom Disk System Games Online",
-      "description": "The Famicom Disk System (FDS) is a Japan-exclusive add-on for the Family Computer (Famicom), released by Nintendo in 1986. It introduced rewritable floppy disk storage, allowing for expanded game sizes and save functionality, but was eventually discontinued due to the rise of cartridge-based games."
+      "alt": "Game Famicom Disk System Trực Tuyến",
+      "description": "Famicom Disk System (FDS) là một phụ kiện độc quyền của Nhật Bản cho Family Computer (Famicom), được Nintendo phát hành năm 1986. Nó giới thiệu khả năng lưu trữ đĩa mềm có thể ghi lại, cho phép mở rộng kích thước game và chức năng lưu trữ."
     },
     "snes": {
-      "alt": "Super Nintendo Entertainment System Games Online",
-      "description": "The Super Nintendo Entertainment System is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia, and 1993 in South America. In Japan, the system is called the Super Famicom, or SFC for short. In South Korea, it is known as the Super Comboy and was distributed by Hyundai Electronics. Although each version is essentially the same, several forms of regional lockout prevent the different versions from being compatible with one another. It was released in Brazil on September 2, 1992, by Playtronic."
+      "alt": "Game Super Nintendo Entertainment System Trực Tuyến",
+      "description": "Super Nintendo Entertainment System là một máy chơi game điện tử 16-bit được phát triển bởi Nintendo, được phát hành vào năm 1990 tại Nhật Bản và Hàn Quốc, năm 1991 tại Bắc Mỹ, năm 1992 tại Châu Âu và Úc Châu, và năm 1993 tại Nam Mỹ."
     },
     "gameboy": {
-      "alt": "Nintendo Game Boy Games Online",
-      "description": "The Game Boy is an 8-bit handheld video game device with interchangeable cartridges developed and manufactured by Nintendo, which was first released in Japan on April 21, 1989, in North America on July 31, 1989 and in Europe on September 28, 1990. It is the first handheld console in the Game Boy line and was created by Gunpei Yokoi and Nintendo Research & Development 1. This is the same staff credited with designing the Game & Watch series as well as several popular games for the Nintendo Entertainment System. Redesigned versions were released in 1996 and 1998 in the form of Game Boy Pocket and Game Boy Light, respectively."
+      "alt": "Game Nintendo Game Boy Trực Tuyến",
+      "description": "Game Boy là một thiết bị chơi game cầm tay 8-bit với các băng game có thể thay đổi được phát triển và sản xuất bởi Nintendo, lần đầu tiên được phát hành tại Nhật Bản vào ngày 21 tháng 4 năm 1989, tại Bắc Mỹ vào ngày 31 tháng 7 năm 1989 và tại Châu Âu vào ngày 28 tháng 9 năm 1990."
     },
     "gameboycolor": {
-      "alt": "Nintendo Game Boy Color Games Online",
-      "description": "The Game Boy Color, referred to as GBC, is a handheld game console manufactured by Nintendo, which was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy."
+      "alt": "Game Nintendo Game Boy Color Trực Tuyến",
+      "description": "Game Boy Color, viết tắt là GBC, là một máy chơi game cầm tay được sản xuất bởi Nintendo, được phát hành vào ngày 21 tháng 10 năm 1998 tại Nhật Bản và vào tháng 11 cùng năm tại thị trường quốc tế. Đây là phiên bản kế nhiệm của Game Boy."
     },
     "gameboyadvance": {
-      "alt": "Nintendo Game Boy Advance Games Online",
-      "description": "The Game Boy Advance (abbreviated as GBA) is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color. It was released in Japan on March 21, 2001, in North America on June 11, 2001, in Australia and Europe on June 22, 2001, and in the People's Republic of China on June 8, 2004 (excluding Hong Kong). Nintendo's competitors in the handheld market at the time were the Neo Geo Pocket Color, WonderSwan, GP32, Tapwave Zodiac, and the N-Gage. Despite the competitors' best efforts, Nintendo maintained a majority market share with the Game Boy Advance."
+      "alt": "Game Nintendo Game Boy Advance Trực Tuyến",
+      "description": "Game Boy Advance (viết tắt là GBA) là một máy chơi game cầm tay 32-bit được phát triển, sản xuất và tiếp thị bởi Nintendo như người kế nhiệm của Game Boy Color. Nó được phát hành tại Nhật Bản vào ngày 21 tháng 3 năm 2001, tại Bắc Mỹ vào ngày 11 tháng 6 năm 2001, tại Úc và Châu Âu vào ngày 22 tháng 6 năm 2001."
     },
     "n64": {
-      "alt": "Nintendo 64 Games Online",
-      "description": "The Nintendo 64 (N64) is a fifth-generation home video game console developed by Nintendo and released in 1996 in Japan and North America, and 1997 in Europe and Australia. It was the first Nintendo console to feature 3D graphics and used cartridges instead of CDs, competing with the PlayStation and Sega Saturn."
+      "alt": "Game Nintendo 64 Trực Tuyến",
+      "description": "Nintendo 64 (N64) là một máy chơi game điện tử thế hệ thứ năm được phát triển bởi Nintendo và phát hành vào năm 1996 tại Nhật Bản và Bắc Mỹ, và năm 1997 tại Châu Âu và Úc. Đây là máy chơi game Nintendo đầu tiên có đồ họa 3D và sử dụng băng game thay vì đĩa CD, cạnh tranh với PlayStation và Sega Saturn."
     },
     "nds": {
-      "alt": "Nintendo DS Games Online",
-      "description": "The Nintendo DS (NDS) is a dual-screen handheld gaming console released by Nintendo in 2004. Featuring a touchscreen, wireless connectivity, and backward compatibility with Game Boy Advance games, it became one of the best-selling gaming systems of all time."
+      "alt": "Game Nintendo DS Trực Tuyến",
+      "description": "Nintendo DS (NDS) là một máy chơi game cầm tay hai màn hình được phát hành bởi Nintendo vào năm 2004. Với màn hình cảm ứng, kết nối không dây và khả năng tương thích ngược với các game Game Boy Advance, nó trở thành một trong những hệ thống chơi game bán chạy nhất mọi thời đại."
     },
     "master-system": {
-      "alt": "Sega Master System Games Online",
-      "description": "The Sega Master System is an 8-bit home video game console developed by Sega, first released in 1985 in Japan as the Sega Mark III, and later rebranded as the Master System for its international release. It was a competitor to the Nintendo Entertainment System but achieved greater success in Europe and Brazil."
+      "alt": "Game Sega Master System Trực Tuyến",
+      "description": "Sega Master System là một máy chơi game điện tử 8-bit được phát triển bởi Sega, lần đầu tiên được phát hành năm 1985 tại Nhật Bản với tên Sega Mark III, và sau đó được đổi tên thành Master System cho phiên bản quốc tế. Nó là đối thủ cạnh tranh của Nintendo Entertainment System nhưng đạt được thành công lớn hơn tại Châu Âu và Brazil."
     },
     "game-gear": {
-      "alt": "Sega Game Gear Games Online",
-      "description": "The Game Gear is an 8-bit handheld game console released by Sega on October 6, 1990 in Japan, 1991 in North America and Europe, and Australia in 1992. The Game Gear primarily competed with Nintendo's Game Boy, the Atari Lynx and NEC's TurboExpress. The handheld shares much of its hardware with the Master System and is able to play its own titles as well as those of the Master System, the latter being made possible by the use of an adapter. Containing a full-color backlit screen with a landscape format, Sega positioned the Game Gear as a technologically superior handheld to the Game Boy."
+      "alt": "Game Sega Game Gear Trực Tuyến",
+      "description": "Game Gear là một máy chơi game cầm tay 8-bit được phát hành bởi Sega vào ngày 6 tháng 10 năm 1990 tại Nhật Bản, năm 1991 tại Bắc Mỹ và Châu Âu, và năm 1992 tại Úc. Game Gear chủ yếu cạnh tranh với Game Boy của Nintendo, Atari Lynx và TurboExpress của NEC. Máy chia sẻ nhiều phần cứng với Master System và có thể chơi được cả game của riêng nó và game của Master System thông qua bộ chuyển đổi."
     },
     "genesis": {
-      "alt": "Sega Genesis/Mega Drive Games Online",
-      "description": "The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega's third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989. In 1990, the console was distributed as the Mega Drive by Virgin Mastertronic in Europe, by Ozisoft in Australasia, and by Tec Toy in Brazil. In South Korea, the systems were distributed by Samsung and were known as the Super Gam*Boy, and later the Super Aladdin Boy."
+      "alt": "Game Sega Genesis/Mega Drive Trực Tuyến",
+      "description": "Sega Genesis, được biết đến với tên Mega Drive ở hầu hết các khu vực ngoài Bắc Mỹ, là một máy chơi game điện tử 16-bit được phát triển và bán bởi Sega Enterprises, Ltd. Genesis là máy console thứ ba của Sega và là người kế nhiệm của Master System. Sega đầu tiên phát hành máy console như Mega Drive tại Nhật Bản năm 1988, tiếp theo là ra mắt tại Bắc Mỹ dưới tên Genesis năm 1989."
     },
     "sega32x": {
-      "alt": "Sega 32X Games Online",
-      "description": "The Sega 32X is an add-on for the Sega Genesis/Mega Drive released in 1994. It was designed to enhance the console's graphics and processing power, but it had a short lifespan due to the arrival of the Sega Saturn."
+      "alt": "Game Sega 32X Trực Tuyến",
+      "description": "Sega 32X là một phụ kiện cho Sega Genesis/Mega Drive được phát hành năm 1994. Nó được thiết kế để nâng cao đồ họa và sức mạnh xử lý của máy console, nhưng có tuổi thọ ngắn do sự xuất hiện của Sega Saturn."
     },
     "sega-cd": {
-      "alt": "Sega CD/Mega CD Games Online",
-      "description": "The Sega CD (Mega-CD outside North America) was a CD-ROM expansion for the Sega Genesis, released in 1991 in Japan and 1992 in North America. It introduced full-motion video and CD-quality audio but struggled due to high costs and limited game library."
+      "alt": "Game Sega CD/Mega CD Trực Tuyến",
+      "description": "Sega CD (Mega-CD ngoài Bắc Mỹ) là một phần mở rộng CD-ROM cho Sega Genesis, được phát hành năm 1991 tại Nhật Bản và năm 1992 tại Bắc Mỹ. Nó giới thiệu video chuyển động đầy đủ và âm thanh chất lượng CD nhưng gặp khó khăn do chi phí cao và thư viện game hạn chế."
     },
     "turbografx-16": {
-      "alt": "NEC TurboGrafx-16 Games Online",
-      "description": "The TurboGrafx-16 Entertainment SuperSystem, known in Japan and France as the PC Engine (PCエンジン Pī Shī Enjin), is a home video game console jointly developed by Hudson Soft and NEC Home Electronics, released in Japan on October 30, 1987 and in the United States on August 29, 1989. It also had a limited release in the United Kingdom and Spain in 1990, known as simply TurboGrafx and based on the American model, whilst the Japanese model was imported and distributed in France in 1989. It was the first console released in the 16-bit era, albeit still utilizing an 8-bit CPU. Originally intended to compete with the Nintendo Entertainment System (NES), it ended up competing with the Sega Genesis, and later on the Super Nintendo Entertainment System (SNES)."
+      "alt": "Game NEC TurboGrafx-16 Trực Tuyến",
+      "description": "TurboGrafx-16 Entertainment SuperSystem, được biết đến ở Nhật Bản và Pháp với tên PC Engine, là một máy chơi game điện tử được phát triển chung bởi Hudson Soft và NEC Home Electronics, phát hành tại Nhật Bản vào ngày 30 tháng 10 năm 1987 và tại Hoa Kỳ vào ngày 29 tháng 8 năm 1989."
     },
     "turbografx-cd": {
-      "alt": "NEC TurboGrafx-CD Games Online",
-      "description": "The TurboGrafx-CD is an add-on for the TurboGrafx-16/PC Engine, released in 1988 in Japan and later in North America. It introduced CD-based gaming to NEC's platform, allowing for higher quality audio and expanded game storage."
+      "alt": "Game NEC TurboGrafx-CD Trực Tuyến",
+      "description": "TurboGrafx-CD là một phụ kiện cho TurboGrafx-16/PC Engine, được phát hành năm 1988 tại Nhật Bản và sau đó tại Bắc Mỹ. Nó giới thiệu game dựa trên CD cho nền tảng của NEC, cho phép âm thanh chất lượng cao hơn và mở rộng dung lượng lưu trữ game."
     },
     "pc-engine-cd": {
-      "alt": "NEC PC Engine CD-ROM² Games Online",
-      "description": "The PC Engine CD-ROM² was the first CD-based console add-on, released in 1988 in Japan. It expanded the capabilities of the PC Engine, allowing for larger games with improved audio and animation, influencing future CD-based gaming systems."
+      "alt": "Game NEC PC Engine CD-ROM² Trực Tuyến",
+      "description": "PC Engine CD-ROM² là phụ kiện console dựa trên CD đầu tiên, được phát hành năm 1988 tại Nhật Bản. Nó mở rộng khả năng của PC Engine, cho phép game lớn hơn với âm thanh và hoạt ảnh được cải thiện, ảnh hưởng đến các hệ thống game dựa trên CD trong tương lai."
     },
     "atari-7800": {
-      "alt": "Atari 7800 ProSystem Games Online",
-      "description": "The Atari 7800 ProSystem is a home video game console released by Atari Corporation in 1986. It was designed to be backward compatible with Atari 2600 games while offering improved graphics and performance. Despite its capabilities, it struggled to compete against the Nintendo Entertainment System and the Sega Master System during its lifespan."
+      "alt": "Game Atari 7800 ProSystem Trực Tuyến",
+      "description": "Atari 7800 ProSystem là một máy chơi game điện tử gia đình được phát hành bởi Atari Corporation vào năm 1986. Nó được thiết kế để tương thích ngược với các game Atari 2600 trong khi cung cấp đồ họa và hiệu suất được cải thiện. Mặc dù có những khả năng này, nó đã gặp khó khăn trong việc cạnh tranh với Nintendo Entertainment System và Sega Master System trong suốt vòng đời của nó."
     },
     "atari-lynx": {
-      "alt": "Atari Lynx Handheld Games Online",
-      "description": "The Atari Lynx is a handheld game console released by Atari in 1989. It was the first handheld console with a color LCD screen and had advanced hardware for its time, including sprite scaling and multiplayer support. However, it faced stiff competition from the Nintendo Game Boy and Sega Game Gear, limiting its market success."
+      "alt": "Game Atari Lynx Cầm tay Trực Tuyến",
+      "description": "Atari Lynx là một máy chơi game cầm tay được phát hành bởi Atari vào năm 1989. Đây là máy console cầm tay đầu tiên có màn hình LCD màu và có phần cứng tiên tiến cho thời điểm đó, bao gồm khả năng co giãn sprite và hỗ trợ chơi nhiều người. Tuy nhiên, nó đã phải đối mặt với sự cạnh tranh gay gắt từ Nintendo Game Boy và Sega Game Gear, hạn chế thành công thị trường của nó."
     },
     "atari-jaguar": {
-      "alt": "Atari Jaguar Games Online",
-      "description": "The Atari Jaguar is a home video game console released in 1993 by Atari Corporation. Marketed as the first 64-bit gaming system, it boasted superior processing power compared to its 16-bit competitors. However, the Jaguar struggled due to a lack of developer support and strong competition from the Sony PlayStation and Sega Saturn, ultimately leading to Atari's exit from the console market."
+      "alt": "Game Atari Jaguar Trực Tuyến",
+      "description": "Atari Jaguar là một máy chơi game điện tử gia đình được phát hành năm 1993 bởi Atari Corporation. Được quảng cáo là hệ thống chơi game 64-bit đầu tiên, nó tự hào có sức mạnh xử lý vượt trội so với các đối thủ 16-bit. Tuy nhiên, Jaguar đã gặp khó khăn do thiếu sự hỗ trợ từ các nhà phát triển và sự cạnh tranh mạnh mẽ từ Sony PlayStation và Sega Saturn, cuối cùng dẫn đến việc Atari rút lui khỏi thị trường console."
     },
     "playstation": {
-      "alt": "Sony PlayStation Games Online",
-      "description": "The PlayStation (PS1) is a 32-bit home video game console released by Sony in 1994 in Japan and 1995 worldwide. It was the first console to sell over 100 million units and introduced CD-based gaming, 3D graphics, and a vast library of iconic games."
+      "alt": "Game Sony PlayStation Trực Tuyến",
+      "description": "PlayStation (PS1) là một máy chơi game điện tử 32-bit được Sony phát hành năm 1994 tại Nhật Bản và năm 1995 trên toàn thế giới. Đây là máy console đầu tiên bán được hơn 100 triệu đơn vị và giới thiệu game dựa trên CD, đồ họa 3D, và một thư viện game biểu tượng rộng lớn."
     },
     "arcade": {
-      "alt": "Classic Arcade Games Online",
-      "description": "Arcade games are coin-operated video games found in public places such as malls and arcades. Popular during the late 20th century, they include classics like Pac-Man, Street Fighter, and Metal Slug, many of which have been adapted for home consoles."
+      "alt": "Game Arcade Cổ điển Trực Tuyến",
+      "description": "Game arcade là những game điện tử hoạt động bằng tiền xu được tìm thấy ở những nơi công cộng như trung tâm thương mại và phòng game. Phổ biến trong cuối thế kỷ 20, chúng bao gồm những game kinh điển như Pac-Man, Street Fighter và Metal Slug, nhiều game trong số đó đã được chuyển thể cho các máy console gia đình."
     },
     "wonderswan": {
-      "alt": "Bandai WonderSwan Games Online",
-      "description": "The WonderSwan is a handheld game console released in 1999 by Bandai exclusively in Japan. Designed as a competitor to the Game Boy Color, it featured a unique vertical and horizontal screen orientation. An improved version, the WonderSwan Color, was released in 2000, offering a color display and better hardware capabilities. Despite its innovative design, it struggled to compete with Nintendo's dominance in the handheld market."
+      "alt": "Game Bandai WonderSwan Trực Tuyến",
+      "description": "WonderSwan là một máy chơi game cầm tay được phát hành năm 1999 bởi Bandai độc quyền tại Nhật Bản. Được thiết kế như một đối thủ cạnh tranh với Game Boy Color, nó có tính năng độc đáo là màn hình có thể xoay dọc và ngang. Một phiên bản cải tiến, WonderSwan Color, được phát hành năm 2000, cung cấp màn hình màu và khả năng phần cứng tốt hơn."
     },
     "neo-geo-pocket": {
-      "alt": "SNK Neo Geo Pocket Games Online",
-      "description": "The Neo Geo Pocket is a handheld game console released by SNK in 1998. It was later succeeded by the Neo Geo Pocket Color in 1999, which introduced a color screen and improved software support. The system featured high-quality arcade-style games, particularly from SNK's franchises like King of Fighters and Samurai Shodown, but it struggled against Nintendo's Game Boy lineup."
+      "alt": "Game SNK Neo Geo Pocket Trực Tuyến",
+      "description": "Neo Geo Pocket là một máy chơi game cầm tay được phát hành bởi SNK năm 1998. Sau đó được thay thế bởi Neo Geo Pocket Color vào năm 1999, giới thiệu màn hình màu và hỗ trợ phần mềm được cải thiện. Hệ thống có các game phong cách arcade chất lượng cao, đặc biệt là từ các thương hiệu của SNK như King of Fighters và Samurai Shodown."
     },
     "msx": {
-      "alt": "MSX Games Online",
-      "description": "The MSX is a home computer platform introduced in 1983 by Microsoft and ASCII Corporation to establish a standardized computing environment. It was particularly popular in Japan, Europe, and South America, serving as a platform for many early Konami and Hudson Soft games. The system played a significant role in the early development of franchises such as Metal Gear and Bomberman."
+      "alt": "Game MSX Trực Tuyến",
+      "description": "MSX là một nền tảng máy tính gia đình được giới thiệu năm 1983 bởi Microsoft và ASCII Corporation để thiết lập một môi trường máy tính tiêu chuẩn hóa. Nó đặc biệt phổ biến tại Nhật Bản, Châu Âu và Nam Mỹ, là nền tảng cho nhiều game ban đầu của Konami và Hudson Soft. Hệ thống đóng vai trò quan trọng trong sự phát triển ban đầu của các thương hiệu như Metal Gear và Bomberman."
     },
     "msx-2": {
-      "alt": "MSX 2 Games Online",
-      "description": "The MSX2 is an upgraded version of the original MSX computer standard, released in 1985. It featured improved graphics capabilities, including support for higher resolutions and a larger color palette, making it a more powerful gaming and computing system. Many classic games, such as Metal Gear 2: Solid Snake, were developed for the MSX2, showcasing its advanced hardware for the time."
+      "alt": "Game MSX 2 Trực Tuyến",
+      "description": "MSX2 là phiên bản nâng cấp của tiêu chuẩn máy tính MSX gốc, được phát hành năm 1985. Nó có khả năng đồ họa được cải thiện, bao gồm hỗ trợ độ phân giải cao hơn và bảng màu lớn hơn, làm cho nó trở thành một hệ thống chơi game và máy tính mạnh mẽ hơn. Nhiều game kinh điển, như Metal Gear 2: Solid Snake, đã được phát triển cho MSX2."
     }
   },
   "game": {
     "metadata": {
-      "title": "Play {title} Online. No download required - Retro Games",
-      "description": "Play {title} ({platform}) online for free in your browser. No download required.",
+      "title": "Chơi {title} Trực tuyến. Không cần tải xuống - Game Cổ điển",
+      "description": "Chơi {title} ({platform}) trực tuyến miễn phí trên trình duyệt của bạn. Không cần tải xuống.",
       "keywords": ""
     },
     "notFound": {
-      "title": "Game Not Found - RetroGames",
-      "description": "The requested game could not be found."
+      "title": "Không Tìm Thấy Game - RetroGames",
+      "description": "Không thể tìm thấy game được yêu cầu."
     },
     "relatedGames": {
-      "title": "You may be interested in",
-      "heading": "Related Games"
+      "title": "Bạn có thể quan tâm",
+      "heading": "Game Liên Quan"
     },
     "page": {
-      "description": "Play {title} online in your browser. No download required.",
-      "shareText": "Play {title} online for free in your browser! No download required.",
+      "description": "Chơi {title} trực tuyến trên trình duyệt của bạn. Không cần tải xuống.",
+      "shareText": "Chơi {title} trực tuyến miễn phí trên trình duyệt của bạn! Không cần tải xuống.",
       "share": {
-        "label": "Share",
-        "twitter": "Share on Twitter",
-        "facebook": "Share on Facebook",
-        "reddit": "Share on Reddit",
-        "linkedin": "Share on LinkedIn"
+        "label": "Chia sẻ",
+        "twitter": "Chia sẻ trên Twitter",
+        "facebook": "Chia sẻ trên Facebook",
+        "reddit": "Chia sẻ trên Reddit",
+        "linkedin": "Chia sẻ trên LinkedIn"
       },
-      "playButton": "Play Game",
-      "about": "About {title} :",
+      "playButton": "Chơi Game",
+      "about": "Về {title} :",
       "breadcrumb": {
-        "home": "Home"
+        "home": "Trang chủ"
       }
     }
   },
   "footer": {
-    "description": "Experience the nostalgia of Retro Games on our website, where you can relive childhood memories with classic titles from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade—all playable online! No download required.",
+    "description": "Trải nghiệm hoài niệm với Game Cổ điển trên trang web của chúng tôi, nơi bạn có thể sống lại những kỷ niệm tuổi thơ với những tựa game kinh điển từ Nintendo, Sega, NEC, Atari, PlayStation và Arcade—tất cả đều có thể chơi trực tuyến! Không cần tải xuống.",
     "others": {
-      "title": "Others",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "title": "Khác",
+      "privacy": "Chính sách Bảo mật",
+      "terms": "Điều khoản Dịch vụ"
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Please read these Terms of Service carefully before using RetroGames.",
-      "lastUpdated": "Last Updated: February 20, 2025",
+      "title": "Điều khoản Dịch vụ",
+      "description": "Vui lòng đọc kỹ các Điều khoản Dịch vụ này trước khi sử dụng RetroGames.",
+      "lastUpdated": "Cập nhật Lần cuối: Ngày 20 tháng 2 năm 2025",
       "intro": {
-        "text1": "Welcome to ",
-        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
+        "text1": "Chào mừng đến với ",
+        "text2": ". Bằng việc truy cập và sử dụng trang web này, bạn chấp nhận và đồng ý bị ràng buộc bởi các điều khoản và điều khoản của thỏa thuận này."
       },
       "service": {
-        "title": "Service Description",
-        "text1": " provides a platform for users to play retro games through their web browsers. Our service includes:",
+        "title": "Mô tả Dịch vụ",
+        "text1": " cung cấp nền tảng cho người dùng chơi game cổ điển thông qua trình duyệt web của họ. Dịch vụ của chúng tôi bao gồm:",
         "items": [
-          "Browser-based retro game emulation",
-          "Game information and descriptions",
-          "Related gaming content"
+          "Giả lập game cổ điển trên trình duyệt",
+          "Thông tin và mô tả game",
+          "Nội dung game liên quan"
         ]
       },
       "content": {
-        "title": "Content and Copyright",
-        "text1": "All games and related content available through our service are:",
+        "title": "Nội dung và Bản quyền",
+        "text1": "Tất cả các game và nội dung liên quan có sẵn thông qua dịch vụ của chúng tôi là:",
         "items": [
-          "Sourced from and hosted by third-party services",
-          "Subject to their respective owners' copyrights and intellectual property rights",
-          "Not owned or controlled by RetroGames"
+          "Được cung cấp và lưu trữ bởi các dịch vụ bên thứ ba",
+          "Tuân theo bản quyền và quyền sở hữu trí tuệ của chủ sở hữu tương ứng",
+          "Không thuộc sở hữu hoặc kiểm soát bởi RetroGames"
         ],
-        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
+        "text2": "Chúng tôi không tuyên bố quyền sở hữu đối với bất kỳ game, ROM hoặc nội dung liên quan nào được cung cấp thông qua dịch vụ của chúng tôi. Tất cả các nhãn hiệu, nhãn hiệu dịch vụ và tên thương mại đều là tài sản của chủ sở hữu tương ứng."
       },
       "disclaimer": {
-        "title": "Disclaimer",
-        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. RetroGames does not warrant that:",
+        "title": "Tuyên bố Từ chối Trách nhiệm",
+        "text1": "Dịch vụ của chúng tôi được cung cấp \"nguyên trạng\" mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngầm định. RetroGames không đảm bảo rằng:",
         "items": [
-          "The service will be uninterrupted or error-free",
-          "Games or content will always be available",
-          "Any errors or defects will be corrected"
+          "Dịch vụ sẽ không bị gián đoạn hoặc không có lỗi",
+          "Game hoặc nội dung sẽ luôn có sẵn",
+          "Bất kỳ lỗi hoặc khiếm khuyết nào sẽ được sửa chữa"
         ],
-        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
+        "text2": "Chúng tôi không chịu trách nhiệm về bất kỳ nội dung nào được cung cấp bởi bên thứ ba hoặc về bất kỳ lỗi hoặc thiếu sót nào trong nội dung."
       },
       "conduct": {
-        "title": "User Conduct",
-        "text1": "By using our service, you agree not to:",
+        "title": "Quy tắc Ứng xử của Người dùng",
+        "text1": "Bằng việc sử dụng dịch vụ của chúng tôi, bạn đồng ý không:",
         "items": [
-          "Use the service for any unlawful purpose",
-          "Attempt to gain unauthorized access to any part of the service",
-          "Interfere with or disrupt the service or servers",
-          "Circumvent, disable, or otherwise interfere with security features"
+          "Sử dụng dịch vụ cho bất kỳ mục đích bất hợp pháp nào",
+          "Cố gắng truy cập trái phép vào bất kỳ phần nào của dịch vụ",
+          "Can thiệp hoặc phá hoại dịch vụ hoặc máy chủ",
+          "Phá vỡ, vô hiệu hóa hoặc can thiệp vào các tính năng bảo mật"
         ]
       },
       "modifications": {
-        "title": "Modifications to Service",
-        "text1": "We reserve the right to:",
+        "title": "Thay đổi Dịch vụ",
+        "text1": "Chúng tôi bảo lưu quyền:",
         "items": [
-          "Modify or discontinue any part of our service without notice",
-          "Update these terms of service at any time",
-          "Change the games and content available through our service"
+          "Sửa đổi hoặc ngừng bất kỳ phần nào của dịch vụ mà không cần thông báo",
+          "Cập nhật các điều khoản dịch vụ này bất cứ lúc nào",
+          "Thay đổi các game và nội dung có sẵn thông qua dịch vụ của chúng tôi"
         ],
-        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
+        "text2": "Việc bạn tiếp tục sử dụng dịch vụ sau bất kỳ thay đổi nào đồng nghĩa với việc bạn chấp nhận những thay đổi đó."
       },
       "governing": {
-        "title": "Governing Law",
-        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
+        "title": "Luật Điều chỉnh",
+        "text1": "Các điều khoản này sẽ được điều chỉnh và giải thích theo luật pháp hiện hành, không phụ thuộc vào các nguyên tắc xung đột pháp luật."
       },
       "contact": {
-        "title": "Contact",
-        "text1": "For any questions regarding these terms, please contact us at:"
+        "title": "Liên hệ",
+        "text1": "Đối với bất kỳ câu hỏi nào về các điều khoản này, vui lòng liên hệ với chúng tôi tại:"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit RetroGames.",
-      "lastUpdated": "Last Updated: February 20, 2025",
+      "title": "Chính sách Bảo mật",
+      "description": "Chính sách Bảo mật này mô tả cách thông tin cá nhân của bạn được thu thập, sử dụng và chia sẻ khi bạn truy cập RetroGames.",
+      "lastUpdated": "Cập nhật Lần cuối: Ngày 20 tháng 2 năm 2025",
       "intro": {
-        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
-        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
-        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
-        "text4": " (hereinafter, \"us\", \"we\", or \"RetroGames\")."
+        "text1": "Chính sách của chúng tôi là tôn trọng quyền riêng tư của bạn đối với bất kỳ thông tin nào chúng tôi có thể thu thập trong quá trình vận hành trang web của mình. ",
+        "text2": " tôn trọng quyền riêng tư của bạn và cam kết bảo vệ mọi thông tin bạn có thể cung cấp cho chúng tôi thông qua trang web này.",
+        "text3": "Chính sách Bảo mật này giải thích những thông tin chúng tôi thu thập, cách chúng tôi sử dụng và trong những trường hợp nào chúng tôi có thể tiết lộ cho bên thứ ba. Chính sách Bảo mật này áp dụng cho ",
+        "text4": " (sau đây gọi là \"chúng tôi\" hoặc \"RetroGames\")."
       },
       "collection": {
-        "title": "Information Collection",
-        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
+        "title": "Thu thập Thông tin",
+        "description": "Trang web của chúng tôi không yêu cầu đăng ký hoặc đăng nhập người dùng. Chúng tôi không thu thập bất kỳ thông tin nhận dạng cá nhân nào từ người dùng. Chỉ có dữ liệu chúng tôi thu thập là:",
         "items": [
-          "Browser cookies essential for website functionality",
-          "Anonymous usage statistics to improve our service"
+          "Cookie trình duyệt cần thiết cho chức năng của trang web",
+          "Thống kê sử dụng ẩn danh để cải thiện dịch vụ của chúng tôi"
         ]
       },
       "thirdParty": {
-        "title": "Third-Party Content",
-        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
+        "title": "Nội dung Bên thứ ba",
+        "description": "Các game và nội dung liên quan có sẵn trên trang web của chúng tôi được lấy từ các nền tảng bên thứ ba. Chúng tôi không tuyên bố quyền sở hữu đối với nội dung này và:",
         "items": [
-          "All games are hosted on and streamed from third-party services",
-          "Game information, images, and descriptions are provided by third-party sources",
-          "We make no warranties regarding the accuracy or availability of this content"
+          "Tất cả game được lưu trữ và phát trực tuyến từ các dịch vụ bên thứ ba",
+          "Thông tin game, hình ảnh và mô tả được cung cấp bởi các nguồn bên thứ ba",
+          "Chúng tôi không đảm bảo về tính chính xác hoặc sự sẵn có của nội dung này"
         ]
       },
       "cookies": {
-        "title": "Use of Cookies",
-        "description": "We use cookies to enhance your browsing experience. These cookies are:",
+        "title": "Sử dụng Cookie",
+        "description": "Chúng tôi sử dụng cookie để nâng cao trải nghiệm duyệt web của bạn. Những cookie này là:",
         "items": [
-          "Essential for basic website functionality",
-          "Used to remember your display preferences",
-          "Not used for tracking or advertising purposes"
+          "Cần thiết cho chức năng cơ bản của trang web",
+          "Được sử dụng để ghi nhớ tùy chọn hiển thị của bạn",
+          "Không được sử dụng cho mục đích theo dõi hoặc quảng cáo"
         ],
-        "control": "You can control cookie settings through your browser preferences."
+        "control": "Bạn có thể kiểm soát cài đặt cookie thông qua tùy chọn trình duyệt của bạn."
       },
       "links": {
-        "title": "External Links",
-        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
-        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
+        "title": "Liên kết Ngoài",
+        "description": "Trang web của chúng tôi chứa các liên kết đến các trang web bên ngoài không được vận hành bởi chúng tôi. Nếu bạn nhấp vào liên kết của bên thứ ba, bạn sẽ được chuyển hướng đến trang web của bên thứ ba đó. Chúng tôi khuyến nghị bạn nên xem xét Chính sách Bảo mật và Điều khoản Dịch vụ của mọi trang web bạn truy cập.",
+        "disclaimer": "Chúng tôi không kiểm soát và không chịu trách nhiệm về nội dung, chính sách bảo mật hoặc thực tiễn của bất kỳ trang web, sản phẩm hoặc dịch vụ bên thứ ba nào."
       },
       "updates": {
-        "title": "Policy Updates",
-        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
-        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+        "title": "Cập nhật Chính sách",
+        "description": "Chúng tôi có thể cập nhật Chính sách Bảo mật này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng Chính sách Bảo mật mới trên trang này. Bạn nên xem xét Chính sách Bảo mật này định kỳ để biết các thay đổi.",
+        "consent": "Việc bạn tiếp tục sử dụng trang web của chúng tôi sau khi chúng tôi đăng bất kỳ sửa đổi nào đối với Chính sách Bảo mật sẽ cấu thành sự thừa nhận của bạn về các sửa đổi và sự đồng ý của bạn để tuân theo và bị ràng buộc bởi Chính sách Bảo mật đã sửa đổi."
       },
       "contact": {
-        "title": "Contact Us",
-        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "title": "Liên hệ với Chúng tôi",
+        "description": "Nếu bạn có bất kỳ câu hỏi nào về Chính sách Bảo mật này, vui lòng liên hệ với chúng tôi thông qua trang web của chúng tôi.",
         "email": "support@retro-games.org"
       }
     },
     "contact": {
-      "title": "Contact Us",
-      "disclaimer": "Disclaimer: All games on this site are hosted by third parties. We do not host or upload any games. We are not responsible for any content hosted on third party websites. RetroGames is an independent website and is not affiliated with any organizations.",
-      "rights": "All rights reserved."
+      "title": "Liên hệ với Chúng tôi",
+      "disclaimer": "Tuyên bố từ chối trách nhiệm: Tất cả các game trên trang web này được lưu trữ bởi các bên thứ ba. Chúng tôi không lưu trữ hoặc tải lên bất kỳ game nào. Chúng tôi không chịu trách nhiệm về bất kỳ nội dung nào được lưu trữ trên các trang web của bên thứ ba. RetroGames là một trang web độc lập và không liên kết với bất kỳ tổ chức nào.",
+      "rights": "Bảo lưu mọi quyền."
     }
   },
   "search": {
-    "placeholder": "Search Retro Games ...",
-    "clearSearch": "Clear search",
-    "search": "Search"
+    "placeholder": "Tìm kiếm Game Cổ điển ...",
+    "clearSearch": "Xóa tìm kiếm",
+    "search": "Tìm kiếm"
   }
 }

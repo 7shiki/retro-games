@@ -44,7 +44,7 @@
     ],
     "popularGames": [
       {
-          "id": 1,
+          "id": 10001,
           "title": "Tekken 3",
           "platform": "PlayStation",
           "imageUrl": "/images/games/Tekken 3.png",
@@ -55,7 +55,7 @@
     ],
     "newGames": [
       {
-          "id": 1,
+          "id": 20001,
           "title": "Tekken 3",
           "platform": "PlayStation",
           "imageUrl": "/images/games/Tekken 3.png",

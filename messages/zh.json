@@ -1,44 +1,44 @@
 {
   "home": {
     "metadata": {
-      "title": "复古游戏 Retro Games - 在线玩复古游戏，无需下载",
-      "description": "在浏览器中在线玩 NES、SNES、GB、GBC、GBA、世嘉、PS1 和经典街机游戏。免费且无需下载。",
+      "title": "🎮 复古游戏 - 在线玩经典游戏。无需下载。",
+      "description": "在浏览器中在线玩 NES、SNES、GB、GBC、GBA、SEGA Genesis、PSX、PS1 和经典街机游戏。免费且无需下载。",
       "keywords": "复古游戏,经典游戏,在线游戏,NES游戏,SNES游戏,Game Boy游戏,世嘉游戏,PlayStation游戏,街机游戏",
       "og": {
         "title": "复古游戏 - 在线玩经典游戏",
-        "description": "在浏览器中在线玩 NES、SNES、GB、GBC、GBA、世嘉、PS1 和经典街机游戏。免费且无需下载。",
+        "description": "在浏览器中在线玩 NES、SNES、GB、GBC、GBA、SEGA Genesis、PSX、PS1 和经典街机游戏。免费且无需下载。",
         "imageAlt": "复古游戏 - 经典游戏合集"
       }
     },
     "hero": {
       "title": {
-        "play": "开始玩",
+        "play": "游玩",
         "retroGames": "复古游戏"
       },
-      "description": "重温您童年的欢乐和怀旧，我们的复古游戏收藏包括来自任天堂、世嘉、NEC、雅达利、PlayStation 和街机的经典游戏。无需下载。"
+      "description": "重温您童年的欢乐和怀旧时光，体验我们的复古游戏合集，包含来自任天堂、世嘉、NEC、雅达利、PlayStation 和街机的永恒经典。无需下载。"
     }
   },
   "games": {
-    "popularGames": "最受欢迎的复古游戏",
+    "popularGames": "最热门复古游戏",
     "newGames": "最新复古游戏",
-    "viewAll": "查看全部游戏",
+    "viewAll": "查看所有复古游戏",
     "playGame": "开始游戏",
     "loadMore": "加载更多游戏",
     "updatedDaily": "每日更新"
   },
   "allGames": {
     "metadata": {
-      "title": "所有复古游戏 - 在线玩经典游戏",
-      "description": "浏览并游玩我们完整的复古游戏收藏",
+      "title": "Retro-Games.org - 所有复古游戏。在线玩经典游戏",
+      "description": "浏览我们完整的经典复古游戏合集，包含任天堂、世嘉、PlayStation 等平台的游戏。在线玩您最爱的复古游戏。",
       "keywords": ""
     },
     "title": "所有复古游戏",
-    "description": "浏览我们完整的在线复古游戏收藏。",
-    "subDescription": "重温您的童年记忆，重现那些神奇的游戏时刻。",
+    "description": "浏览我们可供在线游玩的完整经典复古游戏合集。",
+    "subDescription": "重新发现您的童年回忆，重温那些神奇的游戏时刻。",
     "browseGames": "浏览游戏",
     "allPlatforms": "所有平台",
-    "foundGames": "找到 {count} 个游戏{platform}{query}",
-    "noGamesFound": "没有找到符合条件的游戏。",
+    "foundGames": "找到 {count} 个符合{platform}{query}条件的游戏",
+    "noGamesFound": "找不到符合您条件的游戏。",
     "clearSearch": "清除搜索"
   },
   "category": {
@@ -54,104 +54,104 @@
   },
   "platforms": {
     "nes": {
-      "alt": "Nintendo Entertainment System Games Online",
-      "description": "任天堂娱乐系统是一款由任天堂开发的8位家用视频游戏机。它在1983年7月15日在日本首次推出，称为Family Computer，后来在1985年在美国、1986年在欧洲和1987年在澳大利亚推出。在韩国，它被称为Hyundai Comboy，并由SK Hynix分销，该公司后来被称为Hyundai Electronics。它被超级任天堂娱乐系统取代。"
+      "alt": "任天堂红白机游戏在线玩",
+      "description": "任天堂红白机（Nintendo Entertainment System）是一款由任天堂开发和制造的 8 位家用游戏机。最初于 1983 年 7 月 15 日在日本以 Family Computer 的名称发售，随后于 1985 年在北美、1986 年在欧洲和 1987 年在澳大利亚发售。在韩国，它被称为现代 Comboy，由当时被称为现代电子的 SK 海力士分销。"
     },
     "fds": {
-      "alt": "Famicom Disk System Games Online",
-      "description": "The Famicom Disk System (FDS) is a Japan-exclusive add-on for the Family Computer (Famicom), released by Nintendo in 1986. It introduced rewritable floppy disk storage, allowing for expanded game sizes and save functionality, but was eventually discontinued due to the rise of cartridge-based games."
+      "alt": "任天堂红白机磁盘机游戏在线玩",
+      "description": "任天堂红白机磁盘机（Famicom Disk System，简称 FDS）是任天堂于 1986 年在日本发售的红白机专用扩展配件。它引入了可重写的软盘存储功能，允许更大的游戏容量和存档功能，但最终因卡带游戏的兴起而停产。"
     },
     "snes": {
-      "alt": "Super Nintendo Entertainment System Games Online",
-      "description": "The Super Nintendo Entertainment System is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia, and 1993 in South America. In Japan, the system is called the Super Famicom, or SFC for short. In South Korea, it is known as the Super Comboy and was distributed by Hyundai Electronics."
+      "alt": "超级任天堂游戏在线玩",
+      "description": "超级任天堂（Super Nintendo Entertainment System）是一款由任天堂开发的 16 位家用游戏机，于 1990 年在日本和韩国、1991 年在北美、1992 年在欧洲和大洋洲、1993 年在南美洲发售。在日本，该系统被称为 Super Famicom（简称 SFC）。"
     },
     "gameboy": {
-      "alt": "Nintendo Game Boy Games Online",
-      "description": "The Game Boy is an 8-bit handheld video game device developed and manufactured by Nintendo, which was first released in Japan on April 21, 1989, in North America on July 31, 1989 and in Europe on September 28, 1990. It is the first handheld console in the Game Boy line and was created by Gunpei Yokoi and Nintendo Research & Development 1."
+      "alt": "任天堂 Game Boy 游戏在线玩",
+      "description": "Game Boy 是一款由任天堂开发和制造的 8 位掌上游戏机，具有可更换卡带功能。它于 1989 年 4 月 21 日在日本首次发售，1989 年 7 月 31 日在北美发售，1990 年 9 月 28 日在欧洲发售。这是 Game Boy 系列的第一款掌上游戏机，由横井军平和任天堂研发一部开发。"
     },
     "gameboycolor": {
-      "alt": "Nintendo Game Boy Color Games Online",
-      "description": "The Game Boy Color, referred to as GBC, is a handheld game console manufactured by Nintendo, which was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy."
+      "alt": "任天堂 Game Boy Color 游戏在线玩",
+      "description": "Game Boy Color（简称 GBC）是由任天堂制造的掌上游戏机，于 1998 年 10 月 21 日在日本发售，同年 11 月在国际市场发售。这是 Game Boy 的后继机种。"
     },
     "gameboyadvance": {
-      "alt": "Nintendo Game Boy Advance Games Online",
-      "description": "The Game Boy Advance (abbreviated as GBA) is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color. It was released in Japan on March 21, 2001, in North America on June 11, 2001, in Australia and Europe on June 22, 2001."
+      "alt": "任天堂 Game Boy Advance 游戏在线玩",
+      "description": "Game Boy Advance（简称 GBA）是一款 32 位掌上游戏机，由任天堂开发、制造和销售，作为 Game Boy Color 的后继机种。它于 2001 年 3 月 21 日在日本发售，2001 年 6 月 11 日在北美发售，2001 年 6 月 22 日在澳大利亚和欧洲发售。"
     },
     "n64": {
-      "alt": "Nintendo 64 Games Online",
-      "description": "The Nintendo 64 (N64) is a fifth-generation home video game console developed by Nintendo and released in 1996 in Japan and North America, and 1997 in Europe and Australia. It was the first Nintendo console to feature 3D graphics and used cartridges instead of CDs, competing with the PlayStation and Sega Saturn."
+      "alt": "任天堂 64 游戏在线玩",
+      "description": "任天堂 64（N64）是任天堂开发的第五代家用游戏机，于 1996 年在日本和北美发售，1997 年在欧洲和澳大利亚发售。这是任天堂第一款具有 3D 图形功能的游戏机，使用卡带而不是 CD，与 PlayStation 和世嘉土星竞争。"
     },
     "nds": {
-      "alt": "Nintendo DS Games Online",
-      "description": "The Nintendo DS (NDS) is a dual-screen handheld gaming console released by Nintendo in 2004. Featuring a touchscreen, wireless connectivity, and backward compatibility with Game Boy Advance games, it became one of the best-selling gaming systems of all time."
+      "alt": "任天堂 DS 游戏在线玩",
+      "description": "任天堂 DS（NDS）是任天堂于 2004 年发售的双屏幕掌上游戏机。具有触控屏幕、无线连接功能，并且可以向下兼容 Game Boy Advance 游戏，成为有史以来最畅销的游戏系统之一。"
     },
     "master-system": {
-      "alt": "Sega Master System Games Online",
-      "description": "The Sega Master System is an 8-bit home video game console developed by Sega, first released in 1985 in Japan as the Sega Mark III, and later rebranded as the Master System for its international release. It was a competitor to the Nintendo Entertainment System but achieved greater success in Europe and Brazil."
+      "alt": "世嘉 Master System 游戏在线玩",
+      "description": "世嘉 Master System 是世嘉开发的 8 位家用游戏机，最初于 1985 年在日本以 Sega Mark III 的名称发售，后来改名为 Master System 在国际市场发售。它是任天堂红白机的竞争对手，但在欧洲和巴西取得了更大的成功。"
     },
     "game-gear": {
-      "alt": "Sega Game Gear Games Online",
-      "description": "The Game Gear is an 8-bit handheld game console released by Sega on October 6, 1990 in Japan, 1991 in North America and Europe, and Australia in 1992. The Game Gear primarily competed with Nintendo's Game Boy, the Atari Lynx and NEC's TurboExpress. The handheld shares much of its hardware with the Master System and is able to play its own titles as well as those of the Master System."
+      "alt": "世嘉 Game Gear 游戏在线玩",
+      "description": "Game Gear 是世嘉于 1990 年 10 月 6 日在日本发售、1991 年在北美和欧洲发售、1992 年在澳大利亚发售的 8 位掌上游戏机。Game Gear 主要与任天堂的 Game Boy、雅达利的 Lynx 和 NEC 的 TurboExpress 竞争。这款掌机与 Master System 共享许多硬件，并且能够通过转接器玩自己的游戏以及 Master System 的游戏。"
     },
     "genesis": {
-      "alt": "Sega Genesis/Mega Drive Games Online",
-      "description": "The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega's third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989."
+      "alt": "世嘉 Genesis/Mega Drive 游戏在线玩",
+      "description": "世嘉 Genesis，在北美以外的大多数地区称为 Mega Drive，是一款由世嘉企业开发和销售的 16 位家用游戏机。Genesis 是世嘉的第三款游戏机，也是 Master System 的后继机种。世嘉最初于 1988 年在日本以 Mega Drive 的名称发售该游戏机，随后于 1989 年以 Genesis 的名称在北美发售。"
     },
     "sega32x": {
-      "alt": "Sega 32X Games Online",
-      "description": "The Sega 32X is an add-on for the Sega Genesis/Mega Drive released in 1994. It was designed to enhance the console's graphics and processing power, but it had a short lifespan due to the arrival of the Sega Saturn."
+      "alt": "世嘉 32X 游戏在线玩",
+      "description": "世嘉 32X 是 1994 年发售的世嘉 Genesis/Mega Drive 扩展配件。它旨在提升主机的图形和处理能力，但由于世嘉土星的推出而寿命短暂。"
     },
     "sega-cd": {
-      "alt": "Sega CD/Mega CD Games Online",
-      "description": "The Sega CD (Mega-CD outside North America) was a CD-ROM expansion for the Sega Genesis, released in 1991 in Japan and 1992 in North America. It introduced full-motion video and CD-quality audio but struggled due to high costs and limited game library."
+      "alt": "世嘉 CD/Mega CD 游戏在线玩",
+      "description": "世嘉 CD（在北美以外地区称为 Mega-CD）是世嘉 Genesis 的 CD-ROM 扩展配件，于 1991 年在日本发售，1992 年在北美发售。它引入了全动态视频和 CD 品质音频，但由于高成本和游戏库有限而表现不佳。"
     },
     "turbografx-16": {
-      "alt": "NEC TurboGrafx-16 Games Online",
-      "description": "The TurboGrafx-16, known in Japan as the PC Engine, is a home video game console developed by Hudson Soft and NEC, released in Japan in 1987 and North America in 1989. It was the first console released in the 16-bit era, although it used an 8-bit CPU. The system competed with the Sega Genesis and Super Nintendo Entertainment System."
+      "alt": "NEC TurboGrafx-16 游戏在线玩",
+      "description": "TurboGrafx-16，在日本称为 PC Engine，是由 Hudson Soft 和 NEC 开发的家用游戏机，于 1987 年在日本发售，1989 年在北美发售。它是 16 位时代发售的第一款游戏机，尽管使用 8 位 CPU。该系统与世嘉 Genesis 和超级任天堂竞争。"
     },
     "turbografx-cd": {
-      "alt": "NEC TurboGrafx-CD Games Online",
-      "description": "The TurboGrafx-CD is an add-on for the TurboGrafx-16/PC Engine, released in 1988 in Japan and later in North America. It introduced CD-based gaming to NEC's platform, allowing for higher quality audio and expanded game storage."
+      "alt": "NEC TurboGrafx-CD 游戏在线玩",
+      "description": "TurboGrafx-CD 是 TurboGrafx-16/PC Engine 的扩展配件，于 1988 年在日本发售，后来在北美发售。它为 NEC 的平台引入了基于 CD 的游戏，允许更高品质的音频和扩展的游戏存储。"
     },
     "pc-engine-cd": {
-      "alt": "NEC PC Engine CD-ROM² Games Online",
-      "description": "The PC Engine CD-ROM² was the first CD-based console add-on, released in 1988 in Japan. It expanded the capabilities of the PC Engine, allowing for larger games with improved audio and animation, influencing future CD-based gaming systems."
+      "alt": "NEC PC Engine CD-ROM² 游戏在线玩",
+      "description": "PC Engine CD-ROM² 是第一个基于 CD 的游戏机扩展配件，于 1988 年在日本发售。它扩展了 PC Engine 的功能，允许更大的游戏容量，改进的音频和动画，影响了未来基于 CD 的游戏系统。"
     },
     "atari-7800": {
-      "alt": "Atari 7800 ProSystem Games Online",
-      "description": "The Atari 7800 ProSystem is a home video game console released by Atari Corporation in 1986. It was designed to be backward compatible with Atari 2600 games while offering improved graphics and performance. Despite its capabilities, it struggled to compete against the Nintendo Entertainment System and the Sega Master System."
+      "alt": "雅达利 7800 ProSystem 游戏在线玩",
+      "description": "雅达利 7800 ProSystem 是雅达利公司于 1986 年发售的家用游戏机。它设计为可向下兼容雅达利 2600 的游戏，同时提供改进的图形和性能。尽管具有这些功能，但在其生命周期内仍难以与任天堂红白机和世嘉 Master System 竞争。"
     },
     "atari-lynx": {
-      "alt": "Atari Lynx Handheld Games Online",
-      "description": "The Atari Lynx is a handheld game console released by Atari in 1989. It was the first handheld console with a color LCD screen and had advanced hardware for its time, including sprite scaling and multiplayer support. However, it faced stiff competition from the Nintendo Game Boy and Sega Game Gear."
+      "alt": "雅达利 Lynx 掌上游戏机在线玩",
+      "description": "雅达利 Lynx 是雅达利于 1989 年发售的掌上游戏机。它是第一款具有彩色 LCD 屏幕的掌上游戏机，并具有当时先进的硬件，包括精灵缩放和多人游戏支持。然而，它面临来自任天堂 Game Boy 和世嘉 Game Gear 的激烈竞争。"
     },
     "atari-jaguar": {
-      "alt": "Atari Jaguar Games Online",
-      "description": "The Atari Jaguar is a home video game console released in 1993 by Atari Corporation. Marketed as the first 64-bit gaming system, it boasted superior processing power compared to its 16-bit competitors. However, the Jaguar struggled due to a lack of developer support and strong competition from the Sony PlayStation and Sega Saturn."
+      "alt": "雅达利 Jaguar 游戏在线玩",
+      "description": "雅达利 Jaguar 是雅达利公司于 1993 年发售的家用游戏机。作为第一款 64 位游戏系统进行营销，它相比 16 位竞争对手拥有更强大的处理能力。然而，由于缺乏开发者支持和来自索尼 PlayStation 和世嘉土星的强烈竞争，Jaguar 表现不佳，最终导致雅达利退出游戏机市场。"
     },
     "playstation": {
-      "alt": "Sony PlayStation Games Online",
-      "description": "The PlayStation (PS1) is a 32-bit home video game console released by Sony in 1994 in Japan and 1995 worldwide. It was the first console to sell over 100 million units and introduced CD-based gaming, 3D graphics, and a vast library of iconic games that revolutionized the gaming industry."
+      "alt": "索尼 PlayStation 游戏在线玩",
+      "description": "PlayStation（PS1）是一款 32 位家用游戏机，由索尼于 1994 年在日本发售，1995 年在全球发售。它是第一款销量超过 1 亿台的游戏机，引入了基于 CD 的游戏、3D 图形，并拥有庞大的经典游戏库，彻底改变了游戏产业。"
     },
     "arcade": {
-      "alt": "Classic Arcade Games Online",
-      "description": "Arcade games are coin-operated entertainment machines typically installed in public businesses. The golden age of arcade video games was defined by classics like Pac-Man, Space Invaders, and Donkey Kong, which laid the foundation for modern gaming and continue to influence game design today."
+      "alt": "经典街机游戏在线玩",
+      "description": "街机游戏是在商业场所安装的投币式娱乐设备。街机游戏的黄金时代以吃豆人、太空侵略者和大金刚等经典游戏为代表，这些游戏为现代游戏奠定了基础，至今仍影响着游戏设计。"
     },
     "wonderswan": {
-      "alt": "Bandai WonderSwan Games Online",
-      "description": "The WonderSwan is a handheld game console released by Bandai in 1999 exclusively in Japan. Designed by Gunpei Yokoi, it featured unique vertical and horizontal screen orientations. Despite strong competition from Nintendo's Game Boy, it gained popularity in Japan with quality games and innovative features."
+      "alt": "万代 WonderSwan 游戏在线玩",
+      "description": "WonderSwan 是万代于 1999 年在日本独家发售的掌上游戏机。由横井军平设计，具有独特的垂直和水平屏幕方向功能。尽管面临任天堂 Game Boy 的强大竞争，它凭借优质游戏和创新功能在日本获得了一定人气。"
     },
     "neo-geo-pocket": {
-      "alt": "SNK Neo Geo Pocket Games Online",
-      "description": "The Neo Geo Pocket is a handheld game console released by SNK in 1998, followed by the Neo Geo Pocket Color in 1999. Known for its quality fighting games and precise microswitched joystick, it offered a unique gaming experience but struggled against Nintendo's dominant Game Boy series."
+      "alt": "SNK Neo Geo Pocket 游戏在线玩",
+      "description": "Neo Geo Pocket 是 SNK 于 1998 年发售的掌上游戏机，随后在 1999 年推出了 Neo Geo Pocket Color。以其优质格斗游戏和精确的微动开关摇杆闻名，提供了独特的游戏体验，但在与任天堂主导的 Game Boy 系列的竞争中处于劣势。"
     },
     "msx": {
-      "alt": "MSX Games Online",
-      "description": "The MSX is a standardized home computer architecture designed by Microsoft and ASCII Corporation in 1983. Popular in Japan, Europe, and Brazil, it served as a platform for many classic games and launched several famous franchises, including Metal Gear and Bomberman."
+      "alt": "MSX 游戏在线玩",
+      "description": "MSX 是由微软和 ASCII 公司于 1983 年设计的标准化家用电脑架构。在日本、欧洲和巴西广受欢迎，它是许多经典游戏的平台，并催生了包括合金装备和炸弹人在内的多个著名系列。"
     },
     "msx-2": {
-      "alt": "MSX 2 Games Online",
-      "description": "The MSX2 is an upgraded version of the original MSX computer standard, released in 1985. It featured improved graphics capabilities, including support for higher resolutions and a larger color palette, making it a more powerful gaming and computing system. Many classic games, such as Metal Gear 2: Solid Snake, were developed for the MSX2."
+      "alt": "MSX 2 游戏在线玩",
+      "description": "MSX2 是原始 MSX 电脑标准的升级版本，于 1985 年发售。它具有改进的图形功能，包括支持更高分辨率和更大的调色板，使其成为更强大的游戏和计算系统。许多经典游戏，如合金装备 2：固体蛇，都是为 MSX2 开发的。"
     }
   },
   "game": {
@@ -318,7 +318,7 @@
     }
   },
   "search": {
-    "placeholder": "搜索游戏...",
+    "placeholder": "搜索复古游戏 ...",
     "clearSearch": "清除搜索",
     "search": "搜索"
   }
