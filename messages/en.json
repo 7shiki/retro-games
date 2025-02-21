@@ -184,5 +184,18 @@
         "home": "Home"
       }
     }
+  },
+  "footer": {
+    "description": "Experience the nostalgia of Retro Games on our website, where you can relive childhood memories with classic titles from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade—all playable online! No download required.",
+    "others": {
+      "title": "Others",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "disclaimer": "Disclaimer: All games on this site are hosted by third parties. We do not host or upload any games. We are not responsible for any content hosted on third party websites. RetroGames is an independent website and is not affiliated with any organizations.",
+      "rights": "All rights reserved."
+    }
   }
 } 
