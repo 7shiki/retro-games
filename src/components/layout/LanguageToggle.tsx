@@ -71,11 +71,11 @@ export default function LanguageToggle() {
         <div className="relative" ref={dropdownRef}>
             <button
                 type="button"
-                className="flex items-center gap-2 px-3 py-2 rounded-l-lg hover:bg-purple-500/10 transition-colors border-r border-purple-500/10 text-gray-800 dark:text-gray-200"
+                className="flex items-center gap-2 px-3 py-2 rounded-l-lg hover:bg-purple-500/10 transition-colors border-r border-purple-500/10"
                 onClick={() => setIsOpen(!isOpen)}
             >
                 <span>{currentLanguage.label}</span>
-                <span className="text-gray-800 dark:text-white">{currentLanguage.name}</span>
+                <span className="language-text">{currentLanguage.name}</span>
                 <ChevronDownIcon className="w-4 h-4 dark:invert" />
             </button>
 
@@ -92,10 +92,10 @@ export default function LanguageToggle() {
                                 e.stopPropagation()
                                 handleLanguageChange(lang.code)
                             }}
-                            className="w-full text-left px-4 py-2 hover:bg-purple-500/10 transition-colors flex items-center gap-2 text-gray-800 dark:text-white"
+                            className="w-full text-left px-4 py-2 hover:bg-purple-500/10 transition-colors flex items-center gap-2"
                         >
                             <span className="w-8">{lang.label}</span>
-                            <span className="text-gray-800 dark:text-white">{lang.name}</span>
+                            <span className="language-text">{lang.name}</span>
                         </button>
                     ))}
                 </div>
