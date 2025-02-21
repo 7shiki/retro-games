@@ -108,7 +108,7 @@ export default async function PrivacyPolicy({ params }: { params: { locale: stri
                                 href={`mailto:${privacy.contact.email}`}
                                 className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
                             >
-                                {privacy.contact.email}
+                                support@retro-games.org
                             </a>
                         </section>
                     </div>
