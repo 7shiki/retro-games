@@ -156,13 +156,17 @@
     },
     "game": {
         "metadata": {
-            "title": "Play {title} Online. No download required - Retro Games",
-            "description": "Play {title} ({platform}) online for free in your browser. No download required.",
-            "keywords": ""
+          "title": "Play {title} Online. No download required - Retro Games",
+          "description": "Play {title} ({platform}) online for free in your browser. No download required.",
+          "keywords": ""
         },
         "notFound": {
-            "title": "Game Not Found - RetroGames",
-            "description": "The requested game could not be found."
+          "title": "Game Not Found - RetroGames",
+          "description": "The requested game could not be found."
+        },
+        "relatedGames": {
+          "title": "You may be interested in",
+          "heading": "Related Games"
         }
-    }
+      }
 }
