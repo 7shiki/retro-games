@@ -310,7 +310,7 @@ export default async function GamePage({ params }: Props) {
                   {/* 游戏概述部分 */}
                   <section className="dark:text-white">
                     <h2 className="text-2xl font-bold mb-6">
-                      About {game.title}
+                      About {game.title} :
                     </h2>
 
                     {/* 添加游戏图片 - 使用 max-w-2xl 限制最大宽度 */}
@@ -325,59 +325,67 @@ export default async function GamePage({ params }: Props) {
                     </div>
 
                     <div className="space-y-8">
-                      <div>
-                        <h3 className="text-xl font-semibold mb-3">
-                          What's {game.title}?
-                        </h3>
-                        <div className="space-y-4">
-                          {game.seoDescription.overview.map((paragraph: string, index: number) => (
-                            <p key={index} className="leading-relaxed">
-                              {paragraph}
-                            </p>
-                          ))}
+                      {game.seoDescription?.overview?.content && (
+                        <div>
+                          <h3 className="text-xl font-semibold mb-3">
+                            {game.seoDescription.overview.title}
+                          </h3>
+                          <div className="space-y-4">
+                            {game.seoDescription.overview.content.map((paragraph: string, index: number) => (
+                              <p key={index} className="leading-relaxed">{paragraph}</p>
+                            ))}
+                          </div>
                         </div>
-                      </div>
-                      <div>
-                        <h3 className="text-xl font-semibold mb-3">
-                          {game.title} Game History
-                        </h3>
-                        <div className="space-y-4">
-                          {game.seoDescription.history.map((paragraph: string, index: number) => (
-                            <p key={index} className="leading-relaxed">
-                              {paragraph}
-                            </p>
-                          ))}
+                      )}
+                      
+                      {game.seoDescription?.history?.content && (
+                        <div>
+                          <h3 className="text-xl font-semibold mb-3">
+                            {game.seoDescription.history.title}
+                          </h3>
+                          <div className="space-y-4">
+                            {game.seoDescription.history.content.map((paragraph: string, index: number) => (
+                              <p key={index} className="leading-relaxed">{paragraph}</p>
+                            ))}
+                          </div>
                         </div>
-                      </div>
+                      )}
                     </div>
                   </section>
 
                   {/* 游戏特点和玩法部分 */}
-                  <section className="dark:text-white">
-                    <h2 className="text-2xl font-bold mb-6">
-                      {game.title} Gameplay and Features
-                    </h2>
-                    <div className="space-y-8">
-                      <div>
-                        <h3 className="text-xl font-semibold mb-3">
-                          Key Features
-                        </h3>
-                        <ul className="list-disc list-inside space-y-2">
-                          {game.seoDescription.features.map((feature: string, index: number) => (
-                            <li key={index}>{feature}</li>
-                          ))}
-                        </ul>
+                  {(game.seoDescription?.features?.list || game.seoDescription?.gameplay?.howToPlay) && (
+                    <section className="dark:text-white">
+                      <h2 className="text-2xl font-bold mb-6">
+                        {game.seoDescription.gameplay.title}
+                      </h2>
+                      <div className="space-y-8">
+                        {game.seoDescription?.features?.list && (
+                          <div>
+                            <h3 className="text-xl font-semibold mb-3">
+                              {game.seoDescription.features.title}
+                            </h3>
+                            <ul className="list-disc list-inside space-y-2">
+                              {game.seoDescription.features.list.map((feature: string, index: number) => (
+                                <li key={index}>{feature}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                        
+                        {game.seoDescription?.gameplay?.howToPlay && (
+                          <div>
+                            <h3 className="text-xl font-semibold mb-3">
+                              {game.seoDescription.gameplay.howToPlay.title}
+                            </h3>
+                            <p className="leading-relaxed">
+                              {game.seoDescription.gameplay.howToPlay.content}
+                            </p>
+                          </div>
+                        )}
                       </div>
-                      <div>
-                        <h3 className="text-xl font-semibold mb-3">
-                          How to Play
-                        </h3>
-                        <p className="leading-relaxed">
-                          {game.seoDescription.gameplay}
-                        </p>
-                      </div>
-                    </div>
-                  </section>
+                    </section>
+                  )}
                 </div>
               </div>
 

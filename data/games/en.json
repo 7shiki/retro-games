@@ -9,20 +9,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "What's Tekken 3?",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Key Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Tekken 3 Gameplay and Features",
+                "howToPlay": {
+                    "title": "How to Play Tekken 3",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "Tekken 3 Game History",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -34,20 +49,7 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+
         }
     },
     {
@@ -59,20 +61,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -84,20 +101,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -109,20 +141,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     }, {
         "id": 6,
@@ -133,20 +180,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -158,20 +220,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -183,20 +260,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -208,20 +300,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -233,20 +340,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -258,20 +380,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -283,20 +420,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -308,20 +460,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -333,20 +500,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -358,20 +540,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     }, {
         "id": 16,
@@ -382,20 +579,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -407,20 +619,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -432,20 +659,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -457,20 +699,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -482,20 +739,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -507,20 +779,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     },
     {
@@ -532,20 +819,35 @@
         "description": "",
         "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
         "seoDescription": {
-            "overview": [
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
-                "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
-            ],
-            "features": [
-                "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                "Introduces the new Tekken Force beat-em-up mode",
-                "Improved graphics and gameplay mechanics over previous Tekken games"
-            ],
-            "gameplay": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations.",
-            "history": [
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
-                "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
-            ]
+            "overview": {
+                "title": "The Ultimate Fighting Experience",
+                "content": [
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998.",
+                    "Tekken 3 is a fighting game developed and published by Namco for the PlayStation in 1998."
+                ]
+            },
+            "features": {
+                "title": "Revolutionary Features",
+                "list": [
+                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                    "Introduces the new Tekken Force beat-em-up mode",
+                    "Improved graphics and gameplay mechanics over previous Tekken games"
+                ]
+            },
+            "gameplay": {
+                "title": "Master the Iron Fist Tournament",
+                "howToPlay": {
+                    "title": "Become a Fighting Champion",
+                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                }
+            },
+            "history": {
+                "title": "The Legacy of Tekken",
+                "content": [
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide.",
+                    "Released in 1998, Tekken 3 became one of the most popular and critically acclaimed fighting games on the PlayStation, selling over 8.5 million copies worldwide."
+                ]
+            }
         }
     }
 
