@@ -1,325 +1,325 @@
 {
   "home": {
     "metadata": {
-      "title": "Retro Games - Play Retro Games Online. No Download Required.",
-      "description": "Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.",
+      "title": "レトロゲーム - オンラインでレトロゲームをプレイ。ダウンロード不要。",
+      "description": "NES、スーパーファミコン、ゲームボーイ、ゲームボーイカラー、ゲームボーイアドバンス、セガメガドライブ、プレイステーション、PS1、クラシックアーケードゲームをブラウザでプレイ。無料でダウンロード不要。",
       "keywords": "",
       "og": {
-        "title": "Retro Games - Play Classic Games Online",
-        "description": "Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.",
-        "imageAlt": "Retro Games - Classic Gaming Collection"
+        "title": "レトロゲーム - クラシックゲームをオンラインでプレイ",
+        "description": "NES、スーパーファミコン、ゲームボーイ、ゲームボーイカラー、ゲームボーイアドバンス、セガメガドライブ、プレイステーション、PS1、クラシックアーケードゲームをブラウザでプレイ。無料でダウンロード不要。",
+        "imageAlt": "レトロゲーム - クラシックゲームコレクション"
       }
     },
     "hero": {
       "title": {
-        "play": "Play",
-        "retroGames": "Retro Games"
+        "play": "プレイ",
+        "retroGames": "レトロゲーム"
       },
-      "description": "Relive your childhood joy and nostalgia with our collection of Retro Games, featuring timeless classics from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade. No download required."
+      "description": "任天堂、セガ、NEC、アタリ、プレイステーション、アーケードの時代を超えた名作を集めたレトロゲームコレクションで、子供時代の楽しい思い出とノスタルジーを再体験。ダウンロード不要。"
     }
   },
   "games": {
-    "popularGames": "Most Popular Retro Games",
-    "newGames": "New Retro Games",
-    "viewAll": "View All Retro Games",
-    "playGame": "Play Game",
-    "loadMore": "Load More Games",
-    "updatedDaily": "Updated daily"
+    "popularGames": "人気のレトロゲーム",
+    "newGames": "新着レトロゲーム",
+    "viewAll": "すべてのレトロゲームを表示",
+    "playGame": "ゲームをプレイ",
+    "loadMore": "もっとゲームを読み込む",
+    "updatedDaily": "毎日更新"
   },
   "allGames": {
     "metadata": {
-      "title": "Retro-Games.org - All Retro Games. Play Classic Games Online",
-      "description": "Browse our complete collection of classic retro games from Nintendo, Sega, PlayStation, and more. Play your favorite retro games online.",
+      "title": "Retro-Games.org - すべてのレトロゲーム。クラシックゲームをオンラインでプレイ",
+      "description": "任天堂、セガ、プレイステーションなどのクラシックレトロゲームの完全なコレクションをブラウズ。お気に入りのレトロゲームをオンラインでプレイ。",
       "keywords": ""
     },
-    "title": "All Retro Games",
-    "description": "Browse our complete collection of classic retro games available to play online.",
-    "subDescription": "Rediscover your childhood memories and relive those magical gaming moments.",
-    "browseGames": "Browse Games",
-    "allPlatforms": "All Platforms",
-    "foundGames": "Found {count} games matching{platform}{query} criteria",
-    "noGamesFound": "No games found matching your criteria.",
-    "clearSearch": "Clear search"
+    "title": "すべてのレトロゲーム",
+    "description": "オンラインでプレイ可能なクラシックレトロゲームの完全なコレクションをブラウズ。",
+    "subDescription": "子供時代の思い出を再発見し、魔法のようなゲームの瞬間を再体験。",
+    "browseGames": "ゲームをブラウズ",
+    "allPlatforms": "すべてのプラットフォーム",
+    "foundGames": "{platform}{query}の条件に一致するゲームが{count}件見つかりました",
+    "noGamesFound": "条件に一致するゲームが見つかりませんでした。",
+    "clearSearch": "検索をクリア"
   },
   "category": {
     "metadata": {
-      "title": "Play {company}{platform} Online - Retro Games",
-      "description": "Play {platform} games online for free in your browser. No download required. Enjoy classic {platform} games instantly.",
+      "title": "{company}{platform}をオンラインでプレイ - レトロゲーム",
+      "description": "ブラウザで{platform}のゲームを無料でプレイ。ダウンロード不要。クラシックな{platform}のゲームをすぐに楽しめます。",
       "keywords": ""
     },
     "notFound": {
-      "title": "Category Not Found - RetroGames",
-      "description": "The requested game category could not be found."
+      "title": "カテゴリーが見つかりません - レトロゲーム",
+      "description": "リクエストされたゲームカテゴリーが見つかりませんでした。"
     }
   },
   "platforms": {
     "nes": {
-      "alt": "Nintendo Entertainment System Games Online",
-      "description": "The Nintendo Entertainment System is an 8-bit home video game console that was developed and manufactured by Nintendo. It was initially released in Japan as the Family Computer on July 15, 1983, and was later released in North America during 1985, in Europe during 1986, and Australia in 1987. In South Korea, it was known as the Hyundai Comboy and was distributed by SK Hynix which then was known as Hyundai Electronics. It was succeeded by the Super Nintendo Entertainment System."
+      "alt": "ファミリーコンピュータ・ゲームをオンラインでプレイ",
+      "description": "ファミリーコンピュータ（海外名：Nintendo Entertainment System）は、任天堂が開発・製造した8ビットの家庭用ゲーム機です。1983年7月15日に日本でファミリーコンピュータとして発売され、その後1985年に北米、1986年にヨーロッパ、1987年にオーストラリアで発売されました。韓国では現代コンボーイとして知られ、当時現代電子として知られていたSKハイニックスによって販売されていました。後継機はスーパーファミコンです。"
     },
     "fds": {
-      "alt": "Famicom Disk System Games Online",
-      "description": "The Famicom Disk System (FDS) is a Japan-exclusive add-on for the Family Computer (Famicom), released by Nintendo in 1986. It introduced rewritable floppy disk storage, allowing for expanded game sizes and save functionality, but was eventually discontinued due to the rise of cartridge-based games."
+      "alt": "ファミコンディスクシステムのゲームをオンラインでプレイ",
+      "description": "ファミコンディスクシステム（FDS）は、1986年に任天堂から発売されたファミリーコンピュータ（ファミコン）用の日本限定周辺機器です。書き換え可能なフロッピーディスクストレージを導入し、より大容量のゲームとセーブ機能を可能にしましたが、カートリッジ式ゲームの台頭により最終的に生産終了となりました。"
     },
     "snes": {
-      "alt": "Super Nintendo Entertainment System Games Online",
-      "description": "The Super Nintendo Entertainment System is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia, and 1993 in South America. In Japan, the system is called the Super Famicom, or SFC for short. In South Korea, it is known as the Super Comboy and was distributed by Hyundai Electronics. Although each version is essentially the same, several forms of regional lockout prevent the different versions from being compatible with one another. It was released in Brazil on September 2, 1992, by Playtronic."
+      "alt": "スーパーファミコンのゲームをオンラインでプレイ",
+      "description": "スーパーファミコン（海外名：Super Nintendo Entertainment System）は、任天堂が開発した16ビットの家庭用ゲーム機で、1990年に日本と韓国、1991年に北米、1992年にヨーロッパとオーストラレーシア、1993年に南米で発売されました。日本ではスーパーファミコン（略称：SFC）と呼ばれています。"
     },
     "gameboy": {
-      "alt": "Nintendo Game Boy Games Online",
-      "description": "The Game Boy is an 8-bit handheld video game device with interchangeable cartridges developed and manufactured by Nintendo, which was first released in Japan on April 21, 1989, in North America on July 31, 1989 and in Europe on September 28, 1990. It is the first handheld console in the Game Boy line and was created by Gunpei Yokoi and Nintendo Research & Development 1. This is the same staff credited with designing the Game & Watch series as well as several popular games for the Nintendo Entertainment System. Redesigned versions were released in 1996 and 1998 in the form of Game Boy Pocket and Game Boy Light, respectively."
+      "alt": "ゲームボーイのゲームをオンラインでプレイ",
+      "description": "ゲームボーイは、任天堂が開発・製造した交換可能なカートリッジを使用する8ビットの携帯型ゲーム機で、1989年4月21日に日本で、1989年7月31日に北米で、1990年9月28日にヨーロッパで発売されました。"
     },
     "gameboycolor": {
-      "alt": "Nintendo Game Boy Color Games Online",
-      "description": "The Game Boy Color, referred to as GBC, is a handheld game console manufactured by Nintendo, which was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy."
+      "alt": "ゲームボーイカラーのゲームをオンラインでプレイ",
+      "description": "ゲームボーイカラー（略称：GBC）は、任天堂が製造した携帯型ゲーム機で、1998年10月21日に日本で、同年11月に国際市場で発売されました。ゲームボーイの後継機です。"
     },
     "gameboyadvance": {
-      "alt": "Nintendo Game Boy Advance Games Online",
-      "description": "The Game Boy Advance (abbreviated as GBA) is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color. It was released in Japan on March 21, 2001, in North America on June 11, 2001, in Australia and Europe on June 22, 2001, and in the People's Republic of China on June 8, 2004 (excluding Hong Kong). Nintendo's competitors in the handheld market at the time were the Neo Geo Pocket Color, WonderSwan, GP32, Tapwave Zodiac, and the N-Gage. Despite the competitors' best efforts, Nintendo maintained a majority market share with the Game Boy Advance."
+      "alt": "ゲームボーイアドバンスのゲームをオンラインでプレイ",
+      "description": "ゲームボーイアドバンス（略称：GBA）は、任天堂がゲームボーイカラーの後継機として開発・製造・販売した32ビットの携帯型ゲーム機です。2001年3月21日に日本で、2001年6月11日に北米で、2001年6月22日にオーストラリアとヨーロッパで、2004年6月8日に中華人民共和国で発売されました。当時の携帯型ゲーム機市場での競合機には、ネオジオポケットカラー、ワンダースワン、GP32、Tapwave Zodiac、N-Gageがありましたが、競合他社の努力にもかかわらず、任天堂はゲームボーイアドバンスで市場シェアの大半を維持しました。"
     },
     "n64": {
-      "alt": "Nintendo 64 Games Online",
-      "description": "The Nintendo 64 (N64) is a fifth-generation home video game console developed by Nintendo and released in 1996 in Japan and North America, and 1997 in Europe and Australia. It was the first Nintendo console to feature 3D graphics and used cartridges instead of CDs, competing with the PlayStation and Sega Saturn."
+      "alt": "ニンテンドウ64のゲームをオンラインでプレイ",
+      "description": "ニンテンドウ64（略称：N64）は、任天堂が開発した第5世代の家庭用ゲーム機で、1996年に日本と北米で、1997年にヨーロッパとオーストラリアで発売されました。任天堂初の3Dグラフィックス対応コンソールで、CDの代わりにカートリッジを使用し、プレイステーションやセガサターンと競合しました。"
     },
     "nds": {
-      "alt": "Nintendo DS Games Online",
-      "description": "The Nintendo DS (NDS) is a dual-screen handheld gaming console released by Nintendo in 2004. Featuring a touchscreen, wireless connectivity, and backward compatibility with Game Boy Advance games, it became one of the best-selling gaming systems of all time."
+      "alt": "ニンテンドーDSのゲームをオンラインでプレイ",
+      "description": "ニンテンドーDS（略称：NDS）は、2004年に任天堂から発売された二画面の携帯型ゲーム機です。タッチスクリーン、無線接続機能、ゲームボーイアドバンスゲームとの下位互換性を特徴とし、史上最も売れたゲーム機の一つとなりました。"
     },
     "master-system": {
-      "alt": "Sega Master System Games Online",
-      "description": "The Sega Master System is an 8-bit home video game console developed by Sega, first released in 1985 in Japan as the Sega Mark III, and later rebranded as the Master System for its international release. It was a competitor to the Nintendo Entertainment System but achieved greater success in Europe and Brazil."
+      "alt": "セガマスターシステムのゲームをオンラインでプレイ",
+      "description": "セガマスターシステムは、セガが開発した8ビットの家庭用ゲーム機で、1985年に日本でセガ・マークIIIとして発売され、その後国際展開時にマスターシステムとしてリブランドされました。ファミリーコンピュータの競合機でしたが、ヨーロッパとブラジルでより大きな成功を収めました。"
     },
     "game-gear": {
-      "alt": "Sega Game Gear Games Online",
-      "description": "The Game Gear is an 8-bit handheld game console released by Sega on October 6, 1990 in Japan, 1991 in North America and Europe, and Australia in 1992. The Game Gear primarily competed with Nintendo's Game Boy, the Atari Lynx and NEC's TurboExpress. The handheld shares much of its hardware with the Master System and is able to play its own titles as well as those of the Master System, the latter being made possible by the use of an adapter. Containing a full-color backlit screen with a landscape format, Sega positioned the Game Gear as a technologically superior handheld to the Game Boy."
+      "alt": "ゲームギアのゲームをオンラインでプレイ",
+      "description": "ゲームギアは、セガが1990年10月6日に日本で、1991年に北米とヨーロッパで、1992年にオーストラリアで発売した8ビットの携帯型ゲーム機です。主に任天堂のゲームボーイ、アタリのLynx、NECのTurboExpressと競合しました。"
     },
     "genesis": {
-      "alt": "Sega Genesis/Mega Drive Games Online",
-      "description": "The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega's third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989. In 1990, the console was distributed as the Mega Drive by Virgin Mastertronic in Europe, by Ozisoft in Australasia, and by Tec Toy in Brazil. In South Korea, the systems were distributed by Samsung and were known as the Super Gam*Boy, and later the Super Aladdin Boy."
+      "alt": "セガメガドライブのゲームをオンラインでプレイ",
+      "description": "セガメガドライブ（北米名：Sega Genesis）は、セガ・エンタープライゼスが開発・販売した16ビットの家庭用ゲーム機です。セガの3番目のコンソールで、マスターシステムの後継機でした。"
     },
     "sega32x": {
-      "alt": "Sega 32X Games Online",
-      "description": "The Sega 32X is an add-on for the Sega Genesis/Mega Drive released in 1994. It was designed to enhance the console's graphics and processing power, but it had a short lifespan due to the arrival of the Sega Saturn."
+      "alt": "セガ32Xのゲームをオンラインでプレイ",
+      "description": "セガ32Xは、1994年に発売されたセガメガドライブ用の拡張機器です。コンソールのグラフィックスと処理能力を向上させるために設計されましたが、セガサターンの登場により短命に終わりました。"
     },
     "sega-cd": {
-      "alt": "Sega CD/Mega CD Games Online",
-      "description": "The Sega CD (Mega-CD outside North America) was a CD-ROM expansion for the Sega Genesis, released in 1991 in Japan and 1992 in North America. It introduced full-motion video and CD-quality audio but struggled due to high costs and limited game library."
+      "alt": "メガCDのゲームをオンラインでプレイ",
+      "description": "メガCD（北米名：Sega CD）は、セガメガドライブ用のCD-ROM拡張機器で、1991年に日本で、1992年に北米で発売されました。フルモーションビデオとCD品質の音声を導入しましたが、高価格と限られたゲームライブラリにより苦戦しました。"
     },
     "turbografx-16": {
-      "alt": "NEC TurboGrafx-16 Games Online",
-      "description": "The TurboGrafx-16 Entertainment SuperSystem, known in Japan and France as the PC Engine (PCエンジン Pī Shī Enjin), is a home video game console jointly developed by Hudson Soft and NEC Home Electronics, released in Japan on October 30, 1987 and in the United States on August 29, 1989. It also had a limited release in the United Kingdom and Spain in 1990, known as simply TurboGrafx and based on the American model, whilst the Japanese model was imported and distributed in France in 1989. It was the first console released in the 16-bit era, albeit still utilizing an 8-bit CPU. Originally intended to compete with the Nintendo Entertainment System (NES), it ended up competing with the Sega Genesis, and later on the Super Nintendo Entertainment System (SNES)."
+      "alt": "PCエンジンのゲームをオンラインでプレイ",
+      "description": "PCエンジン（海外名：TurboGrafx-16）は、ハドソン株式会社とNECホームエレクトロニクスが共同開発した家庭用ゲーム機で、1987年10月30日に日本で、1989年8月29日にアメリカで発売されました。"
     },
     "turbografx-cd": {
-      "alt": "NEC TurboGrafx-CD Games Online",
-      "description": "The TurboGrafx-CD is an add-on for the TurboGrafx-16/PC Engine, released in 1988 in Japan and later in North America. It introduced CD-based gaming to NEC's platform, allowing for higher quality audio and expanded game storage."
+      "alt": "PCエンジンCDのゲームをオンラインでプレイ",
+      "description": "PCエンジンCD-ROMユニットは、PCエンジン用の拡張機器で、1988年に日本で、その後北米で発売されました。NECのプラットフォームにCD方式のゲームを導入し、より高品質な音声と拡張されたゲームストレージを可能にしました。"
     },
     "pc-engine-cd": {
-      "alt": "NEC PC Engine CD-ROM² Games Online",
-      "description": "The PC Engine CD-ROM² was the first CD-based console add-on, released in 1988 in Japan. It expanded the capabilities of the PC Engine, allowing for larger games with improved audio and animation, influencing future CD-based gaming systems."
+      "alt": "PCエンジンCD-ROM²のゲームをオンラインでプレイ",
+      "description": "PCエンジンCD-ROM²は、1988年に日本で発売された最初のCD方式のコンソール拡張機器です。PCエンジンの性能を拡張し、より大容量のゲームと改善された音声やアニメーションを可能にし、後のCD方式のゲームシステムに影響を与えました。"
     },
     "atari-7800": {
-      "alt": "Atari 7800 ProSystem Games Online",
-      "description": "The Atari 7800 ProSystem is a home video game console released by Atari Corporation in 1986. It was designed to be backward compatible with Atari 2600 games while offering improved graphics and performance. Despite its capabilities, it struggled to compete against the Nintendo Entertainment System and the Sega Master System during its lifespan."
+      "alt": "アタリ7800のゲームをオンラインでプレイ",
+      "description": "アタリ7800 ProSystemは、1986年にアタリ社から発売された家庭用ゲーム機です。アタリ2600のゲームとの下位互換性を保ちながら、改善されたグラフィックスと性能を提供するように設計されました。その性能にもかかわらず、ファミリーコンピュータやセガマスターシステムとの競争で苦戦しました。"
     },
     "atari-lynx": {
-      "alt": "Atari Lynx Handheld Games Online",
-      "description": "The Atari Lynx is a handheld game console released by Atari in 1989. It was the first handheld console with a color LCD screen and had advanced hardware for its time, including sprite scaling and multiplayer support. However, it faced stiff competition from the Nintendo Game Boy and Sega Game Gear, limiting its market success."
+      "alt": "アタリLynxのゲームをオンラインでプレイ",
+      "description": "アタリLynxは、1989年にアタリから発売された携帯型ゲーム機です。カラーLCD画面を搭載した最初の携帯型ゲーム機で、スプライトスケーリングやマルチプレイヤー対応など、当時としては先進的なハードウェアを備えていました。しかし、任天堂のゲームボーイやセガのゲームギアとの激しい競争に直面し、市場での成功は限定的でした。"
     },
     "atari-jaguar": {
-      "alt": "Atari Jaguar Games Online",
-      "description": "The Atari Jaguar is a home video game console released in 1993 by Atari Corporation. Marketed as the first 64-bit gaming system, it boasted superior processing power compared to its 16-bit competitors. However, the Jaguar struggled due to a lack of developer support and strong competition from the Sony PlayStation and Sega Saturn, ultimately leading to Atari's exit from the console market."
+      "alt": "アタリジャガーのゲームをオンラインでプレイ",
+      "description": "アタリジャガーは、1993年にアタリ社から発売された家庭用ゲーム機です。最初の64ビットゲームシステムとして宣伝され、16ビットの競合機と比べて優れた処理能力を誇りました。しかし、開発者のサポート不足とソニーのプレイステーションやセガサターンからの強力な競争により苦戦しました。"
     },
     "playstation": {
-      "alt": "Sony PlayStation Games Online",
-      "description": "The PlayStation (PS1) is a 32-bit home video game console released by Sony in 1994 in Japan and 1995 worldwide. It was the first console to sell over 100 million units and introduced CD-based gaming, 3D graphics, and a vast library of iconic games."
+      "alt": "プレイステーションのゲームをオンラインでプレイ",
+      "description": "プレイステーション（PS1）は、ソニーが1994年に日本で、1995年に世界で発売した32ビットの家庭用ゲーム機です。1億台以上を売り上げた最初のゲーム機で、CD方式のゲーム、3Dグラフィックス、そして膨大な数の象徴的なゲームを導入しました。"
     },
     "arcade": {
-      "alt": "Classic Arcade Games Online",
-      "description": "Arcade games are coin-operated video games found in public places such as malls and arcades. Popular during the late 20th century, they include classics like Pac-Man, Street Fighter, and Metal Slug, many of which have been adapted for home consoles."
+      "alt": "クラシックアーケードゲームをオンラインでプレイ",
+      "description": "アーケードゲームは、ショッピングモールやゲームセンターなどの公共の場所にある硬貨で動作するビデオゲームです。20世紀後半に人気を博し、パックマン、ストリートファイター、メタルスラッグなどの名作を含み、その多くが家庭用ゲーム機に移植されています。"
     },
     "wonderswan": {
-      "alt": "Bandai WonderSwan Games Online",
-      "description": "The WonderSwan is a handheld game console released in 1999 by Bandai exclusively in Japan. Designed as a competitor to the Game Boy Color, it featured a unique vertical and horizontal screen orientation. An improved version, the WonderSwan Color, was released in 2000, offering a color display and better hardware capabilities. Despite its innovative design, it struggled to compete with Nintendo's dominance in the handheld market."
+      "alt": "ワンダースワンのゲームをオンラインでプレイ",
+      "description": "ワンダースワンは、1999年にバンダイから日本限定で発売された携帯型ゲーム機です。ゲームボーイカラーの競合機として設計され、独自の縦横画面切り替え機能を特徴としていました。改良版のワンダースワンカラーが2000年に発売され、カラーディスプレイとより優れたハードウェア性能を提供しました。"
     },
     "neo-geo-pocket": {
-      "alt": "SNK Neo Geo Pocket Games Online",
-      "description": "The Neo Geo Pocket is a handheld game console released by SNK in 1998. It was later succeeded by the Neo Geo Pocket Color in 1999, which introduced a color screen and improved software support. The system featured high-quality arcade-style games, particularly from SNK's franchises like King of Fighters and Samurai Shodown, but it struggled against Nintendo's Game Boy lineup."
+      "alt": "ネオジオポケットのゲームをオンラインでプレイ",
+      "description": "ネオジオポケットは、1998年にSNKから発売された携帯型ゲーム機です。1999年にはカラー画面と改善されたソフトウェアサポートを特徴とするネオジオポケットカラーに引き継がれました。キング・オブ・ファイターズやサムライスピリッツなどのSNKのフランチャイズを中心に高品質なアーケードスタイルのゲームを特徴としていましたが、任天堂のゲームボーイシリーズとの競争で苦戦しました。"
     },
     "msx": {
-      "alt": "MSX Games Online",
-      "description": "The MSX is a home computer platform introduced in 1983 by Microsoft and ASCII Corporation to establish a standardized computing environment. It was particularly popular in Japan, Europe, and South America, serving as a platform for many early Konami and Hudson Soft games. The system played a significant role in the early development of franchises such as Metal Gear and Bomberman."
+      "alt": "MSXのゲームをオンラインでプレイ",
+      "description": "MSXは、1983年にマイクロソフトとアスキーが標準化されたコンピューティング環境を確立するために導入したホームコンピュータプラットフォームです。特に日本、ヨーロッパ、南米で人気を博し、コナミやハドソンの初期のゲームの多くのプラットフォームとなりました。メタルギアやボンバーマンなどのフランチャイズの初期開発において重要な役割を果たしました。"
     },
     "msx-2": {
-      "alt": "MSX 2 Games Online",
-      "description": "The MSX2 is an upgraded version of the original MSX computer standard, released in 1985. It featured improved graphics capabilities, including support for higher resolutions and a larger color palette, making it a more powerful gaming and computing system. Many classic games, such as Metal Gear 2: Solid Snake, were developed for the MSX2, showcasing its advanced hardware for the time."
+      "alt": "MSX2のゲームをオンラインでプレイ",
+      "description": "MSX2は、1985年に発売された初代MSXコンピュータ規格のアップグレード版です。より高い解像度とより大きなカラーパレットのサポートを含む改善されたグラフィック機能を特徴とし、より強力なゲームおよびコンピューティングシステムとなりました。メタルギア2：ソリッドスネークなど多くの名作がMSX2向けに開発され、当時の先進的なハードウェアを示しました。"
     }
   },
   "game": {
     "metadata": {
-      "title": "Play {title} Online. No download required - Retro Games",
-      "description": "Play {title} ({platform}) online for free in your browser. No download required.",
+      "title": "{title}をオンラインでプレイ。ダウンロード不要 - レトロゲーム",
+      "description": "{title}（{platform}）をブラウザで無料でプレイ。ダウンロード不要。",
       "keywords": ""
     },
     "notFound": {
-      "title": "Game Not Found - RetroGames",
-      "description": "The requested game could not be found."
+      "title": "ゲームが見つかりません - レトロゲーム",
+      "description": "リクエストされたゲームが見つかりませんでした。"
     },
     "relatedGames": {
-      "title": "You may be interested in",
-      "heading": "Related Games"
+      "title": "おすすめのゲーム",
+      "heading": "関連ゲーム"
     },
     "page": {
-      "description": "Play {title} online in your browser. No download required.",
-      "shareText": "Play {title} online for free in your browser! No download required.",
+      "description": "{title} をブラウザでオンラインプレイ。ダウンロード不要。",
+      "shareText": "{title} をブラウザで無料でプレイ！ダウンロード不要。",
       "share": {
-        "label": "Share",
-        "twitter": "Share on Twitter",
-        "facebook": "Share on Facebook",
-        "reddit": "Share on Reddit",
-        "linkedin": "Share on LinkedIn"
+        "label": "シェア",
+        "twitter": "Twitterでシェア",
+        "facebook": "Facebookでシェア",
+        "reddit": "Redditでシェア",
+        "linkedin": "LinkedInでシェア"
       },
-      "playButton": "Play Game",
-      "about": "About {title} :",
+      "playButton": "ゲームをプレイ",
+      "about": "{title} について：",
       "breadcrumb": {
-        "home": "Home"
+        "home": "ホーム"
       }
     }
   },
   "footer": {
-    "description": "Experience the nostalgia of Retro Games on our website, where you can relive childhood memories with classic titles from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade—all playable online! No download required.",
+    "description": "当サイトのレトロゲームで懐かしさを体験しましょう。任天堂、セガ、NEC、アタリ、プレイステーション、アーケードの名作で子供時代の思い出を再び—すべてオンラインでプレイ可能！ダウンロード不要。",
     "others": {
-      "title": "Others",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "title": "その他",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Please read these Terms of Service carefully before using RetroGames.",
-      "lastUpdated": "Last Updated: February 20, 2025",
+      "title": "利用規約",
+      "description": "RetroGamesをご利用になる前に、この利用規約を注意深くお読みください。",
+      "lastUpdated": "最終更新日：2025年2月20日",
       "intro": {
-        "text1": "Welcome to ",
-        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
+        "text1": "ようこそ",
+        "text2": "へ。このウェブサイトにアクセスし利用することで、あなたはこの契約の条件と規定に拘束されることに同意したものとみなされます。"
       },
       "service": {
-        "title": "Service Description",
-        "text1": " provides a platform for users to play retro games through their web browsers. Our service includes:",
+        "title": "サービス説明",
+        "text1": "は、ユーザーがウェブブラウザを通じてレトロゲームをプレイするためのプラットフォームを提供します。当サービスには以下が含まれます：",
         "items": [
-          "Browser-based retro game emulation",
-          "Game information and descriptions",
-          "Related gaming content"
+          "ブラウザベースのレトロゲームエミュレーション",
+          "ゲーム情報と説明",
+          "関連ゲームコンテンツ"
         ]
       },
       "content": {
-        "title": "Content and Copyright",
-        "text1": "All games and related content available through our service are:",
+        "title": "コンテンツと著作権",
+        "text1": "当サービスを通じて利用可能なすべてのゲームと関連コンテンツは：",
         "items": [
-          "Sourced from and hosted by third-party services",
-          "Subject to their respective owners' copyrights and intellectual property rights",
-          "Not owned or controlled by RetroGames"
+          "サードパーティのサービスから提供およびホストされています",
+          "それぞれの所有者の著作権および知的財産権の対象となります",
+          "RetroGamesが所有または管理するものではありません"
         ],
-        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
+        "text2": "当サービスを通じて提供されるゲーム、ROM、または関連コンテンツの所有権を主張することはありません。すべての商標、サービスマーク、商号は、それぞれの所有者の財産です。"
       },
       "disclaimer": {
-        "title": "Disclaimer",
-        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. RetroGames does not warrant that:",
+        "title": "免責事項",
+        "text1": "当サービスは、明示または黙示を問わず、いかなる保証もなく「現状のまま」提供されます。RetroGamesは以下を保証しません：",
         "items": [
-          "The service will be uninterrupted or error-free",
-          "Games or content will always be available",
-          "Any errors or defects will be corrected"
+          "サービスが中断されないこと、またはエラーがないこと",
+          "ゲームやコンテンツが常に利用可能であること",
+          "エラーや不具合が修正されること"
         ],
-        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
+        "text2": "当社は、第三者が提供するコンテンツ、またはコンテンツのエラーや欠落について責任を負いません。"
       },
       "conduct": {
-        "title": "User Conduct",
-        "text1": "By using our service, you agree not to:",
+        "title": "ユーザー行動規範",
+        "text1": "当サービスを利用することにより、あなたは以下を行わないことに同意します：",
         "items": [
-          "Use the service for any unlawful purpose",
-          "Attempt to gain unauthorized access to any part of the service",
-          "Interfere with or disrupt the service or servers",
-          "Circumvent, disable, or otherwise interfere with security features"
+          "サービスを違法な目的で使用すること",
+          "サービスの任意の部分への不正アクセスを試みること",
+          "サービスやサーバーを妨害または中断すること",
+          "セキュリティ機能を回避、無効化、または妨害すること"
         ]
       },
       "modifications": {
-        "title": "Modifications to Service",
-        "text1": "We reserve the right to:",
+        "title": "サービスの変更",
+        "text1": "当社は以下の権利を留保します：",
         "items": [
-          "Modify or discontinue any part of our service without notice",
-          "Update these terms of service at any time",
-          "Change the games and content available through our service"
+          "予告なくサービスの一部を変更または中止すること",
+          "いつでもこの利用規約を更新すること",
+          "当サービスを通じて利用可能なゲームやコンテンツを変更すること"
         ],
-        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
+        "text2": "変更後もサービスを継続して利用することは、それらの変更に同意したものとみなされます。"
       },
       "governing": {
-        "title": "Governing Law",
-        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
+        "title": "準拠法",
+        "text1": "この規約は、法の抵触に関する原則にかかわらず、適用される法律に従って解釈されるものとします。"
       },
       "contact": {
-        "title": "Contact",
-        "text1": "For any questions regarding these terms, please contact us at:"
+        "title": "お問い合わせ",
+        "text1": "この規約に関するご質問は、以下までお問い合わせください："
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit RetroGames.",
-      "lastUpdated": "Last Updated: February 20, 2025",
+      "title": "プライバシーポリシー",
+      "description": "このプライバシーポリシーは、RetroGamesを訪問した際のお客様の個人情報の収集、使用、共有方法について説明します。",
+      "lastUpdated": "最終更新日：2025年2月20日",
       "intro": {
-        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
-        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
-        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
-        "text4": " (hereinafter, \"us\", \"we\", or \"RetroGames\")."
+        "text1": "当サイトの運営にあたり収集する可能性のある情報に関して、お客様のプライバシーを尊重することが当社の方針です。",
+        "text2": "はお客様のプライバシーを尊重し、このウェブサイトを通じてお客様から提供される情報の保護に努めています。",
+        "text3": "このプライバシーポリシーは、当社が収集する情報、その使用方法、および第三者に開示する可能性がある状況について説明します。このプライバシーポリシーは",
+        "text4": "（以下、「当社」、「私たち」、または「RetroGames」）に適用されます。"
       },
       "collection": {
-        "title": "Information Collection",
-        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
+        "title": "情報収集",
+        "description": "当サイトではユーザー登録やログインは必要ありません。個人を特定できる情報は一切収集していません。収集するデータは以下のみです：",
         "items": [
-          "Browser cookies essential for website functionality",
-          "Anonymous usage statistics to improve our service"
+          "ウェブサイトの機能に必要不可欠",
+          "サービス改善のための匿名の利用統計"
         ]
       },
       "thirdParty": {
-        "title": "Third-Party Content",
-        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
+        "title": "第三者コンテンツ",
+        "description": "当サイトで利用可能なゲームおよび関連コンテンツは、第三者のプラットフォームから提供されています。これらのコンテンツの所有権を主張せず：",
         "items": [
-          "All games are hosted on and streamed from third-party services",
-          "Game information, images, and descriptions are provided by third-party sources",
-          "We make no warranties regarding the accuracy or availability of this content"
+          "すべてのゲームは第三者のサービスでホストおよびストリーミングされています",
+          "ゲーム情報、画像、説明は第三者のソースから提供されています",
+          "これらのコンテンツの正確性や可用性について保証はいたしません"
         ]
       },
       "cookies": {
-        "title": "Use of Cookies",
-        "description": "We use cookies to enhance your browsing experience. These cookies are:",
+        "title": "クッキーの使用",
+        "description": "ブラウジング体験を向上させるためにクッキーを使用しています。これらのクッキーは：",
         "items": [
-          "Essential for basic website functionality",
-          "Used to remember your display preferences",
-          "Not used for tracking or advertising purposes"
+          "ウェブサイトの基本機能に必要不可欠",
+          "表示設定を記憶するために使用",
+          "トラッキングや広告目的には使用していません"
         ],
-        "control": "You can control cookie settings through your browser preferences."
+        "control": "ブラウザの設定でクッキーの設定を管理できます。"
       },
       "links": {
-        "title": "External Links",
-        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
-        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
+        "title": "外部リンク",
+        "description": "当サイトには、当社が運営していない外部サイトへのリンクが含まれています。第三者のリンクをクリックすると、そのサイトに移動します。訪問するすべてのサイトのプライバシーポリシーと利用規約を確認することを強くお勧めします。",
+        "disclaimer": "第三者のサイト、製品、サービスのコンテンツ、プライバシーポリシー、実践について、当社は管理も責任も負いません。"
       },
       "updates": {
-        "title": "Policy Updates",
-        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
-        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+        "title": "ポリシーの更新",
+        "description": "このプライバシーポリシーは随時更新される場合があります。変更がある場合は、このページに新しいプライバシーポリシーを掲載してお知らせします。定期的にこのプライバシーポリシーを確認することをお勧めします。",
+        "consent": "プライバシーポリシーの変更後も当サイトを継続して利用することは、その変更を承認し、変更されたプライバシーポリシーに従うことに同意したものとみなされます。"
       },
       "contact": {
-        "title": "Contact Us",
-        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "title": "お問い合わせ",
+        "description": "このプライバシーポリシーについてご質問がある場合は、当サイトを通じてお問い合わせください。",
         "email": "support@retro-games.org"
       }
     },
     "contact": {
-      "title": "Contact Us",
-      "disclaimer": "Disclaimer: All games on this site are hosted by third parties. We do not host or upload any games. We are not responsible for any content hosted on third party websites. RetroGames is an independent website and is not affiliated with any organizations.",
+      "title": "お問い合わせ",
+      "disclaimer": "免責事項：当サイトのすべてのゲームは第三者によってホストされています。当社はゲームのホストやアップロードは行っていません。第三者のウェブサイトでホストされているコンテンツについて、当社は一切の責任を負いません。RetroGamesは独立したウェブサイトであり、いかなる組織とも提携関係にありません。",
       "rights": "All rights reserved."
     }
   },
   "search": {
-    "placeholder": "Search Retro Games ...",
-    "clearSearch": "Clear search",
-    "search": "Search"
+    "placeholder": "レトロゲームを検索...",
+    "clearSearch": "検索をクリア",
+    "search": "検索"
   }
 }
