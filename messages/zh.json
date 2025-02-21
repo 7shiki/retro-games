@@ -179,7 +179,10 @@
             "linkedin": "分享到 LinkedIn"
           },
           "playButton": "开始游戏",
-          "about": "关于 {title} :"
+          "about": "关于 {title} :",
+          "breadcrumb": {
+            "home": "首页"
+          }
         }
       }
 }

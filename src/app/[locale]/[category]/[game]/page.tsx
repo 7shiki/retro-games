@@ -217,12 +217,15 @@ export default async function GamePage({ params }: Props) {
           <div className="max-w-7xl mx-auto px-4 py-8 w-full">
             {/* 面包屑导航 */}
             <div className="mb-6 text-sm breadcrumbs opacity-80">
-              <Link href="/" className="hover:text-purple-400 transition-colors">
-                Home
+              <Link 
+                href={`/${params.locale}`} 
+                className="hover:text-purple-400 transition-colors"
+              >
+                {messages.game.page.breadcrumb.home}
               </Link>
               <span className="mx-2">›</span>
               <Link
-                href={`/${params.category}`}
+                href={`/${params.locale}/${params.category}`}
                 className="hover:text-purple-400 transition-colors"
               >
                 {category.platform}

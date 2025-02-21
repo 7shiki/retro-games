@@ -179,7 +179,10 @@
         "linkedin": "Share on LinkedIn"
       },
       "playButton": "Play Game",
-      "about": "About {title} :"
+      "about": "About {title} :",
+      "breadcrumb": {
+        "home": "Home"
+      }
     }
   }
 } 
