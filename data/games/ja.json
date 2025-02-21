@@ -1,67 +1,66 @@
 {
     "gameList": [
-      {
-          "id": 1,
-          "title": "Tekken 3",
-          "platform": "PlayStation",
-          "imageUrl": "/images/games/Tekken 3.png",
-          "href": "/playstation-games/tekken-3",
-          "description": "",
-          "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
-          "seoDescription": {
-              "overview": {
-                  "title": "What's Tekken 3?",
-                  "content": [
-                      "Tekken 3 was first released in arcades in 1997, running on Namco's System 12 hardware. It introduced a significant graphical leap and refined gameplay compared to its predecessors. In 1998, the game was ported to the PlayStation, where it became a massive success, selling over 8 million copies. The PlayStation version included new game modes, such as Tekken Force and a new hidden character, Gon. With its impact on the fighting game genre and competitive scene, .Regarded as one of the greatest fighting games of all time, Tekken 3 remains a fan favorite and a defining title of the genre.",
-                      "Tekken 3 not only improved upon the mechanics of its predecessors but also introduced a more fluid and responsive combat system. The game featured a diverse roster of characters, including returning fan favorites like Jin Kazama, Hwoarang, and Ling Xiaoyu, each with unique fighting styles. The enhanced 3D movement system allowed players to sidestep, adding depth to battles and making the gameplay more strategic. The soundtrack, fast-paced action, and engaging storylines contributed to its legendary status. Even decades after its release, Tekken 3 is still widely praised and enjoyed by retro gaming enthusiasts around the world."
-                  ]
-              },
-              "features": {
-                  "title": "Key Features",
-                  "list": [
-                      "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                      "Introduces the new Tekken Force beat-em-up mode",
-                      "Improved graphics and gameplay mechanics over previous Tekken games"
-                  ]
-              },
-              "gameplay": {
-                  "title": "Tekken 3 Gameplay and Features",
-                  "howToPlay": {
-                      "title": "How to Play Tekken 3",
-                      "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
-                  }
-              },
-              "history": {
-                  "title": "Tekken 3 Game Storyline",
-                  "content": [
-                      "The story of Tekken 3 takes place 19 years after the events of Tekken 2. When the mysterious being Ogre appears and begins hunting down powerful fighters around the world, the Mishima Zaibatsu announces the King of Iron Fist Tournament once again. After his mother, Jun Kazama, is attacked by Ogre, Jin Kazama is taken in and trained by his grandfather, Heihachi Mishima, to prepare for the battle.",
-                      "Jin defeats Ogre in the tournament, but is immediately betrayed by Heihachi, who shoots and abandons him. On the brink of death, the Devil Gene within Jin awakens, transforming him into Devil Jin. With his newfound power, he overpowers Heihachi and escapes. This moment marks a turning point in the Tekken series, as the influence of the Devil Gene begins to reshape the fate of the Mishima bloodline."
-                  ]
-              }
-          }
-      }
-  
+        {
+            "id": 1,
+            "title": "鉄拳3",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/Tekken 3.png",
+            "href": "/playstation-games/tekken-3",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "鉄拳3とは？",
+                    "content": [
+                        "『鉄拳3』は1997年にアーケードで初めて発売され、ナムコのSystem 12ハードウェア上で動作しました。前作と比べてグラフィックの向上やゲームプレイの改良が施され、より滑らかな戦闘を実現しました。1998年にはPlayStationに移植され、大成功を収め、全世界で800万本以上を販売しました。PlayStation版では、新モード「鉄拳フォース」や隠しキャラクター「ゴン」が追加されました。格闘ゲーム史上最高の作品の一つとされる『鉄拳3』は、今でも多くのファンに愛され、格闘ゲームのジャンルを象徴するタイトルとなっています。",
+                        "『鉄拳3』は、前作からのゲームメカニクスを改良しただけでなく、より流れるようなレスポンスの良い戦闘システムを導入しました。登場キャラクターのバリエーションも豊富で、風間仁（Jin Kazama）、ファラン（Hwoarang）、リン・シャオユウ（Ling Xiaoyu）などの人気キャラクターが参戦し、それぞれ独自の格闘スタイルを持っています。強化された3D移動システムにより、プレイヤーは横移動（サイドステップ）を使って戦略的に戦うことができます。印象的なサウンドトラック、スピーディーなアクション、魅力的なストーリーが『鉄拳3』の伝説的な地位を築きました。発売から数十年経った今でも、『鉄拳3』はレトロゲームファンに高く評価され続けています。"
+                    ]
+                },
+                "features": {
+                    "title": "主な特徴",
+                    "list": [
+                        "風間仁やニーナ・ウィリアムズなど、23人のプレイアブルキャラクターを収録",
+                        "新モード「鉄拳フォース」を導入し、ベルトスクロール型アクションを追加",
+                        "前作よりグラフィックとゲームプレイメカニクスが大幅に向上"
+                    ]
+                },
+                "gameplay": {
+                    "title": "『鉄拳3』のゲームプレイと特徴",
+                    "howToPlay": {
+                        "title": "『鉄拳3』の遊び方",
+                        "content": "本作は、投げ技、カウンター、コンボなどを含む奥深い戦闘システムを搭載しています。プレイヤーはボタンの組み合わせを駆使して、多彩な技や連携攻撃を繰り出すことができます。"
+                    }
+                },
+                "history": {
+                    "title": "『鉄拳3』のストーリー",
+                    "content": [
+                        "『鉄拳3』の物語は『鉄拳2』の出来事から **19年後** に展開されます。神秘的な存在 **鬼熊（Ogre）** が現れ、世界中の強力な格闘家を襲い始めたことで、**三島財閥（Mishima Zaibatsu）** は再び **鉄拳王大会（King of Iron Fist Tournament）** を開催します。母 **風間準（Jun Kazama）** がOgreに襲撃された後、**風間仁（Jin Kazama）** は祖父 **三島平八（Heihachi Mishima）** に引き取られ、戦いに備えて訓練を受けます。",
+                        "仁は大会で **Ogre** を打ち倒しますが、直後に **平八に裏切られ**、銃撃を受けて見捨てられます。瀕死の状態の中、**悪魔の血（Devil Gene）** が覚醒し、仁は **デビル仁（Devil Jin）** へと変異。新たな力を得た仁は平八を圧倒し、逃亡します。この出来事は『鉄拳』シリーズの大きな転換点となり、**悪魔の血の影響が三島一族の運命を変えていく** ことになります。"
+                    ]
+                }
+            }
+        }
     ],
     "popularGames": [
-      {
-          "id": 10001,
-          "title": "Tekken 3",
-          "platform": "PlayStation",
-          "imageUrl": "/images/games/Tekken 3.png",
-          "href": "/playstation-games/tekken-3",
-          "description": "",
-          "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
-      }
+        {
+            "id": 10001,
+            "title": "鉄拳3",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/Tekken 3.png",
+            "href": "/playstation-games/tekken-3",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
+        }
     ],
     "newGames": [
-      {
-          "id": 20001,
-          "title": "Tekken 3",
-          "platform": "PlayStation",
-          "imageUrl": "/images/games/Tekken 3.png",
-          "href": "/playstation-games/tekken-3",
-          "description": "",
-          "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
-      }
+        {
+            "id": 20001,
+            "title": "鉄拳3",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/Tekken 3.png",
+            "href": "/playstation-games/tekken-3",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
+        }
     ]
-  } 
+}

@@ -1,67 +1,66 @@
 {
     "gameList": [
-      {
-          "id": 1,
-          "title": "Tekken 3",
-          "platform": "PlayStation",
-          "imageUrl": "/images/games/Tekken 3.png",
-          "href": "/playstation-games/tekken-3",
-          "description": "",
-          "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
-          "seoDescription": {
-              "overview": {
-                  "title": "What's Tekken 3?",
-                  "content": [
-                      "Tekken 3 was first released in arcades in 1997, running on Namco's System 12 hardware. It introduced a significant graphical leap and refined gameplay compared to its predecessors. In 1998, the game was ported to the PlayStation, where it became a massive success, selling over 8 million copies. The PlayStation version included new game modes, such as Tekken Force and a new hidden character, Gon. With its impact on the fighting game genre and competitive scene, .Regarded as one of the greatest fighting games of all time, Tekken 3 remains a fan favorite and a defining title of the genre.",
-                      "Tekken 3 not only improved upon the mechanics of its predecessors but also introduced a more fluid and responsive combat system. The game featured a diverse roster of characters, including returning fan favorites like Jin Kazama, Hwoarang, and Ling Xiaoyu, each with unique fighting styles. The enhanced 3D movement system allowed players to sidestep, adding depth to battles and making the gameplay more strategic. The soundtrack, fast-paced action, and engaging storylines contributed to its legendary status. Even decades after its release, Tekken 3 is still widely praised and enjoyed by retro gaming enthusiasts around the world."
-                  ]
-              },
-              "features": {
-                  "title": "Key Features",
-                  "list": [
-                      "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                      "Introduces the new Tekken Force beat-em-up mode",
-                      "Improved graphics and gameplay mechanics over previous Tekken games"
-                  ]
-              },
-              "gameplay": {
-                  "title": "Tekken 3 Gameplay and Features",
-                  "howToPlay": {
-                      "title": "How to Play Tekken 3",
-                      "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
-                  }
-              },
-              "history": {
-                  "title": "Tekken 3 Game Storyline",
-                  "content": [
-                      "The story of Tekken 3 takes place 19 years after the events of Tekken 2. When the mysterious being Ogre appears and begins hunting down powerful fighters around the world, the Mishima Zaibatsu announces the King of Iron Fist Tournament once again. After his mother, Jun Kazama, is attacked by Ogre, Jin Kazama is taken in and trained by his grandfather, Heihachi Mishima, to prepare for the battle.",
-                      "Jin defeats Ogre in the tournament, but is immediately betrayed by Heihachi, who shoots and abandons him. On the brink of death, the Devil Gene within Jin awakens, transforming him into Devil Jin. With his newfound power, he overpowers Heihachi and escapes. This moment marks a turning point in the Tekken series, as the influence of the Devil Gene begins to reshape the fate of the Mishima bloodline."
-                  ]
-              }
-          }
-      }
-  
+        {
+            "id": 1,
+            "title": "铁拳 3",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/Tekken 3.png",
+            "href": "/playstation-games/tekken-3",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "什么是《铁拳 3》?",
+                    "content": [
+                        "《铁拳 3》（Tekken 3）最初于 1997 年在街机平台发布，运行在 Namco 的 System 12 硬件上。相比前作，它在画面和游戏机制方面进行了重大升级，使战斗更加流畅。1998 年，该游戏移植至 PlayStation，并取得了巨大成功，全球销量超过 800 万份。PlayStation 版本新增了游戏模式，如“铁拳部队（Tekken Force）”以及隐藏角色 Gon。作为格斗游戏史上最具影响力的作品之一，《铁拳 3》至今仍然备受玩家喜爱，并成为格斗游戏类型的代表之作。",
+                        "《铁拳 3》不仅在游戏机制上较前作有了显著提升，还引入了更流畅、更具响应性的战斗系统。游戏拥有丰富的角色阵容，包括风间仁（Jin Kazama）、华郎（Hwoarang）和凌晓雨（Ling Xiaoyu）等人气角色，每位角色都有独特的战斗风格。强化的 3D 运动系统允许玩家进行侧移，使战斗策略更加深入。出色的原声音乐、快节奏的战斗系统以及引人入胜的故事情节，使《铁拳 3》成为传奇级别的游戏。即使在数十年后的今天，《铁拳 3》依然广受复古游戏爱好者的赞誉和喜爱。"
+                    ]
+                },
+                "features": {
+                    "title": "主要特色",
+                    "list": [
+                        "拥有 23 位可玩角色，包括风间仁、妮娜·威廉姆斯等人气角色",
+                        "新增“铁拳部队（Tekken Force）”横版动作模式",
+                        "相较前作，画面表现和游戏机制大幅优化"
+                    ]
+                },
+                "gameplay": {
+                    "title": "《铁拳 3》的游戏玩法与特点",
+                    "howToPlay": {
+                        "title": "如何游玩《铁拳 3》",
+                        "content": "游戏采用深度战斗系统，包括投技、反击与连击。玩家可以通过不同的按键组合执行多种招式和连招。"
+                    }
+                },
+                "history": {
+                    "title": "《铁拳 3》游戏剧情",
+                    "content": [
+                        "《铁拳 3》的故事发生在《铁拳 2》事件 **19 年后**。当神秘生物 **鬼神（Ogre）** 出现并开始猎杀世界上的强大格斗家时，**三岛财团（Mishima Zaibatsu）** 再次举办 **铁拳王争霸赛（King of Iron Fist Tournament）**。在母亲 **风间准（Jun Kazama）** 遭到 Ogre 袭击后，**风间仁（Jin Kazama）** 被祖父 **三岛平八（Heihachi Mishima）** 收养并训练，以迎战 Ogre。",
+                        "仁在比赛中击败 **鬼神（Ogre）**，但随即遭到平八的背叛，被枪击并抛弃。生死边缘，仁体内的 **恶魔基因（Devil Gene）** 觉醒，他变身为 **恶魔仁（Devil Jin）**，凭借新获得的力量击败平八并成功逃脱。这一事件成为《铁拳》系列的重要转折点，恶魔基因的影响逐渐改变了三岛血脉的命运。"
+                    ]
+                }
+            }
+        }
     ],
     "popularGames": [
-      {
-          "id": 10001,
-          "title": "Tekken 3",
-          "platform": "PlayStation",
-          "imageUrl": "/images/games/Tekken 3.png",
-          "href": "/playstation-games/tekken-3",
-          "description": "",
-          "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
-      }
+        {
+            "id": 10001,
+            "title": "铁拳 3",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/Tekken 3.png",
+            "href": "/playstation-games/tekken-3",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
+        }
     ],
     "newGames": [
-      {
-          "id": 20001,
-          "title": "Tekken 3",
-          "platform": "PlayStation",
-          "imageUrl": "/images/games/Tekken 3.png",
-          "href": "/playstation-games/tekken-3",
-          "description": "",
-          "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
-      }
+        {
+            "id": 20001,
+            "title": "铁拳 3",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/Tekken 3.png",
+            "href": "/playstation-games/tekken-3",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
+        }
     ]
-  } 
+}

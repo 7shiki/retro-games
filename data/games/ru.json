@@ -10,32 +10,32 @@
           "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
           "seoDescription": {
               "overview": {
-                  "title": "What's Tekken 3?",
+                  "title": "Что такое Tekken 3?",
                   "content": [
-                      "Tekken 3 was first released in arcades in 1997, running on Namco's System 12 hardware. It introduced a significant graphical leap and refined gameplay compared to its predecessors. In 1998, the game was ported to the PlayStation, where it became a massive success, selling over 8 million copies. The PlayStation version included new game modes, such as Tekken Force and a new hidden character, Gon. With its impact on the fighting game genre and competitive scene, .Regarded as one of the greatest fighting games of all time, Tekken 3 remains a fan favorite and a defining title of the genre.",
-                      "Tekken 3 not only improved upon the mechanics of its predecessors but also introduced a more fluid and responsive combat system. The game featured a diverse roster of characters, including returning fan favorites like Jin Kazama, Hwoarang, and Ling Xiaoyu, each with unique fighting styles. The enhanced 3D movement system allowed players to sidestep, adding depth to battles and making the gameplay more strategic. The soundtrack, fast-paced action, and engaging storylines contributed to its legendary status. Even decades after its release, Tekken 3 is still widely praised and enjoyed by retro gaming enthusiasts around the world."
+                      "Tekken 3 впервые вышел в аркадных залах в 1997 году на аппаратной платформе System 12 от Namco. Игра представила значительный графический скачок и улучшенный геймплей по сравнению с предшественниками. В 1998 году игра была портирована на PlayStation, где стала огромным успехом, продав более 8 миллионов копий. Версия для PlayStation включала новые игровые режимы, такие как Tekken Force и нового скрытого персонажа, Гона. Благодаря своему влиянию на жанр файтингов и соревновательную сцену, Tekken 3 считается одним из величайших файтингов всех времен и остается любимой игрой фанатов и определяющим тайтлом жанра.",
+                      "Tekken 3 не только улучшил механику своих предшественников, но и представил более плавную и отзывчивую боевую систему. В игре был представлен разнообразный состав персонажей, включая возвращающихся любимцев фанатов, таких как Дзин Кадзама, Хваранг и Лин Сяоюй, каждый со своим уникальным стилем боя. Улучшенная система трехмерного движения позволяла игрокам делать шаги в сторону, добавляя глубину боям и делая геймплей более стратегическим. Саундтрек, динамичный экшен и увлекательные сюжетные линии способствовали его легендарному статусу. Даже спустя десятилетия после выхода Tekken 3 по-прежнему высоко ценится и радует энтузиастов ретро-гейминга по всему миру."
                   ]
               },
               "features": {
-                  "title": "Key Features",
+                  "title": "Ключевые особенности",
                   "list": [
-                      "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                      "Introduces the new Tekken Force beat-em-up mode",
-                      "Improved graphics and gameplay mechanics over previous Tekken games"
+                      "23 играбельных персонажа, включая любимцев фанатов, таких как Дзин Кадзама и Нина Уильямс",
+                      "Представляет новый режим beat-em-up Tekken Force",
+                      "Улучшенная графика и игровая механика по сравнению с предыдущими играми серии Tekken"
                   ]
               },
               "gameplay": {
-                  "title": "Tekken 3 Gameplay and Features",
+                  "title": "Геймплей и особенности Tekken 3",
                   "howToPlay": {
-                      "title": "How to Play Tekken 3",
-                      "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                      "title": "Как играть в Tekken 3",
+                      "content": "Игра предлагает глубокую боевую систему с бросками, контратаками и жонглированием. Игроки могут выполнять различные приемы и комбо, используя разные комбинации кнопок."
                   }
               },
               "history": {
-                  "title": "Tekken 3 Game Storyline",
+                  "title": "Сюжет Tekken 3",
                   "content": [
-                      "The story of Tekken 3 takes place 19 years after the events of Tekken 2. When the mysterious being Ogre appears and begins hunting down powerful fighters around the world, the Mishima Zaibatsu announces the King of Iron Fist Tournament once again. After his mother, Jun Kazama, is attacked by Ogre, Jin Kazama is taken in and trained by his grandfather, Heihachi Mishima, to prepare for the battle.",
-                      "Jin defeats Ogre in the tournament, but is immediately betrayed by Heihachi, who shoots and abandons him. On the brink of death, the Devil Gene within Jin awakens, transforming him into Devil Jin. With his newfound power, he overpowers Heihachi and escapes. This moment marks a turning point in the Tekken series, as the influence of the Devil Gene begins to reshape the fate of the Mishima bloodline."
+                      "События Tekken 3 происходят через 19 лет после событий Tekken 2. Когда появляется таинственное существо Огр и начинает охотиться на сильных бойцов по всему миру, Мисима Дзайбацу снова объявляет Турнир Железного Кулака. После того как его мать, Дзюн Кадзама, подвергается нападению Огра, Дзин Кадзама попадает под опеку своего деда, Хэйхати Мисимы, который тренирует его для предстоящей битвы.",
+                      "Дзин побеждает Огра в турнире, но сразу же подвергается предательству со стороны Хэйхати, который стреляет в него и бросает умирать. На грани смерти в Дзине пробуждается Дьявольский ген, превращая его в Дьявола Дзина. С новообретенной силой он одолевает Хэйхати и сбегает. Этот момент становится поворотным в серии Tekken, так как влияние Дьявольского гена начинает менять судьбу родословной Мисима."
                   ]
               }
           }
