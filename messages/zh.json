@@ -165,8 +165,21 @@
           "description": "The requested game could not be found."
         },
         "relatedGames": {
-          "title": "You may be interested in",
-          "heading": "Related Games"
+          "title": "您可能感兴趣",
+          "heading": "相关游戏"
+        },
+        "page": {
+          "description": "在浏览器中在线玩 {title}。无需下载。",
+          "shareText": "在浏览器中免费玩 {title}！无需下载。",
+          "share": {
+            "label": "分享",
+            "twitter": "分享到 Twitter",
+            "facebook": "分享到 Facebook",
+            "reddit": "分享到 Reddit",
+            "linkedin": "分享到 LinkedIn"
+          },
+          "playButton": "开始游戏",
+          "about": "关于 {title} :"
         }
       }
 }

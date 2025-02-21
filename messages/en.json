@@ -167,6 +167,19 @@
     "relatedGames": {
       "title": "You may be interested in",
       "heading": "Related Games"
+    },
+    "page": {
+      "description": "Play {title} online in your browser. No download required.",
+      "shareText": "Play {title} online for free in your browser! No download required.",
+      "share": {
+        "label": "Share",
+        "twitter": "Share on Twitter",
+        "facebook": "Share on Facebook",
+        "reddit": "Share on Reddit",
+        "linkedin": "Share on LinkedIn"
+      },
+      "playButton": "Play Game",
+      "about": "About {title} :"
     }
   }
 } 
