@@ -35,7 +35,7 @@ export default function Header() {
                         {/* Left section: Logo and Mobile Menu Button */}
                         <div className="flex items-center gap-2">
                             <Link 
-                                href={locale === 'en' ? '/' : `/${locale}`} 
+                                href={locale === 'en' ? 'https://retro-games.org/' : `https://retro-games.org/${locale}`} 
                                 className="flex items-center"
                             >
                                 <span className="retro-logo text-xl md:text-2xl">RetroGames</span>

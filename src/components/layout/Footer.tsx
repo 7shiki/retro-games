@@ -9,11 +9,11 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* 左侧 - RetroGames */}
                     <div>
-                        <Link href="/" className="block">
+                        <Link href="https://retro-games.org/" className="block">
                             <span className="retro-logo text-lg font-semibold text-purple-400 mb-4 block">RetroGames</span>
                         </Link>
                         <p className="text-sm text-gray-400">
-                            Experience the nostalgia of <Link href="/" className="text-purple-400 hover:text-purple-300 transition-colors">Retro Games</Link> on our website, where you can relive childhood memories with classic titles from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade—all playable online! No download required.
+                            Experience the nostalgia of <Link href="https://retro-games.org/" className="text-purple-400 hover:text-purple-300 transition-colors">Retro Games</Link> on our website, where you can relive childhood memories with classic titles from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade—all playable online! No download required.
                         </p>
                     </div>
 
