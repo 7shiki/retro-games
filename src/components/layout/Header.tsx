@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname, useParams } from 'next/navigation'
 import { useState, useEffect } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import ThemeToggle from './ThemeToggle'
@@ -10,6 +10,8 @@ import { categories, type CategoryItem } from '@/config/categories'
 
 export default function Header() {
     const pathname = usePathname()
+    const params = useParams()
+    const locale = params.locale as string
     const [openMenu, setOpenMenu] = useState<string | null>(null)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
@@ -32,7 +34,10 @@ export default function Header() {
                     <div className="flex items-center justify-between h-16">
                         {/* Left section: Logo and Mobile Menu Button */}
                         <div className="flex items-center gap-2">
-                            <Link href="/" className="flex items-center">
+                            <Link 
+                                href={locale === 'en' ? '/' : `/${locale}`} 
+                                className="flex items-center"
+                            >
                                 <span className="retro-logo text-xl md:text-2xl">RetroGames</span>
                             </Link>
 
