@@ -99,7 +99,7 @@
     },
     "sega32x": {
       "alt": "Sega 32X Games Online",
-      "description": "The Sega 32X is an add-on for the Sega Genesis/Mega Drive released in 1994. It was designed to enhance the console’s graphics and processing power, but it had a short lifespan due to the arrival of the Sega Saturn."
+      "description": "The Sega 32X is an add-on for the Sega Genesis/Mega Drive released in 1994. It was designed to enhance the console's graphics and processing power, but it had a short lifespan due to the arrival of the Sega Saturn."
     },
     "sega-cd": {
       "alt": "Sega CD/Mega CD Games Online",
@@ -111,7 +111,7 @@
     },
     "turbografx-cd": {
       "alt": "NEC TurboGrafx-CD Games Online",
-      "description": "The TurboGrafx-CD is an add-on for the TurboGrafx-16/PC Engine, released in 1988 in Japan and later in North America. It introduced CD-based gaming to NEC’s platform, allowing for higher quality audio and expanded game storage."
+      "description": "The TurboGrafx-CD is an add-on for the TurboGrafx-16/PC Engine, released in 1988 in Japan and later in North America. It introduced CD-based gaming to NEC's platform, allowing for higher quality audio and expanded game storage."
     },
     "pc-engine-cd": {
       "alt": "NEC PC Engine CD-ROM² Games Online",
@@ -127,7 +127,7 @@
     },
     "atari-jaguar": {
       "alt": "Atari Jaguar Games Online",
-      "description": "The Atari Jaguar is a home video game console released in 1993 by Atari Corporation. Marketed as the first 64-bit gaming system, it boasted superior processing power compared to its 16-bit competitors. However, the Jaguar struggled due to a lack of developer support and strong competition from the Sony PlayStation and Sega Saturn, ultimately leading to Atari’s exit from the console market."
+      "description": "The Atari Jaguar is a home video game console released in 1993 by Atari Corporation. Marketed as the first 64-bit gaming system, it boasted superior processing power compared to its 16-bit competitors. However, the Jaguar struggled due to a lack of developer support and strong competition from the Sony PlayStation and Sega Saturn, ultimately leading to Atari's exit from the console market."
     },
     "playstation": {
       "alt": "Sony PlayStation Games Online",
@@ -139,11 +139,11 @@
     },
     "wonderswan": {
       "alt": "Bandai WonderSwan Games Online",
-      "description": "The WonderSwan is a handheld game console released in 1999 by Bandai exclusively in Japan. Designed as a competitor to the Game Boy Color, it featured a unique vertical and horizontal screen orientation. An improved version, the WonderSwan Color, was released in 2000, offering a color display and better hardware capabilities. Despite its innovative design, it struggled to compete with Nintendo’s dominance in the handheld market."
+      "description": "The WonderSwan is a handheld game console released in 1999 by Bandai exclusively in Japan. Designed as a competitor to the Game Boy Color, it featured a unique vertical and horizontal screen orientation. An improved version, the WonderSwan Color, was released in 2000, offering a color display and better hardware capabilities. Despite its innovative design, it struggled to compete with Nintendo's dominance in the handheld market."
     },
     "neo-geo-pocket": {
       "alt": "SNK Neo Geo Pocket Games Online",
-      "description": "The Neo Geo Pocket is a handheld game console released by SNK in 1998. It was later succeeded by the Neo Geo Pocket Color in 1999, which introduced a color screen and improved software support. The system featured high-quality arcade-style games, particularly from SNK’s franchises like King of Fighters and Samurai Shodown, but it struggled against Nintendo’s Game Boy lineup."
+      "description": "The Neo Geo Pocket is a handheld game console released by SNK in 1998. It was later succeeded by the Neo Geo Pocket Color in 1999, which introduced a color screen and improved software support. The system featured high-quality arcade-style games, particularly from SNK's franchises like King of Fighters and Samurai Shodown, but it struggled against Nintendo's Game Boy lineup."
     },
     "msx": {
       "alt": "MSX Games Online",
@@ -152,6 +152,17 @@
     "msx-2": {
       "alt": "MSX 2 Games Online",
       "description": "The MSX2 is an upgraded version of the original MSX computer standard, released in 1985. It featured improved graphics capabilities, including support for higher resolutions and a larger color palette, making it a more powerful gaming and computing system. Many classic games, such as Metal Gear 2: Solid Snake, were developed for the MSX2, showcasing its advanced hardware for the time."
+    }
+  },
+  "game": {
+    "metadata": {
+      "title": "Play {title} Online. No download required - Retro Games",
+      "description": "Play {title} ({platform}) online for free in your browser. No download required.",
+      "keywords": ""
+    },
+    "notFound": {
+      "title": "Game Not Found - RetroGames",
+      "description": "The requested game could not be found."
     }
   }
 } 

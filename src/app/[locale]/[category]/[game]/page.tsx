@@ -1,12 +1,12 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { allGames } from '@/components/games/GameList'
+import { Game, getTranslations, getGameData } from '@/utils/i18n'
 import { categoryMap } from '@/config/categories'
 import Script from 'next/script'
 import Link from 'next/link'
 import Image from 'next/image'
 
-type Props = {
+interface Props {
   params: {
     locale: string
     category: string
@@ -14,19 +14,37 @@ type Props = {
   }
 }
 
-export function generateMetadata({ params }: Props): Metadata {
+interface GameSEODescription {
+  overview: string[]
+  history: string[]
+  features: string[]
+}
+
+interface RelatedGame {
+  id: string
+  title: string
+  href: string
+  imageUrl: string
+  platform: string
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const messages = await getTranslations(params.locale)
+  const { gameList } = await getGameData(params.locale)
   const fullPath = `/${params.category}/${params.game}`
-  const game = allGames.find(g => g.href === fullPath)
+  const game = gameList.find((g: Game) => g.href === fullPath)
 
   if (!game) {
     return {
-      title: 'Game Not Found - RetroGames',
-      description: 'The requested game could not be found.'
+      title: messages.game.notFound.title,
+      description: messages.game.notFound.description
     }
   }
 
-  const title = `Play ${game.title} Online. No download required - Retro Games`
-  const description = `Play ${game.title} (${game.platform}) online for free in your browser. No download required.`
+  const title = messages.game.metadata.title.replace('{title}', game.title)
+  const description = messages.game.metadata.description
+    .replace('{title}', game.title)
+    .replace('{platform}', game.platform)
   const url = `https://retro-games.org${fullPath}`
 
   return {
@@ -59,9 +77,11 @@ export function generateMetadata({ params }: Props): Metadata {
 }
 
 // 生成 Schema 标签
-export function generateJsonLd({ params }: Props) {
+export async function generateJsonLd({ params }: Props) {
+  const messages = await getTranslations(params.locale)
+  const { gameList } = await getGameData(params.locale)
   const fullPath = `/${params.category}/${params.game}`
-  const game = allGames.find(g => g.href === fullPath)
+  const game = gameList.find((g: Game) => g.href === fullPath)
   const categorySlug = params.category.replace('-games', '')
   const category = categoryMap[categorySlug]
 
@@ -135,9 +155,11 @@ export function generateJsonLd({ params }: Props) {
   }
 }
 
-export default function GamePage({ params }: Props) {
+export default async function GamePage({ params }: Props) {
+  const messages = await getTranslations(params.locale)
+  const { gameList } = await getGameData(params.locale)
   const fullPath = `/${params.category}/${params.game}`
-  const game = allGames.find(g => g.href === fullPath)
+  const game = gameList.find((g: Game) => g.href === fullPath)
 
   if (!game) {
     notFound()
@@ -151,7 +173,10 @@ export default function GamePage({ params }: Props) {
   }
 
   // 从 embedUrl 中提取 src
-  const iframeSrc = game.embedUrl.match(/src="([^"]+)"/)?.[1] || ''
+  const iframeSrc = game.embedUrl
+    .replace('<iframe', '')
+    .replace('</iframe>', '')
+    .match(/src=["']([^"']+)["']/)?.[1] || ''
 
   // 构建分享 URL 和文本
   const shareUrl = `https://retro-games.org${fullPath}` // 替换为你的实际域名
@@ -166,12 +191,12 @@ export default function GamePage({ params }: Props) {
   }
 
   // 获取相关游戏
-  const relatedGames = allGames
-    .filter(g => g.id !== game.id) // 同平台但不包括当前游戏
+  const relatedGames = gameList
+    .filter((g: Game) => g.id !== game.id)
     .sort(() => Math.random() - 0.5)
-    .slice(0, 8) // 只取8个游戏
+    .slice(0, 8) as RelatedGame[]
 
-  const jsonLd = generateJsonLd({ params })
+  const jsonLd = await generateJsonLd({ params })
 
   return (
     <>
@@ -281,10 +306,10 @@ export default function GamePage({ params }: Props) {
               {/* 相关游戏 */}
               <div className="mt-16">
                 <span className="text-2xl font-bold mb-8">
-                  <span className="retro-logo">Related Games</span>
+                  <span className="retro-logo">{messages.game.relatedGames}</span>
                 </span>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                  {relatedGames.map((relatedGame) => (
+                  {relatedGames.map((relatedGame: RelatedGame) => (
                     <div key={relatedGame.id} className="game-card group">
                       <Link href={relatedGame.href} className="block">
                         <div className="relative aspect-[3/2] overflow-hidden">
@@ -341,7 +366,7 @@ export default function GamePage({ params }: Props) {
                           What's {game.title}?
                         </h3>
                         <div className="space-y-4">
-                          {game.seoDescription.overview.map((paragraph, index) => (
+                          {game.seoDescription.overview.map((paragraph: string, index: number) => (
                             <p key={index} className="leading-relaxed">
                               {paragraph}
                             </p>
@@ -353,7 +378,7 @@ export default function GamePage({ params }: Props) {
                           {game.title} Game History
                         </h3>
                         <div className="space-y-4">
-                          {game.seoDescription.history.map((paragraph, index) => (
+                          {game.seoDescription.history.map((paragraph: string, index: number) => (
                             <p key={index} className="leading-relaxed">
                               {paragraph}
                             </p>
@@ -374,7 +399,7 @@ export default function GamePage({ params }: Props) {
                           Key Features
                         </h3>
                         <ul className="list-disc list-inside space-y-2">
-                          {game.seoDescription.features.map((feature, index) => (
+                          {game.seoDescription.features.map((feature: string, index: number) => (
                             <li key={index}>{feature}</li>
                           ))}
                         </ul>
