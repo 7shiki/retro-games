@@ -1,45 +1,45 @@
 {
   "home": {
     "metadata": {
-      "title": "Retro Games - Play Retro Games Online. No Download Required.",
-      "description": "Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.",
+      "title": "🎮 Retro Games - Chơi game cổ điển trực tuyến. Không cần tải xuống.",
+      "description": "Chơi game cổ điển trực tuyến từ NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 và game Arcade cổ điển trên trình duyệt của bạn. Miễn phí và không cần tải xuống.",
       "keywords": "",
       "og": {
         "title": "Retro Games - Play Classic Games Online",
-        "description": "Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.",
-        "imageAlt": "Retro Games - Classic Gaming Collection"
+        "description": "Chơi game cổ điển trực tuyến từ NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 và game Arcade cổ điển trên trình duyệt của bạn. Miễn phí và không cần tải xuống.",
+        "imageAlt": "Retro Games - Bộ sưu tập game cổ điển"
       }
     },
     "hero": {
       "title": {
-        "play": "Play",
-        "retroGames": "Retro Games"
+        "play": "Chơi",
+        "retroGames": "Trò chơi cổ điển"
       },
-      "description": "Relive your childhood joy and nostalgia with our collection of Retro Games, featuring timeless classics from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade. No download required."
+      "description": "Hồi tưởng niềm vui tuổi thơ và hoài niệm với bộ sưu tập game cổ điển của chúng tôi, bao gồm những tựa game kinh điển vượt thời gian từ Nintendo, Sega, NEC, Atari, PlayStation và Arcade. Không cần tải xuống."
     }
   },
   "games": {
-    "popularGames": "Most Popular Retro Games",
-    "newGames": "New Retro Games",
-    "viewAll": "View All Retro Games",
-    "playGame": "Play Game",
-    "loadMore": "Load More Games",
-    "updatedDaily": "Updated daily"
+    "popularGames": "Những game cổ điển phổ biến nhất",
+    "newGames": "Game cổ điển mới",
+    "viewAll": "Xem tất cả game cổ điển",
+    "playGame": "Chơi game",
+    "loadMore": "Tải thêm game",
+    "updatedDaily": "Cập nhật hàng ngày"
   },
   "allGames": {
     "metadata": {
-      "title": "Retro-Games.org - All Retro Games. Play Classic Games Online",
-      "description": "Browse our complete collection of classic retro games from Nintendo, Sega, PlayStation, and more. Play your favorite retro games online.",
+      "title": "Retro-Games.org - Tất cả game cổ điển. Chơi game kinh điển trực tuyến",
+      "description": "Duyệt qua bộ sưu tập đầy đủ các game cổ điển từ Nintendo, Sega, PlayStation và hơn thế nữa. Chơi những game cổ điển yêu thích của bạn trực tuyến.",
       "keywords": ""
     },
-    "title": "All Retro Games",
-    "description": "Browse our complete collection of classic retro games available to play online.",
-    "subDescription": "Rediscover your childhood memories and relive those magical gaming moments.",
-    "browseGames": "Browse Games",
-    "allPlatforms": "All Platforms",
-    "foundGames": "Found {count} games matching{platform}{query} criteria",
-    "noGamesFound": "No games found matching your criteria.",
-    "clearSearch": "Clear search"
+    "title": "Tất cả game cổ điển",
+    "description": "Duyệt qua bộ sưu tập đầy đủ các game cổ điển có thể chơi trực tuyến.",
+    "subDescription": "Hồi tưởng những kỷ niệm tuổi thơ và sống lại những khoảnh khắc chơi game kỳ diệu.",
+    "browseGames": "Duyệt game",
+    "allPlatforms": "Tất cả nền tảng",
+    "foundGames": "Đã tìm thấy {count} game phù hợp với tiêu chí{platform}{query}",
+    "noGamesFound": "Không tìm thấy game nào phù hợp với tiêu chí của bạn.",
+    "clearSearch": "Xóa tìm kiếm"
   },
   "category": {
     "metadata": {
