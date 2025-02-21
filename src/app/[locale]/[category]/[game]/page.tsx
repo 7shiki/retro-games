@@ -257,7 +257,8 @@ export default async function GamePage({ params }: Props) {
 
             {/* 游戏模拟器 */}
             <div className="max-w-5xl mx-auto">
-              <div className="aspect-video bg-gray-800 rounded-lg overflow-hidden">
+              {/* 桌面端使用 16:9 宽高比，移动端使用 9:14 宽高比 */}
+              <div className="md:aspect-video aspect-[9/14] bg-gray-800 rounded-lg overflow-hidden">
                 <iframe
                   src={iframeSrc}
                   className="w-full h-full"
