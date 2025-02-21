@@ -34,6 +34,25 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       title: metadata.og.title,
       description: metadata.og.description,
       images: ['https://retro-games.org/images/og-image.jpg']
+    },
+    alternates: {
+      canonical: 'https://retro-games.org/',
+      languages: {
+        'en': 'https://retro-games.org/',
+        'zh': 'https://retro-games.org/zh',
+        'zh-TW': 'https://retro-games.org/zh-TW',
+        'es': 'https://retro-games.org/es',
+        'pt': 'https://retro-games.org/pt',
+        'ru': 'https://retro-games.org/ru',
+        'ja': 'https://retro-games.org/ja',
+        'de': 'https://retro-games.org/de',
+        'fr': 'https://retro-games.org/fr',
+        'ko': 'https://retro-games.org/ko',
+        'it': 'https://retro-games.org/it',
+        'fil': 'https://retro-games.org/fil',
+        'hi': 'https://retro-games.org/hi',
+        'vi': 'https://retro-games.org/vi'
+      } as Record<string, string>
     }
   }
 }

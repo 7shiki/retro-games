@@ -75,7 +75,26 @@ export async function generateMetadata({ params }: { params: { category: string,
       .replace('{platform}', info.title),
     description: messages.category.metadata.description
       .replaceAll('{platform}', info.platform),
-    keywords: messages.category.metadata.keywords
+    keywords: messages.category.metadata.keywords,
+    alternates: {
+      canonical: `https://retro-games.org/${params.category}`,
+      languages: {
+        'en': `https://retro-games.org/${params.category}`,
+        'zh': `https://retro-games.org/zh/${params.category}`,
+        'zh-TW': `https://retro-games.org/zh-TW/${params.category}`,
+        'es': `https://retro-games.org/es/${params.category}`,
+        'pt': `https://retro-games.org/pt/${params.category}`,
+        'ru': `https://retro-games.org/ru/${params.category}`,
+        'ja': `https://retro-games.org/ja/${params.category}`,
+        'de': `https://retro-games.org/de/${params.category}`,
+        'fr': `https://retro-games.org/fr/${params.category}`,
+        'ko': `https://retro-games.org/ko/${params.category}`,
+        'it': `https://retro-games.org/it/${params.category}`,
+        'fil': `https://retro-games.org/fil/${params.category}`,
+        'hi': `https://retro-games.org/hi/${params.category}`,
+        'vi': `https://retro-games.org/vi/${params.category}`
+      } as Record<string, string>
+    }
   }
 }
 

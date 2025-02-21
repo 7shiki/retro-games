@@ -7,7 +7,26 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   
   return {
     title: `${messages.footer.terms.title} - RetroGames`,
-    description: messages.footer.terms.description
+    description: messages.footer.terms.description,
+    alternates: {
+      canonical: 'https://retro-games.org/terms-of-service',
+      languages: {
+        'en': 'https://retro-games.org/terms-of-service',
+        'zh': 'https://retro-games.org/zh/terms-of-service',
+        'zh-TW': 'https://retro-games.org/zh-TW/terms-of-service',
+        'es': 'https://retro-games.org/es/terms-of-service',
+        'pt': 'https://retro-games.org/pt/terms-of-service',
+        'ru': 'https://retro-games.org/ru/terms-of-service',
+        'ja': 'https://retro-games.org/ja/terms-of-service',
+        'de': 'https://retro-games.org/de/terms-of-service',
+        'fr': 'https://retro-games.org/fr/terms-of-service',
+        'ko': 'https://retro-games.org/ko/terms-of-service',
+        'it': 'https://retro-games.org/it/terms-of-service',
+        'fil': 'https://retro-games.org/fil/terms-of-service',
+        'hi': 'https://retro-games.org/hi/terms-of-service',
+        'vi': 'https://retro-games.org/vi/terms-of-service'
+      } as Record<string, string>
+    }
   }
 }
 

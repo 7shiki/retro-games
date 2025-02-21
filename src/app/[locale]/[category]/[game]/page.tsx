@@ -73,6 +73,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       images: [`https://retro-games.org${game.imageUrl}`]
+    },
+    alternates: {
+      canonical: `https://retro-games.org/${params.category}/${params.game}`,
+      languages: {
+        'en': `https://retro-games.org/${params.category}/${params.game}`,
+        'zh': `https://retro-games.org/zh/${params.category}/${params.game}`,
+        'zh-TW': `https://retro-games.org/zh-TW/${params.category}/${params.game}`,
+        'es': `https://retro-games.org/es/${params.category}/${params.game}`,
+        'pt': `https://retro-games.org/pt/${params.category}/${params.game}`,
+        'ru': `https://retro-games.org/ru/${params.category}/${params.game}`,
+        'ja': `https://retro-games.org/ja/${params.category}/${params.game}`,
+        'de': `https://retro-games.org/de/${params.category}/${params.game}`,
+        'fr': `https://retro-games.org/fr/${params.category}/${params.game}`,
+        'ko': `https://retro-games.org/ko/${params.category}/${params.game}`,
+        'it': `https://retro-games.org/it/${params.category}/${params.game}`,
+        'fil': `https://retro-games.org/fil/${params.category}/${params.game}`,
+        'hi': `https://retro-games.org/hi/${params.category}/${params.game}`,
+        'vi': `https://retro-games.org/vi/${params.category}/${params.game}`
+      } as Record<string, string>
     }
   }
 }

@@ -7,7 +7,26 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
     return {
         title: `${messages.footer.privacy.title} - RetroGames`,
-        description: messages.footer.privacy.description
+        description: messages.footer.privacy.description,
+        alternates: {
+            canonical: 'https://retro-games.org/privacy-policy',
+            languages: {
+              'en': 'https://retro-games.org/privacy-policy',
+              'zh': 'https://retro-games.org/zh/privacy-policy',
+              'zh-TW': 'https://retro-games.org/zh-TW/privacy-policy',
+              'es': 'https://retro-games.org/es/privacy-policy',
+              'pt': 'https://retro-games.org/pt/privacy-policy',
+              'ru': 'https://retro-games.org/ru/privacy-policy',
+              'ja': 'https://retro-games.org/ja/privacy-policy',
+              'de': 'https://retro-games.org/de/privacy-policy',
+              'fr': 'https://retro-games.org/fr/privacy-policy',
+              'ko': 'https://retro-games.org/ko/privacy-policy',
+              'it': 'https://retro-games.org/it/privacy-policy',
+              'fil': 'https://retro-games.org/fil/privacy-policy',
+              'hi': 'https://retro-games.org/hi/privacy-policy',
+              'vi': 'https://retro-games.org/vi/privacy-policy'
+            } as Record<string, string>
+          }
     }
 }
 
