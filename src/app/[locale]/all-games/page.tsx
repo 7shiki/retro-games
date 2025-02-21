@@ -36,11 +36,64 @@ export default async function AllGamesPage({ params }: { params: { locale: strin
   const { gameList } = await getGameData(params.locale)
   const messages = await getTranslations(params.locale)
 
+  // Add generateJsonLd as a local function
+  const generateJsonLd = () => {
+    return {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'CollectionPage',
+          '@id': 'https://retro-games.org/all-games#webpage',
+          'url': 'https://retro-games.org/all-games',
+          'name': 'All Retro Games - Play Classic Games Online',
+          'description': 'Browse and play all retro games online for free in your browser. No download required. Experience classic video games instantly.',
+          'isPartOf': {
+            '@id': 'https://retro-games.org/#website'
+          }
+        },
+        {
+          '@type': 'VideoGameSeries',
+          '@id': 'https://retro-games.org/all-games#gameseries',
+          'name': 'Retro Games Collection',
+          'description': 'Complete collection of classic retro games available to play online for free.',
+          'genre': ['Retro Games', 'Classic Games']
+        },
+        {
+          '@type': 'BreadcrumbList',
+          'itemListElement': [
+            {
+              '@type': 'ListItem',
+              'position': 1,
+              'name': 'Home',
+              'item': 'https://retro-games.org/'
+            },
+            {
+              '@type': 'ListItem',
+              'position': 2,
+              'name': 'All Games',
+              'item': 'https://retro-games.org/all-games'
+            }
+          ]
+        }
+      ]
+    }
+  }
+
+  const jsonLd = generateJsonLd()
+
   return (
-    <AllGamesClient 
-      locale={params.locale}
-      initialMessages={messages}
-      initialGames={gameList}
-    />
+    <main className="min-h-screen">
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      )}
+      <AllGamesClient 
+        locale={params.locale}
+        initialMessages={messages}
+        initialGames={gameList}
+      />
+    </main>
   )
 }

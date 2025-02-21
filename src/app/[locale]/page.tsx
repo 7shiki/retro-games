@@ -57,49 +57,50 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   }
 }
 
-// 生成 JSON-LD
-export function generateJsonLd(locale: string) {
-  return {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'WebSite',
-        '@id': 'https://retro-games.org/#website',
-        'url': 'https://retro-games.org/',
-        'name': 'RetroGames',
-        'description': 'Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.',
-        'potentialAction': {
-          '@type': 'SearchAction',
-          'target': 'https://retro-games.org/all-games?search={search_term_string}',
-          'query-input': 'required name=search_term_string'
-        }
-      },
-      {
-        '@type': 'VideoGameSeries',
-        '@id': 'https://retro-games.org/all-games#games',
-        'name': 'Retro Games Collection',
-        'description': 'Collection of classic retro games from multiple platforms including Nintendo, Sega, PlayStation, and Arcade games.',
-        'genre': ['Retro Games', 'Classic Games', 'Arcade Games'],
-        'gamePlatform': [
-          'Nintendo Entertainment System',
-          'Super Nintendo',
-          'Game Boy',
-          'Game Boy Color',
-          'Game Boy Advance',
-          'Nintendo 64',
-          'Nintendo DS',
-          'Sega Genesis',
-          'PlayStation',
-          'Arcade'
-        ]
-      }
-    ]
-  }
-}
-
 export default async function Home({ params }: { params: { locale: string } }) {
   const messages = await getTranslations(params.locale)
-  const jsonLd = generateJsonLd(params.locale)
+  
+  // Move generateJsonLd inside the component as a local function
+  const generateJsonLd = () => {
+    return {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'WebSite',
+          '@id': 'https://retro-games.org/#website',
+          'url': 'https://retro-games.org/',
+          'name': 'RetroGames',
+          'description': 'Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.',
+          'potentialAction': {
+            '@type': 'SearchAction',
+            'target': 'https://retro-games.org/all-games?search={search_term_string}',
+            'query-input': 'required name=search_term_string'
+          }
+        },
+        {
+          '@type': 'VideoGameSeries',
+          '@id': 'https://retro-games.org/all-games#games',
+          'name': 'Retro Games Collection',
+          'description': 'Collection of classic retro games from multiple platforms including Nintendo, Sega, PlayStation, and Arcade games.',
+          'genre': ['Retro Games', 'Classic Games', 'Arcade Games'],
+          'gamePlatform': [
+            'Nintendo Entertainment System',
+            'Super Nintendo',
+            'Game Boy',
+            'Game Boy Color',
+            'Game Boy Advance',
+            'Nintendo 64',
+            'Nintendo DS',
+            'Sega Genesis',
+            'PlayStation',
+            'Arcade'
+          ]
+        }
+      ]
+    }
+  }
+
+  const jsonLd = generateJsonLd()
 
   return (
     <>

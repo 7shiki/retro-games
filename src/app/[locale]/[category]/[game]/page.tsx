@@ -96,85 +96,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-// 生成 Schema 标签
-export async function generateJsonLd({ params }: Props) {
-  const messages = await getTranslations(params.locale)
-  const { gameList } = await getGameData(params.locale)
-  const fullPath = `/${params.category}/${params.game}`
-  const game = gameList.find((g: Game) => g.href === fullPath)
-  const categorySlug = params.category.replace('-games', '')
-  const category = categoryMap[categorySlug]
-
-  if (!game || !category) return null
-
-  return {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'WebPage',
-        '@id': `https://retro-games.org${fullPath}#webpage`,
-        'url': `https://retro-games.org${fullPath}`,
-        'name': `Play ${game.title} Online for free in your browser - Retro Games`,
-        'description': `Play ${game.title} online for free in your browser. No download required. Experience this classic ${game.platform} game instantly.`,
-        'isPartOf': {
-          '@id': 'https://retro-games.org/#website'
-        },
-        'primaryImageOfPage': {
-          '@type': 'ImageObject',
-          'url': 'https://retro-games.org' + game.imageUrl,
-          'width': 320,
-          'height': 200
-        }
-      },
-      {
-        '@type': 'VideoGame',
-        '@id': `https://retro-games.org${fullPath}#game`,
-        'name': game.title,
-        'description': `Play ${game.title} online for free in your browser. No download required. Experience this classic ${game.platform} game instantly.`,
-        'gamePlatform': game.platform,
-        'genre': ['Retro Games', 'Classic Games'],
-        'publisher': category.company !== 'Other' ? category.company : undefined,
-        'image': 'https://retro-games.org' + game.imageUrl,
-        'url': `https://retro-games.org${fullPath}`,
-        'offers': {
-          '@type': 'Offer',
-          'price': '0',
-          'priceCurrency': 'USD',
-          'availability': 'https://schema.org/InStock'
-        },
-        'gameItem': {
-          '@type': 'Thing',
-          'name': `${game.title} Online`,
-          'description': `Play ${game.title} in your browser for free`
-        }
-      },
-      {
-        '@type': 'BreadcrumbList',
-        'itemListElement': [
-          {
-            '@type': 'ListItem',
-            'position': 1,
-            'name': 'Home',
-            'item': 'https://retro-games.org/'
-          },
-          {
-            '@type': 'ListItem',
-            'position': 2,
-            'name': category.platform,
-            'item': `https://retro-games.org/${params.category}`
-          },
-          {
-            '@type': 'ListItem',
-            'position': 3,
-            'name': game.title,
-            'item': `https://retro-games.org${fullPath}`
-          }
-        ]
-      }
-    ]
-  }
-}
-
 export default async function GamePage({ params }: Props) {
   const messages = await getTranslations(params.locale)
   const { gameList } = await getGameData(params.locale)
@@ -190,6 +111,78 @@ export default async function GamePage({ params }: Props) {
 
   if (!category) {
     notFound()
+  }
+
+  // Move generateJsonLd logic here as a local function
+  const generateJsonLd = () => {
+    if (!game || !category) return null
+
+    return {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'WebPage',
+          '@id': `https://retro-games.org${fullPath}#webpage`,
+          'url': `https://retro-games.org${fullPath}`,
+          'name': `Play ${game.title} Online for free in your browser - Retro Games`,
+          'description': `Play ${game.title} online for free in your browser. No download required. Experience this classic ${game.platform} game instantly.`,
+          'isPartOf': {
+            '@id': 'https://retro-games.org/#website'
+          },
+          'primaryImageOfPage': {
+            '@type': 'ImageObject',
+            'url': 'https://retro-games.org' + game.imageUrl,
+            'width': 320,
+            'height': 200
+          }
+        },
+        {
+          '@type': 'VideoGame',
+          '@id': `https://retro-games.org${fullPath}#game`,
+          'name': game.title,
+          'description': `Play ${game.title} online for free in your browser. No download required. Experience this classic ${game.platform} game instantly.`,
+          'gamePlatform': game.platform,
+          'genre': ['Retro Games', 'Classic Games'],
+          'publisher': category.company !== 'Other' ? category.company : undefined,
+          'image': 'https://retro-games.org' + game.imageUrl,
+          'url': `https://retro-games.org${fullPath}`,
+          'offers': {
+            '@type': 'Offer',
+            'price': '0',
+            'priceCurrency': 'USD',
+            'availability': 'https://schema.org/InStock'
+          },
+          'gameItem': {
+            '@type': 'Thing',
+            'name': `${game.title} Online`,
+            'description': `Play ${game.title} in your browser for free`
+          }
+        },
+        {
+          '@type': 'BreadcrumbList',
+          'itemListElement': [
+            {
+              '@type': 'ListItem',
+              'position': 1,
+              'name': 'Home',
+              'item': 'https://retro-games.org/'
+            },
+            {
+              '@type': 'ListItem',
+              'position': 2,
+              'name': category.platform,
+              'item': `https://retro-games.org/${params.category}`
+            },
+            {
+              '@type': 'ListItem',
+              'position': 3,
+              'name': game.title,
+              'item': `https://retro-games.org${fullPath}`
+            }
+          ]
+        }
+      ]
+    }
   }
 
   // 从 embedUrl 中提取 src
@@ -218,7 +211,7 @@ export default async function GamePage({ params }: Props) {
     .sort(() => Math.random() - 0.5)
     .slice(0, 8) as RelatedGame[]
 
-  const jsonLd = await generateJsonLd({ params })
+  const jsonLd = generateJsonLd()
 
   return (
     <>
