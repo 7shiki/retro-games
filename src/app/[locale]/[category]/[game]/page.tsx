@@ -218,14 +218,14 @@ export default async function GamePage({ params }: Props) {
             {/* 面包屑导航 */}
             <div className="mb-6 text-sm breadcrumbs opacity-80">
               <Link 
-                href={`/${params.locale}`} 
+                href={params.locale === 'en' ? '/' : `/${params.locale}`}
                 className="hover:text-purple-400 transition-colors"
               >
                 {messages.game.page.breadcrumb.home}
               </Link>
               <span className="mx-2">›</span>
               <Link
-                href={`/${params.locale}/${params.category}`}
+                href={params.locale === 'en' ? `/${params.category}` : `/${params.locale}/${params.category}`}
                 className="hover:text-purple-400 transition-colors"
               >
                 {category.platform}
@@ -408,7 +408,10 @@ export default async function GamePage({ params }: Props) {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                   {relatedGames.map((relatedGame: RelatedGame) => (
                     <div key={relatedGame.id} className="game-card group">
-                      <Link href={relatedGame.href} className="block">
+                      <Link 
+                        href={params.locale === 'en' ? relatedGame.href : `/${params.locale}${relatedGame.href}`} 
+                        className="block"
+                      >
                         <div className="relative aspect-[3/2] overflow-hidden">
                           <Image
                             src={relatedGame.imageUrl}

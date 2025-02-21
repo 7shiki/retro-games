@@ -164,6 +164,7 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
           {/* Games Grid */}
           <GameList
             games={currentGames}
+            locale={locale}
             showLoadMore={hasMore}
             onLoadMore={handleLoadMore}
             messages={{
