@@ -29,7 +29,10 @@ export default async function PopularGames({ locale }: PopularGamesProps) {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
         {popularGames.map((game: Game) => (
           <div key={game.id} className="game-card group">
-            <Link href={game.href} className="block">
+            <Link 
+              href={locale === 'en' ? game.href : `/${locale}${game.href}`}
+              className="block"
+            >
               <div className="relative aspect-[3/2] overflow-hidden">
                 <Image
                   src={game.imageUrl}
