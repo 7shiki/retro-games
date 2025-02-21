@@ -163,6 +163,10 @@
     "notFound": {
       "title": "Game Not Found - RetroGames",
       "description": "The requested game could not be found."
+    },
+    "relatedGames": {
+      "title": "You may be interested in",
+      "heading": "Related Games"
     }
   }
 } 

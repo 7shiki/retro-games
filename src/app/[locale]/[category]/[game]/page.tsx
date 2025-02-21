@@ -281,7 +281,7 @@ export default async function GamePage({ params }: Props) {
                 </a>
                 <a
                   href={shareLinks.facebook}
-                  target="_blank" 
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-[#1877F2] transition-colors"
                   title="Share on Facebook"
@@ -303,42 +303,6 @@ export default async function GamePage({ params }: Props) {
                 </a>
               </div>
 
-              {/* 相关游戏 */}
-              <div className="mt-16">
-                <span className="text-2xl font-bold mb-8">
-                  <span className="retro-logo">{messages.game.relatedGames}</span>
-                </span>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                  {relatedGames.map((relatedGame: RelatedGame) => (
-                    <div key={relatedGame.id} className="game-card group">
-                      <Link href={relatedGame.href} className="block">
-                        <div className="relative aspect-[3/2] overflow-hidden">
-                          <Image
-                            src={relatedGame.imageUrl}
-                            alt={relatedGame.title}
-                            fill
-                            className="object-cover transition-transform group-hover:scale-110"
-                            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
-                          />
-                          <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <button className="retro-button">
-                              Play Game
-                            </button>
-                          </div>
-                        </div>
-                        <div className="p-4 flex flex-col gap-1">
-                          <span className="text-base font-semibold text-white group-hover:text-purple-400 transition-colors">
-                            {relatedGame.title}
-                          </span>
-                          <span className="text-xs text-gray-400">
-                            {relatedGame.platform}
-                          </span>
-                        </div>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
 
               {/* 游戏详细描述 - SEO 部分 */}
               <div className="mt-16 max-w-4xl mx-auto">
@@ -348,7 +312,7 @@ export default async function GamePage({ params }: Props) {
                     <h2 className="text-2xl font-bold mb-6">
                       About {game.title}
                     </h2>
-                    
+
                     {/* 添加游戏图片 - 使用 max-w-2xl 限制最大宽度 */}
                     <div className="relative aspect-video mb-8 rounded-lg overflow-hidden max-w-2xl">
                       <Image
@@ -416,6 +380,50 @@ export default async function GamePage({ params }: Props) {
                   </section>
                 </div>
               </div>
+
+
+              {/* 相关游戏 */}
+              <div className="mt-16">
+                <div className="mb-8">
+                  <h2 className="text-sm text-gray-500 mb-2">
+                    {messages.game.relatedGames.title} :
+                  </h2>
+                  <span className="text-2xl font-bold">
+                    <span className="retro-logo">{messages.game.relatedGames.heading}</span>
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                  {relatedGames.map((relatedGame: RelatedGame) => (
+                    <div key={relatedGame.id} className="game-card group">
+                      <Link href={relatedGame.href} className="block">
+                        <div className="relative aspect-[3/2] overflow-hidden">
+                          <Image
+                            src={relatedGame.imageUrl}
+                            alt={relatedGame.title}
+                            fill
+                            className="object-cover transition-transform group-hover:scale-110"
+                            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
+                          />
+                          <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <button className="retro-button">
+                              Play Game
+                            </button>
+                          </div>
+                        </div>
+                        <div className="p-4 flex flex-col gap-1">
+                          <h3 className="text-base font-semibold text-white group-hover:text-purple-400 transition-colors">
+                            {relatedGame.title}
+                          </h3>
+                          <span className="text-xs text-gray-400">
+                            {relatedGame.platform}
+                          </span>
+                        </div>
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
             </div>
 
             <Script
