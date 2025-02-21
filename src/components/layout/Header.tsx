@@ -11,7 +11,7 @@ import { categories, type CategoryItem } from '@/config/categories'
 export default function Header() {
     const pathname = usePathname()
     const params = useParams()
-    const locale = params.locale as string
+    const locale = params.locale as string || 'en'
     const [openMenu, setOpenMenu] = useState<string | null>(null)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
@@ -57,22 +57,22 @@ export default function Header() {
 
                         {/* Desktop Navigation */}
                         <nav className="hidden md:flex items-center space-x-4">
-                            {Object.entries(categories).map(([category, items]) => (
+                            {Object.entries(categories).map(([key, items]) => (
                                 <div
-                                    key={category}
+                                    key={key}
                                     className="relative"
-                                    onMouseEnter={() => setOpenMenu(category)}
+                                    onMouseEnter={() => setOpenMenu(key)}
                                     onMouseLeave={() => setOpenMenu(null)}
                                 >
                                     <button className="nav-link">
-                                        {category}
+                                        {key}
                                     </button>
-                                    {openMenu === category && (
+                                    {openMenu === key && (
                                         <div className="absolute top-full left-0 mt-1 py-2 w-48 bg-nav rounded-lg shadow-xl border border-purple-500/10">
                                             {items.map((item: CategoryItem) => (
                                                 <Link
                                                     key={item.name}
-                                                    href={item.href}
+                                                    href={locale === 'en' ? item.href : `/${locale}${item.href}`}
                                                     title={item.alt}
                                                     className={`block px-4 py-2 hover:bg-purple-500/10 ${
                                                         pathname === item.href ? 'text-primary bg-purple-500/10' : ''
@@ -124,16 +124,16 @@ export default function Header() {
                         </div>
 
                         <div className="p-4 space-y-6">
-                            {Object.entries(categories).map(([category, items]) => (
-                                <div key={category} className="space-y-2">
+                            {Object.entries(categories).map(([key, items]) => (
+                                <div key={key} className="space-y-2">
                                     <div className="font-medium text-lg text-gray-800 dark:text-white">
-                                        {category}
+                                        {key}
                                     </div>
                                     <div className="space-y-1">
                                         {items.map((item: CategoryItem) => (
                                             <Link
                                                 key={item.name}
-                                                href={item.href}
+                                                href={locale === 'en' ? item.href : `/${locale}${item.href}`}
                                                 title={item.alt}
                                                 className={`block py-2 text-base hover:bg-purple-500/10 rounded-lg px-3 transition-colors ${
                                                     pathname === item.href ? 'text-primary bg-purple-500/10' : 'text-gray-700 dark:text-gray-200'
