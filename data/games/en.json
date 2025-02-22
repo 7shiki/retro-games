@@ -226,7 +226,43 @@
                 "history": {
                     "title": "Rayman Game Storyline",
                     "content": [
-                        "In Rayman, the Great Protoon, which maintains balance in the world, is stolen by the evil Mr. Dark, causing chaos across the land. Rayman embarks on a journey to defeat Mr. Dark, restore harmony, and rescue the Electoons, who have been captured."                    ]
+                        "In Rayman, the Great Protoon, which maintains balance in the world, is stolen by the evil Mr. Dark, causing chaos across the land. Rayman embarks on a journey to defeat Mr. Dark, restore harmony, and rescue the Electoons, who have been captured."
+                    ]
+                }
+            }
+        },
+        {
+            "id": 7,
+            "title": "Street Fighter (US set 1)",
+            "platform": "Arcade",
+            "imageUrl": "/images/games/arcade-game-Street Fighter (US set 1).png",
+            "href": "/arcade-games/street-fighter-us-set-1",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9955-street-fighter-us-set-1.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's Street Fighter (US set 1) ?",
+                    "content": [
+                        "Street Fighter (US set 1) is one of the earliest versions of the classic arcade fighting game Street Fighter, released by Capcom in 1987. This version allows players to control Ryu or Ken as they battle opponents from around the world in one-on-one matches. The game introduced special moves like Hadouken, Shoryuken, and Tatsumaki Senpukyaku, laying the foundation for the legendary Street Fighter series."
+                    ]
+                },
+                "features": {
+                    "title": "Street Fighter (US set 1) Features",
+                    "list": [
+                        "Classic One-on-One Fighting – Play as Ryu or Ken and battle against fighters from around the world in intense arcade-style combat.",
+                        "Introduction of Special Moves – Features iconic attacks like Hadouken, Shoryuken, and Tatsumaki Senpukyaku, which later became staples of the Street Fighter series."
+                    ]
+                },
+                "gameplay": {
+                    "title": "Street Fighter (US set 1) Gameplay and Features",
+                    "howToPlay": {
+                        "title": "",
+                        "content": ""
+                    }
+                },
+                "history": {
+                    "title": "",
+                    "content": []
                 }
             }
         }
