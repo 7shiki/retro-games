@@ -155,6 +155,44 @@
                     ]
                 }
             }
+        },
+        {
+            "id": 5,
+            "title": "Pokemon Emerald Rogue EX 1.2.0",
+            "platform": "GBA",
+            "imageUrl": "/images/games/game-boy-advance-game-Pokemon Emerald Rogue EX 1.2.0.png",
+            "href": "/gameboyadvance-games/pokemon-emerald-rogue-ex-1-2-0",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/43564-pokemon-emerald-rogue-ex-1-2-0.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's Pokemon Emerald Rogue EX 1.2.0 ?",
+                    "content": [
+                        "Pokémon Emerald Rogue EX 1.2.0 is a fan-made ROM hack of the classic Pokémon Emerald, incorporating Roguelike elements into the Pokémon world. Players explore procedurally generated areas, catch and train Pokémon, and face ever-changing Gym Leaders and Trainer battles, making each adventure a unique experience."
+                    ]
+                },
+                "features": {
+                    "title": "Pokemon Emerald Rogue EX 1.2.0 Features",
+                    "list": [
+                        "Roguelike Adventure – Each playthrough is unique with randomly generated routes, trainers, and encounters.",
+                        "Dynamic Gym Challenges – Gym Leaders and their teams change based on your progress, ensuring fresh battles every time."
+                    ]
+                },
+                "gameplay": {
+                    "title": "Pokemon Emerald Rogue EX 1.2.0 Gameplay and Features",
+                    "howToPlay": {
+                        "title": "How to Play Pokemon Emerald Rogue EX 1.2.0",
+                        "content": "Start your adventure by choosing a starter Pokémon, explore randomly generated routes, build your team, and strategize as you face ever-changing challenges in a roguelike Pokémon experience."
+                    }
+                },
+                "history": {
+                    "title": "Pokemon Emerald Rogue EX 1.2.0 Differences from Pokemon Emerald?",
+                    "content": [
+                        "Roguelike Mechanics – Unlike the traditional linear story of Pokémon Emerald, this version features procedurally generated routes, randomized encounters, and ever-changing battles.",
+                        "Dynamic Progression – Gym Leaders, trainers, and item locations change in every run, making each playthrough a fresh and unpredictable experience."
+                    ]
+                }
+            }
         }
     ],
     "popularGames": [
