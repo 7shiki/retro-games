@@ -273,6 +273,7 @@ export default async function GamePage({ params }: Props) {
               {/* 桌面端使用 16:9 宽高比，移动端使用 9:14 宽高比 */}
               <div className="md:aspect-video aspect-[9/14] bg-gray-800 rounded-lg overflow-hidden">
                 <iframe
+                  id="game-iframe"
                   src={iframeSrc}
                   className="w-full h-full"
                   allowFullScreen
@@ -283,7 +284,7 @@ export default async function GamePage({ params }: Props) {
                 />
               </div>
               
-              <FullscreenButton />
+              <FullscreenButton targetSelector="#game-iframe" />
 
               <div className="mt-6 flex items-center justify-center gap-4">
                 <div className="flex items-center gap-1">

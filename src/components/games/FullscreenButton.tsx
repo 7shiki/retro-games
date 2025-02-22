@@ -2,7 +2,11 @@
 
 import { useState, useEffect } from 'react'
 
-export default function FullscreenButton() {
+interface FullscreenButtonProps {
+  targetSelector?: string  // 添加一个可选的目标选择器属性
+}
+
+export default function FullscreenButton({ targetSelector = 'iframe' }: FullscreenButtonProps) {
   const [isFullscreen, setIsFullscreen] = useState(false)
 
   // 检查是否支持全屏 API
@@ -61,11 +65,11 @@ export default function FullscreenButton() {
   }, [])
 
   const toggleFullscreen = () => {
-    const iframe = document.querySelector('iframe')
-    if (!iframe) return
+    const targetElement = document.querySelector(targetSelector)
+    if (!targetElement) return
 
     if (!isFullscreen) {
-      requestFullscreen(iframe)
+      requestFullscreen(targetElement)
     } else {
       exitFullscreen()
     }
