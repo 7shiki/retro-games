@@ -193,6 +193,42 @@
                     ]
                 }
             }
+        },
+        {
+            "id": 6,
+            "title": "Rayman",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/playstation-game-Rayman.png",
+            "href": "/playstation-games/rayman",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40795-rayman.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's Rayman ?",
+                    "content": [
+                        "Rayman is a classic platformer game series developed by Ubisoft, featuring a limbless hero who uses his fists and unique abilities to navigate colorful, magical worlds. First released in 1995, the series is known for its creative level design, charming art style, and engaging gameplay."
+                    ]
+                },
+                "features": {
+                    "title": "Rayman Features",
+                    "list": [
+                        "Unique Limbless Hero – Rayman can stretch his hands to punch enemies, glide using his hair, and perform acrobatic moves to navigate challenging levels.",
+                        "Vibrant and Imaginative Worlds – The game features beautifully designed fantasy environments filled with creative enemies, hidden secrets, and engaging platforming challenges."
+                    ]
+                },
+                "gameplay": {
+                    "title": "Rayman Gameplay and Features",
+                    "howToPlay": {
+                        "title": "How to Play Rayman",
+                        "content": "Control Rayman as he jumps, punches, and glides through beautifully crafted levels, defeating enemies, solving puzzles, and collecting items to progress through the adventure."
+                    }
+                },
+                "history": {
+                    "title": "Rayman Game Storyline",
+                    "content": [
+                        "In Rayman, the Great Protoon, which maintains balance in the world, is stolen by the evil Mr. Dark, causing chaos across the land. Rayman embarks on a journey to defeat Mr. Dark, restore harmony, and rescue the Electoons, who have been captured."                    ]
+                }
+            }
         }
     ],
     "popularGames": [
