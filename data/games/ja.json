@@ -50,32 +50,32 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/45223-sonic-1-beta-remake.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Sonic 1 Beta Remake ?",
+                    "title": "Sonic 1 Beta Remakeとは？",
                     "content": [
-                        "Sonic 1 Beta Remake is a fan-made restoration project that brings back the lost prototype elements from the early development stages of Sonic the Hedgehog (1991). Based on leaked beta builds and developer insights, this remake revives scrapped levels, unused animations, and alternative mechanics that were originally planned but never made it into the final game. By combining historical accuracy with modern enhancements, the game provides a unique glimpse into what Sonic 1 could have been.",
-                        "With redesigned sprites, prototype music tracks, and restored level layouts, Sonic 1 Beta Remake captures the early vision of Sega’s original developers while staying true to the classic Genesis experience. Fans of retro gaming and Sonic enthusiasts alike will enjoy exploring unfinished zones, testing alternate gameplay physics, and experiencing hidden content that was once lost to time. This project serves as both a tribute to Sonic’s origins and a fascinating \"what-if\" scenario for one of the most iconic platformers in gaming history."
+                        "Sonic 1 Beta Remakeは、Sonic the Hedgehog (1991) の開発初期段階で失われたプロトタイプ要素を復元する、ファンによるリメイクプロジェクトです。リークされたベータ版や開発者のインサイトを基に、このリメイクでは廃止されたステージ、未使用のアニメーション、そして本来導入される予定だったものの最終版には含まれなかったオルタナティブなゲームメカニクスが復活します。歴史的な正確性と最新の改良を組み合わせることで、Sonic 1がどのようなゲームになり得たかを垣間見ることができます。",
+                        "新しくデザインされたスプライト、プロトタイプの音楽、復元されたレベルデザインを備えたSonic 1 Beta Remakeは、セガのオリジナル開発者が描いていた初期のビジョンを再現しつつ、クラシックなメガドライブ（Genesis）の体験を忠実に再現しています。レトロゲームファンやソニック愛好者は、未完成のゾーンを探索し、異なるゲームプレイの物理エンジンを試し、長い間失われていた隠しコンテンツを発見することを楽しめるでしょう。本プロジェクトは、ソニックの原点に対するオマージュであり、ゲーム史上最も象徴的なプラットフォーマーの一つに関する「もしも」の世界を探る試みでもあります。"
                     ]
                 },
                 "features": {
-                    "title": "Sonic 1 Beta Remake Features",
+                    "title": "Sonic 1 Beta Remakeの特徴",
                     "list": [
-                        "Restored Prototype Levels – Experience scrapped zones and alternate level designs from the original Sonic 1 development.",
-                        "Unused Sprites & Mechanics – Play with restored animations, beta enemy designs, and early gameplay physics.",
-                        "Authentic Beta Soundtrack – Enjoy prototype music tracks and sound effects that were cut from the final release."
+                        "復元されたプロトタイプステージ – Sonic 1の開発初期に破棄されたゾーンや代替レベルデザインを体験できます。",
+                        "未使用のスプライト＆メカニクス – 復元されたアニメーション、ベータ版の敵デザイン、初期のゲームプレイ物理エンジンで遊べます。",
+                        "オリジナルのベータサウンドトラック – 最終リリースでカットされたプロトタイプの音楽や効果音を楽しめます。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Sonic 1 Beta Remake Gameplay and Features",
+                    "title": "Sonic 1 Beta Remakeのゲームプレイと特徴",
                     "howToPlay": {
-                        "title": "How to Play Sonic 1 Beta Remake",
-                        "content": "Sonic 1 Beta Remake retains the classic fast-paced platforming of the original game while introducing restored prototype mechanics. Players can explore unfinished levels, test early physics, and experience scrapped animations from the development phase."
+                        "title": "Sonic 1 Beta Remakeの遊び方",
+                        "content": "Sonic 1 Beta Remakeは、オリジナルのクラシックな高速アクションを維持しつつ、復元されたプロトタイプのゲームメカニクスを導入しています。プレイヤーは未完成のステージを探索し、初期のゲーム物理を試し、開発段階で破棄されたアニメーションを体験できます。"
                     }
                 },
                 "history": {
-                    "title": "Fans' Reactions to Sonic 1 Beta Remake",
+                    "title": "Sonic 1 Beta Remakeへのファンの反応",
                     "content": [
-                        "It's amazing to finally experience the lost content from Sonic 1’s early development. This remake feels like a glimpse into an alternate version of the classic game!",
-                        "The restored levels and animations add a fresh yet nostalgic feel. It’s incredible to see what could have been in the original release!"
+                        "Sonic 1の開発初期から失われたコンテンツをついに体験できるのは素晴らしいことです。このリメイクは、クラシックゲームの別バージョンを垣間見るような感覚になります！",
+                        "復元されたレベルとアニメーションは、新鮮さを感じさせつつも懐かしさを提供します。オリジナルのリリースで何が可能だったのかを見るのは驚きです！"
                     ]
                 }
             }
@@ -90,30 +90,30 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9936-squash-ver-1-0.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Squash (Ver. 1.0) ?",
+                    "title": "Squash (Ver. 1.0) とは？",
                     "content": [
-                        "Squash lets players participate in squash matches playing against a computer opponent or with two players. The general rules are followed. The character can be steered around the court and two buttons are used: one for a hard shot and another for a light one. When hitting the ball the direction of the shot can also be determined. When a shot seems out of reach it is possible to perform a type of dive, but this has a recovery time usually long enough to miss the next shot when it returns. The players cannot collide or hinder each other.",
-                        "There are eight characters to choose from, each from a different country. The first player to score nine points wins the game. A single credit is not necessarily sufficient to complete an entire game. After too many faults an additional credit is required to continue playing. When a serve takes too long a clock appears. Games consist of a series of matches against an opponent who becomes more difficult with each match."
+                        "Squashは、コンピューターの対戦相手や2人プレイヤーモードでスカッシュの試合を楽しめるゲームです。基本的なルールはそのまま適用されます。キャラクターはコート内を自由に移動でき、2つのボタンを使用します：1つは強いショット用、もう1つは軽いショット用です。ボールを打つ際にショットの方向も調整可能です。ボールが届かないように見える場合、ダイブすることができますが、回復時間が長いため、次のショットに間に合わない可能性があります。プレイヤー同士がぶつかったり、妨害したりすることはできません。",
+                        "選べるキャラクターは8人おり、それぞれ異なる国の出身です。最初に9ポイントを獲得したプレイヤーが勝利します。1クレジットだけではゲームを最後までプレイできないことがあります。ミスが多すぎると、プレイを続けるために追加のクレジットが必要になります。サーブに時間がかかりすぎると、タイマーが表示されます。試合は複数の対戦で構成され、対戦相手は試合ごとに強くなっていきます。"
                     ]
                 },
                 "features": {
-                    "title": "Squash (Ver. 1.0) Features",
+                    "title": "Squash (Ver. 1.0) の特徴",
                     "list": [
-                        "Realistic Squash Gameplay – Players can move freely on the court, perform hard and light shots, and even dive for difficult returns, adding a layer of strategy and skill.",
-                        "Challenging AI and Multiplayer Mode – Compete against increasingly difficult AI opponents or challenge a friend in a two-player match, with eight selectable characters from different countries."
+                        "リアルなスカッシュゲームプレイ – プレイヤーはコート内を自由に動き、強打や軽打を使い分け、難しいショットを返すためのダイブも可能。戦略性とスキルを要するプレイが楽しめます。",
+                        "高難易度のAIとマルチプレイヤーモード – 難易度が徐々に上がるAIとの対戦や、友達と対戦できる2人プレイモードが用意されており、8人の異なる国のキャラクターを選べます。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Squash (Ver. 1.0) Gameplay and Features",
+                    "title": "Squash (Ver. 1.0) のゲームプレイと特徴",
                     "howToPlay": {
-                        "title": "How to Play Squash (Ver. 1.0)",
-                        "content": "Players control their character on the court, using two buttons for hard and light shots while strategically positioning themselves to return the ball; diving can be used for difficult shots but comes with a recovery delay."
+                        "title": "Squash (Ver. 1.0) の遊び方",
+                        "content": "プレイヤーはコート内でキャラクターを操作し、強打と軽打の2種類のショットを使い分けながら、戦略的にボールを返します。難しいショットにはダイブが可能ですが、回復時間が発生します。"
                     }
                 },
                 "history": {
-                    "title": "Fans' Reactions to Squash (Ver. 1.0)",
+                    "title": "Squash (Ver. 1.0) に対するファンの反応",
                     "content": [
-                        "A fun and challenging squash experience with intuitive controls and competitive gameplay that keeps players engaged!"
+                        "直感的な操作と競争性の高いゲームプレイが魅力の、楽しくてやりがいのあるスカッシュ体験！"
                     ]
                 }
             }
@@ -128,30 +128,30 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/44412-super-mario-world-hack-6.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Super Mario World Hack 6 ?",
+                    "title": "Super Mario World Hack 6とは？",
                     "content": [
-                        "Super Mario World Hack 6 is a fan-made modification of the classic Super Mario World, featuring redesigned levels, increased difficulty, and new challenges. Players can experience fresh gameplay mechanics while navigating through creatively altered worlds."
+                        "Super Mario World Hack 6は、ファンによって作成されたクラシックゲーム『スーパーマリオワールド』の改造版であり、新しくデザインされたステージ、難易度の向上、そして新たなチャレンジが追加されています。プレイヤーは創造的にアレンジされた世界を冒険しながら、新しいゲームプレイの仕組みを体験できます。"
                     ]
                 },
                 "features": {
-                    "title": "Super Mario World Hack 6 Features",
+                    "title": "Super Mario World Hack 6の特徴",
                     "list": [
-                        "Redesigned Levels & Increased Difficulty – Experience fresh and challenging stage layouts that test your platforming skills.",
-                        "New Mechanics & Secrets – Discover hidden paths, modified power-ups, and unexpected surprises throughout the game."
+                        "新しいレベルデザイン＆難易度アップ – これまでにないステージ構成が登場し、プレイヤーのアクションスキルを試します。",
+                        "新たなギミック＆隠し要素 – 隠されたルート、改造されたパワーアップアイテム、予測不能なサプライズがゲーム内に多数散りばめられています。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Super Mario World Hack 6 Gameplay and Features",
+                    "title": "Super Mario World Hack 6のゲームプレイと特徴",
                     "howToPlay": {
                         "title": "",
                         "content": ""
                     }
                 },
                 "history": {
-                    "title": "Fans' Reactions to Super Mario World Hack 6",
+                    "title": "Super Mario World Hack 6へのファンの反応",
                     "content": [
-                        "A fresh take on a classic! The redesigned levels add a fun and exciting challenge for longtime Mario fans.",
-                        "The increased difficulty makes every stage feel rewarding. A must-play for those who love challenging platformers!"
+                        "クラシックなゲームの新しい形！リデザインされたレベルは、長年のマリオファンにとって楽しくてエキサイティングな挑戦になります。",
+                        "難易度が上がることで、すべてのステージがより達成感のあるものになりました。チャレンジングなアクションゲームが好きな人におすすめ！"
                     ]
                 }
             }
@@ -166,30 +166,30 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/43564-pokemon-emerald-rogue-ex-1-2-0.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Pokemon Emerald Rogue EX 1.2.0 ?",
+                    "title": "Pokémon Emerald Rogue EX 1.2.0とは？",
                     "content": [
-                        "Pokémon Emerald Rogue EX 1.2.0 is a fan-made ROM hack of the classic Pokémon Emerald, incorporating Roguelike elements into the Pokémon world. Players explore procedurally generated areas, catch and train Pokémon, and face ever-changing Gym Leaders and Trainer battles, making each adventure a unique experience."
+                        "Pokémon Emerald Rogue EX 1.2.0は、クラシックな『ポケットモンスター エメラルド』にローグライク要素を取り入れたファン制作のROMハックです。プレイヤーは手続き型生成のエリアを探索し、ポケモンを捕まえて育成し、変化し続けるジムリーダーやトレーナーとのバトルに挑戦します。毎回異なる冒険が楽しめる作品です。"
                     ]
                 },
                 "features": {
-                    "title": "Pokemon Emerald Rogue EX 1.2.0 Features",
+                    "title": "Pokémon Emerald Rogue EX 1.2.0の特徴",
                     "list": [
-                        "Roguelike Adventure – Each playthrough is unique with randomly generated routes, trainers, and encounters.",
-                        "Dynamic Gym Challenges – Gym Leaders and their teams change based on your progress, ensuring fresh battles every time."
+                        "ローグライクアドベンチャー – ルート、トレーナー、エンカウントがランダムに生成され、毎回異なるプレイが楽しめます。",
+                        "ダイナミックなジムチャレンジ – ジムリーダーとそのチームはプレイヤーの進行状況に応じて変化し、常に新鮮なバトルが展開されます。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Pokemon Emerald Rogue EX 1.2.0 Gameplay and Features",
+                    "title": "Pokémon Emerald Rogue EX 1.2.0のゲームプレイと特徴",
                     "howToPlay": {
-                        "title": "How to Play Pokemon Emerald Rogue EX 1.2.0",
-                        "content": "Start your adventure by choosing a starter Pokémon, explore randomly generated routes, build your team, and strategize as you face ever-changing challenges in a roguelike Pokémon experience."
+                        "title": "Pokémon Emerald Rogue EX 1.2.0の遊び方",
+                        "content": "冒険をスタートするには、最初のポケモンを選び、ランダムに生成されたルートを探索し、チームを組み、変化し続けるチャレンジに挑んでいきましょう。"
                     }
                 },
                 "history": {
-                    "title": "Pokemon Emerald Rogue EX 1.2.0 Differences from Pokemon Emerald?",
+                    "title": "Pokémon Emerald Rogue EX 1.2.0とPokémon Emeraldの違い",
                     "content": [
-                        "Roguelike Mechanics – Unlike the traditional linear story of Pokémon Emerald, this version features procedurally generated routes, randomized encounters, and ever-changing battles.",
-                        "Dynamic Progression – Gym Leaders, trainers, and item locations change in every run, making each playthrough a fresh and unpredictable experience."
+                        "ローグライクの仕組み – 従来のリニアなストーリーを持つポケモンエメラルドとは異なり、このバージョンでは手続き型生成のルート、ランダムエンカウント、変化し続けるバトルが特徴です。",
+                        "ダイナミックな進行 – ジムリーダー、トレーナー、アイテムの配置が毎回変わり、プレイするたびに新しい体験が楽しめます。"
                     ]
                 }
             }
@@ -204,29 +204,29 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40795-rayman.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Rayman ?",
+                    "title": "Raymanとは？",
                     "content": [
-                        "Rayman is a classic platformer game series developed by Ubisoft, featuring a limbless hero who uses his fists and unique abilities to navigate colorful, magical worlds. First released in 1995, the series is known for its creative level design, charming art style, and engaging gameplay."
+                        "RaymanはUbisoftが開発したクラシックなプラットフォーマーゲームシリーズであり、手足のない主人公が拳やユニークな能力を駆使して、カラフルで魔法のような世界を冒険します。1995年に初めて発売され、創造的なレベルデザイン、魅力的なアートスタイル、そして楽しいゲームプレイで知られています。"
                     ]
                 },
                 "features": {
-                    "title": "Rayman Features",
+                    "title": "Raymanの特徴",
                     "list": [
-                        "Unique Limbless Hero – Rayman can stretch his hands to punch enemies, glide using his hair, and perform acrobatic moves to navigate challenging levels.",
-                        "Vibrant and Imaginative Worlds – The game features beautifully designed fantasy environments filled with creative enemies, hidden secrets, and engaging platforming challenges."
+                        "ユニークな手足のないヒーロー – Raymanは手を伸ばして敵をパンチし、髪を使って滑空し、アクロバティックな動きで困難なステージを攻略できます。",
+                        "鮮やかで想像力豊かな世界 – 美しくデザインされた幻想的な環境には、クリエイティブな敵、隠された秘密、魅力的なプラットフォームの挑戦が詰まっています。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Rayman Gameplay and Features",
+                    "title": "Raymanのゲームプレイと特徴",
                     "howToPlay": {
-                        "title": "How to Play Rayman",
-                        "content": "Control Rayman as he jumps, punches, and glides through beautifully crafted levels, defeating enemies, solving puzzles, and collecting items to progress through the adventure."
+                        "title": "Raymanの遊び方",
+                        "content": "Raymanを操作してジャンプ、パンチ、滑空しながら、美しく作られたステージを進みましょう。敵を倒し、パズルを解き、アイテムを集めて冒険を進めていきます。"
                     }
                 },
                 "history": {
-                    "title": "Rayman Game Storyline",
+                    "title": "Raymanのストーリー",
                     "content": [
-                        "In Rayman, the Great Protoon, which maintains balance in the world, is stolen by the evil Mr. Dark, causing chaos across the land. Rayman embarks on a journey to defeat Mr. Dark, restore harmony, and rescue the Electoons, who have been captured."
+                        "Raymanでは、世界のバランスを保つグレート・プロトゥーンが邪悪なMr. Darkに奪われ、混乱が広がります。RaymanはMr. Darkを倒し、調和を取り戻し、囚われたElectoonsを救う旅に出ます。"
                     ]
                 }
             }
@@ -241,28 +241,24 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9955-street-fighter-us-set-1.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Street Fighter (US set 1) ?",
+                    "title": "Street Fighter (US set 1)とは？",
                     "content": [
-                        "Street Fighter (US set 1) is one of the earliest versions of the classic arcade fighting game Street Fighter, released by Capcom in 1987. This version allows players to control Ryu or Ken as they battle opponents from around the world in one-on-one matches. The game introduced special moves like Hadouken, Shoryuken, and Tatsumaki Senpukyaku, laying the foundation for the legendary Street Fighter series."
+                        "Street Fighter (US set 1) は、1987年にCapcomがリリースしたクラシックなアーケード対戦格闘ゲーム「Street Fighter」の初期バージョンの一つです。このバージョンでは、プレイヤーはリュウまたはケンを操作し、世界中のライバルたちと1対1のバトルを繰り広げます。本作では、波動拳（Hadouken）、昇龍拳（Shoryuken）、竜巻旋風脚（Tatsumaki Senpukyaku）といった必殺技が初登場し、後の「Street Fighter」シリーズの基盤となりました。"
                     ]
                 },
                 "features": {
-                    "title": "Street Fighter (US set 1) Features",
+                    "title": "Street Fighter (US set 1)の特徴",
                     "list": [
-                        "Classic One-on-One Fighting – Play as Ryu or Ken and battle against fighters from around the world in intense arcade-style combat.",
-                        "Introduction of Special Moves – Features iconic attacks like Hadouken, Shoryuken, and Tatsumaki Senpukyaku, which later became staples of the Street Fighter series."
+                        "クラシックな1対1の格闘バトル – リュウまたはケンを操作し、世界中のファイターたちとアーケードスタイルの熱い戦いを繰り広げましょう。",
+                        "必殺技の導入 – 波動拳、昇龍拳、竜巻旋風脚といった象徴的な技を搭載し、後の「Street Fighter」シリーズの礎を築きました。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Street Fighter (US set 1) Gameplay and Features",
+                    "title": "Street Fighter (US set 1)のゲームプレイと特徴",
                     "howToPlay": {
                         "title": "",
                         "content": ""
                     }
-                },
-                "history": {
-                    "title": "",
-                    "content": []
                 }
             }
         },
@@ -276,29 +272,25 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/42046-sonic-classic-heroes.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Sonic Classic Heroes ?",
+                    "title": "Sonic Classic Heroesとは？",
                     "content": [
-                        "Sonic Classic Heroes is a fan-made ROM hack that combines Sonic the Hedgehog and Sonic the Hedgehog 2 into a single game. Players can control Sonic, Tails, and Knuckles, switching between them at any time to experience a unique team-based gameplay mechanic.",
-                        "The game introduces the team system from Sonic Heroes, allowing players to swap characters freely, with each possessing unique abilities for different challenges. Additionally, all original levels from both games have been retained and optimized, offering an enhanced and engaging experience for Sonic fans."
+                        "Sonic Classic Heroesは、ファンによって制作されたROMハックであり、『Sonic the Hedgehog』と『Sonic the Hedgehog 2』を1つのゲームに統合した作品です。プレイヤーはソニック、テイルス、ナックルズを操作でき、いつでもキャラクターを切り替えてチームプレイを楽しむことができます。",
+                        "本作では『Sonic Heroes』のチームシステムを導入しており、自由にキャラクターを切り替えることが可能です。それぞれのキャラクターが持つ独自の能力を活かして、様々なチャレンジを攻略できます。さらに、両作品のオリジナルステージがすべて収録され、最適化されているため、ソニックファンにとってより魅力的で快適なプレイ体験を提供します。"
                     ]
                 },
                 "features": {
-                    "title": "Sonic Classic Heroes Key Features",
+                    "title": "Sonic Classic Heroesの主な特徴",
                     "list": [
-                        "Team-Based Gameplay – Switch between Sonic, Tails, and Knuckles anytime, utilizing their unique abilities to overcome obstacles.",
-                        "Enhanced Classic Levels – Combines Sonic the Hedgehog and Sonic the Hedgehog 2, with optimized stages and improved mechanics for a smoother gameplay experience."
+                        "チームプレイシステム – ソニック、テイルス、ナックルズを自由に切り替え、それぞれの固有能力を活用して障害を乗り越えましょう。",
+                        "進化したクラシックステージ – 『Sonic the Hedgehog』と『Sonic the Hedgehog 2』を組み合わせ、最適化されたステージと改良されたゲームメカニクスで、よりスムーズなプレイ体験を実現。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Sonic Classic Heroes Gameplay and Features",
+                    "title": "Sonic Classic Heroesのゲームプレイと特徴",
                     "howToPlay": {
                         "title": "",
                         "content": ""
                     }
-                },
-                "history": {
-                    "title": "",
-                    "content": []
                 }
             }
         },
@@ -312,24 +304,24 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/8843-jojos-bizarre-adventure%3A-heritage-for-the-future-jojo-no-kimyou-na-bouken%3A-mirai-e-no-isan-japan-990927-no-cd.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) ?",
+                    "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) とは？",
                     "content": [
-                        "JoJo's Bizarre Adventure: Heritage for the Future is a 2D fighting game developed by Capcom, based on the third part of Hirohiko Araki’s famous manga series JoJo's Bizarre Adventure: Stardust Crusaders. Originally released for arcades in 1999, the game was later ported to PlayStation and Dreamcast, featuring a unique Stand system where characters can summon their supernatural entities to fight alongside them.",
-                        "The Japan 990927, NO CD version refers to a specific arcade build of the game, optimized for machines without a CD drive. The game boasts a diverse roster of characters, including Jotaro Kujo, DIO, and other iconic fighters from the manga. With its stylish visuals, faithful adaptation of the JoJo universe, and strategic combat mechanics, it remains a beloved classic among both fighting game enthusiasts and JoJo fans."
+                        "『JoJo's Bizarre Adventure: Heritage for the Future』は、カプコンが開発した2D対戦格闘ゲームで、荒木飛呂彦の人気漫画『ジョジョの奇妙な冒険』第3部『スターダストクルセイダース』を原作としています。1999年にアーケードで初登場し、その後 PlayStation と Dreamcast に移植されました。本作では、キャラクターが「スタンド」を召喚し、共に戦う独自のシステムが導入されています。",
+                        "「Japan 990927, NO CD」バージョンは、CDドライブのないアーケードマシン向けに最適化された特定のバージョンを指します。登場キャラクターは空条承太郎、DIO など、原作からの人気キャラクターが多数登場。スタイリッシュなビジュアル、ジョジョの世界観を忠実に再現した演出、戦略的なバトルシステムにより、格闘ゲームファンやジョジョファンに今でも愛される名作です。"
                     ]
                 },
                 "features": {
-                    "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) Features",
+                    "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) の特徴",
                     "list": [
-                        "Unique Stand System – Characters can summon their Stands, granting them special abilities and dynamic combat strategies.",
-                        "Authentic JoJo Experience – Features a large roster of characters from Stardust Crusaders, stylish manga-inspired visuals, and iconic battles faithful to the original series."
+                        "ユニークなスタンドシステム – キャラクターはスタンドを召喚し、特殊能力を発揮しながら戦略的なバトルを繰り広げる。",
+                        "ジョジョの世界観を忠実に再現 – 『スターダストクルセイダース』のキャラクターが多数登場し、マンガ風のビジュアルや原作を再現したバトルが特徴。"
                     ]
                 },
                 "gameplay": {
-                    "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) Gameplay and Features",
+                    "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) のゲームプレイと特徴",
                     "howToPlay": {
-                        "title": "How to Play JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
-                        "content": "Choose a character from Stardust Crusaders, utilize the Stand system to unleash powerful attacks, and master unique combos to defeat opponents in intense 2D fighting battles."
+                        "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) の遊び方",
+                        "content": "『スターダストクルセイダース』のキャラクターを選び、スタンドシステムを駆使して強力な攻撃を繰り出し、独自のコンボを習得して2D対戦格闘バトルで勝利を目指そう！"
                     }
                 }
             }
@@ -344,23 +336,23 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9123-marvel-vs-capcom-clash-of-super-heroes-980123-usa.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Marvel vs Capcom - clash of super heroes (980123 USA) ?",
+                    "title": "Marvel vs. Capcom: Clash of Super Heroes (980123 USA)とは？",
                     "content": [
-                        "Marvel vs. Capcom: Clash of Super Heroes is a 1998 crossover fighting game developed by Capcom, featuring characters from both Marvel Comics and Capcom's video game franchises. Players select teams of two fighters to engage in fast-paced, tag-team battles, utilizing unique moves and combinations to defeat their opponents."
+                        "『Marvel vs. Capcom: Clash of Super Heroes』は、1998年にCapcomが開発したクロスオーバー対戦格闘ゲームです。MarvelコミックのキャラクターとCapcomのゲームキャラクターが登場し、プレイヤーは2人のファイターを選択して、スピーディーなタッグバトルを繰り広げます。独自の技やコンボを駆使して相手を倒しましょう。"
                     ]
                 },
                 "features": {
-                    "title": "Marvel vs Capcom - clash of super heroes (980123 USA) Features",
+                    "title": "『Marvel vs. Capcom: Clash of Super Heroes (980123 USA)』の特徴",
                     "list": [
-                        "Tag-Team Battles – Players can choose two fighters and switch between them mid-battle, creating strategic combos and powerful team attacks.",
-                        "Iconic Marvel and Capcom Characters – Features a diverse roster, including Spider-Man, Ryu, Wolverine, and Mega Man, each with unique abilities and special moves."
+                        "タッグチームバトル – プレイヤーは2人のファイターを選択し、試合中に切り替えて戦略的なコンボや強力なチーム攻撃を繰り出せます。",
+                        "MarvelとCapcomの人気キャラクター – スパイダーマン、リュウ、ウルヴァリン、ロックマンなど、多彩なキャラクターが登場し、それぞれ固有の必殺技や特殊スキルを持っています。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Marvel vs Capcom - clash of super heroes (980123 USA) Gameplay and Features",
+                    "title": "『Marvel vs. Capcom: Clash of Super Heroes (980123 USA)』のゲームプレイと特徴",
                     "howToPlay": {
-                        "title": "How to Play Marvel vs Capcom - clash of super heroes (980123 USA) Features",
-                        "content": "Select two characters from the Marvel and Capcom rosters, switch between them in battle, execute special moves and team combos, and defeat your opponents in intense tag-team fights."
+                        "title": "『Marvel vs. Capcom: Clash of Super Heroes (980123 USA)』の遊び方",
+                        "content": "MarvelとCapcomのキャラクターから2人を選択し、試合中に切り替えながら戦い、必殺技やチームコンボを駆使して激しいタッグバトルで勝利を目指しましょう。"
                     }
                 }
             }

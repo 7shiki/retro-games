@@ -42,7 +42,7 @@
         },
         {
             "id": 2,
-            "title": "Sonic 1 Beta Remake",
+            "title": "索尼克1 Beta重制版",
             "platform": "Genesis",
             "imageUrl": "/images/games/sonic-1-beta-remake.png",
             "href": "/genesis-games/sonic-1-beta-remake",
@@ -50,39 +50,39 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/45223-sonic-1-beta-remake.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Sonic 1 Beta Remake ?",
+                    "title": "什么是索尼克1 Beta重制版？",
                     "content": [
-                        "Sonic 1 Beta Remake is a fan-made restoration project that brings back the lost prototype elements from the early development stages of Sonic the Hedgehog (1991). Based on leaked beta builds and developer insights, this remake revives scrapped levels, unused animations, and alternative mechanics that were originally planned but never made it into the final game. By combining historical accuracy with modern enhancements, the game provides a unique glimpse into what Sonic 1 could have been.",
-                        "With redesigned sprites, prototype music tracks, and restored level layouts, Sonic 1 Beta Remake captures the early vision of Sega’s original developers while staying true to the classic Genesis experience. Fans of retro gaming and Sonic enthusiasts alike will enjoy exploring unfinished zones, testing alternate gameplay physics, and experiencing hidden content that was once lost to time. This project serves as both a tribute to Sonic’s origins and a fascinating \"what-if\" scenario for one of the most iconic platformers in gaming history."
+                        "索尼克1 Beta重制版是一个粉丝制作的复原项目，重现了《刺猬索尼克》(1991)早期开发阶段的原型元素。基于泄露的测试版本和开发者见解，这个重制版复活了被删减的关卡、未使用的动画和原本计划但未能进入最终游戏的替代机制。通过结合历史准确性和现代改进，本游戏让玩家一窥索尼克1可能的另一种面貌。",
+                        "通过重新设计的精灵图像、原型音乐曲目和还原的关卡布局，索尼克1 Beta重制版在保持经典世嘉创世纪体验的同时，捕捉了世嘉原开发者的早期愿景。复古游戏爱好者和索尼克粉丝都能在这里探索未完成的区域，体验替代的游戏物理系统，并发现曾经失落的隐藏内容。这个项目既是对索尼克起源的致敬，也是对这款最具标志性平台游戏之一的一种'假设性'探索。"
                     ]
                 },
                 "features": {
-                    "title": "Sonic 1 Beta Remake Features",
+                    "title": "索尼克1 Beta重制版特色",
                     "list": [
-                        "Restored Prototype Levels – Experience scrapped zones and alternate level designs from the original Sonic 1 development.",
-                        "Unused Sprites & Mechanics – Play with restored animations, beta enemy designs, and early gameplay physics.",
-                        "Authentic Beta Soundtrack – Enjoy prototype music tracks and sound effects that were cut from the final release."
+                        "还原原型关卡 – 体验原版索尼克1开发中被删减的区域和替代关卡设计。",
+                        "未使用的精灵与机制 – 使用还原的动画、测试版敌人设计和早期游戏物理系统。",
+                        "原汁原味的Beta音乐 – 享受从最终版本中删减的原型音乐曲目和音效。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Sonic 1 Beta Remake Gameplay and Features",
+                    "title": "索尼克1 Beta重制版游戏玩法和特点",
                     "howToPlay": {
-                        "title": "How to Play Sonic 1 Beta Remake",
-                        "content": "Sonic 1 Beta Remake retains the classic fast-paced platforming of the original game while introducing restored prototype mechanics. Players can explore unfinished levels, test early physics, and experience scrapped animations from the development phase."
+                        "title": "如何游玩索尼克1 Beta重制版",
+                        "content": "索尼克1 Beta重制版保留了原版游戏的经典快节奏平台动作，同时引入了还原的原型机制。玩家可以探索未完成的关卡，测试早期物理系统，并体验开发阶段被删减的动画。"
                     }
                 },
                 "history": {
-                    "title": "Fans' Reactions to Sonic 1 Beta Remake",
+                    "title": "玩家对索尼克1 Beta重制版的反响",
                     "content": [
-                        "It's amazing to finally experience the lost content from Sonic 1’s early development. This remake feels like a glimpse into an alternate version of the classic game!",
-                        "The restored levels and animations add a fresh yet nostalgic feel. It’s incredible to see what could have been in the original release!"
+                        "终于能体验到索尼克1早期开发中的失落内容真是太棒了。这个重制版让我们仿佛看到了这款经典游戏的另一个版本！",
+                        "还原的关卡和动画带来了既新鲜又怀旧的感觉。看到原版发布时可能出现的内容真是令人难以置信！"
                     ]
                 }
             }
         },
         {
             "id": 3,
-            "title": "Squash (Ver. 1.0)",
+            "title": "壁球 (版本 1.0)",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-Squash (Ver. 1.0).png",
             "href": "/arcade-games/squash-ver-1-0",
@@ -90,37 +90,37 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9936-squash-ver-1-0.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Squash (Ver. 1.0) ?",
+                    "title": "什么是壁球 (版本 1.0)？",
                     "content": [
-                        "Squash lets players participate in squash matches playing against a computer opponent or with two players. The general rules are followed. The character can be steered around the court and two buttons are used: one for a hard shot and another for a light one. When hitting the ball the direction of the shot can also be determined. When a shot seems out of reach it is possible to perform a type of dive, but this has a recovery time usually long enough to miss the next shot when it returns. The players cannot collide or hinder each other.",
-                        "There are eight characters to choose from, each from a different country. The first player to score nine points wins the game. A single credit is not necessarily sufficient to complete an entire game. After too many faults an additional credit is required to continue playing. When a serve takes too long a clock appears. Games consist of a series of matches against an opponent who becomes more difficult with each match."
+                        "壁球让玩家可以与电脑对手或双人进行壁球比赛。游戏遵循一般规则。玩家可以在球场上自由移动，使用两个按钮：一个用于重击，另一个用于轻击。击球时还可以决定击球方向。当球看起来难以触及时，可以进行一种俯冲动作，但这需要恢复时间，通常会导致错过下一个回球。玩家之间不能碰撞或互相妨碍。",
+                        "游戏提供八个来自不同国家的角色供选择。第一个得到九分的玩家获胜。单次投币不一定足以完成整场比赛。犯规太多次后需要额外投币才能继续游戏。发球时间过长会出现计时器。游戏由一系列对战组成，每场比赛的对手难度都会逐渐增加。"
                     ]
                 },
                 "features": {
-                    "title": "Squash (Ver. 1.0) Features",
+                    "title": "壁球 (版本 1.0) 特色",
                     "list": [
-                        "Realistic Squash Gameplay – Players can move freely on the court, perform hard and light shots, and even dive for difficult returns, adding a layer of strategy and skill.",
-                        "Challenging AI and Multiplayer Mode – Compete against increasingly difficult AI opponents or challenge a friend in a two-player match, with eight selectable characters from different countries."
+                        "真实的壁球玩法 – 玩家可以在球场上自由移动，进行重击和轻击，甚至可以为难以接到的球进行俯冲，增添了策略性和技巧性。",
+                        "具有挑战性的AI和多人模式 – 与难度递增的AI对手竞技，或在双人模式中与朋友对战，可选择来自不同国家的八个角色。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Squash (Ver. 1.0) Gameplay and Features",
+                    "title": "壁球 (版本 1.0) 游戏玩法和特点",
                     "howToPlay": {
-                        "title": "How to Play Squash (Ver. 1.0)",
-                        "content": "Players control their character on the court, using two buttons for hard and light shots while strategically positioning themselves to return the ball; diving can be used for difficult shots but comes with a recovery delay."
+                        "title": "如何游玩壁球 (版本 1.0)",
+                        "content": "玩家在球场上控制角色，使用两个按钮进行重击和轻击，同时战略性地调整位置以回球；可以使用俯冲接到困难的球，但会有恢复延迟。"
                     }
                 },
                 "history": {
-                    "title": "Fans' Reactions to Squash (Ver. 1.0)",
+                    "title": "玩家对壁球 (版本 1.0) 的反响",
                     "content": [
-                        "A fun and challenging squash experience with intuitive controls and competitive gameplay that keeps players engaged!"
+                        "一个有趣且具有挑战性的壁球体验，直观的控制和竞技性的游戏玩法让玩家乐在其中！"
                     ]
                 }
             }
         },
         {
             "id": 4,
-            "title": "Super Mario World Hack 6",
+            "title": "超级马里奥世界 Hack 6",
             "platform": "SNES",
             "imageUrl": "/images/games/snes-game-Super Mario World Hack 6.png",
             "href": "/snes-games/super-mario-world-hack-6",
@@ -128,37 +128,37 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/44412-super-mario-world-hack-6.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Super Mario World Hack 6 ?",
+                    "title": "什么是超级马里奥世界 Hack 6？",
                     "content": [
-                        "Super Mario World Hack 6 is a fan-made modification of the classic Super Mario World, featuring redesigned levels, increased difficulty, and new challenges. Players can experience fresh gameplay mechanics while navigating through creatively altered worlds."
+                        "超级马里奥世界 Hack 6 是经典超级马里奥世界的粉丝改版，具有重新设计的关卡、增加的难度和全新的挑战。玩家可以在创意改造的世界中体验全新的游戏机制。"
                     ]
                 },
                 "features": {
-                    "title": "Super Mario World Hack 6 Features",
+                    "title": "超级马里奥世界 Hack 6 特色",
                     "list": [
-                        "Redesigned Levels & Increased Difficulty – Experience fresh and challenging stage layouts that test your platforming skills.",
-                        "New Mechanics & Secrets – Discover hidden paths, modified power-ups, and unexpected surprises throughout the game."
+                        "重新设计的关卡与提升的难度 – 体验全新且富有挑战性的关卡布局，测试你的平台动作技巧。",
+                        "新机制与秘密 – 发现隐藏路径、修改后的能力道具，以及游戏中的意外惊喜。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Super Mario World Hack 6 Gameplay and Features",
+                    "title": "超级马里奥世界 Hack 6 游戏玩法和特点",
                     "howToPlay": {
                         "title": "",
                         "content": ""
                     }
                 },
                 "history": {
-                    "title": "Fans' Reactions to Super Mario World Hack 6",
+                    "title": "玩家对超级马里奥世界 Hack 6 的反响",
                     "content": [
-                        "A fresh take on a classic! The redesigned levels add a fun and exciting challenge for longtime Mario fans.",
-                        "The increased difficulty makes every stage feel rewarding. A must-play for those who love challenging platformers!"
+                        "经典游戏的全新演绎！重新设计的关卡为马里奥的老玩家带来了有趣而刺激的挑战。",
+                        "提升的难度让每个关卡都充满成就感。对喜欢挑战性平台游戏的玩家来说是必玩之作！"
                     ]
                 }
             }
         },
         {
             "id": 5,
-            "title": "Pokemon Emerald Rogue EX 1.2.0",
+            "title": "宝可梦绿宝石 Rogue EX 1.2.0",
             "platform": "GBA",
             "imageUrl": "/images/games/game-boy-advance-game-Pokemon Emerald Rogue EX 1.2.0.png",
             "href": "/gameboyadvance-games/pokemon-emerald-rogue-ex-1-2-0",
@@ -166,37 +166,37 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/43564-pokemon-emerald-rogue-ex-1-2-0.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Pokemon Emerald Rogue EX 1.2.0 ?",
+                    "title": "什么是宝可梦绿宝石 Rogue EX 1.2.0？",
                     "content": [
-                        "Pokémon Emerald Rogue EX 1.2.0 is a fan-made ROM hack of the classic Pokémon Emerald, incorporating Roguelike elements into the Pokémon world. Players explore procedurally generated areas, catch and train Pokémon, and face ever-changing Gym Leaders and Trainer battles, making each adventure a unique experience."
+                        "《宝可梦绿宝石 Rogue EX 1.2.0》是经典《宝可梦绿宝石》的粉丝制作ROM改版，将Roguelike元素融入宝可梦世界。玩家可以探索程序生成的区域，捕捉和训练宝可梦，面对不断变化的道馆馆主和训练家对战，使每次冒险都成为独特的体验。"
                     ]
                 },
                 "features": {
-                    "title": "Pokemon Emerald Rogue EX 1.2.0 Features",
+                    "title": "游戏特色",
                     "list": [
-                        "Roguelike Adventure – Each playthrough is unique with randomly generated routes, trainers, and encounters.",
-                        "Dynamic Gym Challenges – Gym Leaders and their teams change based on your progress, ensuring fresh battles every time."
+                        "Roguelike冒险 – 随机生成的路线、训练家和遭遇战让每次游戏体验都独一无二。",
+                        "动态道馆挑战 – 道馆馆主及其队伍会根据你的进度变化，确保每次对战都充满新鲜感。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Pokemon Emerald Rogue EX 1.2.0 Gameplay and Features",
+                    "title": "游戏玩法和特点",
                     "howToPlay": {
-                        "title": "How to Play Pokemon Emerald Rogue EX 1.2.0",
-                        "content": "Start your adventure by choosing a starter Pokémon, explore randomly generated routes, build your team, and strategize as you face ever-changing challenges in a roguelike Pokémon experience."
+                        "title": "如何游玩宝可梦绿宝石 Rogue EX 1.2.0",
+                        "content": "选择一只初始宝可梦开始冒险，探索随机生成的路线，组建你的队伍，在Roguelike风格的宝可梦体验中制定策略，应对不断变化的挑战。"
                     }
                 },
                 "history": {
-                    "title": "Pokemon Emerald Rogue EX 1.2.0 Differences from Pokemon Emerald?",
+                    "title": "与宝可梦绿宝石的区别",
                     "content": [
-                        "Roguelike Mechanics – Unlike the traditional linear story of Pokémon Emerald, this version features procedurally generated routes, randomized encounters, and ever-changing battles.",
-                        "Dynamic Progression – Gym Leaders, trainers, and item locations change in every run, making each playthrough a fresh and unpredictable experience."
+                        "Roguelike机制 – 不同于传统宝可梦绿宝石的线性剧情，这个版本具有程序生成的路线、随机遭遇和不断变化的战斗。",
+                        "动态进程 – 道馆馆主、训练家和道具位置在每次游戏中都会改变，使每次游玩都充满新鲜感和不可预测性。"
                     ]
                 }
             }
         },
         {
             "id": 6,
-            "title": "Rayman",
+            "title": "雷曼",
             "platform": "PlayStation",
             "imageUrl": "/images/games/playstation-game-Rayman.png",
             "href": "/playstation-games/rayman",
@@ -204,36 +204,36 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40795-rayman.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Rayman ?",
+                    "title": "什么是雷曼？",
                     "content": [
-                        "Rayman is a classic platformer game series developed by Ubisoft, featuring a limbless hero who uses his fists and unique abilities to navigate colorful, magical worlds. First released in 1995, the series is known for its creative level design, charming art style, and engaging gameplay."
+                        "《雷曼》是育碧开发的经典平台游戏系列，主角是一个没有四肢的英雄，他使用拳头和独特能力在充满魔法的彩色世界中冒险。该系列最初于1995年发行，以其富有创意的关卡设计、迷人的美术风格和引人入胜的游戏玩法而闻名。"
                     ]
                 },
                 "features": {
-                    "title": "Rayman Features",
+                    "title": "游戏特色",
                     "list": [
-                        "Unique Limbless Hero – Rayman can stretch his hands to punch enemies, glide using his hair, and perform acrobatic moves to navigate challenging levels.",
-                        "Vibrant and Imaginative Worlds – The game features beautifully designed fantasy environments filled with creative enemies, hidden secrets, and engaging platforming challenges."
+                        "独特的无四肢英雄 – 雷曼可以伸展手臂攻击敌人，用头发滑翔，并执行各种杂技动作来穿越充满挑战的关卡。",
+                        "充满想象力的世界 – 游戏具有精美设计的奇幻环境，充满创意的敌人、隐藏的秘密和引人入胜的平台挑战。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Rayman Gameplay and Features",
+                    "title": "游戏玩法和特点",
                     "howToPlay": {
-                        "title": "How to Play Rayman",
-                        "content": "Control Rayman as he jumps, punches, and glides through beautifully crafted levels, defeating enemies, solving puzzles, and collecting items to progress through the adventure."
+                        "title": "如何游玩雷曼",
+                        "content": "控制雷曼在精心设计的关卡中跳跃、攻击和滑翔，击败敌人，解决谜题，收集物品以推进冒险。"
                     }
                 },
                 "history": {
-                    "title": "Rayman Game Storyline",
+                    "title": "雷曼游戏剧情",
                     "content": [
-                        "In Rayman, the Great Protoon, which maintains balance in the world, is stolen by the evil Mr. Dark, causing chaos across the land. Rayman embarks on a journey to defeat Mr. Dark, restore harmony, and rescue the Electoons, who have been captured."
+                        "在《雷曼》中，维持世界平衡的大光子被邪恶的达克先生偷走，导致世界陷入混乱。雷曼踏上旅程，要打败达克先生，恢复和谐，并解救被捕获的电子精灵。"
                     ]
                 }
             }
         },
         {
             "id": 7,
-            "title": "Street Fighter (US set 1)",
+            "title": "街头霸王（美版第1套）",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-Street Fighter (US set 1).png",
             "href": "/arcade-games/street-fighter-us-set-1",
@@ -241,34 +241,30 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9955-street-fighter-us-set-1.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Street Fighter (US set 1) ?",
+                    "title": "什么是街头霸王（美版第1套）？",
                     "content": [
-                        "Street Fighter (US set 1) is one of the earliest versions of the classic arcade fighting game Street Fighter, released by Capcom in 1987. This version allows players to control Ryu or Ken as they battle opponents from around the world in one-on-one matches. The game introduced special moves like Hadouken, Shoryuken, and Tatsumaki Senpukyaku, laying the foundation for the legendary Street Fighter series."
+                        "《街头霸王（美版第1套）》是卡普空于1987年发行的经典街机格斗游戏《街头霸王》的早期版本之一。这个版本允许玩家控制隆或肯与来自世界各地的对手进行一对一对战。游戏引入了波动拳、升龙拳和旋风腿等特殊招式，为传奇的街头霸王系列奠定了基础。"
                     ]
                 },
                 "features": {
-                    "title": "Street Fighter (US set 1) Features",
+                    "title": "游戏特色",
                     "list": [
-                        "Classic One-on-One Fighting – Play as Ryu or Ken and battle against fighters from around the world in intense arcade-style combat.",
-                        "Introduction of Special Moves – Features iconic attacks like Hadouken, Shoryuken, and Tatsumaki Senpukyaku, which later became staples of the Street Fighter series."
+                        "经典一对一对战 – 玩家可以选择隆或肯，在激烈的街机风格战斗中与来自世界各地的格斗家对战。",
+                        "特殊招式的引入 – 包含波动拳、升龙拳和旋风腿等标志性招式，这些后来成为了街头霸王系列的经典元素。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Street Fighter (US set 1) Gameplay and Features",
+                    "title": "游戏玩法和特点",
                     "howToPlay": {
                         "title": "",
                         "content": ""
                     }
-                },
-                "history": {
-                    "title": "",
-                    "content": []
                 }
             }
         },
         {
             "id": 8,
-            "title": "Sonic Classic Heroes",
+            "title": "索尼克经典英雄",
             "platform": "Genesis",
             "imageUrl": "/images/games/genesis-game-Sonic Classic Heroes.png",
             "href": "/genesis-games/sonic-classic-heroes",
@@ -276,35 +272,31 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/42046-sonic-classic-heroes.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Sonic Classic Heroes ?",
+                    "title": "什么是索尼克经典英雄？",
                     "content": [
-                        "Sonic Classic Heroes is a fan-made ROM hack that combines Sonic the Hedgehog and Sonic the Hedgehog 2 into a single game. Players can control Sonic, Tails, and Knuckles, switching between them at any time to experience a unique team-based gameplay mechanic.",
-                        "The game introduces the team system from Sonic Heroes, allowing players to swap characters freely, with each possessing unique abilities for different challenges. Additionally, all original levels from both games have been retained and optimized, offering an enhanced and engaging experience for Sonic fans."
+                        "《索尼克经典英雄》是一个将《刺猬索尼克》和《刺猬索尼克2》合二为一的粉丝制作ROM改版。玩家可以控制索尼克、尾巴和纳克鲁斯，随时在他们之间切换，体验独特的基于团队的游戏机制。",
+                        "游戏引入了《索尼克英雄》中的团队系统，允许玩家自由切换角色，每个角色都具有独特的能力来应对不同的挑战。此外，两个原作的所有原始关卡都得到保留和优化，为索尼克粉丝提供了增强的游戏体验。"
                     ]
                 },
                 "features": {
-                    "title": "Sonic Classic Heroes Key Features",
+                    "title": "主要特色",
                     "list": [
-                        "Team-Based Gameplay – Switch between Sonic, Tails, and Knuckles anytime, utilizing their unique abilities to overcome obstacles.",
-                        "Enhanced Classic Levels – Combines Sonic the Hedgehog and Sonic the Hedgehog 2, with optimized stages and improved mechanics for a smoother gameplay experience."
+                        "基于团队的游戏玩法 – 随时在索尼克、尾巴和纳克鲁斯之间切换，利用他们的独特能力克服障碍。",
+                        "增强的经典关卡 – 结合《刺猬索尼克》和《刺猬索尼克2》，优化的关卡和改进的机制带来更流畅的游戏体验。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Sonic Classic Heroes Gameplay and Features",
+                    "title": "游戏玩法和特点",
                     "howToPlay": {
                         "title": "",
                         "content": ""
                     }
-                },
-                "history": {
-                    "title": "",
-                    "content": []
                 }
             }
         },
         {
             "id": 9,
-            "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
+            "title": "JOJO的奇妙冒险：未来遗产 / JoJo的奇妙冒险：传承未来 (日版 990927, 无CD)",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-JoJo's Bizarre Adventure Heritage for the Future.png",
             "href": "/arcade-games/jojos-bizarre-adventure-heritage-for-the-future",
@@ -312,31 +304,31 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/8843-jojos-bizarre-adventure%3A-heritage-for-the-future-jojo-no-kimyou-na-bouken%3A-mirai-e-no-isan-japan-990927-no-cd.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) ?",
+                    "title": "什么是JOJO的奇妙冒险：未来遗产？",
                     "content": [
-                        "JoJo's Bizarre Adventure: Heritage for the Future is a 2D fighting game developed by Capcom, based on the third part of Hirohiko Araki’s famous manga series JoJo's Bizarre Adventure: Stardust Crusaders. Originally released for arcades in 1999, the game was later ported to PlayStation and Dreamcast, featuring a unique Stand system where characters can summon their supernatural entities to fight alongside them.",
-                        "The Japan 990927, NO CD version refers to a specific arcade build of the game, optimized for machines without a CD drive. The game boasts a diverse roster of characters, including Jotaro Kujo, DIO, and other iconic fighters from the manga. With its stylish visuals, faithful adaptation of the JoJo universe, and strategic combat mechanics, it remains a beloved classic among both fighting game enthusiasts and JoJo fans."
+                        "《JOJO的奇妙冒险：未来遗产》是由Capcom开发的2D格斗游戏，基于荒木飞吕彦著名漫画系列《JOJO的奇妙冒险：星尘斗士》第三部制作。游戏最初于1999年在街机发行，后移植至PlayStation和Dreamcast平台，特色是独特的替身系统，允许角色召唤其超自然实体并肩作战。",
+                        "日版990927无CD版本是指专门为无CD驱动器的街机优化的版本。游戏拥有丰富的角色阵容，包括空条承太郎、DIO和其他来自漫画的标志性格斗家。凭借其独特的视觉风格、对JOJO世界的忠实还原和战略性的战斗机制，本作在格斗游戏爱好者和JOJO粉丝中都备受喜爱。"
                     ]
                 },
                 "features": {
-                    "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) Features",
+                    "title": "游戏特色",
                     "list": [
-                        "Unique Stand System – Characters can summon their Stands, granting them special abilities and dynamic combat strategies.",
-                        "Authentic JoJo Experience – Features a large roster of characters from Stardust Crusaders, stylish manga-inspired visuals, and iconic battles faithful to the original series."
+                        "独特的替身系统 – 角色可以召唤替身，获得特殊能力和动态战斗策略。",
+                        "原汁原味的JOJO体验 – 包含来自《星尘斗士》的大量角色阵容，漫画风格的视觉效果，以及忠于原作的标志性战斗。"
                     ]
                 },
                 "gameplay": {
-                    "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) Gameplay and Features",
+                    "title": "游戏玩法和特点",
                     "howToPlay": {
-                        "title": "How to Play JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
-                        "content": "Choose a character from Stardust Crusaders, utilize the Stand system to unleash powerful attacks, and master unique combos to defeat opponents in intense 2D fighting battles."
+                        "title": "如何游玩JOJO的奇妙冒险：未来遗产",
+                        "content": "从《星尘斗士》中选择一个角色，运用替身系统释放强力攻击，掌握独特连击以在激烈的2D格斗战斗中击败对手。"
                     }
                 }
             }
         },
         {
             "id": 10,
-            "title": "Marvel vs Capcom - clash of super heroes (980123 USA)",
+            "title": "漫画英雄对卡普空：超级英雄的碰撞 (980123 美版)",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-Marvel vs Capcom - clash of super heroes (980123 USA).png",
             "href": "/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
@@ -344,23 +336,23 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9123-marvel-vs-capcom-clash-of-super-heroes-980123-usa.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "What's Marvel vs Capcom - clash of super heroes (980123 USA) ?",
+                    "title": "什么是漫画英雄对卡普空：超级英雄的碰撞？",
                     "content": [
-                        "Marvel vs. Capcom: Clash of Super Heroes is a 1998 crossover fighting game developed by Capcom, featuring characters from both Marvel Comics and Capcom's video game franchises. Players select teams of two fighters to engage in fast-paced, tag-team battles, utilizing unique moves and combinations to defeat their opponents."
+                        "《漫画英雄对卡普空：超级英雄的碰撞》是卡普空于1998年开发的跨界格斗游戏，融合了漫威漫画和卡普空游戏系列的角色。玩家可以选择两名格斗家组成团队，在快节奏的标签团队战斗中，运用独特的招式和组合技击败对手。"
                     ]
                 },
                 "features": {
-                    "title": "Marvel vs Capcom - clash of super heroes (980123 USA) Features",
+                    "title": "游戏特色",
                     "list": [
-                        "Tag-Team Battles – Players can choose two fighters and switch between them mid-battle, creating strategic combos and powerful team attacks.",
-                        "Iconic Marvel and Capcom Characters – Features a diverse roster, including Spider-Man, Ryu, Wolverine, and Mega Man, each with unique abilities and special moves."
+                        "标签团队战斗 – 玩家可以选择两名格斗家并在战斗中随时切换，创造战略性连击和强力团队攻击。",
+                        "标志性漫威与卡普空角色 – 包含丰富的角色阵容，如蜘蛛侠、隆、金刚狼和洛克人，每个角色都拥有独特的能力和特殊招式。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Marvel vs Capcom - clash of super heroes (980123 USA) Gameplay and Features",
+                    "title": "游戏玩法和特点",
                     "howToPlay": {
-                        "title": "How to Play Marvel vs Capcom - clash of super heroes (980123 USA) Features",
-                        "content": "Select two characters from the Marvel and Capcom rosters, switch between them in battle, execute special moves and team combos, and defeat your opponents in intense tag-team fights."
+                        "title": "如何游玩",
+                        "content": "从漫威和卡普空阵容中选择两名角色，在战斗中灵活切换，施展特殊招式和团队连击，在激烈的标签团队战斗中击败对手。"
                     }
                 }
             }
@@ -378,7 +370,7 @@
         },
         {
             "id": 10002,
-            "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
+            "title": "JOJO的奇妙冒险：未来遗产 / JoJo的奇妙冒险：传承未来 (日版 990927, 无CD)",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-JoJo's Bizarre Adventure Heritage for the Future.png",
             "href": "/arcade-games/jojos-bizarre-adventure-heritage-for-the-future",
@@ -386,7 +378,7 @@
         },
         {
             "id": 10003,
-            "title": "Sonic Classic Heroes",
+            "title": "索尼克经典英雄",
             "platform": "Genesis",
             "imageUrl": "/images/games/genesis-game-Sonic Classic Heroes.png",
             "href": "/genesis-games/sonic-classic-heroes",
@@ -394,7 +386,7 @@
         },
         {
             "id": 10004,
-            "title": "Street Fighter (US set 1)",
+            "title": "街头霸王（美版第1套）",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-Street Fighter (US set 1).png",
             "href": "/arcade-games/street-fighter-us-set-1",
@@ -402,7 +394,7 @@
         },
         {
             "id": 10005,
-            "title": "Marvel vs Capcom - clash of super heroes (980123 USA)",
+            "title": "漫画英雄对卡普空：超级英雄的碰撞 (980123 美版)",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-Marvel vs Capcom - clash of super heroes (980123 USA).png",
             "href": "/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
@@ -410,7 +402,7 @@
         },
         {
             "id": 10006,
-            "title": "Super Mario World Hack 6",
+            "title": "超级马里奥世界 Hack 6",
             "platform": "SNES",
             "imageUrl": "/images/games/snes-game-Super Mario World Hack 6.png",
             "href": "/snes-games/super-mario-world-hack-6",
@@ -418,7 +410,7 @@
         },
         {
             "id": 10007,
-            "title": "Pokemon Emerald Rogue EX 1.2.0",
+            "title": "宝可梦绿宝石 Rogue EX 1.2.0",
             "platform": "GBA",
             "imageUrl": "/images/games/game-boy-advance-game-Pokemon Emerald Rogue EX 1.2.0.png",
             "href": "/gameboyadvance-games/pokemon-emerald-rogue-ex-1-2-0",
@@ -426,7 +418,7 @@
         },
         {
             "id": 10008,
-            "title": "Rayman",
+            "title": "雷曼",
             "platform": "PlayStation",
             "imageUrl": "/images/games/playstation-game-Rayman.png",
             "href": "/playstation-games/rayman",
@@ -436,7 +428,7 @@
     "newGames": [
         {
             "id": 20001,
-            "title": "Sonic 1 Beta Remake",
+            "title": "索尼克1 Beta重制版",
             "platform": "Genesis",
             "imageUrl": "/images/games/sonic-1-beta-remake.png",
             "href": "/genesis-games/sonic-1-beta-remake",
@@ -444,7 +436,7 @@
         },
         {
             "id": 20002,
-            "title": "Squash (Ver. 1.0)",
+            "title": "壁球 (版本 1.0)",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-Squash (Ver. 1.0).png",
             "href": "/arcade-games/squash-ver-1-0",
