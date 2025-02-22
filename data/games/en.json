@@ -1,67 +1,106 @@
 {
-  "gameList": [
-    {
-        "id": 1,
-        "title": "Tekken 3",
-        "platform": "PlayStation",
-        "imageUrl": "/images/games/Tekken 3.png",
-        "href": "/playstation-games/tekken-3",
-        "description": "",
-        "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
-        "seoDescription": {
-            "overview": {
-                "title": "What's Tekken 3?",
-                "content": [
-                    "Tekken 3 was first released in arcades in 1997, running on Namco's System 12 hardware. It introduced a significant graphical leap and refined gameplay compared to its predecessors. In 1998, the game was ported to the PlayStation, where it became a massive success, selling over 8 million copies. The PlayStation version included new game modes, such as Tekken Force and a new hidden character, Gon. With its impact on the fighting game genre and competitive scene, .Regarded as one of the greatest fighting games of all time, Tekken 3 remains a fan favorite and a defining title of the genre.",
-                    "Tekken 3 not only improved upon the mechanics of its predecessors but also introduced a more fluid and responsive combat system. The game featured a diverse roster of characters, including returning fan favorites like Jin Kazama, Hwoarang, and Ling Xiaoyu, each with unique fighting styles. The enhanced 3D movement system allowed players to sidestep, adding depth to battles and making the gameplay more strategic. The soundtrack, fast-paced action, and engaging storylines contributed to its legendary status. Even decades after its release, Tekken 3 is still widely praised and enjoyed by retro gaming enthusiasts around the world."
-                ]
-            },
-            "features": {
-                "title": "Key Features",
-                "list": [
-                    "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
-                    "Introduces the new Tekken Force beat-em-up mode",
-                    "Improved graphics and gameplay mechanics over previous Tekken games"
-                ]
-            },
-            "gameplay": {
-                "title": "Tekken 3 Gameplay and Features",
-                "howToPlay": {
-                    "title": "How to Play Tekken 3",
-                    "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+    "gameList": [
+        {
+            "id": 1,
+            "title": "Tekken 3",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/Tekken 3.png",
+            "href": "/playstation-games/tekken-3",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's Tekken 3?",
+                    "content": [
+                        "Tekken 3 was first released in arcades in 1997, running on Namco's System 12 hardware. It introduced a significant graphical leap and refined gameplay compared to its predecessors. In 1998, the game was ported to the PlayStation, where it became a massive success, selling over 8 million copies. The PlayStation version included new game modes, such as Tekken Force and a new hidden character, Gon. With its impact on the fighting game genre and competitive scene, .Regarded as one of the greatest fighting games of all time, Tekken 3 remains a fan favorite and a defining title of the genre.",
+                        "Tekken 3 not only improved upon the mechanics of its predecessors but also introduced a more fluid and responsive combat system. The game featured a diverse roster of characters, including returning fan favorites like Jin Kazama, Hwoarang, and Ling Xiaoyu, each with unique fighting styles. The enhanced 3D movement system allowed players to sidestep, adding depth to battles and making the gameplay more strategic. The soundtrack, fast-paced action, and engaging storylines contributed to its legendary status. Even decades after its release, Tekken 3 is still widely praised and enjoyed by retro gaming enthusiasts around the world."
+                    ]
+                },
+                "features": {
+                    "title": "Key Features",
+                    "list": [
+                        "Features 23 playable characters including fan favorites like Jin Kazama and Nina Williams",
+                        "Introduces the new Tekken Force beat-em-up mode",
+                        "Improved graphics and gameplay mechanics over previous Tekken games"
+                    ]
+                },
+                "gameplay": {
+                    "title": "Tekken 3 Gameplay and Features",
+                    "howToPlay": {
+                        "title": "How to Play Tekken 3",
+                        "content": "The game features a deep combat system with throws, counters, and juggles. Players can execute various moves and combos using different button combinations."
+                    }
+                },
+                "history": {
+                    "title": "Tekken 3 Game Storyline",
+                    "content": [
+                        "The story of Tekken 3 takes place 19 years after the events of Tekken 2. When the mysterious being Ogre appears and begins hunting down powerful fighters around the world, the Mishima Zaibatsu announces the King of Iron Fist Tournament once again. After his mother, Jun Kazama, is attacked by Ogre, Jin Kazama is taken in and trained by his grandfather, Heihachi Mishima, to prepare for the battle.",
+                        "Jin defeats Ogre in the tournament, but is immediately betrayed by Heihachi, who shoots and abandons him. On the brink of death, the Devil Gene within Jin awakens, transforming him into Devil Jin. With his newfound power, he overpowers Heihachi and escapes. This moment marks a turning point in the Tekken series, as the influence of the Devil Gene begins to reshape the fate of the Mishima bloodline."
+                    ]
                 }
-            },
-            "history": {
-                "title": "Tekken 3 Game Storyline",
-                "content": [
-                    "The story of Tekken 3 takes place 19 years after the events of Tekken 2. When the mysterious being Ogre appears and begins hunting down powerful fighters around the world, the Mishima Zaibatsu announces the King of Iron Fist Tournament once again. After his mother, Jun Kazama, is attacked by Ogre, Jin Kazama is taken in and trained by his grandfather, Heihachi Mishima, to prepare for the battle.",
-                    "Jin defeats Ogre in the tournament, but is immediately betrayed by Heihachi, who shoots and abandons him. On the brink of death, the Devil Gene within Jin awakens, transforming him into Devil Jin. With his newfound power, he overpowers Heihachi and escapes. This moment marks a turning point in the Tekken series, as the influence of the Devil Gene begins to reshape the fate of the Mishima bloodline."
-                ]
+            }
+        },
+        {
+            "id": 2,
+            "title": "Sonic 1 Beta Remake",
+            "platform": "Genesis",
+            "imageUrl": "/images/games/sonic-1-beta-remake.png",
+            "href": "/genesis-games/sonic-1-beta-remake",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/45223-sonic-1-beta-remake.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's Sonic 1 Beta Remake ?",
+                    "content": [
+                        "Sonic 1 Beta Remake is a fan-made restoration project that brings back the lost prototype elements from the early development stages of Sonic the Hedgehog (1991). Based on leaked beta builds and developer insights, this remake revives scrapped levels, unused animations, and alternative mechanics that were originally planned but never made it into the final game. By combining historical accuracy with modern enhancements, the game provides a unique glimpse into what Sonic 1 could have been.",
+                        "With redesigned sprites, prototype music tracks, and restored level layouts, Sonic 1 Beta Remake captures the early vision of Sega’s original developers while staying true to the classic Genesis experience. Fans of retro gaming and Sonic enthusiasts alike will enjoy exploring unfinished zones, testing alternate gameplay physics, and experiencing hidden content that was once lost to time. This project serves as both a tribute to Sonic’s origins and a fascinating \"what-if\" scenario for one of the most iconic platformers in gaming history."
+                    ]
+                },
+                "features": {
+                    "title": "Sonic 1 Beta Remake Features",
+                    "list": [
+                        "Restored Prototype Levels – Experience scrapped zones and alternate level designs from the original Sonic 1 development.",
+                        "Unused Sprites & Mechanics – Play with restored animations, beta enemy designs, and early gameplay physics.",
+                        "Authentic Beta Soundtrack – Enjoy prototype music tracks and sound effects that were cut from the final release."
+                    ]
+                },
+                "gameplay": {
+                    "title": "Sonic 1 Beta Remake Gameplay and Features",
+                    "howToPlay": {
+                        "title": "How to Play Sonic 1 Beta Remake",
+                        "content": "Sonic 1 Beta Remake retains the classic fast-paced platforming of the original game while introducing restored prototype mechanics. Players can explore unfinished levels, test early physics, and experience scrapped animations from the development phase."
+                    }
+                },
+                "history": {
+                    "title": "Fans' Reactions to Sonic 1 Beta Remake",
+                    "content": [
+                        "It's amazing to finally experience the lost content from Sonic 1’s early development. This remake feels like a glimpse into an alternate version of the classic game!",
+                        "The restored levels and animations add a fresh yet nostalgic feel. It’s incredible to see what could have been in the original release!"
+                    ]
+                }
             }
         }
-    }
-
-  ],
-  "popularGames": [
-    {
-        "id": 10001,
-        "title": "Tekken 3",
-        "platform": "PlayStation",
-        "imageUrl": "/images/games/Tekken 3.png",
-        "href": "/playstation-games/tekken-3",
-        "description": "",
-        "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
-    }
-  ],
-  "newGames": [
-    {
-        "id": 20001,
-        "title": "Tekken 3",
-        "platform": "PlayStation",
-        "imageUrl": "/images/games/Tekken 3.png",
-        "href": "/playstation-games/tekken-3",
-        "description": "",
-        "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
-    }
-  ]
-} 
+    ],
+    "popularGames": [
+        {
+            "id": 10001,
+            "title": "Tekken 3",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/Tekken 3.png",
+            "href": "/playstation-games/tekken-3",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
+        }
+    ],
+    "newGames": [
+        {
+            "id": 20001,
+            "title": "Tekken 3",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/Tekken 3.png",
+            "href": "/playstation-games/tekken-3",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
+        }
+    ]
+}
