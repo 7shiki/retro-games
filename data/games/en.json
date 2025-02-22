@@ -117,6 +117,44 @@
                     ]
                 }
             }
+        },
+        {
+            "id": 4,
+            "title": "Super Mario World Hack 6",
+            "platform": "SNES",
+            "imageUrl": "/images/games/snes-game-Super Mario World Hack 6.png",
+            "href": "/snes-games/super-mario-world-hack-6",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/44412-super-mario-world-hack-6.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's Super Mario World Hack 6 ?",
+                    "content": [
+                        "Super Mario World Hack 6 is a fan-made modification of the classic Super Mario World, featuring redesigned levels, increased difficulty, and new challenges. Players can experience fresh gameplay mechanics while navigating through creatively altered worlds."
+                    ]
+                },
+                "features": {
+                    "title": "Super Mario World Hack 6 Features",
+                    "list": [
+                        "Redesigned Levels & Increased Difficulty – Experience fresh and challenging stage layouts that test your platforming skills.",
+                        "New Mechanics & Secrets – Discover hidden paths, modified power-ups, and unexpected surprises throughout the game."
+                    ]
+                },
+                "gameplay": {
+                    "title": "Super Mario World Hack 6 Gameplay and Features",
+                    "howToPlay": {
+                        "title": "",
+                        "content": ""
+                    }
+                },
+                "history": {
+                    "title": "Fans' Reactions to Super Mario World Hack 6",
+                    "content": [
+                        "A fresh take on a classic! The redesigned levels add a fun and exciting challenge for longtime Mario fans.",
+                        "The increased difficulty makes every stage feel rewarding. A must-play for those who love challenging platformers!"
+                    ]
+                }
+            }
         }
     ],
     "popularGames": [
