@@ -265,6 +265,105 @@
                     "content": []
                 }
             }
+        },
+        {
+            "id": 8,
+            "title": "Sonic Classic Heroes",
+            "platform": "Genesis",
+            "imageUrl": "/images/games/genesis-game-Sonic Classic Heroes.png",
+            "href": "/genesis-games/sonic-classic-heroes",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/42046-sonic-classic-heroes.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's Sonic Classic Heroes ?",
+                    "content": [
+                        "Sonic Classic Heroes is a fan-made ROM hack that combines Sonic the Hedgehog and Sonic the Hedgehog 2 into a single game. Players can control Sonic, Tails, and Knuckles, switching between them at any time to experience a unique team-based gameplay mechanic.",
+                        "The game introduces the team system from Sonic Heroes, allowing players to swap characters freely, with each possessing unique abilities for different challenges. Additionally, all original levels from both games have been retained and optimized, offering an enhanced and engaging experience for Sonic fans."
+                    ]
+                },
+                "features": {
+                    "title": "Sonic Classic Heroes Key Features",
+                    "list": [
+                        "Team-Based Gameplay – Switch between Sonic, Tails, and Knuckles anytime, utilizing their unique abilities to overcome obstacles.",
+                        "Enhanced Classic Levels – Combines Sonic the Hedgehog and Sonic the Hedgehog 2, with optimized stages and improved mechanics for a smoother gameplay experience."
+                    ]
+                },
+                "gameplay": {
+                    "title": "Sonic Classic Heroes Gameplay and Features",
+                    "howToPlay": {
+                        "title": "",
+                        "content": ""
+                    }
+                },
+                "history": {
+                    "title": "",
+                    "content": []
+                }
+            }
+        },
+        {
+            "id": 9,
+            "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
+            "platform": "Arcade",
+            "imageUrl": "/images/games/arcade-game-JoJo's Bizarre Adventure Heritage for the Future.png",
+            "href": "/arcade-games/jojos-bizarre-adventure-heritage-for-the-future",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/8843-jojos-bizarre-adventure%3A-heritage-for-the-future-jojo-no-kimyou-na-bouken%3A-mirai-e-no-isan-japan-990927-no-cd.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) ?",
+                    "content": [
+                        "JoJo's Bizarre Adventure: Heritage for the Future is a 2D fighting game developed by Capcom, based on the third part of Hirohiko Araki’s famous manga series JoJo's Bizarre Adventure: Stardust Crusaders. Originally released for arcades in 1999, the game was later ported to PlayStation and Dreamcast, featuring a unique Stand system where characters can summon their supernatural entities to fight alongside them.",
+                        "The Japan 990927, NO CD version refers to a specific arcade build of the game, optimized for machines without a CD drive. The game boasts a diverse roster of characters, including Jotaro Kujo, DIO, and other iconic fighters from the manga. With its stylish visuals, faithful adaptation of the JoJo universe, and strategic combat mechanics, it remains a beloved classic among both fighting game enthusiasts and JoJo fans."
+                    ]
+                },
+                "features": {
+                    "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) Features",
+                    "list": [
+                        "Unique Stand System – Characters can summon their Stands, granting them special abilities and dynamic combat strategies.",
+                        "Authentic JoJo Experience – Features a large roster of characters from Stardust Crusaders, stylish manga-inspired visuals, and iconic battles faithful to the original series."
+                    ]
+                },
+                "gameplay": {
+                    "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD) Gameplay and Features",
+                    "howToPlay": {
+                        "title": "How to Play JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
+                        "content": "Choose a character from Stardust Crusaders, utilize the Stand system to unleash powerful attacks, and master unique combos to defeat opponents in intense 2D fighting battles."
+                    }
+                }
+            }
+        },
+        {
+            "id": 10,
+            "title": "Marvel vs Capcom - clash of super heroes (980123 USA)",
+            "platform": "Arcade",
+            "imageUrl": "/images/games/arcade-game-Marvel vs Capcom - clash of super heroes (980123 USA).png",
+            "href": "/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9123-marvel-vs-capcom-clash-of-super-heroes-980123-usa.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's Marvel vs Capcom - clash of super heroes (980123 USA) ?",
+                    "content": [
+                        "Marvel vs. Capcom: Clash of Super Heroes is a 1998 crossover fighting game developed by Capcom, featuring characters from both Marvel Comics and Capcom's video game franchises. Players select teams of two fighters to engage in fast-paced, tag-team battles, utilizing unique moves and combinations to defeat their opponents."
+                    ]
+                },
+                "features": {
+                    "title": "Marvel vs Capcom - clash of super heroes (980123 USA) Features",
+                    "list": [
+                        "Tag-Team Battles – Players can choose two fighters and switch between them mid-battle, creating strategic combos and powerful team attacks.",
+                        "Iconic Marvel and Capcom Characters – Features a diverse roster, including Spider-Man, Ryu, Wolverine, and Mega Man, each with unique abilities and special moves."
+                    ]
+                },
+                "gameplay": {
+                    "title": "Marvel vs Capcom - clash of super heroes (980123 USA) Gameplay and Features",
+                    "howToPlay": {
+                        "title": "How to Play Marvel vs Capcom - clash of super heroes (980123 USA) Features",
+                        "content": "Select two characters from the Marvel and Capcom rosters, switch between them in battle, execute special moves and team combos, and defeat your opponents in intense tag-team fights."
+                    }
+                }
+            }
         }
     ],
     "popularGames": [
@@ -274,19 +373,81 @@
             "platform": "PlayStation",
             "imageUrl": "/images/games/Tekken 3.png",
             "href": "/playstation-games/tekken-3",
-            "description": "",
-            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
+            "description": ""
+        },
+        {
+            "id": 10002,
+            "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
+            "platform": "Arcade",
+            "imageUrl": "/images/games/arcade-game-JoJo's Bizarre Adventure Heritage for the Future.png",
+            "href": "/arcade-games/jojos-bizarre-adventure-heritage-for-the-future",
+            "description": ""
+        },
+        {
+            "id": 10003,
+            "title": "Sonic Classic Heroes",
+            "platform": "Genesis",
+            "imageUrl": "/images/games/genesis-game-Sonic Classic Heroes.png",
+            "href": "/genesis-games/sonic-classic-heroes",
+            "description": ""
+        },
+        {
+            "id": 10004,
+            "title": "Street Fighter (US set 1)",
+            "platform": "Arcade",
+            "imageUrl": "/images/games/arcade-game-Street Fighter (US set 1).png",
+            "href": "/arcade-games/street-fighter-us-set-1",
+            "description": ""
+        },
+        {
+            "id": 10005,
+            "title": "Marvel vs Capcom - clash of super heroes (980123 USA)",
+            "platform": "Arcade",
+            "imageUrl": "/images/games/arcade-game-Marvel vs Capcom - clash of super heroes (980123 USA).png",
+            "href": "/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
+            "description": ""
+        },
+        {
+            "id": 10006,
+            "title": "Super Mario World Hack 6",
+            "platform": "SNES",
+            "imageUrl": "/images/games/snes-game-Super Mario World Hack 6.png",
+            "href": "/snes-games/super-mario-world-hack-6",
+            "description": ""
+        },
+        {
+            "id": 10007,
+            "title": "Pokemon Emerald Rogue EX 1.2.0",
+            "platform": "GBA",
+            "imageUrl": "/images/games/game-boy-advance-game-Pokemon Emerald Rogue EX 1.2.0.png",
+            "href": "/gameboyadvance-games/pokemon-emerald-rogue-ex-1-2-0",
+            "description": ""
+        },
+        {
+            "id": 10008,
+            "title": "Rayman",
+            "platform": "PlayStation",
+            "imageUrl": "/images/games/playstation-game-Rayman.png",
+            "href": "/playstation-games/rayman",
+            "description": ""
         }
     ],
     "newGames": [
         {
             "id": 20001,
-            "title": "Tekken 3",
-            "platform": "PlayStation",
-            "imageUrl": "/images/games/Tekken 3.png",
-            "href": "/playstation-games/tekken-3",
-            "description": "",
-            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40238-tekken-3.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
+            "title": "Sonic 1 Beta Remake",
+            "platform": "Genesis",
+            "imageUrl": "/images/games/sonic-1-beta-remake.png",
+            "href": "/genesis-games/sonic-1-beta-remake",
+            "description": ""
+        },
+        {
+            "id": 20002,
+            "title": "Squash (Ver. 1.0)",
+            "platform": "Arcade",
+            "imageUrl": "/images/games/arcade-game-Squash (Ver. 1.0).png",
+            "href": "/arcade-games/squash-ver-1-0",
+            "description": ""
         }
     ]
 }
