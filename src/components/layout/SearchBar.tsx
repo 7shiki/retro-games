@@ -30,6 +30,7 @@ export default function SearchBar({ onSearch, defaultValue = '', initialMessages
   return (
     <form onSubmit={handleSubmit} className="flex w-full max-w-xl mx-auto">
       <div className="flex-1 relative">
+        <h2 className="sr-only">{messages.placeholder}</h2>
         <input
           type="text"
           value={query}

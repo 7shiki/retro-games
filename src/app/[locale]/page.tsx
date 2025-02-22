@@ -117,7 +117,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
           <div className="max-w-7xl mx-auto">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-float">
               <span className="retro-logo text-5xl md:text-7xl block mb-2">
-                {messages.home.hero.title.play}
+                {messages.home.hero.title.play + ' '}
               </span>
               <span className="retro-logo text-5xl md:text-7xl">
                 {messages.home.hero.title.retroGames}
