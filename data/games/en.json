@@ -79,6 +79,44 @@
                     ]
                 }
             }
+        },
+        {
+            "id": 3,
+            "title": "Squash (Ver. 1.0)",
+            "platform": "Arcade",
+            "imageUrl": "/images/games/arcade-game-Squash (Ver. 1.0).png",
+            "href": "/arcade-games/squash-ver-1-0",
+            "description": "",
+            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9936-squash-ver-1-0.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's Squash (Ver. 1.0) ?",
+                    "content": [
+                        "Squash lets players participate in squash matches playing against a computer opponent or with two players. The general rules are followed. The character can be steered around the court and two buttons are used: one for a hard shot and another for a light one. When hitting the ball the direction of the shot can also be determined. When a shot seems out of reach it is possible to perform a type of dive, but this has a recovery time usually long enough to miss the next shot when it returns. The players cannot collide or hinder each other.",
+                        "There are eight characters to choose from, each from a different country. The first player to score nine points wins the game. A single credit is not necessarily sufficient to complete an entire game. After too many faults an additional credit is required to continue playing. When a serve takes too long a clock appears. Games consist of a series of matches against an opponent who becomes more difficult with each match."
+                    ]
+                },
+                "features": {
+                    "title": "Squash (Ver. 1.0) Features",
+                    "list": [
+                        "Realistic Squash Gameplay – Players can move freely on the court, perform hard and light shots, and even dive for difficult returns, adding a layer of strategy and skill.",
+                        "Challenging AI and Multiplayer Mode – Compete against increasingly difficult AI opponents or challenge a friend in a two-player match, with eight selectable characters from different countries."
+                    ]
+                },
+                "gameplay": {
+                    "title": "Squash (Ver. 1.0) Gameplay and Features",
+                    "howToPlay": {
+                        "title": "How to Play Squash (Ver. 1.0)",
+                        "content": "Players control their character on the court, using two buttons for hard and light shots while strategically positioning themselves to return the ball; diving can be used for difficult shots but comes with a recovery delay."
+                    }
+                },
+                "history": {
+                    "title": "Fans' Reactions to Squash (Ver. 1.0)",
+                    "content": [
+                        "A fun and challenging squash experience with intuitive controls and competitive gameplay that keeps players engaged!"
+                    ]
+                }
+            }
         }
     ],
     "popularGames": [
