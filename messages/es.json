@@ -321,5 +321,10 @@
     "placeholder": "Buscar Juegos Retro ...",
     "clearSearch": "Limpiar búsqueda",
     "search": "Buscar"
+  },
+  "common": {
+    "logo": {
+      "title": "Juegos retro: juega a juegos clásicos en línea"
+    }
   }
 }

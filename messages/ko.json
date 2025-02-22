@@ -321,5 +321,10 @@
     "placeholder": "레트로 게임 검색...",
     "clearSearch": "검색 지우기",
     "search": "검색"
+  },
+  "common": {
+    "logo": {
+      "title": "레트로 게임 – 클래식 게임을 온라인으로 플레이"
+    }
   }
 }

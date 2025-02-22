@@ -321,5 +321,10 @@
     "placeholder": "Maghanap ng Retro Games ...",
     "clearSearch": "I-clear ang paghahanap",
     "search": "Maghanap"
+  },
+  "common": {
+    "logo": {
+      "title": "Mga Retro Laro - Maglaro ng mga Klasek na Laro Online"
+    }
   }
 }

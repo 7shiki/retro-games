@@ -321,5 +321,10 @@
     "placeholder": "Search Retro Games ...",
     "clearSearch": "Clear search",
     "search": "Search"
+  },
+  "common": {
+    "logo": {
+      "title": "Retro Games - Play Classic Games Online"
+    }
   }
 }

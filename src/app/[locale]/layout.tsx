@@ -25,7 +25,7 @@ export default async function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <body className={inter.className} suppressHydrationWarning>
         <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
-          <Header />
+          <Header initialMessages={messages} />
           <main className="flex-grow">
             {children}
           </main>

@@ -321,5 +321,10 @@
     "placeholder": "Tìm kiếm Game Cổ điển ...",
     "clearSearch": "Xóa tìm kiếm",
     "search": "Tìm kiếm"
+  },
+  "common": {
+    "logo": {
+      "title": "Trò chơi retro - Chơi game cổ điển trực tuyến"
+    }
   }
 }

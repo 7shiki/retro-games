@@ -1,9 +1,9 @@
 {
   "home": {
     "metadata": {
-      "title": "🎮 复古游戏 - 在线玩经典游戏。无需下载。",
+      "title": "🎮 复古游戏 - 在线免费玩经典游戏。无需下载。",
       "description": "在浏览器中在线玩 NES、SNES、GB、GBC、GBA、SEGA Genesis、PSX、PS1 和经典街机游戏。免费且无需下载。",
-      "keywords": "复古游戏,经典游戏,在线游戏,NES游戏,SNES游戏,Game Boy游戏,世嘉游戏,PlayStation游戏,街机游戏",
+      "keywords": "",
       "og": {
         "title": "复古游戏 - 在线玩经典游戏",
         "description": "在浏览器中在线玩 NES、SNES、GB、GBC、GBA、SEGA Genesis、PSX、PS1 和经典街机游戏。免费且无需下载。",
@@ -321,5 +321,10 @@
     "placeholder": "搜索复古游戏 ...",
     "clearSearch": "清除搜索",
     "search": "搜索"
+  },
+  "common": {
+    "logo": {
+      "title": "复古游戏 - 在线游玩经典游戏"
+    }
   }
 }

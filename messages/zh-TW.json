@@ -320,5 +320,10 @@
         "placeholder": "搜尋復古遊戲 ...",
         "clearSearch": "清除搜尋",
         "search": "搜尋"
+    },
+    "common": {
+        "logo": {
+            "title": "復古遊戲 - 在線遊玩經典遊戲"
+        }
     }
 }

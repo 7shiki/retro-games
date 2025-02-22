@@ -8,12 +8,19 @@ import ThemeToggle from './ThemeToggle'
 import LanguageToggle from './LanguageToggle'
 import { categories, type CategoryItem } from '@/config/categories'
 
-export default function Header() {
+interface HeaderProps {
+  initialMessages: any
+}
+
+export default function Header({ initialMessages }: HeaderProps) {
     const pathname = usePathname()
     const params = useParams()
     const locale = params.locale as string || 'en'
     const [openMenu, setOpenMenu] = useState<string | null>(null)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
+    // 获取翻译
+    const messages = initialMessages.platforms
 
     // 控制 body 滚动
     useEffect(() => {
@@ -35,8 +42,9 @@ export default function Header() {
                         {/* Left section: Logo and Mobile Menu Button */}
                         <div className="flex items-center gap-2">
                             <Link 
-                                href={locale === 'en' ? 'https://retro-games.org/' : `https://retro-games.org/${locale}`} 
+                                href={locale === 'en' ? '/' : `/${locale}`} 
                                 className="flex items-center"
+                                title={initialMessages.common.logo.title}
                             >
                                 <span className="retro-logo text-xl md:text-2xl">RetroGames</span>
                             </Link>
@@ -73,7 +81,7 @@ export default function Header() {
                                                 <Link
                                                     key={item.name}
                                                     href={locale === 'en' ? item.href : `/${locale}${item.href}`}
-                                                    title={item.alt}
+                                                    title={messages[item.key]?.alt}
                                                     className={`block px-4 py-2 hover:bg-purple-500/10 ${
                                                         pathname === item.href ? 'text-primary bg-purple-500/10' : ''
                                                     }`}
@@ -101,13 +109,15 @@ export default function Header() {
 
             {/* Mobile Navigation Drawer */}
             <div
-                className={`fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity md:hidden z-[9999] ${isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
-                    }`}
+                className={`fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity md:hidden z-[9999] ${
+                    isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+                }`}
                 onClick={() => setIsMobileMenuOpen(false)}
             >
                 <div
-                    className={`fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-950 transform transition-transform duration-300 ease-in-out shadow-xl z-[10000] ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
-                        }`}
+                    className={`fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-950 transform transition-transform duration-300 ease-in-out shadow-xl z-[10000] ${
+                        isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
+                    }`}
                     onClick={(e) => e.stopPropagation()}
                 >
                     <div className="h-full overflow-y-auto">
@@ -134,7 +144,7 @@ export default function Header() {
                                             <Link
                                                 key={item.name}
                                                 href={locale === 'en' ? item.href : `/${locale}${item.href}`}
-                                                title={item.alt}
+                                                title={messages[item.key]?.alt}
                                                 className={`block py-2 text-base hover:bg-purple-500/10 rounded-lg px-3 transition-colors ${
                                                     pathname === item.href ? 'text-primary bg-purple-500/10' : 'text-gray-700 dark:text-gray-200'
                                                 }`}

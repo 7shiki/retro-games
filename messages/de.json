@@ -321,5 +321,10 @@
     "placeholder": "Retro-Spiele durchsuchen ...",
     "clearSearch": "Suche löschen",
     "search": "Suchen"
+  },
+  "common": {
+    "logo": {
+      "title": "Retro-Spiele – Klassische Spiele online spielen"
+    }
   }
 }

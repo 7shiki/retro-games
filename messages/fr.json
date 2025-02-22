@@ -321,5 +321,10 @@
     "placeholder": "Rechercher des Jeux Rétro ...",
     "clearSearch": "Effacer la recherche",
     "search": "Rechercher"
+  },
+  "common": {
+    "logo": {
+      "title": "Jeux rétro – Jouez à des jeux classiques en ligne"
+    }
   }
 }
