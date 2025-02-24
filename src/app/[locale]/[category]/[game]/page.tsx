@@ -457,7 +457,7 @@ export default async function GamePage({ params }: Props) {
                           </div>
                         </div>
                         <div className="p-4 flex flex-col gap-1">
-                          <h3 className="text-base font-semibold text-white group-hover:text-purple-400 transition-colors">
+                          <h3 className="text-base font-semibold text-white group-hover:text-purple-400 transition-colors truncate whitespace-nowrap overflow-hidden max-w-[300px]">
                             {relatedGame.title}
                           </h3>
                           <span className="text-xs text-gray-400">
