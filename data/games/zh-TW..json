@@ -42,7 +42,7 @@
         },
         {
             "id": 2,
-            "title": "Sonic 1 Beta Remake",
+            "title": "音速小子1 Beta 重製版",
             "platform": "Genesis",
             "imageUrl": "/images/games/sonic-1-beta-remake.png",
             "href": "/genesis-games/sonic-1-beta-remake",
@@ -50,14 +50,14 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/45223-sonic-1-beta-remake.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "什麼是 Sonic 1 Beta Remake？",
+                    "title": "什麼是 音速小子1 Beta 重製版？",
                     "content": [
-                        "Sonic 1 Beta Remake 是一個由粉絲製作的修復計畫，旨在復原《音速小子》（1991）開發初期被遺失的原型元素。該遊戲基於洩漏的測試版和開發者的資料，重新復活了被取消的關卡、未使用的動畫以及原先計畫但未能進入正式遊戲的遊玩機制。透過結合歷史真實性與現代化改進，這款遊戲提供了一個獨特的視角，讓玩家一窺 Sonic 1 本來可能成為的樣子。",
-                        "Sonic 1 Beta Remake 採用重新設計的角色圖像、原型音樂，以及復原的關卡佈局，忠實呈現 SEGA 開發團隊當初的設計理念，同時保留經典 Genesis（Mega Drive）遊戲體驗。懷舊遊戲愛好者與音速小子粉絲都能夠探索未完成的關卡，體驗不同的遊戲物理機制，並發掘那些曾經消失在時光中的隱藏內容。這個專案既是對音速小子起源的致敬，也是對遊戲史上最具代表性的橫向捲軸遊戲的一個有趣的「如果當初」版本。"
+                        "音速小子1 Beta 重製版 是一個由粉絲製作的修復計畫，旨在復原《音速小子》（1991）開發初期被遺失的原型元素。該遊戲基於洩漏的測試版和開發者的資料，重新復活了被取消的關卡、未使用的動畫以及原先計畫但未能進入正式遊戲的遊玩機制。透過結合歷史真實性與現代化改進，這款遊戲提供了一個獨特的視角，讓玩家一窺 Sonic 1 本來可能成為的樣子。",
+                        "音速小子1 Beta 重製版 採用重新設計的角色圖像、原型音樂，以及復原的關卡佈局，忠實呈現 SEGA 開發團隊當初的設計理念，同時保留經典 Genesis（Mega Drive）遊戲體驗。懷舊遊戲愛好者與音速小子粉絲都能夠探索未完成的關卡，體驗不同的遊戲物理機制，並發掘那些曾經消失在時光中的隱藏內容。這個專案既是對音速小子起源的致敬，也是對遊戲史上最具代表性的橫向捲軸遊戲的一個有趣的「如果當初」版本。"
                     ]
                 },
                 "features": {
-                    "title": "Sonic 1 Beta Remake 的特色",
+                    "title": "音速小子1 Beta 重製版 的特色",
                     "list": [
                         "復原的原型關卡 – 體驗 Sonic 1 開發初期被取消的關卡及替代設計。",
                         "未使用的角色圖像與機制 – 使用復原的動畫、測試版敵人設計，以及早期的遊戲物理引擎。",
@@ -65,14 +65,14 @@
                     ]
                 },
                 "gameplay": {
-                    "title": "Sonic 1 Beta Remake 的遊玩方式與特色",
+                    "title": "音速小子1 Beta 重製版 的遊玩方式與特色",
                     "howToPlay": {
-                        "title": "如何遊玩 Sonic 1 Beta Remake",
-                        "content": "Sonic 1 Beta Remake 保留了原作的高速橫向捲軸玩法，同時加入復原的原型機制。玩家可以探索未完成的關卡、測試早期的遊戲物理，並體驗在開發階段被取消的動畫內容。"
+                        "title": "如何遊玩 音速小子1 Beta 重製版",
+                        "content": "音速小子1 Beta 重製版 保留了原作的高速橫向捲軸玩法，同時加入復原的原型機制。玩家可以探索未完成的關卡、測試早期的遊戲物理，並體驗在開發階段被取消的動畫內容。"
                     }
                 },
                 "history": {
-                    "title": "粉絲對 Sonic 1 Beta Remake 的反應",
+                    "title": "粉絲對 音速小子1 Beta 重製版 的反應",
                     "content": [
                         "能夠親身體驗 Sonic 1 早期開發時期的遺失內容，真是令人驚喜！這款重製版感覺就像是一個經典遊戲的平行時空版本！",
                         "復原的關卡與動畫帶來了全新的體驗，同時也充滿懷舊感。真是令人驚嘆，原本的遊戲版本可能會是什麼樣子！"
@@ -120,7 +120,7 @@
         },
         {
             "id": 4,
-            "title": "Super Mario World Hack 6",
+            "title": "超級瑪利歐世界 Hack 6",
             "platform": "SNES",
             "imageUrl": "/images/games/snes-game-Super Mario World Hack 6.png",
             "href": "/snes-games/super-mario-world-hack-6",
@@ -128,27 +128,27 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/44412-super-mario-world-hack-6.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "什麼是 Super Mario World Hack 6？",
+                    "title": "什麼是 超級瑪利歐世界 Hack 6？",
                     "content": [
-                        "《Super Mario World Hack 6》是一款由粉絲製作的經典《超級瑪利歐世界》修改版，擁有全新設計的關卡、更高的挑戰難度以及全新的遊戲挑戰。玩家可以體驗創新的遊玩機制，並在精心改造的世界中冒險。"
+                        "《超級瑪利歐世界 Hack 6》是一款由粉絲製作的經典《超級瑪利歐世界》修改版，擁有全新設計的關卡、更高的挑戰難度以及全新的遊戲挑戰。玩家可以體驗創新的遊玩機制，並在精心改造的世界中冒險。"
                     ]
                 },
                 "features": {
-                    "title": "Super Mario World Hack 6 的特色",
+                    "title": "超級瑪利歐世界 Hack 6 的特色",
                     "list": [
                         "重新設計的關卡與更高難度 – 體驗全新的關卡布局，挑戰您的平台遊戲技巧。",
                         "新機制與隱藏要素 – 發掘隱藏的路徑、改造的道具，以及遊戲中隨處可見的驚喜。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Super Mario World Hack 6 的遊戲玩法與特色",
+                    "title": "超級瑪利歐世界 Hack 6 的遊戲玩法與特色",
                     "howToPlay": {
                         "title": "",
                         "content": ""
                     }
                 },
                 "history": {
-                    "title": "粉絲對 Super Mario World Hack 6 的反應",
+                    "title": "粉絲對 超級瑪利歐世界 Hack 6 的反應",
                     "content": [
                         "經典遊戲的新詮釋！重新設計的關卡為長年喜愛瑪利歐的玩家帶來有趣且刺激的挑戰。",
                         "更高的難度讓每個關卡都充滿成就感。對於喜愛挑戰性平台遊戲的玩家來說，這是一款必玩的作品！"
@@ -196,7 +196,7 @@
         },
         {
             "id": 6,
-            "title": "Rayman",
+            "title": "雷曼 (Rayman)",
             "platform": "PlayStation",
             "imageUrl": "/images/games/playstation-game-Rayman.png",
             "href": "/playstation-games/rayman",
@@ -204,36 +204,36 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/40795-rayman.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "什麼是 Rayman？",
+                    "title": "什麼是 雷曼 (Rayman)",
                     "content": [
-                        "《Rayman》是 Ubisoft 開發的經典平台遊戲系列，主角 Rayman 是一名沒有四肢的英雄，利用拳頭與獨特的技能在色彩繽紛且充滿魔法的世界中冒險。該系列自 1995 年首次推出，以創新的關卡設計、迷人的美術風格及有趣的遊戲體驗而廣受歡迎。"
+                        "雷曼 (Rayman) Ubisoft 開發的經典平台遊戲系列，主角 雷曼 (Rayman) 是一名沒有四肢的英雄，利用拳頭與獨特的技能在色彩繽紛且充滿魔法的世界中冒險。該系列自 1995 年首次推出，以創新的關卡設計、迷人的美術風格及有趣的遊戲體驗而廣受歡迎。"
                     ]
                 },
                 "features": {
-                    "title": "Rayman 的特色",
+                    "title": "雷曼 (Rayman) 的特色",
                     "list": [
-                        "獨特的無四肢英雄 – Rayman 可以伸展雙手攻擊敵人、利用頭髮滑翔，並施展各種高難度動作來挑戰關卡。",
+                        "獨特的無四肢英雄 – 雷曼 (Rayman) 可以伸展雙手攻擊敵人、利用頭髮滑翔，並施展各種高難度動作來挑戰關卡。",
                         "充滿活力與想像力的世界 – 遊戲擁有精美設計的幻想場景，內含創意敵人、隱藏秘密與多樣化的平台挑戰。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Rayman 的遊戲玩法與特色",
+                    "title": "雷曼 (Rayman) 的遊戲玩法與特色",
                     "howToPlay": {
-                        "title": "如何遊玩 Rayman？",
-                        "content": "操控 Rayman 進行跳躍、攻擊與滑翔，穿越精心設計的關卡，擊敗敵人、解開謎題並收集道具，以推進冒險旅程。"
+                        "title": "如何遊玩 雷曼 (Rayman)",
+                        "content": "操控 雷曼 (Rayman) 進行跳躍、攻擊與滑翔，穿越精心設計的關卡，擊敗敵人、解開謎題並收集道具，以推進冒險旅程。"
                     }
                 },
                 "history": {
-                    "title": "Rayman 的故事",
+                    "title": "雷曼 (Rayman) 的故事",
                     "content": [
-                        "在《Rayman》中，維持世界平衡的「大原子」（Great Protoon）被邪惡的 Mr. Dark 盜走，導致整個世界陷入混亂。Rayman 必須展開旅程，擊敗 Mr. Dark，恢復和平並拯救被囚禁的 Electoons。"
+                        "雷曼 (Rayman) Protoon）被邪惡的 Mr. Dark 盜走，導致整個世界陷入混亂。雷曼 (Rayman) 必須展開旅程，擊敗 Mr. Dark，恢復和平並拯救被囚禁的 Electoons。"
                     ]
                 }
             }
         },
         {
             "id": 7,
-            "title": "Street Fighter (US set 1)",
+            "title": "快打旋風 (US set 1)",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-Street Fighter (US set 1).png",
             "href": "/arcade-games/street-fighter-us-set-1",
@@ -241,20 +241,20 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9955-street-fighter-us-set-1.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "什麼是 Street Fighter (US set 1)？",
+                    "title": "什麼是 快打旋風 (US set 1)？",
                     "content": [
-                        "《Street Fighter (US set 1)》是經典街機格鬥遊戲《Street Fighter》的早期版本之一，由 Capcom 於 1987 年推出。在此版本中，玩家可以操控隆（Ryu）或肯（Ken），與來自世界各地的對手進行一對一對戰。遊戲首次引入了「波動拳」（Hadouken）、「昇龍拳」（Shoryuken）和「颱風旋風腳」（Tatsumaki Senpukyaku）等必殺技，為後來的《Street Fighter》系列奠定了基礎。"
+                        "《快打旋風 (US set 1)》是經典街機格鬥遊戲《快打旋風》的早期版本之一，由 Capcom 於 1987 年推出。在此版本中，玩家可以操控隆（Ryu）或肯（Ken），與來自世界各地的對手進行一對一對戰。遊戲首次引入了「波動拳」（Hadouken）、「昇龍拳」（Shoryuken）和「颱風旋風腳」（Tatsumaki Senpukyaku）等必殺技，為後來的《快打旋風》系列奠定了基礎。"
                     ]
                 },
                 "features": {
-                    "title": "Street Fighter (US set 1) 的特色",
+                    "title": "快打旋風 (US set 1) 的特色",
                     "list": [
                         "經典一對一格鬥 – 選擇隆或肯，在刺激的街機對戰中挑戰來自世界各地的格鬥家。",
-                        "必殺技的初登場 – 包含波動拳、昇龍拳與颱風旋風腳等經典招式，這些後來成為《Street Fighter》系列的標誌性技能。"
+                        "必殺技的初登場 – 包含波動拳、昇龍拳與颱風旋風腳等經典招式，這些後來成為《快打旋風》系列的標誌性技能。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Street Fighter (US set 1) 的遊戲玩法與特色",
+                    "title": "快打旋風 (US set 1) 的遊戲玩法與特色",
                     "howToPlay": {
                         "title": "",
                         "content": ""
@@ -264,7 +264,7 @@
         },
         {
             "id": 8,
-            "title": "Sonic Classic Heroes",
+            "title": "索尼克 經典英雄",
             "platform": "Genesis",
             "imageUrl": "/images/games/genesis-game-Sonic Classic Heroes.png",
             "href": "/genesis-games/sonic-classic-heroes",
@@ -272,21 +272,21 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/42046-sonic-classic-heroes.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "什麼是 Sonic Classic Heroes？",
+                    "title": "什麼是 索尼克 經典英雄？",
                     "content": [
-                        "《Sonic Classic Heroes》是一款由粉絲製作的 ROM 改版，將《Sonic the Hedgehog》和《Sonic the Hedgehog 2》合併為一款遊戲。玩家可以控制索尼克（Sonic）、塔爾斯（Tails）和納克魯斯（Knuckles），隨時在三者之間切換，體驗獨特的團隊合作遊玩機制。",
+                        "《索尼克 經典英雄》是一款由粉絲製作的 ROM 改版，將《Sonic the Hedgehog》和《Sonic the Hedgehog 2》合併為一款遊戲。玩家可以控制索尼克（Sonic）、塔爾斯（Tails）和納克魯斯（Knuckles），隨時在三者之間切換，體驗獨特的團隊合作遊玩機制。",
                         "本作引入了《Sonic Heroes》的團隊系統，讓玩家能夠自由切換角色，每個角色都擁有獨特的技能，適用於不同的挑戰。此外，遊戲保留並優化了兩款原作的所有關卡，提供更流暢、更豐富的遊玩體驗，讓索尼克迷能夠盡情享受經典作品的新魅力。"
                     ]
                 },
                 "features": {
-                    "title": "Sonic Classic Heroes 主要特色",
+                    "title": "索尼克 經典英雄 主要特色",
                     "list": [
                         "團隊合作遊玩機制 – 可在索尼克、塔爾斯與納克魯斯之間自由切換，利用各自的特殊能力克服障礙。",
                         "強化經典關卡 – 結合《Sonic the Hedgehog》和《Sonic the Hedgehog 2》，提供經過優化的關卡與改良的遊戲機制，使遊戲體驗更加流暢。"
                     ]
                 },
                 "gameplay": {
-                    "title": "Sonic Classic Heroes 的遊戲玩法與特色",
+                    "title": "索尼克 經典英雄 的遊戲玩法與特色",
                     "howToPlay": {
                         "title": "",
                         "content": ""
@@ -328,7 +328,7 @@
         },
         {
             "id": 10,
-            "title": "漫威對卡普空：超級英雄的碰撞（980123 美版）",
+            "title": "漫威 vs 卡普空 - 超級英雄大戰 (980123 USA)",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-Marvel vs Capcom - clash of super heroes (980123 USA).png",
             "href": "/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
@@ -336,22 +336,22 @@
             "embedUrl": "<iframe src='https://www.retrogames.cc/embed/9123-marvel-vs-capcom-clash-of-super-heroes-980123-usa.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
             "seoDescription": {
                 "overview": {
-                    "title": "什麼是漫威對卡普空：超級英雄的碰撞（980123 美版）？",
+                    "title": "什麼是漫威 vs 卡普空 - 超級英雄大戰 (980123 USA)？",
                     "content": [
-                        "《漫威對卡普空：超級英雄的碰撞》是卡普空於1998年開發的跨界格鬥遊戲，融合了漫威漫畫和卡普空遊戲系列的角色。玩家可以選擇兩名格鬥家組成團隊，進行快節奏的標籤團隊戰鬥，運用獨特的招式和連擊組合來擊敗對手。"
+                        "《漫威 vs 卡普空 - 超級英雄大戰 (980123 USA)》是卡普空於1998年開發的跨界格鬥遊戲，融合了漫威漫畫和卡普空遊戲系列的角色。玩家可以選擇兩名格鬥家組成團隊，進行快節奏的標籤團隊戰鬥，運用獨特的招式和連擊組合來擊敗對手。"
                     ]
                 },
                 "features": {
-                    "title": "漫威對卡普空：超級英雄的碰撞 特色",
+                    "title": "漫威 vs 卡普空 - 超級英雄大戰 (980123 USA) 特色",
                     "list": [
                         "標籤團隊戰鬥 – 玩家可以選擇兩名格鬥家並在戰鬥中隨時切換，創造戰略性連擊和強力團隊攻擊。",
                         "標誌性漫威與卡普空角色 – 包含豐富的角色陣容，如蜘蛛人、隆、金剛狼和洛克人，每個角色都擁有獨特的能力和特殊招式。"
                     ]
                 },
                 "gameplay": {
-                    "title": "遊戲玩法和特點",
+                    "title": "漫威 vs 卡普空 - 超級英雄大戰 (980123 USA) 遊戲玩法和特點",
                     "howToPlay": {
-                        "title": "如何遊玩",
+                        "title": "如何遊玩漫威 vs 卡普空 - 超級英雄大戰 (980123 USA)",
                         "content": "從漫威和卡普空陣容中選擇兩名角色，在戰鬥中靈活切換，施展特殊招式和團隊連擊，在激烈的標籤團隊戰鬥中擊敗對手。"
                     }
                 }
@@ -378,7 +378,7 @@
         },
         {
             "id": 10003,
-            "title": "Sonic Classic Heroes",
+            "title": "索尼克 經典英雄",
             "platform": "Genesis",
             "imageUrl": "/images/games/genesis-game-Sonic Classic Heroes.png",
             "href": "/genesis-games/sonic-classic-heroes",
@@ -386,7 +386,7 @@
         },
         {
             "id": 10004,
-            "title": "Street Fighter (US set 1)",
+            "title": "快打旋風 (US set 1)",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-Street Fighter (US set 1).png",
             "href": "/arcade-games/street-fighter-us-set-1",
@@ -394,7 +394,7 @@
         },
         {
             "id": 10005,
-            "title": "Marvel vs Capcom - clash of super heroes (980123 USA)",
+            "title": "漫威 vs 卡普空 - 超級英雄大戰 (980123 USA)",
             "platform": "Arcade",
             "imageUrl": "/images/games/arcade-game-Marvel vs Capcom - clash of super heroes (980123 USA).png",
             "href": "/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
@@ -402,7 +402,7 @@
         },
         {
             "id": 10006,
-            "title": "Super Mario World Hack 6",
+            "title": "超級瑪利歐世界 Hack 6",
             "platform": "SNES",
             "imageUrl": "/images/games/snes-game-Super Mario World Hack 6.png",
             "href": "/snes-games/super-mario-world-hack-6",
@@ -410,7 +410,7 @@
         },
         {
             "id": 10007,
-            "title": "Pokemon Emerald Rogue EX 1.2.0",
+            "title": "寶可夢 綠寶石 Rogue EX 1.2.0",
             "platform": "GBA",
             "imageUrl": "/images/games/game-boy-advance-game-Pokemon Emerald Rogue EX 1.2.0.png",
             "href": "/gameboyadvance-games/pokemon-emerald-rogue-ex-1-2-0",
@@ -418,7 +418,7 @@
         },
         {
             "id": 10008,
-            "title": "Rayman",
+            "title": "雷曼 (Rayman)",
             "platform": "PlayStation",
             "imageUrl": "/images/games/playstation-game-Rayman.png",
             "href": "/playstation-games/rayman",
@@ -428,7 +428,7 @@
     "newGames": [
         {
             "id": 20001,
-            "title": "Sonic 1 Beta Remake",
+            "title": "音速小子1 Beta 重製版",
             "platform": "Genesis",
             "imageUrl": "/images/games/sonic-1-beta-remake.png",
             "href": "/genesis-games/sonic-1-beta-remake",
