@@ -48,7 +48,7 @@ export default async function PopularGames({ locale }: PopularGamesProps) {
                 </div>
               </div>
               <div className="p-4">
-                <h3 className="text-base font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">
+                <h3 className="text-base font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors truncate whitespace-nowrap overflow-hidden max-w-[300px]">
                   {game.title}
                 </h3>
                 <span className="text-xs text-gray-400">
