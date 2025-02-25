@@ -354,7 +354,7 @@ export default async function GamePage({ params }: Props) {
                         src={game.imageUrl}
                         alt={game.title}
                         fill
-                        className="object-cover"
+                        className="object-contain"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 60vw"
                       />
                     </div>
