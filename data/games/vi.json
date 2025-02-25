@@ -508,16 +508,6 @@
             "seoDescription": {}
         },
         {
-            "id": 26,
-            "title": "Pocket Monsters Geum (Korea)",
-            "platform": "GBC",
-            "imageUrl": "/images/games/gameboy-color-game-Pocket Monsters Geum (Korea).png",
-            "href": "/gameboycolor-games/pocket-monsters-geum-korea",
-            "description": "",
-            "embedUrl": "<iframe src='https://www.retrogames.cc/embed/17471-pocket-monsters-geum-korea.html' width='600' height='450' frameborder='no' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>",
-            "seoDescription": {}
-        },
-        {
             "id": 27,
             "title": "Smash Remix 1.4.0",
             "platform": "N64",
@@ -1028,14 +1018,6 @@
         },
         {
             "id": 10023,
-            "title": "Pocket Monsters Geum (Korea)",
-            "platform": "GBC",
-            "imageUrl": "/images/games/gameboy-color-game-Pocket Monsters Geum (Korea).png",
-            "href": "/gameboycolor-games/pocket-monsters-geum-korea",
-            "description": ""
-        },
-        {
-            "id": 10024,
             "title": "Pocket Monsters Geum (Korea)",
             "platform": "GBC",
             "imageUrl": "/images/games/gameboy-color-game-Pocket Monsters Geum (Korea).png",
