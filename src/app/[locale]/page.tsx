@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     openGraph: {
       title: metadata.og.title,
       description: metadata.og.description,
-      url: 'https://retro-games.org',
+      url: 'https://retro-games.org/',
       siteName: 'RetroGames',
       type: 'website',
       images: [

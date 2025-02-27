@@ -156,13 +156,13 @@
   },
   "game": {
     "metadata": {
-      "title": "Play {title} Online. No download required - Retro Games",
-      "description": "Play {title} ({platform}) online for free in your browser. No download required.",
+      "title": "在线玩 {title}。无需下载 - 复古游戏",
+      "description": "在浏览器中免费在线玩 {title} ({platform})。无需下载。",
       "keywords": ""
     },
     "notFound": {
-      "title": "Game Not Found - RetroGames",
-      "description": "The requested game could not be found."
+      "title": "未找到游戏 - 复古游戏",
+      "description": "找不到请求的游戏。"
     },
     "relatedGames": {
       "title": "您可能感兴趣",
