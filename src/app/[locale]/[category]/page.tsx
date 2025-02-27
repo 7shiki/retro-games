@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { categoryMap } from '@/config/categories'
 import CategoryClient from './CategoryClient'
 import { getGameData, getTranslations } from '@/utils/i18n'
+import { notFound } from 'next/navigation'
 
 export async function generateMetadata({ params }: { params: { category: string, locale: string } }): Promise<Metadata> {
   const categorySlug = params.category.replace('-games', '')
@@ -48,13 +49,17 @@ export default async function CategoryPage({ params }: { params: { locale: strin
   const { gameList } = await getGameData(params.locale)
   const messages = await getTranslations(params.locale)
   
+  // 检查分类是否存在
+  const categorySlug = params.category.replace('-games', '')
+  const info = categoryMap[categorySlug]
+
+  // 如果分类不存在，显示404页面
+  if (!info) {
+    notFound()
+  }
+  
   // Move generateJsonLd here as a local function
   const generateJsonLd = () => {
-    const categorySlug = params.category.replace('-games', '')
-    const info = categoryMap[categorySlug]
-
-    if (!info) return null
-
     return {
       '@context': 'https://schema.org',
       '@graph': [
@@ -115,7 +120,7 @@ export default async function CategoryPage({ params }: { params: { locale: strin
         />
       )}
       <CategoryClient 
-        category={params.category.replace('-games', '')}
+        category={categorySlug}
         locale={params.locale}
         initialMessages={messages}
         initialGames={gameList}

@@ -27,6 +27,29 @@ export default function CategoryClient({
 
   // 获取当前分类信息
   const info = categoryMap[category]
+  
+  // 如果分类不存在，显示错误信息（这是一个额外的安全措施）
+  if (!info) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center px-4 py-16 bg-section">
+        <div className="max-w-md w-full text-center">
+          <h1 className="text-6xl font-bold mb-6 retro-logo">404</h1>
+          <h2 className="text-2xl font-semibold mb-4">
+            {messages.category?.notFound?.title}
+          </h2>
+          <p className="text-gray-400 mb-8">
+            {messages.category?.notFound?.description}
+          </p>
+          <a 
+            href={locale === 'en' ? '/' : `/${locale}`}
+            className="retro-button inline-block"
+          >
+            {messages.notFound?.backHome}
+          </a>
+        </div>
+      </div>
+    )
+  }
 
   // 根据当前分类和搜索词筛选游戏
   const filteredGames = initialGames.filter(game => {
