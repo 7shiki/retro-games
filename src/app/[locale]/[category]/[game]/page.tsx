@@ -209,7 +209,7 @@ export default async function GamePage({ params }: Props) {
   const relatedGames = gameList
     .filter((g: Game) => g.id !== game.id)
     .sort(() => Math.random() - 0.5)
-    .slice(0, 8) as RelatedGame[]
+    .slice(0, 12) as RelatedGame[]
 
   const jsonLd = generateJsonLd()
 
