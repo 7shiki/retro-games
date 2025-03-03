@@ -9,6 +9,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Retro Games",
   description: "Play your favorite retro games online",
+  robots: {
+    index: true,
+    follow: true
+  },
 };
 
 export default function RootLayout({
