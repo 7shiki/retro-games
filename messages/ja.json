@@ -318,6 +318,7 @@
     }
   },
   "search": {
+    "searchTip": "あなたが遊びたいレトロゲームを検索してください",
     "placeholder": "レトロゲームを検索...",
     "clearSearch": "検索をクリア",
     "search": "検索"

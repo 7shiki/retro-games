@@ -187,9 +187,6 @@ export default async function GamePage({ params }: Props) {
 
   // 从 embedUrl 中提取 src
   const iframeSrc = game.embedUrl
-    .replace('<iframe', '')
-    .replace('</iframe>', '')
-    .match(/src=["']([^"']+)["']/)?.[1] || ''
 
   // 使用翻译的描述文本
   const description = messages.game.page.description.replace('{title}', game.title)

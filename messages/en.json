@@ -318,6 +318,7 @@
     }
   },
   "search": {
+    "searchTip": "Search for the retro games you want to play",
     "placeholder": "Search Retro Games ...",
     "clearSearch": "Clear search",
     "search": "Search"

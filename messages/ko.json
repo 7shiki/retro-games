@@ -318,6 +318,7 @@
     }
   },
   "search": {
+    "searchTip": "원하는 레트로 게임을 검색하세요",
     "placeholder": "레트로 게임 검색...",
     "clearSearch": "검색 지우기",
     "search": "검색"

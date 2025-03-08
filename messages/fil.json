@@ -318,6 +318,7 @@
     }
   },
   "search": {
+    "searchTip": "search fort at retro games ay gustong maglaro",
     "placeholder": "Maghanap ng Retro Games ...",
     "clearSearch": "I-clear ang paghahanap",
     "search": "Maghanap"

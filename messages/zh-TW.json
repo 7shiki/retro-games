@@ -317,6 +317,7 @@
         }
     },
     "search": {
+        "searchTip": "搜尋您想玩的復古遊戲",
         "placeholder": "搜尋復古遊戲 ...",
         "clearSearch": "清除搜尋",
         "search": "搜尋"

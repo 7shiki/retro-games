@@ -29,7 +29,7 @@ export default function SearchBar({ onSearch, defaultValue = '', initialMessages
 
   return (
     <div className="w-full max-w-xl mx-auto">
-      <h2 className="text-xl text-purple-400 mb-3 text-center">{messages.placeholder}</h2>
+      <h2 className="text-xl text-purple-400 mb-3 text-center">{messages.searchTip}</h2>
 
       <form onSubmit={handleSubmit} className="flex w-full">
         <div className="flex-1 relative">

@@ -318,6 +318,7 @@
     }
   },
   "search": {
+    "searchTip": "Pesquise por jogos retrô que você deseja jogar",
     "placeholder": "Pesquisar Jogos Retrô...",
     "clearSearch": "Limpar pesquisa",
     "search": "Pesquisar"

@@ -318,6 +318,7 @@
     }
   },
   "search": {
+    "searchTip": "搜索您想玩的复古游戏",
     "placeholder": "搜索复古游戏 ...",
     "clearSearch": "清除搜索",
     "search": "搜索"

@@ -67,15 +67,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
         })
     })
 
-    // 添加静态页面
-    const staticPages = ['privacy-policy', 'terms-of-service']
-    staticPages.forEach(page => {
-        LANGUAGES.forEach(lang => {
-            urls.push({
-                url: `${baseURL}${lang ? `/${lang}` : ''}/${page}`
-            })
-        })
-    })
-
     return urls
 } 

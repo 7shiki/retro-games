@@ -318,6 +318,7 @@
     }
   },
   "search": {
+    "searchTip": "Busca los juegos retro que quieres jugar",
     "placeholder": "Buscar Juegos Retro ...",
     "clearSearch": "Limpiar búsqueda",
     "search": "Buscar"

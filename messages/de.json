@@ -318,6 +318,7 @@
     }
   },
   "search": {
+    "searchTip": "Suchen Sie nach Ihren Lieblingsretro-Spielen",
     "placeholder": "Retro-Spiele durchsuchen ...",
     "clearSearch": "Suche löschen",
     "search": "Suchen"

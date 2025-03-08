@@ -318,6 +318,7 @@
     }
   },
   "search": {
+    "searchTip": "Tìm kiếm game cổ điển bạn muốn chơi",
     "placeholder": "Tìm kiếm Game Cổ điển ...",
     "clearSearch": "Xóa tìm kiếm",
     "search": "Tìm kiếm"
