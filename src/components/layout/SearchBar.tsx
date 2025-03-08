@@ -28,33 +28,36 @@ export default function SearchBar({ onSearch, defaultValue = '', initialMessages
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex w-full max-w-xl mx-auto">
-      <div className="flex-1 relative">
-        <h2 className="sr-only">{messages.placeholder}</h2>
-        <input
-          type="text"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder={messages.placeholder}
-          className="w-full px-4 py-3 bg-gray-900/50 border border-purple-500/30 rounded-l-lg focus:outline-none focus:border-purple-500 text-white pr-10"
-        />
-        {query && (
-          <button
-            type="button"
-            onClick={handleClear}
-            className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white p-1"
-            title={messages.clearSearch}
-          >
-            ×
-          </button>
-        )}
-      </div>
-      <button 
-        type="submit"
-        className="px-6 py-3 bg-purple-500 text-white rounded-r-lg hover:bg-purple-600 transition-colors"
-      >
-        {messages.search}
-      </button>
-    </form>
+    <div className="w-full max-w-xl mx-auto">
+      <h2 className="text-xl text-purple-400 mb-3 text-center">{messages.placeholder}</h2>
+
+      <form onSubmit={handleSubmit} className="flex w-full">
+        <div className="flex-1 relative">
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={messages.placeholder}
+            className="w-full px-4 py-3 bg-gray-900/50 border border-purple-500/30 rounded-l-lg focus:outline-none focus:border-purple-500 text-white pr-10"
+          />
+          {query && (
+            <button
+              type="button"
+              onClick={handleClear}
+              className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white p-1"
+              title={messages.clearSearch}
+            >
+              ×
+            </button>
+          )}
+        </div>
+        <button
+          type="submit"
+          className="px-6 py-3 bg-purple-500 text-white rounded-r-lg hover:bg-purple-600 transition-colors"
+        >
+          {messages.search}
+        </button>
+      </form>
+    </div>
   )
 }
