@@ -31,7 +31,7 @@ export default function Faq({ faqItems }: FaqProps) {
             className="w-full px-6 py-4 text-left flex justify-between items-center font-semibold text-gray-800 dark:text-white hover:bg-purple-50 dark:hover:bg-gray-700 transition-colors"
             aria-expanded={openIndex === index}
           >
-            <span>{item.question}</span>
+            <h3 className="text-lg font-semibold m-0">{item.question}</h3>
             <ChevronDownIcon 
               className={`w-5 h-5 text-purple-500 transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`} 
             />

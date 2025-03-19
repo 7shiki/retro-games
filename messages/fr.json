@@ -16,6 +16,47 @@
         "retroGames": "Retro Games"
       },
       "description": "Revivez la joie et la nostalgie de votre enfance avec notre collection de Jeux Rétro, proposant des classiques intemporels de Nintendo, Sega, NEC, Atari, PlayStation et Arcade. Aucun téléchargement requis."
+    },
+    "faqs": {
+      "title": "Foire Aux Questions sur les Jeux Rétro",
+      "items": [
+        {
+          "question": "Que sont les jeux rétro et pourquoi sont-ils toujours populaires ?",
+          "answer": "Les jeux rétro sont des jeux vidéo classiques des époques passées, généralement sortis sur des plateformes comme la NES, la Sega Genesis, la PlayStation et les systèmes d'arcade. Ces jeux rétro exercent un charme nostalgique grâce à leur gameplay simple mais stimulant, leurs graphismes en pixel art et leurs bandes sonores emblématiques. Les joueurs de toutes générations continuent d'en profiter car ils offrent des expériences de jeu pures, basées sur la compétence, sans microtransactions modernes ni mécaniques trop compliquées. Que vous y ayez joué enfant ou que vous les découvriez pour la première fois, les jeux rétro continuent de captiver par leur attrait intemporel."
+        },
+        {
+          "question": "Comment puis-je jouer aux jeux rétro en ligne ?",
+          "answer": "Jouer aux jeux rétro en ligne n'a jamais été aussi facile ! Vous n'avez plus besoin d'anciennes consoles ou de cartouches physiques — notre plateforme vous permet de jouer aux jeux rétro directement dans votre navigateur. En utilisant une technologie d'émulation avancée, nous vous offrons une expérience de jeu fluide et de haute qualité sans téléchargement. Visitez simplement notre site web, choisissez vos jeux rétro préférés et commencez à jouer instantanément."
+        },
+        {
+          "question": "Quelle console de jeux rétro a eu l'impact le plus significatif sur l'histoire du jeu vidéo ?",
+          "answer": "Chaque console de jeux rétro représente un chapitre unique dans l'évolution du divertissement interactif. La Nintendo Entertainment System (NES) a ressuscité l'industrie après le crash de 1983, établissant des conventions encore suivies aujourd'hui. La Super Nintendo a élevé la narration et l'expression artistique, tandis que la PlayStation a transformé les jeux en mondes 3D d'une profondeur sans précédent. La Genesis de Sega a défini une ère avec son attitude et ses conversions parfaites de jeux d'arcade. Plutôt que de couronner un seul champion, nous pouvons apprécier comment chaque console de jeux rétro a contribué à quelque chose d'essentiel à la tapisserie du jeu vidéo. Ces plateformes pionnières ont collectivement façonné notre compréhension de ce que les jeux pouvaient être. Et aujourd'hui, nous pouvons profiter de ces jeux rétro à tout moment, n'importe où, d'un simple clic."
+        },
+        {
+          "question": "Quels sont considérés comme les meilleurs jeux rétro que chaque joueur devrait expérimenter ?",
+          "answer": "Le panthéon des meilleurs jeux rétro présente des titres qui transcendent leurs limitations techniques grâce à un design brillant. Super Mario Bros. 3 reste un chef-d'œuvre en matière de conception de niveaux, tandis que The Legend of Zelda: A Link to the Past a perfectionné la narration d'aventure-action. Sonic the Hedgehog a capturé vitesse et élan avec une fluidité sans précédent. Tetris démontre comment l'élégance mathématique crée l'addiction. Street Fighter II a révolutionné le jeu compétitif. Final Fantasy VII a prouvé que les jeux pouvaient offrir des récits émotionnels rivalisant avec le cinéma. Metroid a favorisé l'exploration et l'atmosphère. Ces meilleurs jeux rétro ne sont pas de simples curiosités historiques — ce sont des textes fondateurs d'une forme d'art, offrant des aperçus et des plaisirs qui restent intacts avec le temps."
+        },
+        {
+          "question": "Comment la communauté autour des jeux rétro a-t-elle évolué à l'ère numérique ?",
+          "answer": "La communauté des jeux rétro s'est épanouie en un écosystème dynamique reliant les passionnés à travers les générations. Ce qui a commencé comme de la nostalgie pour les jeux rétro classiques s'est transformé en une culture aux multiples facettes englobant préservation, éducation, jeu compétitif et appréciation artistique. Les plateformes numériques permettent aux collectionneurs de partager leurs découvertes, aux speedrunners de pousser ces classiques des jeux rétro à leurs limites, et aux nouveaux venus d'expérimenter l'histoire du jeu vidéo de manière contextuelle. Les musées préservent désormais ces artefacts électroniques, tandis que des publications analysent leur importance culturelle. Les développeurs créent de nouveaux titres qui honorent l'esthétique traditionnelle des jeux rétro tout en incorporant des principes de design modernes. Cette communauté ne célèbre pas simplement le passé — elle s'assure que ces œuvres formatrices restent accessibles et pertinentes pour les générations futures."
+        },
+        {
+          "question": "Comment les parents peuvent-ils initier efficacement leurs enfants aux jeux rétro ?",
+          "answer": "Initier les enfants aux jeux rétro crée une opportunité unique de créer des liens intergénérationnels par le jeu partagé. Commencez avec des classiques accessibles qui restent intuitifs malgré leur âge — Mario, Sonic et Tetris offrent un attrait intemporel. Lorsque vous jouez ensemble aux jeux rétro, contextualisez-les historiquement, expliquant comment ces titres ont innové malgré les contraintes techniques. Les collections et remasters offrent des points d'entrée pratiques avec des commodités modernes tout en préservant l'expérience originale. De nombreux jeux rétro présentent un contenu familial et mettent l'accent sur la résolution de problèmes et la coordination. Le plus important est d'aborder ces classiques avec enthousiasme plutôt que par obligation — les enfants répondent à la passion authentique. Ces expériences de jeu connectent les générations à travers un langage commun du jeu."
+        },
+        {
+          "question": "Quelle expérience unique les jeux rétro offrent-ils aux passionnés de jeux classiques ?",
+          "answer": "Les jeux rétro servent de sanctuaire numérique où la magie de l'âge d'or du jeu vidéo perdure. Notre collection soigneusement sélectionnée présente des classiques intemporels de Nintendo, Sega, NEC, Atari, PlayStation et des plateformes d'arcade — tous accessibles sans téléchargement ni matériel spécialisé. Nous avons créé un environnement où les jeux rétro trouvent une nouvelle vie grâce à une émulation fidèle, préservant chaque pixel et note de chiptune qui ont rendu ces expériences légendaires. La joie de redécouvrir des favoris d'enfance ou d'expérimenter des classiques pour la première fois n'est qu'à un clic. Notre plateforme célèbre l'importance artistique et culturelle des jeux rétro tout en les rendant accessibles à tous ceux disposant d'une connexion internet."
+        },
+        {
+          "question": "Comment les jeux rétro aident-ils les joueurs à se reconnecter avec leurs souvenirs d'enfance ?",
+          "answer": "Notre plateforme de jeux rétro a été construite avec une mission singulière : vous aider à revivre ces moments magiques de jeu qui ont défini votre enfance. Nous comprenons la profonde connexion émotionnelle que les joueurs forment avec les jeux rétro — les matinées du samedi passées à compléter ce niveau difficile, les victoires triomphales partagées avec des amis, l'émerveillement d'explorer des mondes fantastiques pour la première fois. Notre plateforme sert de pont vers ces précieux souvenirs, offrant un accès instantané aux jeux rétro qui ont façonné vos premières expériences. Au-delà de la simple émulation, nous avons créé un environnement nostalgique où vous pouvez redécouvrir non seulement les jeux rétro eux-mêmes, mais aussi la joie, l'émerveillement et l'excitation qu'ils ont autrefois apportés dans votre vie."
+        },
+        {
+          "question": "Où puis-je trouver les meilleurs jeux rétro gratuits pour jouer en ligne ?",
+          "answer": "Ici même ! Notre site web propose une sélection soigneusement organisée de jeux rétro gratuits, incluant des succès légendaires d'arcade, des classiques de console et des joyaux cachés. Que vous souhaitiez jouer aux jeux rétro en ligne par nostalgie ou découvrir des classiques intemporels, nous avons quelque chose pour chaque fan de jeux rétro. Commencez à jouer aux jeux rétro en ligne maintenant ! Revivez l'âge d'or du jeu vidéo avec notre vaste collection de jeux rétro en ligne. Pas de téléchargement, pas de tracas — juste du plaisir pur et classique. Parcourez notre bibliothèque et commencez à jouer gratuitement aux jeux rétro dès aujourd'hui !"
+        }
+      ]
     }
   },
   "games": {
