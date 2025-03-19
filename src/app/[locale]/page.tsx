@@ -3,6 +3,7 @@ import PopularGames from '@/components/games/PopularGames'
 import NewGames from '@/components/games/NewGames'
 import HomeSearch from '@/components/layout/HomeSearch'
 import { getTranslations } from '../../utils/i18n'
+import { Faq } from '@/components/layout'
 
 // 动态生成 metadata
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
@@ -141,6 +142,21 @@ export default async function Home({ params }: { params: { locale: string } }) {
         <section className="py-16 px-4 bg-section">
           <div className="max-w-7xl mx-auto">
             <NewGames locale={params.locale} />
+          </div>
+        </section>
+        
+        {/* FAQs Section */}
+        <section className="py-16 px-4 bg-section border-t border-purple-500/10">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-3xl font-bold text-purple-400 retro-text mb-8 text-center">
+              <span className="retro-logo text-4xl md:text-5xl">
+                {messages.home.faqs.title}
+              </span>
+            </h2>
+            
+            <div className="max-w-3xl mx-auto">
+              <Faq faqItems={messages.home.faqs.items} />
+            </div>
           </div>
         </section>
       </main>

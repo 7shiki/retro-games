@@ -82,6 +82,13 @@ export interface Translations {
       }
       description: string
     }
+    faqs: {
+      title: string
+      items: Array<{
+        question: string
+        answer: string
+      }>
+    }
   }
   games: {
     popularGames: string
