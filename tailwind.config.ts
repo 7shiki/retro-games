@@ -19,6 +19,7 @@ const config: Config = {
         'float-delayed': 'float 6s ease-in-out 2s infinite',
         'spin-slow': 'spin 8s linear infinite',
         'glow': 'glow 2s ease-in-out infinite alternate',
+        'splash-scale': 'splash-scale 0.8s ease-out forwards',
       },
       keyframes: {
         float: {
@@ -35,6 +36,16 @@ const config: Config = {
           },
           'to': {
             textShadow: '0 0 10px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6',
+          },
+        },
+        'splash-scale': {
+          '0%': { 
+            transform: 'scale(0)', 
+            opacity: '1' 
+          },
+          '100%': { 
+            transform: 'scale(1.5)', 
+            opacity: '0' 
           },
         },
       },
