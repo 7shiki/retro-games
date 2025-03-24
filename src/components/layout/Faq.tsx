@@ -39,7 +39,7 @@ export default function Faq({ faqItems }: FaqProps) {
           
           <div 
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
-              openIndex === index ? 'max-h-96' : 'max-h-0'
+              openIndex === index ? 'max-h-[60vh] md:max-h-96 overflow-y-auto' : 'max-h-0'
             }`}
           >
             <div className="px-6 py-4 text-gray-700 dark:text-gray-100 border-t border-purple-500/10">
