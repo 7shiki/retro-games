@@ -5,9 +5,9 @@ import { usePathname, useRouter } from 'next/navigation'
 import { ChevronDownIcon } from '@heroicons/react/24/outline'
 
 const languages = [
-    { code: 'en', name: 'English', label: '🇬🇧' },
+    { code: 'en', name: 'English', label: '🇺🇸' },
     { code: 'zh', name: '简体中文', label: '🇨🇳' },
-    { code: 'zh-TW', name: '繁體中文', label: '🇹🇼' },
+    { code: 'zh-TW', name: '繁體中文', label: '🇨🇳' },
     { code: 'es', name: 'Español', label: '🇪🇸' },
     { code: 'pt', name: 'Português', label: '🇧🇷' },
     { code: 'ru', name: 'Русский', label: '🇷🇺' },
