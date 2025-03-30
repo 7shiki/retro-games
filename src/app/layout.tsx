@@ -26,11 +26,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <ThemeScript />
+        <GoogleAdsense CLIENT_ID="ca-pub-4294526989014116" />
       </head>
       <body className={`${inter.className} bg-white dark:bg-gray-900`}>
         {children}
         <GoogleAnalytics GA_MEASUREMENT_ID="G-SSG1FNP0LX" />
-        <GoogleAdsense CLIENT_ID="ca-pub-4294526989014116" />
         <SplashCursorWrapper />
       </body>
     </html>
