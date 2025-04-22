@@ -124,6 +124,22 @@ body {
   color: rgb(var(--text-secondary));
 }
 
+/* 播放游戏按钮样式 */
+.play-game-button {
+  position: relative;
+  width: auto;
+  height: auto;
+  min-width: 110px;
+  padding: 8px 12px;
+}
+
+.play-game-button::before {
+  content: attr(data-text);
+  display: block;
+  color: white;
+  font-size: 14px;
+}
+
 /* 搜索输入框 */
 .search-input {
   @apply w-full px-4 py-2 rounded-lg

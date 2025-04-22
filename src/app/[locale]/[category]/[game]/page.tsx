@@ -448,9 +448,8 @@ export default async function GamePage({ params }: Props) {
                             sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
                           />
                           <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <button className="retro-button">
-                              {messages.game.page.playButton}
-                            </button>
+                          <button className="retro-button play-game-button flex items-center justify-center" data-text={messages.game.page.playButton} aria-label={messages.game.page.playButton}>
+                          </button>
                           </div>
                         </div>
                         <div className="p-4 flex flex-col gap-1">
