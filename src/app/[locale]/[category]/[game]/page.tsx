@@ -196,10 +196,10 @@ export default async function GamePage({ params }: Props) {
 
   // 社交分享链接
   const shareLinks = {
-    twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent(fullPath)}&text=${encodeURIComponent(shareText)}`,
-    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullPath)}`,
-    reddit: `https://reddit.com/submit?url=${encodeURIComponent(fullPath)}&title=${encodeURIComponent(shareText)}`,
-    linkedin: `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullPath)}&title=${encodeURIComponent(game.title)}&summary=${encodeURIComponent(shareText)}`
+    twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent("https://retro-games.org" + fullPath)}&text=${encodeURIComponent(shareText)}`,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://retro-games.org" + fullPath)}`,
+    reddit: `https://reddit.com/submit?url=${encodeURIComponent("https://retro-games.org" + fullPath)}&title=${encodeURIComponent(shareText)}`,
+    linkedin: `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent("https://retro-games.org" + fullPath)}&title=${encodeURIComponent(game.title)}&summary=${encodeURIComponent(shareText)}`
   }
 
   // 获取相关游戏
