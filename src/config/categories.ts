@@ -13,6 +13,7 @@ interface Categories {
     PlayStation: CategoryItem[]
     Arcade: CategoryItem[]
     Other: CategoryItem[]
+    Popular: CategoryItem[]
 }
 
 export const categories: Categories = {
@@ -54,6 +55,9 @@ export const categories: Categories = {
         { name: 'Neo Geo Pocket', href: '/neo-geo-pocket-games', alt: 'SNK Neo Geo Pocket Games Online', key: 'neo-geo-pocket' },
         { name: 'MSX', href: '/msx-games', alt: 'MSX Games Online', key: 'msx' },
         { name: 'MSX 2', href: '/msx-2-games', alt: 'MSX 2 Games Online', key: 'msx-2' },
+    ],
+    Popular: [
+        { name: 'Popular', href: '/popular-games', alt: 'Popular Games Online', key: 'popular' },
     ]
 } as const
 

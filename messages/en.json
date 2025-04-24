@@ -193,6 +193,10 @@
     "msx-2": {
       "alt": "MSX 2 Games Online",
       "description": "The MSX2 is an upgraded version of the original MSX computer standard, released in 1985. It featured improved graphics capabilities, including support for higher resolutions and a larger color palette, making it a more powerful gaming and computing system. Many classic games, such as Metal Gear 2: Solid Snake, were developed for the MSX2, showcasing its advanced hardware for the time."
+    },
+    "popular": {
+      "alt": "Popular Games Online",
+      "description": "Popular games are those that have been widely acclaimed and enjoyed by a large number of players. These games often feature engaging gameplay, compelling stories, and innovative mechanics, making them a favorite among retro gamers."
     }
   },
   "game": {

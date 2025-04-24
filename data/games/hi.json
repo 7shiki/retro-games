@@ -5796,6 +5796,48 @@
             "like": 17,
             "embedUrl": "https://www.retrogames.cc/embed/20948-championship-lode-runner-japan.html",
             "seoDescription": {}
+        },
+        {
+            "id": 513,
+            "title": "Crazy Cattle 3D",
+            "platform": "Popular",
+            "imageUrl": "/images/games/popular-game-Crazy Cattle 3D.png",
+            "href": "/popular-games/crazy-cattle-3d",
+            "description": "",
+            "like": 17,
+            "embedUrl": "https://crazycattle3d.io/game/crazycattle3d/v8/",
+            "seoDescription": {
+                "overview": {
+                    "title": "What's Crazy Cattle 3D?",
+                    "content": [
+                        "Crazy Cattle 3D is an independent battle royale game developed by a solo indie developer with a unique twist - you play as an explosive sheep in a physics-driven adventure. Released as a free-to-play title, this game quickly gained popularity for its unpredictable gameplay and comedic style. What sets it apart from other battle royales is its focus on momentum-based movement rather than weapons, as you attempt to become the last sheep standing by knocking others off increasingly challenging terrain.",
+                        "The game features beautifully rendered environments spanning from Ireland's rolling hills to Iceland's volcanic ridges and New Zealand's mountain ranges. Each location presents unique tactical challenges that test your mastery of the game's physics system. With its simple premise but challenging execution, Crazy Cattle 3D has cultivated a dedicated community of players who appreciate its blend of skill-based gameplay and slapstick humor."
+                    ]
+                },
+                "features": {
+                    "title": "Key Features",
+                    "list": [
+                        "Physics-based movement system where momentum and timing are crucial",
+                        "Multiple diverse environments including rolling hills, volcanic ridges, and mountain ranges",
+                        "Battle royale gameplay focused on knocking opponents off the map rather than traditional weapons",
+                        "Hilarious ragdoll physics that create unpredictable and entertaining outcomes"
+                    ]
+                },
+                "gameplay": {
+                    "title": "Crazy Cattle 3D Gameplay and Features",
+                    "howToPlay": {
+                        "title": "How to Play Crazy Cattle 3D",
+                        "content": "In Crazy Cattle 3D, your goal is to be the last sheep standing. Master the physics-based movement by launching, sliding, and bouncing across various terrains. Eliminate opponents by strategically bumping into them to knock them off the map or into hazards. Learning to control your momentum is essential, as well-timed movements can mean the difference between victory and defeat."
+                    }
+                },
+                "history": {
+                    "title": "The Story Behind Crazy Cattle 3D",
+                    "content": [
+                        "Crazy Cattle 3D began as a passion project from a solo indie developer who wanted to create something that balanced absurdity with skill-based gameplay. Inspired by the physics-driven chaos of games like Fall Guys, but with a desire to create something more tactical, the developer crafted a unique battle royale experience centered around movement mechanics.",
+                        "What started as an experimental prototype quickly gained traction online thanks to its hilarious gameplay clips going viral on social media. The game evolved through community feedback, with each update adding new environments and refining the physics system. Today, Crazy Cattle 3D stands as a testament to how innovative gameplay mechanics and a sense of humor can create a memorable gaming experience without the need for complex graphics or massive development teams."
+                    ]
+                }
+            }
         }
     ],
     "popularGames": [
@@ -6220,10 +6262,10 @@
         },
         {
             "id": 20008,
-            "title": "Metal Gear 2 - Solid Snake",
-            "platform": "MSX 2",
-            "imageUrl": "/images/games/msx-2-game-Metal Gear 2 - Solid Snake.png",
-            "href": "/msx-2-games/metal-gear-2-solid-snake",
+            "title": "Crazy Cattle 3D",
+            "platform": "Popular",
+            "imageUrl": "/images/games/popular-game-Crazy Cattle 3D.png",
+            "href": "/popular-games/crazy-cattle-3d",
             "description": ""
         },
         {
