@@ -16,6 +16,11 @@ export async function generateMetadata({ params }: { params: { category: string,
     }
   }
 
+    // 根据当前语言设置canonical URL
+    const canonicalUrl = params.locale === 'en' 
+    ? `https://retro-games.org/${params.category}` 
+    : `https://retro-games.org/${params.locale}/${params.category}`
+  
   return {
     title: messages.category.metadata.title
       .replace('{company}', info.company !== 'Other' ? `${info.company} ` : '')
@@ -24,9 +29,9 @@ export async function generateMetadata({ params }: { params: { category: string,
       .replaceAll('{platform}', info.platform),
     keywords: messages.category.metadata.keywords,
     alternates: {
-      canonical: `https://retro-games.org/${params.category}`,
+      canonical: canonicalUrl,
       languages: {
-        'en': `https://retro-games.org/${params.category}`,
+        'en': canonicalUrl,
         'zh': `https://retro-games.org/zh/${params.category}`,
         'zh-TW': `https://retro-games.org/zh-TW/${params.category}`,
         'es': `https://retro-games.org/es/${params.category}`,

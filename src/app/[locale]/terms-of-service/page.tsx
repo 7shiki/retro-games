@@ -4,15 +4,19 @@ import { getTranslations } from '@/utils/i18n'
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const messages = await getTranslations(params.locale)
-  
+  // 根据当前语言设置canonical URL
+  const canonicalUrl = params.locale === 'en' 
+    ? 'https://retro-games.org/terms-of-service' 
+    : `https://retro-games.org/${params.locale}/terms-of-service`
+
   return {
     title: `${messages.footer.terms.title} - RetroGames`,
     description: messages.footer.terms.description,
     alternates: {
-      canonical: 'https://retro-games.org/terms-of-service',
+      canonical: canonicalUrl,
       languages: {
-        'en': 'https://retro-games.org/terms-of-service',
-        'zh': 'https://retro-games.org/zh/terms-of-service',
+        'en': canonicalUrl,
+        'zh': `https://retro-games.org/zh/terms-of-service`,
         'zh-TW': 'https://retro-games.org/zh-TW/terms-of-service',
         'es': 'https://retro-games.org/es/terms-of-service',
         'pt': 'https://retro-games.org/pt/terms-of-service',

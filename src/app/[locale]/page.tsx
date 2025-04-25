@@ -9,6 +9,11 @@ import { Faq } from '@/components/layout'
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const messages = await getTranslations(params.locale)
   const metadata = messages.home.metadata
+  
+  // 根据当前语言设置canonical URL
+  const canonicalUrl = params.locale === 'en' 
+    ? 'https://retro-games.org/' 
+    : `https://retro-games.org/${params.locale}`
 
   return {
     title: metadata.title,
@@ -17,7 +22,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     openGraph: {
       title: metadata.og.title,
       description: metadata.og.description,
-      url: 'https://retro-games.org/',
+      url: canonicalUrl,
       siteName: 'RetroGames',
       type: 'website',
       images: [
@@ -37,7 +42,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       images: ['https://retro-games.org/images/og-image.jpg']
     },
     alternates: {
-      canonical: 'https://retro-games.org/',
+      canonical: canonicalUrl,
       languages: {
         'en': 'https://retro-games.org/',
         'zh': 'https://retro-games.org/zh',

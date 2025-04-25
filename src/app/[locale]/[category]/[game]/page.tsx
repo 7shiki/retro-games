@@ -48,6 +48,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .replace('{platform}', game.platform)
   const url = `https://retro-games.org${fullPath}`
 
+      // 根据当前语言设置canonical URL
+  const canonicalUrl = params.locale === 'en' 
+    ? `https://retro-games.org/${params.category}/${params.game}` 
+    : `https://retro-games.org/${params.locale}/${params.category}/${params.game}`
+
   return {
     title,
     description,
@@ -75,9 +80,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: [`https://retro-games.org${game.imageUrl}`]
     },
     alternates: {
-      canonical: `https://retro-games.org/${params.category}/${params.game}`,
+      canonical: canonicalUrl,
       languages: {
-        'en': `https://retro-games.org/${params.category}/${params.game}`,
+        'en': canonicalUrl,
         'zh': `https://retro-games.org/zh/${params.category}/${params.game}`,
         'zh-TW': `https://retro-games.org/zh-TW/${params.category}/${params.game}`,
         'es': `https://retro-games.org/es/${params.category}/${params.game}`,

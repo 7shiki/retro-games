@@ -5,14 +5,19 @@ import { getTranslations } from '@/utils/i18n'
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
     const messages = await getTranslations(params.locale)
 
+    // 根据当前语言设置canonical URL
+    const canonicalUrl = params.locale === 'en' 
+    ? 'https://retro-games.org/privacy-policy' 
+    : `https://retro-games.org/${params.locale}/privacy-policy`
+
     return {
         title: `${messages.footer.privacy.title} - RetroGames`,
         description: messages.footer.privacy.description,
         alternates: {
-            canonical: 'https://retro-games.org/privacy-policy',
+            canonical: canonicalUrl,
             languages: {
-              'en': 'https://retro-games.org/privacy-policy',
-              'zh': 'https://retro-games.org/zh/privacy-policy',
+              'en': canonicalUrl,
+              'zh': `https://retro-games.org/zh/privacy-policy`,
               'zh-TW': 'https://retro-games.org/zh-TW/privacy-policy',
               'es': 'https://retro-games.org/es/privacy-policy',
               'pt': 'https://retro-games.org/pt/privacy-policy',

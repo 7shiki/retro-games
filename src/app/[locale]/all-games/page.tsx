@@ -6,15 +6,20 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const messages = await getTranslations(params.locale)
   const metadata = messages.allGames.metadata
 
+  // 根据当前语言设置canonical URL
+  const canonicalUrl = params.locale === 'en' 
+    ? 'https://retro-games.org/all-games' 
+    : `https://retro-games.org/${params.locale}/all-games`
+
   return {
     title: metadata.title,
     description: metadata.description,
     keywords: metadata.keywords,
     alternates: {
-      canonical: 'https://retro-games.org/all-games',
+      canonical: canonicalUrl,
       languages: {
-        'en': 'https://retro-games.org/all-games',
-        'zh': 'https://retro-games.org/zh/all-games',
+        'en': canonicalUrl,
+        'zh': `https://retro-games.org/zh/all-games`,
         'zh-TW': 'https://retro-games.org/zh-TW/all-games',
         'es': 'https://retro-games.org/es/all-games',
         'pt': 'https://retro-games.org/pt/all-games',
