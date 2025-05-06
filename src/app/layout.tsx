@@ -5,6 +5,7 @@ import { ThemeScript } from "@/components/layout/ThemeToggle";
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import GoogleAdsense from '@/components/GoogleAdsense'
 import SplashCursorWrapper from "@/components/SplashCursorWrapper";
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,12 @@ export default function RootLayout({
         {children}
         <GoogleAnalytics GA_MEASUREMENT_ID="G-SSG1FNP0LX" />
         <SplashCursorWrapper />
+        <Script
+          defer
+          data-domain="retro-games.org"
+          src="https://plausible.io/js/script.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
