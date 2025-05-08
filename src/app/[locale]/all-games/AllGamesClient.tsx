@@ -7,6 +7,8 @@ import { categories } from '@/config/categories'
 import GameList from '@/components/games/GameList'
 import { Game } from '@/utils/i18n'
 import Image from 'next/image'
+import HorizontalAd from '@/components/ads/HorizontalAd'
+import ResponsiveHorizontalAd from '@/components/ads/ResponsiveHorizontalAd'
 
 const GAMES_PER_PAGE = 20 // 每页显示的游戏数量
 
@@ -180,6 +182,15 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
           />
         </div>
       </section>
+       {/* Ad Section */}
+       <div className="max-w-7xl mx-auto">
+          <div className="hidden md:block">
+            <HorizontalAd />
+          </div>
+          <div className="block md:hidden">
+            <ResponsiveHorizontalAd />
+          </div>
+        </div>
     </main>
   )
 }

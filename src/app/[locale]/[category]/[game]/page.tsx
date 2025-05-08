@@ -289,8 +289,8 @@ export default async function GamePage({ params }: Props) {
               </div>
 
               <div className="mt-0 flex items-center justify-between">
-                
-                
+
+
                 <div className="flex items-center gap-4">
                   <div className="flex items-center gap-1">
                     <svg
@@ -346,16 +346,14 @@ export default async function GamePage({ params }: Props) {
               </div>
 
               {/* Ad Section */}
-              <section className="py-4 px-4 bg-section">
-                <div className="max-w-7xl mx-auto">
-                  <div className="hidden md:block">
-                    <HorizontalAd />
-                  </div>
-                  <div className="block md:hidden">
-                    <ResponsiveHorizontalAd />
-                  </div>
+              <div className="max-w-7xl mx-auto">
+                <div className="hidden md:block">
+                  <HorizontalAd />
                 </div>
-              </section>
+                <div className="block md:hidden">
+                  <ResponsiveHorizontalAd />
+                </div>
+              </div>
 
               {/* 游戏详细描述 - SEO 部分 */}
               <div className="mt-16 max-w-4xl mx-auto">
@@ -486,6 +484,17 @@ export default async function GamePage({ params }: Props) {
                   ))}
                 </div>
               </div>
+
+              {/* Ad Section */}
+              <div className="max-w-7xl mx-auto">
+                <div className="hidden md:block">
+                  <HorizontalAd />
+                </div>
+                <div className="block md:hidden">
+                  <ResponsiveHorizontalAd />
+                </div>
+              </div>
+
 
             </div>
 

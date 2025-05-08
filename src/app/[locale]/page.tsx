@@ -11,10 +11,10 @@ import ResponsiveHorizontalAd from '@/components/ads/ResponsiveHorizontalAd'
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const messages = await getTranslations(params.locale)
   const metadata = messages.home.metadata
-  
+
   // 根据当前语言设置canonical URL
-  const canonicalUrl = params.locale === 'en' 
-    ? 'https://retro-games.org/' 
+  const canonicalUrl = params.locale === 'en'
+    ? 'https://retro-games.org/'
     : `https://retro-games.org/${params.locale}`
 
   return {
@@ -67,7 +67,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
 export default async function Home({ params }: { params: { locale: string } }) {
   const messages = await getTranslations(params.locale)
-  
+
   // Move generateJsonLd inside the component as a local function
   const generateJsonLd = () => {
     return {
@@ -144,18 +144,16 @@ export default async function Home({ params }: { params: { locale: string } }) {
             <PopularGames locale={params.locale} />
           </div>
         </section>
-        
+
         {/* Ad Section */}
-        <section className="py-4 px-4 bg-section">
-          <div className="max-w-7xl mx-auto">
-            <div className="hidden md:block">
-              <HorizontalAd />
-            </div>
-            <div className="block md:hidden">
-              <ResponsiveHorizontalAd />
-            </div>
+        <div className="max-w-7xl mx-auto">
+          <div className="hidden md:block">
+            <HorizontalAd />
           </div>
-        </section>
+          <div className="block md:hidden">
+            <ResponsiveHorizontalAd />
+          </div>
+        </div>
 
         {/* New Games Section */}
         <section className="py-16 px-4 bg-section">
@@ -163,7 +161,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
             <NewGames locale={params.locale} />
           </div>
         </section>
-        
+
         {/* FAQs Section */}
         <section className="py-16 px-4 bg-section border-t border-purple-500/10">
           <div className="max-w-7xl mx-auto">
@@ -172,7 +170,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
                 {messages.home.faqs.title}
               </span>
             </h2>
-            
+
             <div className="max-w-3xl mx-auto">
               <Faq faqItems={messages.home.faqs.items} />
             </div>
