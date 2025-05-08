@@ -6,6 +6,8 @@ import Script from 'next/script'
 import Link from 'next/link'
 import Image from 'next/image'
 import FullscreenButton from '@/components/games/FullscreenButton'
+import HorizontalAd from '@/components/ads/HorizontalAd'
+import ResponsiveHorizontalAd from '@/components/ads/ResponsiveHorizontalAd'
 
 interface Props {
   params: {
@@ -48,9 +50,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .replace('{platform}', game.platform)
   const url = `https://retro-games.org${fullPath}`
 
-      // 根据当前语言设置canonical URL
-  const canonicalUrl = params.locale === 'en' 
-    ? `https://retro-games.org/${params.category}/${params.game}` 
+  // 根据当前语言设置canonical URL
+  const canonicalUrl = params.locale === 'en'
+    ? `https://retro-games.org/${params.category}/${params.game}`
     : `https://retro-games.org/${params.locale}/${params.category}/${params.game}`
 
   return {
@@ -195,7 +197,7 @@ export default async function GamePage({ params }: Props) {
 
   // 使用翻译的描述文本
   const description = messages.game.page.description.replace('{title}', game.title)
-  
+
   // 构建分享文本
   const shareText = messages.game.page.shareText.replace('{title}', game.title)
 
@@ -232,21 +234,21 @@ export default async function GamePage({ params }: Props) {
           <div className="max-w-7xl mx-auto px-4 py-8 w-full">
             {/* 面包屑导航 */}
             <div className="mb-6 text-sm breadcrumbs opacity-80 flex items-center">
-              <Link 
+              <Link
                 href={params.locale === 'en' ? '/' : `/${params.locale}`}
                 className="hover:text-purple-400 transition-colors flex items-center gap-1"
               >
-                <svg 
-                  className="w-4 h-4" 
-                  fill="none" 
-                  stroke="currentColor" 
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth={2} 
-                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" 
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                   />
                 </svg>
                 {messages.game.page.breadcrumb.home}
@@ -285,7 +287,7 @@ export default async function GamePage({ params }: Props) {
                   loading="lazy"
                 />
               </div>
-              
+
               <FullscreenButton targetSelector="#game-iframe" />
 
               <div className="mt-6 flex items-center justify-center gap-4">
@@ -340,6 +342,17 @@ export default async function GamePage({ params }: Props) {
                 </a>
               </div>
 
+              {/* Ad Section */}
+              <section className="py-4 px-4 bg-section">
+                <div className="max-w-7xl mx-auto">
+                  <div className="hidden md:block">
+                    <HorizontalAd />
+                  </div>
+                  <div className="block md:hidden">
+                    <ResponsiveHorizontalAd />
+                  </div>
+                </div>
+              </section>
 
               {/* 游戏详细描述 - SEO 部分 */}
               <div className="mt-16 max-w-4xl mx-auto">
@@ -374,7 +387,7 @@ export default async function GamePage({ params }: Props) {
                           </div>
                         </div>
                       )}
-                      
+
                       {game.seoDescription?.history?.content && (
                         <div>
                           <h3 className="text-xl font-semibold mb-3">
@@ -409,7 +422,7 @@ export default async function GamePage({ params }: Props) {
                             </ul>
                           </div>
                         )}
-                        
+
                         {game.seoDescription?.gameplay?.howToPlay && (
                           <div>
                             <h3 className="text-xl font-semibold mb-3">
@@ -440,8 +453,8 @@ export default async function GamePage({ params }: Props) {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                   {relatedGames.map((relatedGame: RelatedGame) => (
                     <div key={relatedGame.id} className="game-card group">
-                      <Link 
-                        href={params.locale === 'en' ? relatedGame.href : `/${params.locale}${relatedGame.href}`} 
+                      <Link
+                        href={params.locale === 'en' ? relatedGame.href : `/${params.locale}${relatedGame.href}`}
                         className="block"
                       >
                         <div className="relative aspect-[3/2] overflow-hidden">
@@ -453,8 +466,8 @@ export default async function GamePage({ params }: Props) {
                             sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
                           />
                           <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                          <button className="retro-button play-game-button flex items-center justify-center" data-text={messages.game.page.playButton} aria-label={messages.game.page.playButton}>
-                          </button>
+                            <button className="retro-button play-game-button flex items-center justify-center" data-text={messages.game.page.playButton} aria-label={messages.game.page.playButton}>
+                            </button>
                           </div>
                         </div>
                         <div className="p-4 flex flex-col gap-1">
