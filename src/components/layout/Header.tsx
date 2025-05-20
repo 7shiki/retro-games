@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname, useParams } from 'next/navigation'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import ThemeToggle from './ThemeToggle'
 import LanguageToggle from './LanguageToggle'
@@ -18,6 +18,7 @@ export default function Header({ initialMessages }: HeaderProps) {
     const locale = params.locale as string || 'en'
     const [openMenu, setOpenMenu] = useState<string | null>(null)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+    const timeoutRef = useRef<NodeJS.Timeout | null>(null)
 
     // 获取翻译
     const messages = initialMessages.platforms
@@ -33,6 +34,32 @@ export default function Header({ initialMessages }: HeaderProps) {
             document.body.style.overflow = 'unset'
         }
     }, [isMobileMenuOpen])
+
+    // 清理超时
+    useEffect(() => {
+        return () => {
+            if (timeoutRef.current) {
+                clearTimeout(timeoutRef.current)
+            }
+        }
+    }, [])
+
+    const handleMenuOpen = (key: string) => {
+        if (timeoutRef.current) {
+            clearTimeout(timeoutRef.current)
+        }
+        setOpenMenu(key)
+    }
+
+    const handleMenuClose = () => {
+        if (timeoutRef.current) {
+            clearTimeout(timeoutRef.current)
+        }
+        
+        timeoutRef.current = setTimeout(() => {
+            setOpenMenu(null)
+        }, 300) // 300ms延迟关闭子菜单
+    }
 
     return (
         <>
@@ -50,7 +77,7 @@ export default function Header({ initialMessages }: HeaderProps) {
                             </Link>
 
                             {/* Mobile menu button */}
-                            <button
+                            <button 
                                 type="button"
                                 className="md:hidden p-2 rounded-lg hover:bg-purple-500/10"
                                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -69,14 +96,18 @@ export default function Header({ initialMessages }: HeaderProps) {
                                 <div
                                     key={key}
                                     className="relative"
-                                    onMouseEnter={() => setOpenMenu(key)}
-                                    onMouseLeave={() => setOpenMenu(null)}
+                                    onMouseEnter={() => handleMenuOpen(key)}
+                                    onMouseLeave={handleMenuClose}
                                 >
                                     <button className="nav-link">
                                         {key}
                                     </button>
                                     {openMenu === key && (
-                                        <div className="absolute top-full left-0 mt-1 py-2 w-48 bg-nav rounded-lg shadow-xl border border-purple-500/10">
+                                        <div 
+                                            className="absolute top-full left-0 mt-1 py-2 w-48 bg-nav rounded-lg shadow-xl border border-purple-500/10"
+                                            onMouseEnter={() => handleMenuOpen(key)}
+                                            onMouseLeave={handleMenuClose}
+                                        >
                                             {items.map((item: CategoryItem) => (
                                                 <Link
                                                     key={item.name}
