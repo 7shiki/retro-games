@@ -162,6 +162,16 @@ export default async function Home({ params }: { params: { locale: string } }) {
           </div>
         </section>
 
+        {/* Ad Section */}
+        <div className="max-w-7xl mx-auto">
+          <div className="hidden md:block">
+            <HorizontalAd />
+          </div>
+          <div className="block md:hidden">
+            <ResponsiveHorizontalAd />
+          </div>
+        </div>
+
         {/* FAQs Section */}
         <section className="py-16 px-4 bg-section border-t border-purple-500/10">
           <div className="max-w-7xl mx-auto">
