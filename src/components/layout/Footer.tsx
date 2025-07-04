@@ -54,6 +54,7 @@ export default function Footer({ locale, initialMessages }: FooterProps) {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
+                                    title="Retro Games Nexus - Play Classic Retro Games & Emulator Games Online for Free"
                                 >
                                     Retro Games Nexus
                                 </a>
