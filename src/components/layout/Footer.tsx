@@ -48,6 +48,16 @@ export default function Footer({ locale, initialMessages }: FooterProps) {
                                     {messages.others.terms}
                                 </Link>
                             </li>
+                            <li>
+                                <a
+                                    href="https://retrogamesnexus.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
+                                >
+                                    Retro Games Nexus
+                                </a>
+                            </li>
                         </ul>
                     </div>
 

@@ -11972,7 +11972,41 @@
             "description": "",
             "like": 5,
             "embedUrl": "https://www.retrogames.cc/embed/18668-super-star-wars-return-of-the-jedi-europe.html",
-            "seoDescription": {}
+            "seoDescription": {
+                "overview": {
+                  "title": "Super Star Wars - Return of the Jedi Game Overview",
+                  "content": [
+                    "Super Star Wars - Return of the Jedi is an iconic action platformer released for the Super Nintendo Entertainment System in 1994. Based on the final film in the original Star Wars trilogy, Super Star Wars - Return of the Jedi offers players an exciting adventure through familiar locations from the movie. With impressive 16-bit graphics and engaging gameplay, Super Star Wars - Return of the Jedi stands as one of the most beloved Star Wars video game adaptations of its era.",
+                    "In Super Star Wars - Return of the Jedi, players can control multiple characters including Luke Skywalker, Han Solo, Chewbacca, and Princess Leia as they battle through Jabba's palace, the forests of Endor, and ultimately confront the Emperor aboard the Death Star. Each character in Super Star Wars - Return of the Jedi has unique abilities and weapons, adding variety to the gameplay experience."
+                  ]
+                },
+                "features": {
+                  "title": "Key Features of Super Star Wars - Return of the Jedi",
+                  "list": [
+                    "Multiple playable characters from the Star Wars universe",
+                    "Diverse levels based on iconic locations from Return of the Jedi",
+                    "Vehicle sections including speeder bikes and the Millennium Falcon",
+                    "Boss battles against memorable villains from the film",
+                    "Authentic Star Wars music and sound effects enhancing the Super Star Wars - Return of the Jedi experience",
+                    "Special Force powers for Luke Skywalker's character",
+                    "Various weapons and power-ups throughout Super Star Wars - Return of the Jedi's challenging stages"
+                  ]
+                },
+                "gameplay": {
+                  "title": "Super Star Wars - Return of the Jedi Gameplay",
+                  "howToPlay": {
+                    "title": "How to Play Super Star Wars - Return of the Jedi",
+                    "content": "Super Star Wars - Return of the Jedi combines platforming, shooting, and combat elements across diverse levels. Players navigate through environments while defeating enemies using character-specific weapons. Luke uses his lightsaber and Force powers, while other characters rely on blasters and unique abilities. Super Star Wars - Return of the Jedi features both side-scrolling platforming sections and Mode 7 vehicle sequences, offering varied gameplay. The difficulty in Super Star Wars - Return of the Jedi is notably high, requiring quick reflexes and memorization of level layouts to progress through the game's adaptation of the film's storyline."
+                  }
+                },
+                "history": {
+                  "title": "The History of Super Star Wars - Return of the Jedi",
+                  "content": [
+                    "Developed by Sculptured Software and published by JVC and LucasArts, Super Star Wars - Return of the Jedi completed the SNES trilogy of Star Wars games in 1994. Following the success of Super Star Wars and Super Empire Strikes Back, Super Star Wars - Return of the Jedi continued the tradition of translating the films into challenging action games.",
+                    "Super Star Wars - Return of the Jedi was praised for its improved graphics and gameplay over its predecessors. The game introduced more playable characters and vehicle sections than previous entries. While Super Star Wars - Return of the Jedi maintained the notorious difficulty the series was known for, it included password systems to help players progress. Today, Super Star Wars - Return of the Jedi is remembered as a classic example of film-to-game adaptation done right during the 16-bit era."
+                  ]
+                }
+              }
         },
         {
             "id": 293,
@@ -12123,7 +12157,41 @@
             "description": "",
             "like": 0,
             "embedUrl": "https://www.retrogames.cc/embed/18712-dick-tracy-usa.html",
-            "seoDescription": {}
+            "seoDescription": {
+                "overview": {
+                  "title": "Dick Tracy Game Overview",
+                  "content": [
+                    "Dick Tracy is a classic action-adventure game released for multiple platforms in 1990, including the Nintendo Entertainment System and Game Boy. Based on the iconic comic strip detective and the 1990 film starring Warren Beatty, Dick Tracy brings the noir atmosphere of the famous crime fighter to video game form. With its distinctive yellow coat and fedora hat, Dick Tracy offers players an authentic detective experience filled with gangsters, mysteries, and classic 1930s atmosphere.",
+                    "In Dick Tracy, players take control of the legendary detective as he investigates crimes, fights notorious criminals, and solves puzzles throughout the city. The game features various gameplay elements including shooting sequences, detective work, and exploration. Dick Tracy successfully captures the essence of the comic strip character while providing challenging gameplay that requires both combat skills and investigative thinking to progress through the criminal underworld."
+                  ]
+                },
+                "features": {
+                  "title": "Key Features of Dick Tracy",
+                  "list": [
+                    "Authentic detective gameplay featuring the legendary Dick Tracy character",
+                    "Multiple gameplay styles including shooting, investigation, and puzzle-solving",
+                    "Various criminal bosses and gangsters from the Dick Tracy universe",
+                    "Classic 1930s noir atmosphere with period-appropriate music and graphics",
+                    "Different weapons and detective tools available throughout Dick Tracy adventures",
+                    "Story-driven missions based on comic strip storylines and film elements",
+                    "Challenging difficulty that requires strategic thinking and quick reflexes"
+                  ]
+                },
+                "gameplay": {
+                  "title": "Dick Tracy Gameplay",
+                  "howToPlay": {
+                    "title": "How to Play Dick Tracy",
+                    "content": "Dick Tracy combines action and adventure elements with detective work and combat. Players control Dick Tracy through various city locations, engaging in shootouts with criminals while collecting clues and evidence. The game features both side-scrolling action sequences and top-down investigation segments. In Dick Tracy, players must use different weapons including the detective's signature pistol and machine gun to defeat enemies. The game also includes puzzle-solving elements where Dick Tracy must gather information, interrogate suspects, and piece together clues to solve cases. Dick Tracy requires players to manage health and ammunition while navigating through dangerous criminal territories and confronting powerful mob bosses."
+                  }
+                },
+                "history": {
+                  "title": "The History of Dick Tracy",
+                  "content": [
+                    "Developed by Realtime Associates and published by Bandai, Dick Tracy was released in 1990 to coincide with the major motion picture. The game was part of a multimedia marketing campaign that included the film, soundtrack, and various merchandise. Dick Tracy represented one of the early examples of successful comic-to-video game adaptations during the 8-bit era.",
+                    "Dick Tracy received generally positive reviews for its faithful adaptation of the source material and varied gameplay mechanics. Critics praised Dick Tracy for its atmospheric graphics and sound design that effectively captured the noir detective genre. While some found the difficulty challenging, Dick Tracy was appreciated for its unique blend of action and investigation elements. Today, Dick Tracy is remembered as a notable example of licensed games that successfully translated a beloved character into an engaging interactive experience during the golden age of 8-bit gaming."
+                  ]
+                }
+              }
         },
         {
             "id": 298,
@@ -12134,7 +12202,41 @@
             "description": "",
             "like": 0,
             "embedUrl": "https://www.retrogames.cc/embed/18750-lethal-weapon-usa.html",
-            "seoDescription": {}
+            "seoDescription": {
+                "overview": {
+                  "title": "Lethal Weapon Game Overview",
+                  "content": [
+                    "Lethal Weapon is an action-packed video game released for the Nintendo Entertainment System in 1992, based on the popular film series starring Mel Gibson and Danny Glover. Developed by Ocean Software, Lethal Weapon brings the explosive action and buddy-cop dynamics of the movies to the 8-bit gaming platform. With its intense shooting sequences and challenging gameplay, Lethal Weapon offers players the opportunity to experience the thrills of being LAPD detectives Martin Riggs and Roger Murtaugh.",
+                    "In Lethal Weapon, players navigate through various levels inspired by scenes from the film franchise, engaging in gunfights with criminals and drug dealers. The game features both single-player and two-player cooperative modes, allowing friends to team up as the iconic detective duo. Lethal Weapon combines side-scrolling action with shooting gallery segments, creating a diverse gaming experience that captures the high-octane atmosphere of the beloved movie series."
+                  ]
+                },
+                "features": {
+                  "title": "Key Features of Lethal Weapon",
+                  "list": [
+                    "Two-player cooperative gameplay featuring Riggs and Murtaugh characters",
+                    "Multiple weapon types including pistols, shotguns, and machine guns",
+                    "Diverse level designs based on memorable scenes from Lethal Weapon films",
+                    "Boss battles against notorious criminals and drug lords",
+                    "Authentic sound effects and music that enhance the Lethal Weapon experience",
+                    "Various enemy types requiring different combat strategies",
+                    "Challenging difficulty that tests players' reflexes and shooting accuracy"
+                  ]
+                },
+                "gameplay": {
+                  "title": "Lethal Weapon Gameplay",
+                  "howToPlay": {
+                    "title": "How to Play Lethal Weapon",
+                    "content": "Lethal Weapon features fast-paced side-scrolling action where players control either Riggs or Murtaugh through dangerous urban environments. The gameplay in Lethal Weapon focuses heavily on shooting mechanics, requiring players to aim and fire at enemies while avoiding incoming bullets and obstacles. Players can collect different weapons and power-ups throughout Lethal Weapon levels to improve their combat effectiveness. The game includes both moving and stationary shooting sequences, with some levels featuring protective cover mechanics. Lethal Weapon challenges players with increasingly difficult enemies and complex level layouts that require quick reflexes and strategic positioning. The cooperative mode in Lethal Weapon allows two players to work together, making teamwork essential for surviving the most challenging sections."
+                  }
+                },
+                "history": {
+                  "title": "The History of Lethal Weapon",
+                  "content": [
+                    "Developed by Ocean Software and published by Ocean, Lethal Weapon was released in 1992 as part of the wave of movie-licensed games during the early 1990s. The game was created to capitalize on the success of the Lethal Weapon film franchise, particularly the first two movies. Lethal Weapon represented Ocean Software's attempt to create an authentic action experience that would appeal to both gaming enthusiasts and fans of the film series.",
+                    "Upon release, Lethal Weapon received mixed reviews from critics and players. While some praised Lethal Weapon for its cooperative gameplay and faithful recreation of the films' action sequences, others criticized it for its high difficulty level and sometimes repetitive gameplay mechanics. Despite the mixed reception, Lethal Weapon has maintained a place in gaming history as one of the notable movie tie-in games of the 8-bit era. Today, Lethal Weapon is remembered by retro gaming collectors and fans of action games who appreciate its challenging gameplay and authentic representation of the beloved film franchise."
+                  ]
+                }
+              }
         },
         {
             "id": 299,
